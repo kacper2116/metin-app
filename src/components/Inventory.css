@@ -42,8 +42,15 @@
 }
 
 .slot {
-    width: 50px;
+    width: 50x;
     height: 50px;
     background: url("https://pl-wiki.metin2.gameforge.com/images/4/48/Czarne_T%C5%82o.png") no-repeat;
     background-size: contain;
+
+}
+
+.item-img {
+    width: 50px;
+    height: auto;
+    position: absolute;
 }
