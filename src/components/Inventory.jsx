@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react"
 import './Inventory.css'
+import useMousePosition from '../hooks/useMousePosition'
 
 const Inventory = () => {
 
@@ -42,6 +43,8 @@ const Inventory = () => {
 
     const [currentPage, setCurrentPage] = useState(0)
     const [X_SIZE, Y_SIZE] = [5, 9] //Wymiary inventory
+    const [draggedItem, setDraggedItem] = useState(null);
+    const mousePosition = useMousePosition();
 
     const [items, setItems] = useState([
         [
@@ -105,6 +108,14 @@ const Inventory = () => {
         console.log("Nie można dodać itemu")
     }
 
+    const handleDrag = (e, item) => {
+        setDraggedItem(item)
+        console.log(item)
+        console.log(x)
+    }
+
+
+
     return (
         <div className="inventory">
             <div className="pages">
@@ -119,13 +130,22 @@ const Inventory = () => {
                     return (
                         <div key={index} id={`slot-${index}`} className="slot">
                             {item &&
-                                <img className="item-img" src={item.item.img}></img>
+                                <img className="item-img" onDragStart={(e) => handleDrag(e, item)} src={item.item.img}></img>
                             }
                         </div>
                     )
                 })}
             </div>
             <button onClick={() => spawnItem(1)}>Add item</button>
+            {draggedItem && (
+                <img src={draggedItem.item.img} style=
+                    {{
+                        position: "fixed",
+                        left: mousePosition.x,
+                        top: mousePosition.y
+                    }} />
+            )}
+
         </div>
     )
 }
