@@ -45,10 +45,9 @@ const Inventory = () => {
     const [currentPage, setCurrentPage] = useState(0)
     const [X_SIZE, Y_SIZE] = [5, 9] //Wymiary inventory
     const mousePosition = useMousePosition();
-    const [draggedItem, setDraggedItem] = useState(null);
+    const [selectedItem, setSelectedItem] = useState(null);
     const startPos = useRef({ x: 0, y: 0 });
-    const isDragging = useRef(false);
-    const isClickDropping = useRef(false);
+    const moveMode = useRef(null);
 
     const [items, setItems] = useState([
         [
@@ -65,56 +64,57 @@ const Inventory = () => {
     }, [items])
 
 
-    const handleMouseDown = (e, item) => {
-        if (draggedItem) {
-            setDraggedItem(null);
-            return;
-        }
-        console.log('mouse down')
-        setDraggedItem(item);
+    const handlePointerDown = (e, item) => {
+
+        console.log('pointer down')
+
+        setSelectedItem(item);
         startPos.current = { x: e.clientX, y: e.clientY };
-        isDragging.current = false;
+        moveMode.current = null;
     }
 
     useEffect(() => {
 
-        const handleMouseUp = (e) => {
-            if (!draggedItem) return;
-            console.log('mouse up')
+        const handlePointerUp = (e) => {
 
-            if (isDragging.current) {
-                console.log("drag end")
-                setDraggedItem(null)
+            console.log('pointer up')
+            if (!selectedItem) return;
+            if (moveMode.current === 'click') {
+                console.log('click drop end');
+                moveMode.current = null;
+                setSelectedItem(null);
+                return;
+            } if (moveMode.current === 'drag') {
+                console.log('drag end');
+                setSelectedItem(null);
+            } else {
+                moveMode.current = 'click';
+                console.log('click drop start');
             }
-            else {
-                console.log('click drop');
-                isClickDropping.current = true;
-            }
-            isDragging.current = false;
-            console.log(e.target)
 
         }
 
-        const handleMouseMove = (e) => {
-            if (!draggedItem) return;
+        const handlePointerMove = (e) => {
+            if (!selectedItem) return;
+            if (moveMode.current !== null) return;
+
             const moveX = Math.abs(e.clientX - startPos.current.x)
             const moveY = Math.abs(e.clientY - startPos.current.y)
 
-
             if (moveX > 5 || moveY > 5) {
-                isDragging.current = true;
+                moveMode.current = "drag"
                 console.log("drag start")
             }
         }
-        window.addEventListener('mousemove', handleMouseMove);
-        window.addEventListener('mouseup', handleMouseUp);
+        window.addEventListener('mousemove', handlePointerMove);
+        window.addEventListener('mouseup', handlePointerUp);
 
         return () => {
-            window.removeEventListener('mousemove', handleMouseMove);
-            window.removeEventListener('mouseup', handleMouseUp);
+            window.removeEventListener('mousemove', handlePointerMove);
+            window.removeEventListener('mouseup', handlePointerUp);
         }
 
-    }, [draggedItem])
+    }, [selectedItem])
 
 
     const isSlotEmpty = (page, slot) => {
@@ -179,15 +179,15 @@ const Inventory = () => {
                     return (
                         <div key={index} id={`slot-${index}`} className="slot">
                             {item &&
-                                <img className="item-img" draggable="false" onMouseDown={(e) => handleMouseDown(e, item)} src={item.item.img}></img>
+                                <img className="item-img" draggable="false" onMouseDown={(e) => handlePointerDown(e, item)} src={item.item.img}></img>
                             }
                         </div>
                     )
                 })}
             </div>
             <button onClick={() => spawnItem(1)}>Add item</button>
-            {draggedItem && (
-                <img src={draggedItem.item.img} draggable="false" className="ghost-img" style=
+            {selectedItem && (
+                <img src={selectedItem.item.img} draggable="false" className="ghost-img" style=
                     {{
                         left: mousePosition.x,
                         top: mousePosition.y
