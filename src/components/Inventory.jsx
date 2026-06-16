@@ -91,7 +91,6 @@ const Inventory = () => {
                 moveMode.current = 'click';
                 console.log('click drop start');
             }
-
         }
 
         const handlePointerMove = (e) => {
@@ -179,7 +178,9 @@ const Inventory = () => {
                     return (
                         <div key={index} id={`slot-${index}`} className="slot">
                             {item &&
-                                <img className="item-img" draggable="false" onMouseDown={(e) => handlePointerDown(e, item)} src={item.item.img}></img>
+                                <div className="item">
+                                    <img className="item-img" draggable="false" onMouseDown={(e) => handlePointerDown(e, item)} src={item.item.img}></img>
+                                </div>
                             }
                         </div>
                     )
