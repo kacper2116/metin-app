@@ -64,36 +64,42 @@ const Inventory = () => {
     }, [items])
 
 
-    const handlePointerDown = (e, item) => {
+    const handleMouseDown = (e, item) => {
 
         console.log('pointer down')
-
         setSelectedItem(item);
         startPos.current = { x: e.clientX, y: e.clientY };
         moveMode.current = null;
     }
 
+    const handleDropItem = (e) => {
+        if (!selectedItem) return;
+
+        setSelectedItem(null);
+        const slot = e.target.closest('.slot')
+        console.log('drop target:', slot)
+    }
+
     useEffect(() => {
 
-        const handlePointerUp = (e) => {
+        const handleMouseIp = (e) => {
 
             console.log('pointer up')
             if (!selectedItem) return;
             if (moveMode.current === 'click') {
                 console.log('click drop end');
                 moveMode.current = null;
-                setSelectedItem(null);
                 return;
             } if (moveMode.current === 'drag') {
                 console.log('drag end');
-                setSelectedItem(null);
+                handleDropItem(e);
             } else {
                 moveMode.current = 'click';
                 console.log('click drop start');
             }
         }
 
-        const handlePointerMove = (e) => {
+        const handleMouseMove = (e) => {
             if (!selectedItem) return;
             if (moveMode.current !== null) return;
 
@@ -105,12 +111,12 @@ const Inventory = () => {
                 console.log("drag start")
             }
         }
-        window.addEventListener('mousemove', handlePointerMove);
-        window.addEventListener('mouseup', handlePointerUp);
+        window.addEventListener('mousemove', handleMouseMove);
+        window.addEventListener('mouseup', handleMouseIp);
 
         return () => {
-            window.removeEventListener('mousemove', handlePointerMove);
-            window.removeEventListener('mouseup', handlePointerUp);
+            window.removeEventListener('mousemove', handleMouseMove);
+            window.removeEventListener('mouseup', handleMouseIp);
         }
 
     }, [selectedItem])
@@ -176,10 +182,10 @@ const Inventory = () => {
                     const item = items[currentPage].find(item => item.slot === index);
 
                     return (
-                        <div key={index} id={`slot-${index}`} className="slot">
+                        <div key={index} id={`slot-${index}`} className="slot" onMouseDown={(e) => handleDropItem(e)}>
                             {item &&
-                                <div className="item">
-                                    <img className="item-img" draggable="false" onMouseDown={(e) => handlePointerDown(e, item)} src={item.item.img}></img>
+                                <div className="item" onMouseDown={(e) => handleMouseDown(e, item)}>
+                                    <img className="item-img" draggable="false" src={item.item.img}></img>
                                 </div>
                             }
                         </div>
