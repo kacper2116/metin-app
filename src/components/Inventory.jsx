@@ -76,6 +76,7 @@ const Inventory = () => {
         if (!selectedItem) return;
 
         setSelectedItem(null);
+        moveMode.current = null;
         const slot = e.target.closest('.slot')
         console.log('drop target:', slot)
     }
@@ -88,7 +89,7 @@ const Inventory = () => {
             if (!selectedItem) return;
             if (moveMode.current === 'click') {
                 console.log('click drop end');
-                moveMode.current = null;
+
                 return;
             } if (moveMode.current === 'drag') {
                 console.log('drag end');
