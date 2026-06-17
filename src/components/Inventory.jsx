@@ -82,7 +82,7 @@ const Inventory = () => {
 
     useEffect(() => {
 
-        const handleMouseIp = (e) => {
+        const handleMouseUp = (e) => {
 
             console.log('pointer up')
             if (!selectedItem) return;
@@ -112,11 +112,11 @@ const Inventory = () => {
             }
         }
         window.addEventListener('mousemove', handleMouseMove);
-        window.addEventListener('mouseup', handleMouseIp);
+        window.addEventListener('mouseup', handleMouseUp);
 
         return () => {
             window.removeEventListener('mousemove', handleMouseMove);
-            window.removeEventListener('mouseup', handleMouseIp);
+            window.removeEventListener('mouseup', handleMouseUp);
         }
 
     }, [selectedItem])
