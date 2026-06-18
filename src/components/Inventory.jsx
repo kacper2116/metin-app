@@ -24,8 +24,8 @@ const Inventory = () => {
             size: 2,
         },
         {
-            id: 1,
-            name: "Miecz+9",
+            id: 2,
+            name: "Miecz żalu",
             from_level: 1,
             attack_value: "13-15",
             magical_attack_value: "15-19",
@@ -37,8 +37,25 @@ const Inventory = () => {
                 upgrade_items: null,
                 upgrade_change: null,
             },
-            img: "https://pl-wiki.metin2.gameforge.com/images/7/7a/Miecz.png",
-            size: 2,
+            img: "https://pl-wiki.metin2.gameforge.com/images/8/82/Miecz_%C5%BBalu.png",
+            size: 3,
+        },
+        {
+            id: 3,
+            name: "Kozik Czar. Lis.",
+            from_level: 1,
+            attack_value: "13-15",
+            magical_attack_value: "15-19",
+            attack_speed: "+22%",
+            wearable: true,
+            for: ["Wojownik", "Ninja", "Sura"],
+            upgrade: {
+                yang: null,
+                upgrade_items: null,
+                upgrade_change: null,
+            },
+            img: "https://pl-wiki.metin2.gameforge.com/images/f/fa/Kozik_Czar._Lis..png",
+            size: 1,
         },
     ]
 
@@ -46,13 +63,15 @@ const Inventory = () => {
     const [X_SIZE, Y_SIZE] = [5, 9] //Wymiary inventory
     const mousePosition = useMousePosition();
     const [selectedItem, setSelectedItem] = useState(null);
+    const [selectedSlots, setSelectedSlots] = useState([]);
     const startPos = useRef({ x: 0, y: 0 });
     const moveMode = useRef(null);
 
     const [items, setItems] = useState([
         [
             { item: items_arr[0], slot: 0 },
-            { item: items_arr[0], slot: 14 },
+            { item: items_arr[1], slot: 14 },
+            { item: items_arr[2], slot: 30 },
         ],
         [
             { item: items_arr[0], slot: 1 }
@@ -74,11 +93,40 @@ const Inventory = () => {
 
     const handleDropItem = (e) => {
         if (!selectedItem) return;
-
+        setSelectedSlots([]);
         setSelectedItem(null);
         moveMode.current = null;
         const slot = e.target.closest('.slot')
         console.log('drop target:', slot)
+    }
+
+    const handleSelectSlots = (e, slot) => {
+
+        if (!selectedItem) return;
+
+        let slots = []
+
+        for (let i = 0; i < selectedItem.item.size; i++) {
+            let currentSlot = null;
+            if (i > 1) currentSlot = slot - X_SIZE
+            else currentSlot = slot + i * X_SIZE;
+            slots.push(currentSlot)
+        }
+        console.log(slots)
+
+        let badIndex = slots.findIndex(slot => slot < 0 || slot > X_SIZE * Y_SIZE - 1);
+        if (badIndex !== -1) {
+            console.log(slots[badIndex])
+            if (slots[badIndex] < 0) {
+                slots[badIndex] = Math.max(...slots) + X_SIZE;
+            }
+            if (slots[badIndex] > X_SIZE * Y_SIZE - 1) {
+                slots[badIndex] = Math.min(...slots) - X_SIZE;
+            }
+        }
+
+
+        setSelectedSlots([...slots]);
     }
 
     useEffect(() => {
@@ -183,7 +231,10 @@ const Inventory = () => {
                     const item = items[currentPage].find(item => item.slot === index);
 
                     return (
-                        <div key={index} id={`slot-${index}`} className="slot" onMouseDown={(e) => handleDropItem(e)}>
+                        <div key={index} id={`slot-${index}`} className='slot' onMouseDown={(e) => handleDropItem(e)} onMouseOver={(e) => handleSelectSlots(e, index)} onMouseLeave={(e) => setSelectedSlots([])}>
+                            {selectedSlots.includes(index) &&
+                                <div className="slot-overlay"></div>
+                            }
                             {item &&
                                 <div className="item" onMouseDown={(e) => handleMouseDown(e, item)}>
                                     <img className="item-img" draggable="false" src={item.item.img}></img>
