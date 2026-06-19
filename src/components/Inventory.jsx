@@ -63,7 +63,7 @@ const Inventory = () => {
     const [X_SIZE, Y_SIZE] = [5, 9] //Wymiary inventory
     const mousePosition = useMousePosition();
     const [selectedItem, setSelectedItem] = useState(null);
-    const [selectedSlots, setSelectedSlots] = useState([]);
+    const [selectedSlots, setSelectedSlots] = useState({ slots: [], canPlace: true });
     const startPos = useRef({ x: 0, y: 0 });
     const moveMode = useRef(null);
 
@@ -93,28 +93,29 @@ const Inventory = () => {
 
     const handleDropItem = (e) => {
         if (!selectedItem) return;
-        setSelectedSlots([]);
+        setSelectedSlots({ slots: [], canPlace: true });
         setSelectedItem(null);
         moveMode.current = null;
         const slot = e.target.closest('.slot')
         console.log('drop target:', slot)
     }
 
-    const handleSelectSlots = (e, slot) => {
+    const handleSelectSlots = (e) => {
 
+        console.log(e.currentTarget);
         if (!selectedItem) return;
-
+        const slotIndex = Number(e.currentTarget.id.split('-')[1])
         let slots = []
 
         for (let i = 0; i < selectedItem.item.size; i++) {
             let currentSlot = null;
-            if (i > 1) currentSlot = slot - X_SIZE
-            else currentSlot = slot + i * X_SIZE;
+            if (i > 1) currentSlot = slotIndex - X_SIZE
+            else currentSlot = slotIndex + i * X_SIZE;
             slots.push(currentSlot)
         }
-        console.log(slots)
 
-        let badIndex = slots.findIndex(slot => slot < 0 || slot > X_SIZE * Y_SIZE - 1);
+
+        let badIndex = slots.findIndex(slotIndex => slotIndex < 0 || slotIndex > X_SIZE * Y_SIZE - 1);
         if (badIndex !== -1) {
             console.log(slots[badIndex])
             if (slots[badIndex] < 0) {
@@ -124,9 +125,8 @@ const Inventory = () => {
                 slots[badIndex] = Math.min(...slots) - X_SIZE;
             }
         }
-
-
-        setSelectedSlots([...slots]);
+        const canPlace = canPlaceItem(currentPage, Math.min(...slots), selectedItem.item);
+        setSelectedSlots({ slots: [...slots], canPlace });
     }
 
     useEffect(() => {
@@ -231,12 +231,12 @@ const Inventory = () => {
                     const item = items[currentPage].find(item => item.slot === index);
 
                     return (
-                        <div key={index} id={`slot-${index}`} className='slot' onMouseDown={(e) => handleDropItem(e)} onMouseOver={(e) => handleSelectSlots(e, index)} onMouseLeave={(e) => setSelectedSlots([])}>
-                            {selectedSlots.includes(index) &&
-                                <div className="slot-overlay"></div>
+                        <div key={index} id={`slot-${index}`} className='slot' onMouseDown={(e) => handleDropItem(e)} onMouseEnter={(e) => handleSelectSlots(e)} onMouseLeave={(e) => setSelectedSlots([])}>
+                            {selectedSlots.slots?.includes(index) &&
+                                <div className={`slot-overlay ${!selectedSlots.canPlace && 'slot-overlay-red'}`}></div>
                             }
                             {item &&
-                                <div className="item" onMouseDown={(e) => handleMouseDown(e, item)}>
+                                <div className={`item ${selectedItem && 'item-selected'}`} onMouseDown={(e) => handleMouseDown(e, item)}>
                                     <img className="item-img" draggable="false" src={item.item.img}></img>
                                 </div>
                             }

@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+    user-select: none;
 
 }
 
@@ -42,7 +43,7 @@
 }
 
 .slot {
-    width: 50x;
+    width: 50px;
     height: 50px;
     background: url("https://pl-wiki.metin2.gameforge.com/images/4/48/Czarne_T%C5%82o.png") no-repeat;
     background-size: contain;
@@ -54,14 +55,24 @@
     background: white;
     opacity: 0.5;
     position: absolute;
+    pointer-events: none;
+}
+
+.slot-overlay-red {
+    background: red;
+
 }
 
 .item {
     width: 100%;
     display: flex;
     position: relative;
-
 }
+
+.item-selected {
+    pointer-events: none;
+}
+
 
 .item-img {
     width: 50px;
