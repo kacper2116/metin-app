@@ -122,7 +122,7 @@ const Inventory = () => {
                 slots[badIndex] = Math.min(...slots) - X_SIZE;
             }
         }
-
+        console.log(slots)
         return slots;
     }
 
@@ -237,7 +237,7 @@ const Inventory = () => {
                     const item = items[currentPage].find(item => item.slot === index);
 
                     return (
-                        <div key={index} id={`slot-${index}`} className='slot' onMouseDown={(e) => handleDropItem(e)} onMouseEnter={(e) => handleSelectSlots(e)} onMouseLeave={(e) => setSelectedSlots([])}>
+                        <div key={index} id={`slot-${index}`} className='slot' onMouseDown={(e) => handleDropItem(e)} onMouseEnter={(e) => handleSelectSlots(e)} onMouseLeave={(e) => setSelectedSlots({ slots: [], canPlace: true })}>
                             {selectedSlots.slots?.includes(index) &&
                                 <div className={`slot-overlay ${!selectedSlots.canPlace && 'slot-overlay-red'}`}></div>
                             }
