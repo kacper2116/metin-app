@@ -89,6 +89,8 @@ const Inventory = () => {
         setSelectedItem(item);
         startPos.current = { x: e.clientX, y: e.clientY };
         moveMode.current = null;
+        const selectedSlots = getSelectedSlots(item.slot, item.item.size);
+        setSelectedSlots({ slots: selectedSlots, canPlace: true });
     }
 
     const handleDropItem = (e) => {
@@ -100,19 +102,15 @@ const Inventory = () => {
         console.log('drop target:', slot)
     }
 
-    const handleSelectSlots = (e) => {
+    const getSelectedSlots = (slotIndex, itemSize) => {
 
-        if (!selectedItem) return;
-        const slotIndex = Number(e.currentTarget.id.split('-')[1])
         let slots = []
-
-        for (let i = 0; i < selectedItem.item.size; i++) {
+        for (let i = 0; i < itemSize; i++) {
             let currentSlot = null;
             if (i > 1) currentSlot = slotIndex - X_SIZE
             else currentSlot = slotIndex + i * X_SIZE;
             slots.push(currentSlot)
         }
-
 
         let badIndex = slots.findIndex(slotIndex => slotIndex < 0 || slotIndex > X_SIZE * Y_SIZE - 1);
         if (badIndex !== -1) {
@@ -124,6 +122,15 @@ const Inventory = () => {
                 slots[badIndex] = Math.min(...slots) - X_SIZE;
             }
         }
+
+        return slots;
+    }
+
+    const handleSelectSlots = (e) => {
+
+        if (!selectedItem) return;
+        const slotIndex = Number(e.currentTarget.id.split('-')[1])
+        let slots = getSelectedSlots(slotIndex, selectedItem.item.size)
         const canPlace = canPlaceItem(currentPage, Math.min(...slots), selectedItem.item);
         setSelectedSlots({ slots: [...slots], canPlace });
     }
