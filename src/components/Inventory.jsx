@@ -102,7 +102,6 @@ const Inventory = () => {
 
     const handleSelectSlots = (e) => {
 
-        console.log(e.currentTarget);
         if (!selectedItem) return;
         const slotIndex = Number(e.currentTarget.id.split('-')[1])
         let slots = []
