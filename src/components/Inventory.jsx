@@ -60,11 +60,13 @@ const Inventory = () => {
 
     const [currentPage, setCurrentPage] = useState(0)
     const [X_SIZE, Y_SIZE] = [5, 9] //Wymiary inventory
+
     const mousePosition = useMousePosition();
-    const [selectedItem, setSelectedItem] = useState(null);
-    const [selectedSlots, setSelectedSlots] = useState({ slots: [], canPlace: true });
+    const [draggedItem, setDraggedItem] = useState(null);
+    const [hoveredSlots, setHoveredSlots] = useState({ slots: [], canPlace: true });
+    const itemOriginSlots = useRef([]);
+
     const startPos = useRef({ x: 0, y: 0 });
-    const itemOriginSlot = useRef([]);
     const moveMode = useRef(null);
 
     const [items, setItems] = useState([
@@ -78,58 +80,48 @@ const Inventory = () => {
         ]
     ]);
 
-    useEffect(() => {
-        console.log(items)
-    }, [items])
 
     const findItemBySlot = (slot) => {
 
-        return items[currentPage].find(item => {
-
-            for (let i = 0; i < item.item.size; i++) {
-                const currentSlot = item.slot + i * X_SIZE;
-                if (currentSlot === slot) return true;
-            }
-            return false;
-        })
+        return items[currentPage].find(item =>
+            getItemSlots(item).includes(slot)
+        );
     }
 
     const handleClickSlot = (e) => {
 
-        if (selectedItem) {
+        if (draggedItem) {
             handleDropItem(e);
             return;
         }
 
         const slotIndex = Number(e.currentTarget.id.split('-')[1]);
         const itemInSlot = findItemBySlot(slotIndex);
-        console.log(slotIndex)
 
         if (itemInSlot) {
-            setSelectedItem(itemInSlot)
+            setDraggedItem(itemInSlot)
             startPos.current = { x: e.clientX, y: e.clientY };
-            itemOriginSlot.current = getItemSlots(itemInSlot);
-            console.log(itemOriginSlot.current)
+            itemOriginSlots.current = getItemSlots(itemInSlot);
+            console.log(itemOriginSlots.current)
 
             let slots = getSelectedSlots(slotIndex, itemInSlot.item.size)
             console.log(slots)
-            console.log(itemOriginSlot.current)
+            console.log(itemOriginSlots.current)
 
-            const canPlace = itemOriginSlot.current.every(slot => slots.includes(slot)) ? true : canPlaceItem(currentPage, Math.min(...slots), itemInSlot.item);
+            const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot)) ? true : canPlaceItem(currentPage, Math.min(...slots), itemInSlot.item);
 
-            setSelectedSlots({ slots: getSelectedSlots(slotIndex, itemInSlot.item.size), canPlace });
+            setHoveredSlots({ slots: getSelectedSlots(slotIndex, itemInSlot.item.size), canPlace });
         }
 
     }
 
     const handleDropItem = (e) => {
-        if (!selectedItem) return;
-        setSelectedSlots({ slots: [], canPlace: true });
-        setSelectedItem(null);
+        if (!draggedItem) return;
+        setHoveredSlots({ slots: [], canPlace: true });
+        setDraggedItem(null);
         moveMode.current = null;
-        itemOriginSlot.current = [];
+        itemOriginSlots.current = [];
         const slot = e.target.closest('.slot')
-        console.log('drop target:', slot)
     }
 
     const getItemSlots = (item) => {
@@ -138,7 +130,7 @@ const Inventory = () => {
         const itemSlots = [];
         for (let i = 0; i < itemSize; i++) {
             const currentSlot = itemSlot + i * X_SIZE;
-            itemSlots.push(currentSlot)
+            itemSlots.push(currentSlot);
         }
 
 
@@ -170,13 +162,15 @@ const Inventory = () => {
         return slots.sort();
     }
 
-    const handleSelectSlots = (index) => {
+    const handleHoverSlots = (index) => {
 
-        if (!selectedItem) return;
-        let slots = getSelectedSlots(index, selectedItem.item.size)
+        if (!draggedItem) return;
+        let slots = getSelectedSlots(index, draggedItem.item.size);
 
-        const canPlace = itemOriginSlot.current.every(slot => slots.includes(slot)) ? true : canPlaceItem(currentPage, Math.min(...slots), selectedItem.item);
-        setSelectedSlots({ slots: [...slots], canPlace });
+        const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot))
+            ? true
+            : canPlaceItem(currentPage, Math.min(...slots), draggedItem.item);
+        setHoveredSlots({ slots: [...slots], canPlace });
     }
 
     useEffect(() => {
@@ -185,7 +179,7 @@ const Inventory = () => {
 
 
             console.log('pointer up')
-            if (!selectedItem) return;
+            if (!draggedItem) return;
             if (moveMode.current === 'click') {
                 console.log('click drop end');
 
@@ -200,7 +194,7 @@ const Inventory = () => {
         }
 
         const handleMouseMove = (e) => {
-            if (!selectedItem) return;
+            if (!draggedItem) return;
             if (moveMode.current !== null) return;
 
             const moveX = Math.abs(e.clientX - startPos.current.x)
@@ -219,7 +213,7 @@ const Inventory = () => {
             window.removeEventListener('mouseup', handleMouseUp);
         }
 
-    }, [selectedItem])
+    }, [draggedItem])
 
 
     const isSlotEmpty = (page, slot) => {
@@ -283,12 +277,12 @@ const Inventory = () => {
                     const item = items[currentPage].find(item => item.slot === index);
 
                     return (
-                        <div key={index} id={`slot-${index}`} className='slot' onMouseDown={handleClickSlot} onMouseEnter={(e) => handleSelectSlots(index)} onMouseLeave={(e) => setSelectedSlots({ slots: [], canPlace: true })}>
-                            {selectedSlots.slots?.includes(index) &&
-                                <div className={`slot-overlay ${!selectedSlots.canPlace && 'slot-overlay-red'}`}></div>
+                        <div key={index} id={`slot-${index}`} className='slot' onMouseDown={handleClickSlot} onMouseEnter={(e) => handleHoverSlots(index)} onMouseLeave={(e) => setHoveredSlots({ slots: [], canPlace: true })}>
+                            {hoveredSlots.slots?.includes(index) &&
+                                <div className={`slot-overlay ${!hoveredSlots.canPlace && 'slot-overlay-red'}`}></div>
                             }
                             {item &&
-                                <div className={`item ${selectedItem && 'item-selected'}`} >
+                                <div className={`item ${draggedItem && 'item-selected'}`} >
                                     <img className="item-img" draggable="false" src={item.item.img}></img>
                                 </div>
                             }
@@ -297,8 +291,8 @@ const Inventory = () => {
                 })}
             </div>
             <button onClick={() => spawnItem(1)}>Add item</button>
-            {selectedItem && (
-                <img src={selectedItem.item.img} draggable="false" className="ghost-img" style=
+            {draggedItem && (
+                <img src={draggedItem.item.img} draggable="false" className="ghost-img" style=
                     {{
                         left: mousePosition.x,
                         top: mousePosition.y
