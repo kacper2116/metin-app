@@ -2,7 +2,6 @@ import { useEffect, useState, useRef } from "react"
 import './Inventory.css'
 import useMousePosition from '../hooks/useMousePosition'
 
-
 const Inventory = () => {
 
     const items_arr = [
@@ -65,7 +64,7 @@ const Inventory = () => {
     const [selectedItem, setSelectedItem] = useState(null);
     const [selectedSlots, setSelectedSlots] = useState({ slots: [], canPlace: true });
     const startPos = useRef({ x: 0, y: 0 });
-    const itemStartSlots = useRef([]);
+    const itemOriginSlot = useRef([]);
     const moveMode = useRef(null);
 
     const [items, setItems] = useState([
@@ -99,7 +98,6 @@ const Inventory = () => {
 
         if (selectedItem) {
             handleDropItem(e);
-
             return;
         }
 
@@ -110,14 +108,14 @@ const Inventory = () => {
         if (itemInSlot) {
             setSelectedItem(itemInSlot)
             startPos.current = { x: e.clientX, y: e.clientY };
-            itemStartSlots.current = getItemSlots(itemInSlot);
-            console.log(itemStartSlots.current)
+            itemOriginSlot.current = getItemSlots(itemInSlot);
+            console.log(itemOriginSlot.current)
 
             let slots = getSelectedSlots(slotIndex, itemInSlot.item.size)
             console.log(slots)
-            console.log(itemStartSlots.current)
+            console.log(itemOriginSlot.current)
 
-            const canPlace = itemStartSlots.current.every(slot => slots.includes(slot)) ? true : canPlaceItem(currentPage, Math.min(...slots), itemInSlot.item);
+            const canPlace = itemOriginSlot.current.every(slot => slots.includes(slot)) ? true : canPlaceItem(currentPage, Math.min(...slots), itemInSlot.item);
 
             setSelectedSlots({ slots: getSelectedSlots(slotIndex, itemInSlot.item.size), canPlace });
         }
@@ -129,7 +127,7 @@ const Inventory = () => {
         setSelectedSlots({ slots: [], canPlace: true });
         setSelectedItem(null);
         moveMode.current = null;
-        itemStartSlots.current = [];
+        itemOriginSlot.current = [];
         const slot = e.target.closest('.slot')
         console.log('drop target:', slot)
     }
@@ -177,7 +175,7 @@ const Inventory = () => {
         if (!selectedItem) return;
         let slots = getSelectedSlots(index, selectedItem.item.size)
 
-        const canPlace = itemStartSlots.current.every(slot => slots.includes(slot)) ? true : canPlaceItem(currentPage, Math.min(...slots), selectedItem.item);
+        const canPlace = itemOriginSlot.current.every(slot => slots.includes(slot)) ? true : canPlaceItem(currentPage, Math.min(...slots), selectedItem.item);
         setSelectedSlots({ slots: [...slots], canPlace });
     }
 
