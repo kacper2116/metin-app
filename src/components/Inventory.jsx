@@ -65,6 +65,7 @@ const Inventory = () => {
     const [selectedItem, setSelectedItem] = useState(null);
     const [selectedSlots, setSelectedSlots] = useState({ slots: [], canPlace: true });
     const startPos = useRef({ x: 0, y: 0 });
+    const itemStartSlots = useRef([]);
     const moveMode = useRef(null);
 
     const [items, setItems] = useState([
@@ -82,15 +83,45 @@ const Inventory = () => {
         console.log(items)
     }, [items])
 
+    const findItemBySlot = (slot) => {
 
-    const handleMouseDown = (e, item) => {
+        return items[currentPage].find(item => {
 
-        console.log('pointer down')
-        setSelectedItem(item);
-        startPos.current = { x: e.clientX, y: e.clientY };
-        moveMode.current = null;
-        const selectedSlots = getSelectedSlots(item.slot, item.item.size);
-        setSelectedSlots({ slots: selectedSlots, canPlace: true });
+            for (let i = 0; i < item.item.size; i++) {
+                const currentSlot = item.slot + i * X_SIZE;
+                if (currentSlot === slot) return true;
+            }
+            return false;
+        })
+    }
+
+    const handleClickSlot = (e) => {
+
+        if (selectedItem) {
+            handleDropItem(e);
+
+            return;
+        }
+
+        const slotIndex = Number(e.currentTarget.id.split('-')[1]);
+        const itemInSlot = findItemBySlot(slotIndex);
+        console.log(slotIndex)
+
+        if (itemInSlot) {
+            setSelectedItem(itemInSlot)
+            startPos.current = { x: e.clientX, y: e.clientY };
+            itemStartSlots.current = getItemSlots(itemInSlot);
+            console.log(itemStartSlots.current)
+
+            let slots = getSelectedSlots(slotIndex, itemInSlot.item.size)
+            console.log(slots)
+            console.log(itemStartSlots.current)
+
+            const canPlace = itemStartSlots.current.every(slot => slots.includes(slot)) ? true : canPlaceItem(currentPage, Math.min(...slots), itemInSlot.item);
+
+            setSelectedSlots({ slots: getSelectedSlots(slotIndex, itemInSlot.item.size), canPlace });
+        }
+
     }
 
     const handleDropItem = (e) => {
@@ -98,8 +129,23 @@ const Inventory = () => {
         setSelectedSlots({ slots: [], canPlace: true });
         setSelectedItem(null);
         moveMode.current = null;
+        itemStartSlots.current = [];
         const slot = e.target.closest('.slot')
         console.log('drop target:', slot)
+    }
+
+    const getItemSlots = (item) => {
+        const itemSize = item.item.size;
+        const itemSlot = item.slot;
+        const itemSlots = [];
+        for (let i = 0; i < itemSize; i++) {
+            const currentSlot = itemSlot + i * X_SIZE;
+            itemSlots.push(currentSlot)
+        }
+
+
+        return itemSlots;
+
     }
 
     const getSelectedSlots = (slotIndex, itemSize) => {
@@ -122,22 +168,23 @@ const Inventory = () => {
                 slots[badIndex] = Math.min(...slots) - X_SIZE;
             }
         }
-        console.log(slots)
-        return slots;
+
+        return slots.sort();
     }
 
-    const handleSelectSlots = (e) => {
+    const handleSelectSlots = (index) => {
 
         if (!selectedItem) return;
-        const slotIndex = Number(e.currentTarget.id.split('-')[1])
-        let slots = getSelectedSlots(slotIndex, selectedItem.item.size)
-        const canPlace = canPlaceItem(currentPage, Math.min(...slots), selectedItem.item);
+        let slots = getSelectedSlots(index, selectedItem.item.size)
+
+        const canPlace = itemStartSlots.current.every(slot => slots.includes(slot)) ? true : canPlaceItem(currentPage, Math.min(...slots), selectedItem.item);
         setSelectedSlots({ slots: [...slots], canPlace });
     }
 
     useEffect(() => {
 
         const handleMouseUp = (e) => {
+
 
             console.log('pointer up')
             if (!selectedItem) return;
@@ -225,6 +272,7 @@ const Inventory = () => {
         console.log("Nie można dodać itemu")
     }
 
+
     return (
         <div className="inventory">
             <div className="pages">
@@ -237,12 +285,12 @@ const Inventory = () => {
                     const item = items[currentPage].find(item => item.slot === index);
 
                     return (
-                        <div key={index} id={`slot-${index}`} className='slot' onMouseDown={(e) => handleDropItem(e)} onMouseEnter={(e) => handleSelectSlots(e)} onMouseLeave={(e) => setSelectedSlots({ slots: [], canPlace: true })}>
+                        <div key={index} id={`slot-${index}`} className='slot' onMouseDown={handleClickSlot} onMouseEnter={(e) => handleSelectSlots(index)} onMouseLeave={(e) => setSelectedSlots({ slots: [], canPlace: true })}>
                             {selectedSlots.slots?.includes(index) &&
                                 <div className={`slot-overlay ${!selectedSlots.canPlace && 'slot-overlay-red'}`}></div>
                             }
                             {item &&
-                                <div className={`item ${selectedItem && 'item-selected'}`} onMouseDown={(e) => handleMouseDown(e, item)}>
+                                <div className={`item ${selectedItem && 'item-selected'}`} >
                                     <img className="item-img" draggable="false" src={item.item.img}></img>
                                 </div>
                             }
