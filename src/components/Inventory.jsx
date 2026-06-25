@@ -81,11 +81,17 @@ const Inventory = () => {
     ]);
 
 
-    const findItemBySlot = (slot) => {
+    const findItemBySlot = (page, slot) => {
 
-        return items[currentPage].find(item =>
-            getItemSlots(item).includes(slot)
-        );
+        return items[page].find(item => {
+
+            for (let i = 0; i < item.item.size; i++) {
+                const currentSlot = item.slot + i * X_SIZE;
+                if (currentSlot === slot) return true;
+            }
+            return false;
+        })
+
     }
 
     const handleClickSlot = (e) => {
@@ -96,17 +102,15 @@ const Inventory = () => {
         }
 
         const slotIndex = Number(e.currentTarget.id.split('-')[1]);
-        const itemInSlot = findItemBySlot(slotIndex);
+        const itemInSlot = findItemBySlot(currentPage, slotIndex);
+
 
         if (itemInSlot) {
             setDraggedItem(itemInSlot)
             startPos.current = { x: e.clientX, y: e.clientY };
             itemOriginSlots.current = getItemSlots(itemInSlot);
-            console.log(itemOriginSlots.current)
 
             let slots = getSelectedSlots(slotIndex, itemInSlot.item.size)
-            console.log(slots)
-            console.log(itemOriginSlots.current)
 
             const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot)) ? true : canPlaceItem(currentPage, Math.min(...slots), itemInSlot.item);
 
@@ -121,7 +125,6 @@ const Inventory = () => {
         setDraggedItem(null);
         moveMode.current = null;
         itemOriginSlots.current = [];
-        const slot = e.target.closest('.slot')
     }
 
     const getItemSlots = (item) => {
@@ -133,9 +136,7 @@ const Inventory = () => {
             itemSlots.push(currentSlot);
         }
 
-
         return itemSlots;
-
     }
 
     const getSelectedSlots = (slotIndex, itemSize) => {
@@ -177,7 +178,6 @@ const Inventory = () => {
 
         const handleMouseUp = (e) => {
 
-
             console.log('pointer up')
             if (!draggedItem) return;
             if (moveMode.current === 'click') {
@@ -217,14 +217,7 @@ const Inventory = () => {
 
 
     const isSlotEmpty = (page, slot) => {
-
-        return !items[page].some(({ item, slot: itemSlot }) => {
-            for (let i = 0; i < item.size; i++) {
-                const currentSlot = itemSlot + i * X_SIZE;
-                if (currentSlot === slot) return true;
-            }
-            return false;
-        })
+        return !findItemBySlot(page, slot)
     }
 
     const canPlaceItem = (page, slot, item) => {
@@ -243,6 +236,7 @@ const Inventory = () => {
         setItems((prev) => {
             const updated = structuredClone(prev)
             updated[page] = [...updated[page], item];
+            console.log(updated)
             return updated;
         })
     }
@@ -263,7 +257,6 @@ const Inventory = () => {
         }
         console.log("Nie można dodać itemu")
     }
-
 
     return (
         <div className="inventory">
