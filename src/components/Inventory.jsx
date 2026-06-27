@@ -70,21 +70,28 @@ const Inventory = () => {
     const startPos = useRef({ x: 0, y: 0 });
     const moveMode = useRef(null);
 
+    /*  const [items, setItems] = useState([
+         [
+             { item: items_arr[0], slot: 0 },
+             { item: items_arr[1], slot: 14 },
+             { item: items_arr[2], slot: 30 },
+         ],
+         [
+             { item: items_arr[0], slot: 1 }
+         ]
+     ]); */
+
     const [items, setItems] = useState([
-        [
-            { item: items_arr[0], slot: 0 },
-            { item: items_arr[1], slot: 14 },
-            { item: items_arr[2], slot: 30 },
-        ],
-        [
-            { item: items_arr[0], slot: 1 }
-        ]
-    ]);
+        { item: items_arr[0], page: 0, slot: 0 },
+        { item: items_arr[1], page: 0, slot: 14 },
+        { item: items_arr[2], page: 0, slot: 30 },
+    ])
 
 
     const findItemBySlot = (page, slot) => {
 
-        return items[page].find(item => {
+        const itemsOnPage = items.filter(item => item.page === page);
+        return itemsOnPage.find(item => {
 
             for (let i = 0; i < item.item.size; i++) {
                 const currentSlot = item.slot + i * X_SIZE;
@@ -124,20 +131,14 @@ const Inventory = () => {
         if (!draggedItem) return;
         console.log('droping item')
         const slotIndex = hoveredSlots.current.slots[0];
+        console.log(currentPage)
 
         if (canPlaceItem(currentPage, slotIndex, draggedItem.item)) {
-            console.log('moving item')
-            setItems(prev => {
-                const copy = [...prev];
-                const currPageCopy = [...copy[currentPage]];
 
-                const updatedPage = currPageCopy.map(item =>
-                    item.slot === draggedItem.slot ? { ...item, slot: slotIndex } : item
-                )
+            setItems(prev =>
+                prev.map(item => item.page === draggedItem.page && item.slot === draggedItem.slot ? { ...item, page: currentPage, slot: slotIndex } : item)
 
-                copy[currentPage] = updatedPage;
-                return copy;
-            })
+            );
         }
 
         hoveredSlots.current = ({ slots: [], canPlace: true });
@@ -236,6 +237,7 @@ const Inventory = () => {
 
 
     const isSlotEmpty = (page, slot) => {
+
         return !findItemBySlot(page, slot)
     }
 
@@ -244,17 +246,23 @@ const Inventory = () => {
         for (let i = 0; i < item.size; i++) {
             const currentSlot = slot + i * X_SIZE;
 
-            if (currentSlot >= X_SIZE * Y_SIZE) return false;
-            if (!isSlotEmpty(page, currentSlot)) return false;
+            if (currentSlot >= X_SIZE * Y_SIZE) {
+                console.log(false);
+                return false;
+            }
+            if (!isSlotEmpty(page, currentSlot)) {
+                console.log(false);
+                return false;
+            };
         }
-
+        console.log(true)
         return true;
     }
 
-    const addItem = (item, page) => {
+    const addItem = (item) => {
         setItems((prev) => {
-            const updated = structuredClone(prev)
-            updated[page] = [...updated[page], item];
+            let updated = structuredClone(prev)
+            updated = [...updated, item];
             console.log(updated)
             return updated;
         })
@@ -264,11 +272,11 @@ const Inventory = () => {
 
         const itemToSpawn = items_arr.find(item => item.id === id);
 
-        for (let page = 0; page < items.length; page++) {
+        for (let page = 0; page < 2; page++) {
 
             for (let slot = 0; slot < X_SIZE * Y_SIZE; slot++) {
                 if (canPlaceItem(page, slot, itemToSpawn)) {
-                    addItem({ item: itemToSpawn, slot: slot }, page);
+                    addItem({ item: itemToSpawn, page: page, slot: slot });
                     console.log("Dodano item");
                     return;
                 }
@@ -286,7 +294,10 @@ const Inventory = () => {
             <div className="slots">
                 {Array.from({ length: X_SIZE * Y_SIZE }).map((_, index) => {
 
-                    const item = items[currentPage]?.find(item => item.slot === index);
+                    const itemsOnPage = items?.filter(item => item.page === currentPage);
+                    const item = itemsOnPage?.find(item => item.slot === index);
+
+
 
                     return (
                         <div key={index} id={`slot-${index}`} className='slot' onMouseDown={handleClickSlot} onMouseEnter={(e) => handleHoverSlots(index)} onMouseLeave={(e) => hoveredSlots.current = ({ slots: [], canPlace: true })}>
