@@ -63,6 +63,7 @@ const Inventory = () => {
 
     const mousePosition = useMousePosition();
     const [draggedItem, setDraggedItem] = useState(null);
+    const [hoveredItem, setHoveredItem] = useState(null);
     const hoveredSlots = useRef({ slots: [], canPlace: true })
     const itemOriginSlots = useRef([]);
 
@@ -124,7 +125,6 @@ const Inventory = () => {
 
             setItems(prev =>
                 prev.map(item => item.page === draggedItem.page && item.slot === draggedItem.slot ? { ...item, page: currentPage, slot: slotIndex } : item)
-
             );
         }
 
@@ -134,6 +134,7 @@ const Inventory = () => {
         itemOriginSlots.current = [];
 
     }
+
 
     const getItemSlots = (item) => {
         const itemSize = item.item.size;
@@ -171,14 +172,28 @@ const Inventory = () => {
         return sorted;
     }
 
-    const handleHoverSlots = (index) => {
-
-        if (!draggedItem) return;
+    const highlightSlots = (index) => {
         let slots = getSelectedSlots(index, draggedItem.item.size);
+
         const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot))
             ? true
             : canPlaceItem(currentPage, Math.min(...slots), draggedItem.item);
         hoveredSlots.current = ({ slots: [...slots], canPlace });
+    }
+
+    const showItemTooltip = (item) => {
+        console.log("showing tooltip")
+    }
+
+    const handleHoverSlot = (index) => {
+        if (draggedItem) {
+            highlightSlots(index);
+        }
+
+        const item = findItemBySlot(currentPage, index)
+        if (item) {
+            showItemTooltip(item);
+        }
     }
 
     useEffect(() => {
@@ -281,12 +296,12 @@ const Inventory = () => {
                     const item = itemsOnPage?.find(item => item.slot === index);
 
                     return (
-                        <div key={index} id={`slot-${index}`} className='slot' onMouseDown={handleClickSlot} onMouseEnter={(e) => handleHoverSlots(index)} onMouseLeave={(e) => hoveredSlots.current = ({ slots: [], canPlace: true })}>
+                        <div key={index} id={`slot-${index}`} className='slot' onMouseDown={handleClickSlot} onMouseEnter={(e) => handleHoverSlot(index)} onMouseLeave={(e) => hoveredSlots.current = ({ slots: [], canPlace: true })}>
                             {hoveredSlots.current.slots?.includes(index) &&
                                 <div className={`slot-overlay ${!hoveredSlots.current.canPlace && 'slot-overlay-red'}`}></div>
                             }
                             {item &&
-                                <div className={`item ${draggedItem && 'item-selected'}`} >
+                                <div className={`item ${draggedItem && 'item-selected'}`}>
                                     <img className="item-img" draggable="false" src={item.item.img}></img>
                                 </div>
                             }
