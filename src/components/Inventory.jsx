@@ -63,30 +63,17 @@ const Inventory = () => {
 
     const mousePosition = useMousePosition();
     const [draggedItem, setDraggedItem] = useState(null);
-    /*  const [hoveredSlots, setHoveredSlots] = useState({ slots: [], canPlace: true }); */
     const hoveredSlots = useRef({ slots: [], canPlace: true })
     const itemOriginSlots = useRef([]);
 
     const startPos = useRef({ x: 0, y: 0 });
     const moveMode = useRef(null);
 
-    /*  const [items, setItems] = useState([
-         [
-             { item: items_arr[0], slot: 0 },
-             { item: items_arr[1], slot: 14 },
-             { item: items_arr[2], slot: 30 },
-         ],
-         [
-             { item: items_arr[0], slot: 1 }
-         ]
-     ]); */
-
     const [items, setItems] = useState([
         { item: items_arr[0], page: 0, slot: 0 },
         { item: items_arr[1], page: 0, slot: 14 },
         { item: items_arr[2], page: 0, slot: 30 },
     ])
-
 
     const findItemBySlot = (page, slot) => {
 
@@ -237,7 +224,6 @@ const Inventory = () => {
 
 
     const isSlotEmpty = (page, slot) => {
-
         return !findItemBySlot(page, slot)
     }
 
@@ -247,15 +233,12 @@ const Inventory = () => {
             const currentSlot = slot + i * X_SIZE;
 
             if (currentSlot >= X_SIZE * Y_SIZE) {
-                console.log(false);
                 return false;
             }
             if (!isSlotEmpty(page, currentSlot)) {
-                console.log(false);
                 return false;
             };
         }
-        console.log(true)
         return true;
     }
 
@@ -296,8 +279,6 @@ const Inventory = () => {
 
                     const itemsOnPage = items?.filter(item => item.page === currentPage);
                     const item = itemsOnPage?.find(item => item.slot === index);
-
-
 
                     return (
                         <div key={index} id={`slot-${index}`} className='slot' onMouseDown={handleClickSlot} onMouseEnter={(e) => handleHoverSlots(index)} onMouseLeave={(e) => hoveredSlots.current = ({ slots: [], canPlace: true })}>
