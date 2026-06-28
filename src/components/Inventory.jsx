@@ -1,7 +1,8 @@
 import { useEffect, useState, useRef } from "react"
 import './Inventory.css'
 import useMousePosition from '../hooks/useMousePosition'
-
+import ItemTooltip from "./Tooltip"
+import Tooltip from "./Tooltip"
 const Inventory = () => {
 
     const items_arr = [
@@ -317,6 +318,10 @@ const Inventory = () => {
                         top: mousePosition.y
                     }} />
             )}
+
+
+            <Tooltip content={'essa'} />
+
 
         </div>
     )
