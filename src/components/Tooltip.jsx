@@ -1,7 +1,7 @@
 import React from 'react'
 import './Tooltip.css'
 
-const Tooltip = ({ content }) => {
+const Tooltip = ({ children }) => {
     return (
         <div className='tooltip'>
             <span className='top-bar'></span>
@@ -21,8 +21,8 @@ const Tooltip = ({ content }) => {
             <span className='bottom-bar'>
             </span>
 
+            <div className='tooltip-content'>{children}</div>
 
-            {content}
         </div>
     )
 }

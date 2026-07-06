@@ -320,7 +320,9 @@ const Inventory = () => {
             )}
 
 
-            <Tooltip content={'essa'} />
+            <Tooltip>
+                siemka
+            </Tooltip>
 
 
         </div>
