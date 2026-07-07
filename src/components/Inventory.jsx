@@ -24,10 +24,10 @@ const Inventory = () => {
         { item: items_arr[2], tab: 0, slot: 30 },
     ])
 
-    const findItemBySlot = (page, slot) => {
+    const findItemBySlot = (tab, slot) => {
 
-        const itemsOnPage = items.filter(item => item.tab === page);
-        return itemsOnPage.find(item => {
+        const activeTabItems = items.filter(item => item.tab === tab);
+        return activeTabItems.find(item => {
 
             for (let i = 0; i < item.item.size; i++) {
                 const currentSlot = item.slot + i * X_SIZE;
@@ -47,7 +47,6 @@ const Inventory = () => {
 
         const slotIndex = Number(e.currentTarget.id.split('-')[1]);
         const itemInSlot = findItemBySlot(activeTab, slotIndex);
-
 
         if (itemInSlot) {
             setDraggedItem(itemInSlot)
@@ -71,7 +70,7 @@ const Inventory = () => {
         if (canPlaceItem(activeTab, slotIndex, draggedItem.item)) {
 
             setItems(prev =>
-                prev.map(item => item.tab === draggedItem.page && item.slot === draggedItem.slot ? { ...item, page: activeTab, slot: slotIndex } : item)
+                prev.map(item => item.tab === draggedItem.tab && item.slot === draggedItem.slot ? { ...item, tab: activeTab, slot: slotIndex } : item)
             );
         }
 
