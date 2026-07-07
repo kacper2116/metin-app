@@ -216,11 +216,11 @@ const Inventory = () => {
 
         const itemToSpawn = items_arr.find(item => item.id === id);
 
-        for (let page = 0; page < 2; page++) {
+        for (let tab = 0; tab < 2; tab++) {
 
             for (let slot = 0; slot < X_SIZE * Y_SIZE; slot++) {
-                if (canPlaceItem(page, slot, itemToSpawn)) {
-                    addItem({ item: itemToSpawn, page: page, slot: slot });
+                if (canPlaceItem(tab, slot, itemToSpawn)) {
+                    addItem({ item: itemToSpawn, tab: tab, slot: slot });
                     console.log("Dodano item");
                     return;
                 }
