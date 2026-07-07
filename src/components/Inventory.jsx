@@ -7,6 +7,7 @@ import items_arr from "../data/items.json";
 const Inventory = () => {
 
     const [activeTab, setActiveTab] = useState(0)
+    const tabCount = 2;
     const [X_SIZE, Y_SIZE] = [5, 9] //Wymiary inventory
 
     const mousePosition = useMousePosition();
@@ -229,9 +230,15 @@ const Inventory = () => {
         console.log("Nie można dodać itemu")
     }
 
+    const tabsProps = {
+        activeTab,
+        setActiveTab,
+        tabCount
+    }
+
     return (
         <div className="inventory">
-            <InventoryTabs activeTab={activeTab} setActiveTab={setActiveTab} />
+            <InventoryTabs {...tabsProps} />
 
             <div className="slots">
                 {Array.from({ length: X_SIZE * Y_SIZE }).map((_, index) => {

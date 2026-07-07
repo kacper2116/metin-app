@@ -1,10 +1,14 @@
 import React from 'react'
 
-const InventoryTabs = ({ activeTab, setActiveTab }) => {
+const InventoryTabs = ({ activeTab, setActiveTab, tabCount }) => {
     return (
         <div className="tabs">
-            <button className={`tab ${activeTab === 0 && 'tab-active'}`} onClick={() => setActiveTab(0)}>I</button>
-            <button className={`tab ${activeTab === 1 && 'tab-active'}`} onClick={() => setActiveTab(1)}>II</button>
+
+            {Array.from({ length: tabCount }).map((_, index) => (
+                <button className={`tab ${activeTab === index && 'tab-active'}`} onClick={() => setActiveTab(index)}>{index + 1}</button>
+            ))}
+
+
         </div>
     )
 }

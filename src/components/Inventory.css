@@ -13,14 +13,16 @@
 }
 
 .tabs {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     opacity: 0.7;
     gap: 2px;
     padding: 0 5px;
 }
 
 .tab {
+    flex: 1;
+    flex-basis: 50px;
     height: 30px;
     display: flex;
     align-items: center;
