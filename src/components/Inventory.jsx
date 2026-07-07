@@ -3,61 +3,9 @@ import './Inventory.css'
 import useMousePosition from '../hooks/useMousePosition'
 import ItemTooltip from "./Tooltip"
 import Tooltip from "./Tooltip"
+import items_arr from "../data/items.json";
 const Inventory = () => {
 
-    const items_arr = [
-        {
-            id: 1,
-            name: "Miecz+0",
-            from_level: 1,
-            attack_value: "13-15",
-            magical_attack_value: "15-19",
-            attack_speed: "+22%",
-            wearable: true,
-            for: ["Wojownik", "Ninja", "Sura"],
-            upgrade: {
-                yang: null,
-                upgrade_items: null,
-                upgrade_change: null,
-            },
-            img: "https://pl-wiki.metin2.gameforge.com/images/7/7a/Miecz.png",
-            size: 2,
-        },
-        {
-            id: 2,
-            name: "Miecz żalu",
-            from_level: 1,
-            attack_value: "13-15",
-            magical_attack_value: "15-19",
-            attack_speed: "+22%",
-            wearable: true,
-            for: ["Wojownik", "Ninja", "Sura"],
-            upgrade: {
-                yang: null,
-                upgrade_items: null,
-                upgrade_change: null,
-            },
-            img: "https://pl-wiki.metin2.gameforge.com/images/8/82/Miecz_%C5%BBalu.png",
-            size: 3,
-        },
-        {
-            id: 3,
-            name: "Kozik Czar. Lis.",
-            from_level: 1,
-            attack_value: "13-15",
-            magical_attack_value: "15-19",
-            attack_speed: "+22%",
-            wearable: true,
-            for: ["Wojownik", "Ninja", "Sura"],
-            upgrade: {
-                yang: null,
-                upgrade_items: null,
-                upgrade_change: null,
-            },
-            img: "https://pl-wiki.metin2.gameforge.com/images/f/fa/Kozik_Czar._Lis..png",
-            size: 1,
-        },
-    ]
 
     const [currentPage, setCurrentPage] = useState(0)
     const [X_SIZE, Y_SIZE] = [5, 9] //Wymiary inventory
