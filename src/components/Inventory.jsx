@@ -1,13 +1,12 @@
 import { useEffect, useState, useRef } from "react"
 import './Inventory.css'
 import useMousePosition from '../hooks/useMousePosition'
-import ItemTooltip from "./Tooltip"
 import Tooltip from "./Tooltip"
+import InventoryTabs from "./InventoryTabs"
 import items_arr from "../data/items.json";
 const Inventory = () => {
 
-
-    const [currentPage, setCurrentPage] = useState(0)
+    const [activeTab, setActiveTab] = useState(0)
     const [X_SIZE, Y_SIZE] = [5, 9] //Wymiary inventory
 
     const mousePosition = useMousePosition();
@@ -20,14 +19,14 @@ const Inventory = () => {
     const moveMode = useRef(null);
 
     const [items, setItems] = useState([
-        { item: items_arr[0], page: 0, slot: 0 },
-        { item: items_arr[1], page: 0, slot: 14 },
-        { item: items_arr[2], page: 0, slot: 30 },
+        { item: items_arr[0], tab: 0, slot: 0 },
+        { item: items_arr[1], tab: 0, slot: 14 },
+        { item: items_arr[2], tab: 0, slot: 30 },
     ])
 
     const findItemBySlot = (page, slot) => {
 
-        const itemsOnPage = items.filter(item => item.page === page);
+        const itemsOnPage = items.filter(item => item.tab === page);
         return itemsOnPage.find(item => {
 
             for (let i = 0; i < item.item.size; i++) {
@@ -47,7 +46,7 @@ const Inventory = () => {
         }
 
         const slotIndex = Number(e.currentTarget.id.split('-')[1]);
-        const itemInSlot = findItemBySlot(currentPage, slotIndex);
+        const itemInSlot = findItemBySlot(activeTab, slotIndex);
 
 
         if (itemInSlot) {
@@ -57,7 +56,7 @@ const Inventory = () => {
 
             let slots = getSelectedSlots(slotIndex, itemInSlot.item.size)
 
-            const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot)) ? true : canPlaceItem(currentPage, Math.min(...slots), itemInSlot.item);
+            const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot)) ? true : canPlaceItem(activeTab, Math.min(...slots), itemInSlot.item);
 
             hoveredSlots.current = ({ slots: getSelectedSlots(slotIndex, itemInSlot.item.size), canPlace });
         }
@@ -68,12 +67,11 @@ const Inventory = () => {
         if (!draggedItem) return;
         console.log('droping item')
         const slotIndex = hoveredSlots.current.slots[0];
-        console.log(currentPage)
 
-        if (canPlaceItem(currentPage, slotIndex, draggedItem.item)) {
+        if (canPlaceItem(activeTab, slotIndex, draggedItem.item)) {
 
             setItems(prev =>
-                prev.map(item => item.page === draggedItem.page && item.slot === draggedItem.slot ? { ...item, page: currentPage, slot: slotIndex } : item)
+                prev.map(item => item.tab === draggedItem.page && item.slot === draggedItem.slot ? { ...item, page: activeTab, slot: slotIndex } : item)
             );
         }
 
@@ -126,7 +124,7 @@ const Inventory = () => {
 
         const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot))
             ? true
-            : canPlaceItem(currentPage, Math.min(...slots), draggedItem.item);
+            : canPlaceItem(activeTab, Math.min(...slots), draggedItem.item);
         hoveredSlots.current = ({ slots: [...slots], canPlace });
     }
 
@@ -139,7 +137,7 @@ const Inventory = () => {
             highlightSlots(index);
         }
 
-        const item = findItemBySlot(currentPage, index)
+        const item = findItemBySlot(activeTab, index)
         if (item) {
             showItemTooltip(item);
         }
@@ -234,14 +232,12 @@ const Inventory = () => {
 
     return (
         <div className="inventory">
-            <div className="pages">
-                <button className={`page ${currentPage === 0 && 'page-active'}`} onClick={() => setCurrentPage(0)}>I</button>
-                <button className={`page ${currentPage === 1 && 'page-active'}`} onClick={() => setCurrentPage(1)}>II</button>
-            </div>
+            <InventoryTabs activeTab={activeTab} setActiveTab={setActiveTab} />
+
             <div className="slots">
                 {Array.from({ length: X_SIZE * Y_SIZE }).map((_, index) => {
 
-                    const itemsOnPage = items?.filter(item => item.page === currentPage);
+                    const itemsOnPage = items?.filter(item => item.tab === activeTab);
                     const item = itemsOnPage?.find(item => item.slot === index);
 
                     return (

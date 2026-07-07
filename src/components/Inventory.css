@@ -12,7 +12,7 @@
 
 }
 
-.pages {
+.tabs {
     display: grid;
     grid-template-columns: 1fr 1fr;
     opacity: 0.7;
@@ -20,7 +20,7 @@
     padding: 0 5px;
 }
 
-.page {
+.tab {
     height: 30px;
     display: flex;
     align-items: center;
@@ -31,7 +31,7 @@
     box-shadow: inset #8d8c8c 1px 1px 2px 1px, inset #131313a2 -2px -2px 2px 1px;
 }
 
-.page-active {
+.tab-active {
     background-color: #ffffff7a;
     box-shadow: inset #131313a2 1px 1px 2px 1px, inset #dad9d9 -2px -2px 2px 1px;
 }
