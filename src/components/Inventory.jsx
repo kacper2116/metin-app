@@ -7,6 +7,7 @@ import useInventoryDrag from "../hooks/useInventoryDrag"
 import useMousePosition from '../hooks/useMousePosition'
 import items_arr from "../data/items.json";
 import InventoryGrid from "./InventoryGrid"
+import Ghost from "./Ghost"
 
 const Inventory = () => {
 
@@ -46,16 +47,10 @@ const Inventory = () => {
             <InventoryGrid {...gridProps} />
 
             <button onClick={() => spawnItem(1)}>Add item</button>
-            {draggedItem && (
-                <img src={draggedItem.item.img} draggable="false" className="ghost-img" style=
-                    {{
-                        left: mousePosition.x,
-                        top: mousePosition.y
-                    }} />
-            )}
+            {draggedItem && <Ghost draggedItem={draggedItem} />}
 
             <Tooltip>
-                siemka
+
             </Tooltip>
         </div>
     )
