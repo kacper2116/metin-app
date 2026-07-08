@@ -1,6 +1,9 @@
 import React from 'react'
 
-const InventoryTabs = ({ activeTab, setActiveTab, tabCount }) => {
+const InventoryTabs = (props) => {
+
+    const { activeTab, setActiveTab, tabCount } = props;
+
     return (
         <div className="tabs">
             {Array.from({ length: tabCount }).map((_, index) => (

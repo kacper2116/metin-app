@@ -6,6 +6,7 @@ import useInventoryItems from "../hooks/useInventoryItems"
 import useInventoryDrag from "../hooks/useInventoryDrag"
 import useMousePosition from '../hooks/useMousePosition'
 import items_arr from "../data/items.json";
+import InventoryGrid from "./InventoryGrid"
 
 const Inventory = () => {
 
@@ -30,30 +31,20 @@ const Inventory = () => {
         tabCount
     }
 
+    const gridProps = {
+        items,
+        inventorySize,
+        activeTab,
+        handleClickSlot,
+        handleHoverSlot,
+        hoveredSlots
+    }
+
     return (
         <div className="inventory">
             <InventoryTabs {...tabsProps} />
+            <InventoryGrid {...gridProps} />
 
-            <div className="slots">
-                {Array.from({ length: inventorySize.x * inventorySize.y }).map((_, index) => {
-
-                    const itemsOnPage = items?.filter(item => item.tab === activeTab);
-                    const item = itemsOnPage?.find(item => item.slot === index);
-
-                    return (
-                        <div key={index} id={`slot-${index}`} className='slot' onMouseDown={handleClickSlot} onMouseEnter={(e) => handleHoverSlot(index)} onMouseLeave={(e) => hoveredSlots.current = ({ slots: [], canPlace: true })}>
-                            {hoveredSlots.current.slots?.includes(index) &&
-                                <div className={`slot-overlay ${!hoveredSlots.current.canPlace && 'slot-overlay-red'}`}></div>
-                            }
-                            {item &&
-                                <div className={`item ${draggedItem && 'item-selected'}`}>
-                                    <img className="item-img" draggable="false" src={item.item.img}></img>
-                                </div>
-                            }
-                        </div>
-                    )
-                })}
-            </div>
             <button onClick={() => spawnItem(1)}>Add item</button>
             {draggedItem && (
                 <img src={draggedItem.item.img} draggable="false" className="ghost-img" style=
