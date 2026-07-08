@@ -18,11 +18,9 @@ const Tooltip = ({ children }) => {
             <span className='corner rb'></span>
             <span className='line rb'></span>
 
-            <span className='bottom-bar'>
-            </span>
+            <span className='bottom-bar'></span>
 
             <div className='tooltip-content'>{children}</div>
-
         </div>
     )
 }

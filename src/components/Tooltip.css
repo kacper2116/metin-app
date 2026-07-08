@@ -12,8 +12,6 @@
     text-align: center;
     min-width: 240px;
     height: 200px;
-
-
 }
 
 .top-bar {
@@ -79,7 +77,6 @@
     height: 8px;
     top: -16px;
     left: 16px;
-
 }
 
 .corner.rt {
@@ -94,7 +91,6 @@
     right: 6px;
     border-right: 2px solid #3d3d3d;
     border-top: 2px solid #3d3d3d;
-
 }
 
 .line.rt {
@@ -110,9 +106,7 @@
     height: 8px;
     top: -16px;
     right: 16px;
-
 }
-
 
 .corner.lb {
     bottom: -18px;
@@ -126,7 +120,6 @@
     left: 6px;
     border-left: 2px solid #3d3d3d;
     border-bottom: 2px solid #3d3d3d;
-
 }
 
 .line.lb {
@@ -142,7 +135,6 @@
     height: 8px;
     bottom: -16px;
     left: 16px;
-
 }
 
 .corner.rb {
@@ -157,7 +149,6 @@
     right: 6px;
     border-right: 2px solid #3d3d3d;
     border-bottom: 2px solid #3d3d3d;
-
 }
 
 .line.rb {
@@ -173,5 +164,4 @@
     height: 8px;
     bottom: -16px;
     right: 16px;
-
 }

@@ -1,233 +1,27 @@
 import { useEffect, useState, useRef } from "react"
 import './Inventory.css'
-import useMousePosition from '../hooks/useMousePosition'
 import Tooltip from "./Tooltip"
 import InventoryTabs from "./InventoryTabs"
+import useInventoryItems from "../hooks/useInventoryItems"
+import useInventoryDrag from "../hooks/useInventoryDrag"
+import useMousePosition from '../hooks/useMousePosition'
 import items_arr from "../data/items.json";
+
 const Inventory = () => {
 
     const [activeTab, setActiveTab] = useState(0)
     const tabCount = 2;
-    const [X_SIZE, Y_SIZE] = [5, 9] //Wymiary inventory
+    const inventorySize = { x: 5, y: 9 };
 
     const mousePosition = useMousePosition();
-    const [draggedItem, setDraggedItem] = useState(null);
-    const [hoveredItem, setHoveredItem] = useState(null);
-    const hoveredSlots = useRef({ slots: [], canPlace: true })
-    const itemOriginSlots = useRef([]);
+    const { items, setItems, spawnItem, findItemBySlot, canPlaceItem } = useInventoryItems({ inventorySize });
 
-    const startPos = useRef({ x: 0, y: 0 });
-    const moveMode = useRef(null);
-
-    const [items, setItems] = useState([
-        { item: items_arr[0], tab: 0, slot: 0 },
-        { item: items_arr[1], tab: 0, slot: 14 },
-        { item: items_arr[2], tab: 0, slot: 30 },
-    ])
-
-    const findItemBySlot = (tab, slot) => {
-
-        const activeTabItems = items.filter(item => item.tab === tab);
-        return activeTabItems.find(item => {
-
-            for (let i = 0; i < item.item.size; i++) {
-                const currentSlot = item.slot + i * X_SIZE;
-                if (currentSlot === slot) return true;
-            }
-            return false;
-        })
-
-    }
-
-    const handleClickSlot = (e) => {
-
-        if (draggedItem) {
-            handleDropItem(e);
-            return;
-        }
-
-        const slotIndex = Number(e.currentTarget.id.split('-')[1]);
-        const itemInSlot = findItemBySlot(activeTab, slotIndex);
-
-        if (itemInSlot) {
-            setDraggedItem(itemInSlot)
-            startPos.current = { x: e.clientX, y: e.clientY };
-            itemOriginSlots.current = getItemSlots(itemInSlot);
-
-            let slots = getSelectedSlots(slotIndex, itemInSlot.item.size)
-
-            const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot)) ? true : canPlaceItem(activeTab, Math.min(...slots), itemInSlot.item);
-
-            hoveredSlots.current = ({ slots: getSelectedSlots(slotIndex, itemInSlot.item.size), canPlace });
-        }
-
-    }
-
-    const handleDropItem = (e) => {
-        if (!draggedItem) return;
-        console.log('droping item')
-        const slotIndex = hoveredSlots.current.slots[0];
-
-        if (canPlaceItem(activeTab, slotIndex, draggedItem.item)) {
-
-            setItems(prev =>
-                prev.map(item => item.tab === draggedItem.tab && item.slot === draggedItem.slot ? { ...item, tab: activeTab, slot: slotIndex } : item)
-            );
-        }
-
-        hoveredSlots.current = ({ slots: [], canPlace: true });
-        setDraggedItem(null);
-        moveMode.current = null;
-        itemOriginSlots.current = [];
-
-    }
-
-
-    const getItemSlots = (item) => {
-        const itemSize = item.item.size;
-        const itemSlot = item.slot;
-        const itemSlots = [];
-        for (let i = 0; i < itemSize; i++) {
-            const currentSlot = itemSlot + i * X_SIZE;
-            itemSlots.push(currentSlot);
-        }
-
-        return itemSlots;
-    }
-
-    const getSelectedSlots = (slotIndex, itemSize) => {
-
-        let slots = []
-        for (let i = 0; i < itemSize; i++) {
-            let currentSlot = null;
-            if (i > 1) currentSlot = slotIndex - X_SIZE
-            else currentSlot = slotIndex + i * X_SIZE;
-            slots.push(currentSlot)
-        }
-
-        let badIndex = slots.findIndex(slotIndex => slotIndex < 0 || slotIndex > X_SIZE * Y_SIZE - 1);
-        if (badIndex !== -1) {
-
-            if (slots[badIndex] < 0) {
-                slots[badIndex] = Math.max(...slots) + X_SIZE;
-            }
-            if (slots[badIndex] > X_SIZE * Y_SIZE - 1) {
-                slots[badIndex] = Math.min(...slots) - X_SIZE;
-            }
-        }
-        const sorted = slots.sort((a, b) => a - b);
-        return sorted;
-    }
-
-    const highlightSlots = (index) => {
-        let slots = getSelectedSlots(index, draggedItem.item.size);
-
-        const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot))
-            ? true
-            : canPlaceItem(activeTab, Math.min(...slots), draggedItem.item);
-        hoveredSlots.current = ({ slots: [...slots], canPlace });
-    }
+    const { draggedItem, hoveredSlots, handleClickSlot, handleHoverSlot } = useInventoryDrag({
+        items, setItems, activeTab, canPlaceItem, inventorySize
+    });
 
     const showItemTooltip = (item) => {
         console.log("showing tooltip")
-    }
-
-    const handleHoverSlot = (index) => {
-        if (draggedItem) {
-            highlightSlots(index);
-        }
-
-        const item = findItemBySlot(activeTab, index)
-        if (item) {
-            showItemTooltip(item);
-        }
-    }
-
-    useEffect(() => {
-
-        const handleMouseUp = (e) => {
-
-            console.log('pointer up')
-            if (!draggedItem) return;
-            if (moveMode.current === 'click') {
-                console.log('click drop end');
-
-                return;
-            } if (moveMode.current === 'drag') {
-                console.log('drag end');
-                handleDropItem(e);
-            } else {
-                moveMode.current = 'click';
-                console.log('click drop start');
-            }
-        }
-
-        const handleMouseMove = (e) => {
-            if (!draggedItem) return;
-            if (moveMode.current !== null) return;
-
-            const moveX = Math.abs(e.clientX - startPos.current.x)
-            const moveY = Math.abs(e.clientY - startPos.current.y)
-
-            if (moveX > 5 || moveY > 5) {
-                moveMode.current = "drag"
-                console.log("drag start")
-            }
-        }
-        window.addEventListener('mousemove', handleMouseMove);
-        window.addEventListener('mouseup', handleMouseUp);
-
-        return () => {
-            window.removeEventListener('mousemove', handleMouseMove);
-            window.removeEventListener('mouseup', handleMouseUp);
-        }
-
-    }, [draggedItem])
-
-
-    const isSlotEmpty = (page, slot) => {
-        return !findItemBySlot(page, slot)
-    }
-
-    const canPlaceItem = (page, slot, item) => {
-
-        for (let i = 0; i < item.size; i++) {
-            const currentSlot = slot + i * X_SIZE;
-
-            if (currentSlot >= X_SIZE * Y_SIZE) {
-                return false;
-            }
-            if (!isSlotEmpty(page, currentSlot)) {
-                return false;
-            };
-        }
-        return true;
-    }
-
-    const addItem = (item) => {
-        setItems((prev) => {
-            let updated = structuredClone(prev)
-            updated = [...updated, item];
-            console.log(updated)
-            return updated;
-        })
-    }
-
-    const spawnItem = (id) => {
-
-        const itemToSpawn = items_arr.find(item => item.id === id);
-
-        for (let tab = 0; tab < 2; tab++) {
-
-            for (let slot = 0; slot < X_SIZE * Y_SIZE; slot++) {
-                if (canPlaceItem(tab, slot, itemToSpawn)) {
-                    addItem({ item: itemToSpawn, tab: tab, slot: slot });
-                    console.log("Dodano item");
-                    return;
-                }
-            }
-        }
-        console.log("Nie można dodać itemu")
     }
 
     const tabsProps = {
@@ -241,7 +35,7 @@ const Inventory = () => {
             <InventoryTabs {...tabsProps} />
 
             <div className="slots">
-                {Array.from({ length: X_SIZE * Y_SIZE }).map((_, index) => {
+                {Array.from({ length: inventorySize.x * inventorySize.y }).map((_, index) => {
 
                     const itemsOnPage = items?.filter(item => item.tab === activeTab);
                     const item = itemsOnPage?.find(item => item.slot === index);
@@ -269,12 +63,9 @@ const Inventory = () => {
                     }} />
             )}
 
-
             <Tooltip>
                 siemka
             </Tooltip>
-
-
         </div>
     )
 }
