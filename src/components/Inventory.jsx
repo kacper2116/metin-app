@@ -1,13 +1,13 @@
 import { useEffect, useState, useRef } from "react"
-import './Inventory.css'
+import '../styles/Inventory.css'
 import Tooltip from "./Tooltip"
 import InventoryTabs from "./InventoryTabs"
 import useInventoryItems from "../hooks/useInventoryItems"
 import useInventoryDrag from "../hooks/useInventoryDrag"
 import useMousePosition from '../hooks/useMousePosition'
-import items_arr from "../data/items.json";
 import InventoryGrid from "./InventoryGrid"
 import Ghost from "./Ghost"
+import items_arr from "../data/items.json";
 
 const Inventory = () => {
 

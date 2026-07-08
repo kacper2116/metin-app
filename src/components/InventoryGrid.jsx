@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/InventoryGrid.css'
 
 const InventoryGrid = (props) => {
 
