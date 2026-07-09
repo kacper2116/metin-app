@@ -3,10 +3,10 @@ import '../styles/InventoryGrid.css'
 
 const InventoryGrid = (props) => {
 
-    const { items, inventorySize, activeTab, handleClickSlot, handleHoverSlot, hoveredSlots } = props;
+    const { items, inventorySize, activeTab, handleClickSlot, handleHoverSlot, hoveredSlots, setHoveredItem } = props;
 
     return (
-        <div className="grid">
+        <div className="grid" onMouseLeave={() => setHoveredItem(null)}>
             {Array.from({ length: inventorySize.x * inventorySize.y }).map((_, index) => {
 
                 const itemsOnPage = items?.filter(item => item.tab === activeTab);

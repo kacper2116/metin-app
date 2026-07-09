@@ -67,15 +67,13 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize }) => {
     }
 
     const handleHoverSlot = (index) => {
+
         if (draggedItem) {
             highlightSlots(index);
         }
 
         const item = findItemBySlot(items, activeTab, index, inventorySize)
-        if (item) {
-            if (hoveredItem) return;
-            setHoveredItem(item);
-        } else setHoveredItem(null);
+        setHoveredItem(item);
 
     }
 
@@ -120,7 +118,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize }) => {
 
     }, [draggedItem])
 
-    return { draggedItem, hoveredItem, hoveredSlots, handleClickSlot, handleHoverSlot }
+    return { draggedItem, hoveredItem, hoveredSlots, handleClickSlot, handleHoverSlot, setHoveredItem }
 }
 
 export default useInventoryDrag

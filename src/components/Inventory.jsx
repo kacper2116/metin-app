@@ -22,7 +22,7 @@ const Inventory = () => {
 
     const { items, setItems, spawnItem, findItemBySlot, canPlaceItem } = useInventoryItems({ inventorySize });
 
-    const { draggedItem, hoveredItem, hoveredSlots, handleClickSlot, handleHoverSlot } = useInventoryDrag({
+    const { draggedItem, hoveredItem, hoveredSlots, handleClickSlot, handleHoverSlot, setHoveredItem } = useInventoryDrag({
         items, setItems, activeTab, canPlaceItem, inventorySize
     });
 
@@ -47,7 +47,8 @@ const Inventory = () => {
         activeTab,
         handleClickSlot,
         handleHoverSlot,
-        hoveredSlots
+        hoveredSlots,
+        setHoveredItem
     }
 
     return (
