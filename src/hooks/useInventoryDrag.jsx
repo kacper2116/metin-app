@@ -60,10 +60,18 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize }) => {
     const highlightSlots = (index) => {
         let slots = getSelectedSlots(index, draggedItem.item.size, inventorySize);
 
+        const firstHoveredItem = slots.map(slot =>
+            findItemBySlot(items, activeTab, slot, inventorySize) || null
+        ).find(item => item !== null)
+
+        setHoveredItem(firstHoveredItem);
+
         const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot))
             ? true
             : canPlaceItem(items, activeTab, Math.min(...slots), draggedItem.item, inventorySize);
         hoveredSlots.current = ({ slots: [...slots], canPlace });
+
+
     }
 
     const handleHoverSlot = (index) => {
@@ -72,9 +80,10 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize }) => {
             highlightSlots(index);
         }
 
-        const item = findItemBySlot(items, activeTab, index, inventorySize)
-        setHoveredItem(item);
-
+        else {
+            const item = findItemBySlot(items, activeTab, index, inventorySize)
+            setHoveredItem(item);
+        }
     }
 
     useEffect(() => {
