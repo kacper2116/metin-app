@@ -1,9 +1,44 @@
-import React from 'react'
+import React, { forwardRef, useLayoutEffect, useRef, useState } from 'react'
 import '../styles/Tooltip.css'
 
-const Tooltip = ({ children }) => {
+const Tooltip = ({ children, mousePosition }) => {
+
+
+    const tooltipRef = useRef(null)
+    const [tooltipSize, setTooltipSize] = useState(null)
+
+    const offset = -50;
+
+    useLayoutEffect(() => {
+        const rect = tooltipRef.current.getBoundingClientRect();
+        setTooltipSize({ width: rect.width, height: rect.height });
+    }, [children])
+
+    const position = tooltipSize
+        ? {
+            left: Math.max(
+                0,
+                Math.min(
+                    mousePosition.x - tooltipSize.width / 2,
+                    window.innerWidth - tooltipSize.width
+                )
+            ),
+
+            top: Math.max(
+                0,
+                Math.min(
+                    mousePosition.y - tooltipSize.height / 2 + offset,
+                    window.innerHeight - tooltipSize.height
+                )
+            )
+        }
+        : {
+            left: mousePosition.x,
+            top: mousePosition.y
+        };
     return (
-        <div className='tooltip'>
+        <div className='tooltip' ref={tooltipRef}
+            style={position}>
             <span className='top-bar'></span>
 
             <span className='corner lt'></span>
@@ -24,5 +59,6 @@ const Tooltip = ({ children }) => {
         </div>
     )
 }
+
 
 export default Tooltip

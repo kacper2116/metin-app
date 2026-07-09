@@ -8,19 +8,28 @@ import useMousePosition from '../hooks/useMousePosition'
 import InventoryGrid from "./InventoryGrid"
 import Ghost from "./Ghost"
 import items_arr from "../data/items.json";
+import useTooltipPosition from "../hooks/useTooltipPosition"
 
 const Inventory = () => {
 
     const [activeTab, setActiveTab] = useState(0)
+    const tooltipRef = useRef(null);
+    const inventoryRef = useRef(null);
     const tabCount = 2;
     const inventorySize = { x: 5, y: 9 };
 
-    const mousePosition = useMousePosition();
+
+
     const { items, setItems, spawnItem, findItemBySlot, canPlaceItem } = useInventoryItems({ inventorySize });
 
     const { draggedItem, hoveredItem, hoveredSlots, handleClickSlot, handleHoverSlot } = useInventoryDrag({
         items, setItems, activeTab, canPlaceItem, inventorySize
     });
+
+    const mousePosition = useMousePosition();
+
+    const tooltipPosition = useTooltipPosition({ tooltipRef, mousePosition, hoveredItem });
+
 
     const showItemTooltip = (item) => {
         console.log("showing tooltip")
@@ -42,7 +51,7 @@ const Inventory = () => {
     }
 
     return (
-        <div className="inventory">
+        <div className="inventory" ref={inventoryRef}>
             <InventoryTabs {...tabsProps} />
             <InventoryGrid {...gridProps} />
 
@@ -51,7 +60,7 @@ const Inventory = () => {
 
 
             {hoveredItem &&
-                <Tooltip>
+                <Tooltip mousePosition={mousePosition} >
                     {hoveredItem.item.name}
                 </Tooltip>}
 
