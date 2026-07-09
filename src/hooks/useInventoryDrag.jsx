@@ -6,9 +6,9 @@ import useMousePosition from './useMousePosition';
 const useInventoryDrag = ({ items, setItems, activeTab, inventorySize }) => {
 
     const [draggedItem, setDraggedItem] = useState(null);
-    const [hoveredItem, setHoveredItem] = useState(null);
 
-    const hoveredSlots = useRef({ slots: [], canPlace: true })
+    const [hoveredItem, setHoveredItem] = useState(null);
+    const hoveredSlots = useRef({ slots: [], canPlace: true });
     const startPos = useRef({ x: 0, y: 0 });
     const moveMode = useRef(null);
     const itemOriginSlots = useRef([]);
@@ -73,8 +73,10 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize }) => {
 
         const item = findItemBySlot(items, activeTab, index, inventorySize)
         if (item) {
-            console.log("show item tooltip")
-        }
+            if (hoveredItem) return;
+            setHoveredItem(item);
+        } else setHoveredItem(null);
+
     }
 
     useEffect(() => {
@@ -118,7 +120,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize }) => {
 
     }, [draggedItem])
 
-    return { draggedItem, hoveredSlots, handleClickSlot, handleHoverSlot }
+    return { draggedItem, hoveredItem, hoveredSlots, handleClickSlot, handleHoverSlot }
 }
 
 export default useInventoryDrag
