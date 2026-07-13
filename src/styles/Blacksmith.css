@@ -1,0 +1,9 @@
+.blacksmith {
+    display: flex;
+    width: fit-content;
+    border: 2px solid red;
+}
+
+.blacksmith-img {
+    width: 400px;
+}
