@@ -5,11 +5,11 @@ import ItemSpawner from './components/ItemSpawner'
 const App = () => {
 
   return (
-    <>
+    <div className='app-container'>
       <Blacksmith />
       <ItemSpawner />
       <Inventory />
-    </>
+    </div>
   )
 }
 

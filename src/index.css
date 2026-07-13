@@ -5,3 +5,9 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  background-image: url("/src/assets/background.png");
+  background-size: 400px;
+  background-repeat: repeat;
+}
