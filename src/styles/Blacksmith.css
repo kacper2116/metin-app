@@ -1,10 +1,9 @@
 .blacksmith {
-    width: 300px;
+    width: 400px;
 }
 
 .blacksmith-img {
     width: 100%;
     height: auto;
-
     filter: brightness(140%) drop-shadow(1px 0 1px rgb(120, 120, 120)) drop-shadow(-1px 0 1px rgb(120, 120, 120)) drop-shadow(0 1px 1px rgb(120, 120, 120)) drop-shadow(0 -1px 1px rgb(120, 120, 120))
 }

@@ -7,8 +7,10 @@ const App = () => {
   return (
     <div className='app-container'>
       <Blacksmith />
-      <ItemSpawner />
-      <Inventory />
+      <div className='inventory-wrapper'>
+        <ItemSpawner />
+        <Inventory />
+      </div>
     </div>
   )
 }
