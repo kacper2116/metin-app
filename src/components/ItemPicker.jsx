@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import '../styles/ItemSpawner.css'
+import '../styles/ItemPicker.css'
 import items_arr from "../data/items.json";
 
-const ItemSpawner = () => {
+const ItemPicker = () => {
 
     const [itemToSpawn, setItemToSpawn] = useState(null);
     const [showModal, setShowModal] = useState(false)
@@ -15,7 +15,7 @@ const ItemSpawner = () => {
     }
 
     return (
-        <div className='item-spawner'>
+        <div className='item-picker'>
             <div className='select-item' onClick={() => setShowModal(true)}>{itemToSpawn ?? 'Wybierz item'}</div>
             <button className='spawn-button'>Spawn</button>
 
@@ -43,4 +43,4 @@ const ItemSpawner = () => {
     )
 }
 
-export default ItemSpawner
+export default ItemPicker
