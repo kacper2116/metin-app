@@ -18,8 +18,6 @@ const Inventory = () => {
     const tabCount = 2;
     const inventorySize = { x: 5, y: 9 };
 
-
-
     const { items, setItems, spawnItem, findItemBySlot, canPlaceItem } = useInventoryItems({ inventorySize });
 
     const { draggedItem, hoveredItem, hoveredSlots, handleClickSlot, handleHoverSlot, setHoveredItem } = useInventoryDrag({
@@ -58,7 +56,6 @@ const Inventory = () => {
 
             <button onClick={() => spawnItem(1)}>Add item</button>
             {draggedItem && <Ghost draggedItem={draggedItem} />}
-
 
             {hoveredItem &&
                 <Tooltip mousePosition={mousePosition} >
