@@ -58,14 +58,13 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
     const updateSlotsPreview = (index) => {
         let slots = getSelectedSlots(index, draggedItem.item.size, inventorySize);
-        console.log(slots)
+
 
         /*  const firstHoveredItem = slots.map(slot =>
              findItemBySlot(items, activeTab, slot, inventorySize) || null
          ).find(item => item !== null) */
 
         /* setHoveredItem(firstHoveredItem);  */
-
 
         const firstHoveredSlot = slots.find(slot =>
             findItemBySlot(items, activeTab, slot, inventorySize)
@@ -77,7 +76,6 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
             ? true
             : canPlaceItem(items, activeTab, Math.min(...slots), draggedItem.item, inventorySize);
         slotsPreview.current = ({ slots: [...slots], canPlace });
-
 
     }
 
