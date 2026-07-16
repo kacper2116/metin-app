@@ -1,13 +1,12 @@
-import React from 'react'
+import React, { act } from 'react'
 import { useState, useEffect, useRef } from 'react';
 import { getSelectedSlots, getItemSlots, findItemBySlot, canPlaceItem } from '../utils/inventory';
 import useMousePosition from './useMousePosition';
 
-const useInventoryDrag = ({ items, setItems, activeTab, inventorySize }) => {
+
+const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHoverSlot }) => {
 
     const [draggedItem, setDraggedItem] = useState(null);
-
-    const [hoveredItem, setHoveredItem] = useState(null);
     const hoveredSlots = useRef({ slots: [], canPlace: true });
     const startPos = useRef({ x: 0, y: 0 });
     const moveMode = useRef(null);
@@ -59,12 +58,20 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize }) => {
 
     const highlightSlots = (index) => {
         let slots = getSelectedSlots(index, draggedItem.item.size, inventorySize);
+        console.log(slots)
 
-        const firstHoveredItem = slots.map(slot =>
-            findItemBySlot(items, activeTab, slot, inventorySize) || null
-        ).find(item => item !== null)
+        /*  const firstHoveredItem = slots.map(slot =>
+             findItemBySlot(items, activeTab, slot, inventorySize) || null
+         ).find(item => item !== null) */
 
-        setHoveredItem(firstHoveredItem);
+        /* setHoveredItem(firstHoveredItem);  */
+
+
+        const firstHoveredSlot = slots.find(slot =>
+            findItemBySlot(items, activeTab, slot, inventorySize)
+        );
+
+        handleHoverSlot(firstHoveredSlot)
 
         const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot))
             ? true
@@ -74,17 +81,16 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize }) => {
 
     }
 
-    const handleHoverSlot = (index) => {
+    const handleHighlightSlots = (index) => {
 
         if (draggedItem) {
             highlightSlots(index);
+            return;
         }
 
-        else {
-            const item = findItemBySlot(items, activeTab, index, inventorySize)
-            setHoveredItem(item);
-        }
+        handleHoverSlot(index);
     }
+
 
     useEffect(() => {
 
@@ -127,7 +133,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize }) => {
 
     }, [draggedItem])
 
-    return { draggedItem, hoveredItem, hoveredSlots, handleClickSlot, handleHoverSlot, setHoveredItem }
+    return { draggedItem, hoveredSlots, handleClickSlot, handleHighlightSlots }
 }
 
 export default useInventoryDrag

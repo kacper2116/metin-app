@@ -3,17 +3,17 @@ import '../styles/InventoryGrid.css'
 
 const InventoryGrid = (props) => {
 
-    const { items, inventorySize, activeTab, handleClickSlot, handleHoverSlot, hoveredSlots, setHoveredItem } = props;
+    const { items, inventorySize, activeTab, handleClickSlot, hoveredSlots, handleHighlightSlots, clearHover } = props;
 
     return (
-        <div className="grid" onMouseLeave={() => setHoveredItem(null)}>
+        <div className="grid" onMouseLeave={clearHover}>
             {Array.from({ length: inventorySize.x * inventorySize.y }).map((_, index) => {
 
                 const itemsOnPage = items?.filter(item => item.tab === activeTab);
                 const item = itemsOnPage?.find(item => item.slot === index);
 
                 return (
-                    <div key={index} id={`slot-${index}`} className='slot' onMouseDown={handleClickSlot} onMouseEnter={(e) => handleHoverSlot(index)} onMouseLeave={(e) => hoveredSlots.current = ({ slots: [], canPlace: true })}>
+                    <div key={index} id={`slot-${index}`} className='slot' onMouseDown={handleClickSlot} onMouseEnter={(e) => handleHighlightSlots(index)} onMouseLeave={() => clearHover}>
                         {hoveredSlots.current.slots?.includes(index) &&
                             <div className={`slot-overlay ${!hoveredSlots.current.canPlace && 'slot-overlay-red'}`}></div>
                         }
