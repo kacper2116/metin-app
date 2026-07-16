@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import '../styles/ItemSpawner.css'
 import items_arr from "../data/items.json";
 import ItemPicker from './ItemPicker';
+import useInventoryItems from '../hooks/useInventoryItems';
 
 const ItemSpawner = () => {
 
@@ -14,6 +15,10 @@ const ItemSpawner = () => {
     const filterOptions = {
 
     }
+    const size = { x: 5, y: 6 };
+
+    const { items } = useInventoryItems(size);
+
 
     return (
         <div className='item-spawner'>
@@ -25,7 +30,7 @@ const ItemSpawner = () => {
                     <button className='close-modal-button' onClick={() => setShowModal(false)}>X</button>
                     <input type='text' className='search-item' placeholder='Wyszukaj item' />
 
-                    <ItemPicker />
+                    <ItemPicker items={items} size={size} />
                 </div>
             }
 

@@ -1,18 +1,20 @@
 import React from 'react'
+import InventoryGrid from './InventoryGrid'
+import useInventoryItems from '../hooks/useInventoryItems'
 
-const ItemPicker = ({ items, onItemPick }) => {
+const ItemPicker = ({ items, size }) => {
+
+
+    const gridProps = {
+        items: items,
+        inventorySize: size
+    }
+
+    console.log(items)
+
     return (
         <div className='inventory'>
-            <div className='grid'>
-                {Array.from({ length: 5 * 6 }).map((_, index) => {
-
-                    return (
-                        <div key={index} id={`slot-${index}`} className='slot'>
-
-                        </div>
-                    )
-                })}
-            </div>
+            <InventoryGrid {...gridProps} />
         </div>
     )
 }
