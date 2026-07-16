@@ -44,18 +44,22 @@ const Inventory = () => {
         tabCount
     }
 
+    const slotOverlay = (index) => {
+        if (!slotsPreview.current.slots?.includes(index)) return null;
+        return (
+            <div className={`slot-overlay ${!slotsPreview.current.canPlace && 'slot-overlay-red'}`}></div>
+        )
+    }
+
     const gridProps = {
         items: activeTabItems,
         inventorySize,
         handleClickSlot,
-        slotsPreview,
-        handleUpdateSlotsPreview,
-        clearSlotsPreview,
-        clearHover,
+        slotOverlay,
+        handleHoverSlot: handleUpdateSlotsPreview,
+        handleLeaveSlot: clearSlotsPreview,
+        handleLeaveGrid: clearHover,
     }
-
-
-
 
     return (
         <div className="inventory" ref={inventoryRef}>
