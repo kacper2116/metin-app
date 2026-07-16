@@ -9,8 +9,7 @@ const InventoryGrid = (props) => {
         <div className="grid" onMouseLeave={clearHover}>
             {Array.from({ length: inventorySize.x * inventorySize.y }).map((_, index) => {
 
-                const itemsOnPage = items?.filter(item => item.tab === activeTab);
-                const item = itemsOnPage?.find(item => item.slot === index);
+                const item = items?.find(item => item.slot === index);
 
                 return (
                     <div key={index} id={`slot-${index}`} className='slot' onMouseDown={handleClickSlot} onMouseEnter={(e) => handleUpdateSlotsPreview(index)} onMouseLeave={clearSlotsPreview}>

@@ -32,6 +32,7 @@ const Inventory = () => {
 
     const tooltipPosition = useTooltipPosition({ tooltipRef, mousePosition, hoveredItem });
 
+    const activeTabItems = items?.filter(item => item.tab === activeTab);
 
     const showItemTooltip = (item) => {
         console.log("showing tooltip")
@@ -44,7 +45,7 @@ const Inventory = () => {
     }
 
     const gridProps = {
-        items,
+        items: activeTabItems,
         inventorySize,
         activeTab,
         handleClickSlot,
@@ -53,6 +54,9 @@ const Inventory = () => {
         clearSlotsPreview,
         clearHover,
     }
+
+
+
 
     return (
         <div className="inventory" ref={inventoryRef}>
