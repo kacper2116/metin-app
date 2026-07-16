@@ -25,7 +25,7 @@ const Inventory = () => {
 
     const { hoveredItem, setHoveredItem, handleHoverSlot, clearHover } = useSlotHover({ items, activeTab, inventorySize });
 
-    const { draggedItem, hoveredSlots, handleClickSlot, handleHighlightSlots } = useInventoryDrag({
+    const { draggedItem, slotsPreview, handleClickSlot, handleUpdateSlotsPreview, clearSlotsPreview } = useInventoryDrag({
         items, setItems, activeTab, canPlaceItem, inventorySize, handleHoverSlot
     });
 
@@ -50,8 +50,9 @@ const Inventory = () => {
         inventorySize,
         activeTab,
         handleClickSlot,
-        hoveredSlots,
-        handleHighlightSlots,
+        slotsPreview,
+        handleUpdateSlotsPreview,
+        clearSlotsPreview,
         clearHover,
     }
 

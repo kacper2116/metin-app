@@ -3,7 +3,7 @@ import '../styles/InventoryGrid.css'
 
 const InventoryGrid = (props) => {
 
-    const { items, inventorySize, activeTab, handleClickSlot, hoveredSlots, handleHighlightSlots, clearHover } = props;
+    const { items, inventorySize, activeTab, handleClickSlot, slotsPreview, handleUpdateSlotsPreview, clearHover, clearSlotsPreview } = props;
 
     return (
         <div className="grid" onMouseLeave={clearHover}>
@@ -13,9 +13,9 @@ const InventoryGrid = (props) => {
                 const item = itemsOnPage?.find(item => item.slot === index);
 
                 return (
-                    <div key={index} id={`slot-${index}`} className='slot' onMouseDown={handleClickSlot} onMouseEnter={(e) => handleHighlightSlots(index)} onMouseLeave={() => clearHover}>
-                        {hoveredSlots.current.slots?.includes(index) &&
-                            <div className={`slot-overlay ${!hoveredSlots.current.canPlace && 'slot-overlay-red'}`}></div>
+                    <div key={index} id={`slot-${index}`} className='slot' onMouseDown={handleClickSlot} onMouseEnter={(e) => handleUpdateSlotsPreview(index)} onMouseLeave={clearSlotsPreview}>
+                        {slotsPreview.current.slots?.includes(index) &&
+                            <div className={`slot-overlay ${!slotsPreview.current.canPlace && 'slot-overlay-red'}`}></div>
                         }
                         {item &&
                             <div className={`item ${item && 'item-selected'}`}>

@@ -7,7 +7,7 @@ import useMousePosition from './useMousePosition';
 const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHoverSlot }) => {
 
     const [draggedItem, setDraggedItem] = useState(null);
-    const hoveredSlots = useRef({ slots: [], canPlace: true });
+    const slotsPreview = useRef({ slots: [], canPlace: true });
     const startPos = useRef({ x: 0, y: 0 });
     const moveMode = useRef(null);
     const itemOriginSlots = useRef([]);
@@ -33,7 +33,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
             const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot)) ? true : canPlaceItem(items, activeTab, Math.min(...slots), itemInSlot.item, inventorySize);
 
-            hoveredSlots.current = ({ slots: getSelectedSlots(slotIndex, itemInSlot.item.size, inventorySize), canPlace });
+            slotsPreview.current = ({ slots: getSelectedSlots(slotIndex, itemInSlot.item.size, inventorySize), canPlace });
         }
 
     }
@@ -41,7 +41,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
     const handleDropItem = (e) => {
         if (!draggedItem) return;
         console.log('droping item')
-        const slotIndex = hoveredSlots.current.slots[0];
+        const slotIndex = slotsPreview.current.slots[0];
 
         if (canPlaceItem(items, activeTab, slotIndex, draggedItem.item, inventorySize)) {
 
@@ -50,13 +50,13 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
             );
         }
 
-        hoveredSlots.current = ({ slots: [], canPlace: true });
+        slotsPreview.current = ({ slots: [], canPlace: true });
         setDraggedItem(null);
         moveMode.current = null;
         itemOriginSlots.current = [];
     }
 
-    const highlightSlots = (index) => {
+    const updateSlotsPreview = (index) => {
         let slots = getSelectedSlots(index, draggedItem.item.size, inventorySize);
         console.log(slots)
 
@@ -76,19 +76,23 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot))
             ? true
             : canPlaceItem(items, activeTab, Math.min(...slots), draggedItem.item, inventorySize);
-        hoveredSlots.current = ({ slots: [...slots], canPlace });
+        slotsPreview.current = ({ slots: [...slots], canPlace });
 
 
     }
 
-    const handleHighlightSlots = (index) => {
+    const handleUpdateSlotsPreview = (index) => {
 
         if (draggedItem) {
-            highlightSlots(index);
+            updateSlotsPreview(index);
             return;
         }
 
         handleHoverSlot(index);
+    }
+
+    const clearSlotsPreview = () => {
+        slotsPreview.current = { slots: [], canPlace: true }
     }
 
 
@@ -133,7 +137,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
     }, [draggedItem])
 
-    return { draggedItem, hoveredSlots, handleClickSlot, handleHighlightSlots }
+    return { draggedItem, slotsPreview, handleClickSlot, handleUpdateSlotsPreview, clearSlotsPreview }
 }
 
 export default useInventoryDrag
