@@ -9,6 +9,7 @@ import InventoryGrid from "./InventoryGrid"
 import Ghost from "./Ghost"
 import items_arr from "../data/items.json";
 import useTooltipPosition from "../hooks/useTooltipPosition"
+import useSlotHover from "../hooks/useSlotHover"
 
 const Inventory = () => {
 
@@ -20,9 +21,12 @@ const Inventory = () => {
 
     const { items, setItems, spawnItem, findItemBySlot, canPlaceItem } = useInventoryItems({ inventorySize });
 
-    const { draggedItem, hoveredItem, hoveredSlots, handleClickSlot, handleHoverSlot, setHoveredItem } = useInventoryDrag({
-        items, setItems, activeTab, canPlaceItem, inventorySize
+    const { hoveredItem, setHoveredItem, handleHoverSlot, clearHover } = useSlotHover({ items, activeTab, inventorySize });
+
+    const { draggedItem, slotsPreview, handleClickSlot, handleUpdateSlotsPreview, clearSlotsPreview } = useInventoryDrag({
+        items, setItems, activeTab, canPlaceItem, inventorySize, handleHoverSlot
     });
+
 
     const mousePosition = useMousePosition();
 
@@ -44,9 +48,10 @@ const Inventory = () => {
         inventorySize,
         activeTab,
         handleClickSlot,
-        handleHoverSlot,
-        hoveredSlots,
-        setHoveredItem
+        slotsPreview,
+        handleUpdateSlotsPreview,
+        clearSlotsPreview,
+        clearHover,
     }
 
     return (

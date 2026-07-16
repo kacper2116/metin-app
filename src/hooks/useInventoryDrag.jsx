@@ -1,14 +1,13 @@
-import React from 'react'
+import React, { act } from 'react'
 import { useState, useEffect, useRef } from 'react';
 import { getSelectedSlots, getItemSlots, findItemBySlot, canPlaceItem } from '../utils/inventory';
 import useMousePosition from './useMousePosition';
 
-const useInventoryDrag = ({ items, setItems, activeTab, inventorySize }) => {
+
+const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHoverSlot }) => {
 
     const [draggedItem, setDraggedItem] = useState(null);
-
-    const [hoveredItem, setHoveredItem] = useState(null);
-    const hoveredSlots = useRef({ slots: [], canPlace: true });
+    const slotsPreview = useRef({ slots: [], canPlace: true });
     const startPos = useRef({ x: 0, y: 0 });
     const moveMode = useRef(null);
     const itemOriginSlots = useRef([]);
@@ -34,7 +33,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize }) => {
 
             const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot)) ? true : canPlaceItem(items, activeTab, Math.min(...slots), itemInSlot.item, inventorySize);
 
-            hoveredSlots.current = ({ slots: getSelectedSlots(slotIndex, itemInSlot.item.size, inventorySize), canPlace });
+            slotsPreview.current = ({ slots: getSelectedSlots(slotIndex, itemInSlot.item.size, inventorySize), canPlace });
         }
 
     }
@@ -42,7 +41,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize }) => {
     const handleDropItem = (e) => {
         if (!draggedItem) return;
         console.log('droping item')
-        const slotIndex = hoveredSlots.current.slots[0];
+        const slotIndex = slotsPreview.current.slots[0];
 
         if (canPlaceItem(items, activeTab, slotIndex, draggedItem.item, inventorySize)) {
 
@@ -51,40 +50,49 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize }) => {
             );
         }
 
-        hoveredSlots.current = ({ slots: [], canPlace: true });
+        slotsPreview.current = ({ slots: [], canPlace: true });
         setDraggedItem(null);
         moveMode.current = null;
         itemOriginSlots.current = [];
     }
 
-    const highlightSlots = (index) => {
+    const updateSlotsPreview = (index) => {
         let slots = getSelectedSlots(index, draggedItem.item.size, inventorySize);
 
-        const firstHoveredItem = slots.map(slot =>
-            findItemBySlot(items, activeTab, slot, inventorySize) || null
-        ).find(item => item !== null)
 
-        setHoveredItem(firstHoveredItem);
+        /*  const firstHoveredItem = slots.map(slot =>
+             findItemBySlot(items, activeTab, slot, inventorySize) || null
+         ).find(item => item !== null) */
+
+        /* setHoveredItem(firstHoveredItem);  */
+
+        const firstHoveredSlot = slots.find(slot =>
+            findItemBySlot(items, activeTab, slot, inventorySize)
+        );
+
+        handleHoverSlot(firstHoveredSlot)
 
         const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot))
             ? true
             : canPlaceItem(items, activeTab, Math.min(...slots), draggedItem.item, inventorySize);
-        hoveredSlots.current = ({ slots: [...slots], canPlace });
-
+        slotsPreview.current = ({ slots: [...slots], canPlace });
 
     }
 
-    const handleHoverSlot = (index) => {
+    const handleUpdateSlotsPreview = (index) => {
 
         if (draggedItem) {
-            highlightSlots(index);
+            updateSlotsPreview(index);
+            return;
         }
 
-        else {
-            const item = findItemBySlot(items, activeTab, index, inventorySize)
-            setHoveredItem(item);
-        }
+        handleHoverSlot(index);
     }
+
+    const clearSlotsPreview = () => {
+        slotsPreview.current = { slots: [], canPlace: true }
+    }
+
 
     useEffect(() => {
 
@@ -127,7 +135,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize }) => {
 
     }, [draggedItem])
 
-    return { draggedItem, hoveredItem, hoveredSlots, handleClickSlot, handleHoverSlot, setHoveredItem }
+    return { draggedItem, slotsPreview, handleClickSlot, handleUpdateSlotsPreview, clearSlotsPreview }
 }
 
 export default useInventoryDrag
