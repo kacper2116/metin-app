@@ -47,7 +47,6 @@ const Inventory = () => {
     const gridProps = {
         items: activeTabItems,
         inventorySize,
-        activeTab,
         handleClickSlot,
         slotsPreview,
         handleUpdateSlotsPreview,

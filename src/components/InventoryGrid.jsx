@@ -3,7 +3,7 @@ import '../styles/InventoryGrid.css'
 
 const InventoryGrid = (props) => {
 
-    const { items, inventorySize, activeTab, handleClickSlot, slotsPreview, handleUpdateSlotsPreview, clearHover, clearSlotsPreview } = props;
+    const { items, inventorySize, handleClickSlot, slotsPreview, handleUpdateSlotsPreview, clearHover, clearSlotsPreview } = props;
 
     return (
         <div className="grid" onMouseLeave={clearHover}>
