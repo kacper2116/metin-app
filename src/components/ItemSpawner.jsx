@@ -19,6 +19,7 @@ const ItemSpawner = () => {
 
     const { items } = useInventoryItems(size);
 
+    const allItems = items_arr;
 
 
     return (
