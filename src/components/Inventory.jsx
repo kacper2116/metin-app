@@ -61,6 +61,7 @@ const Inventory = () => {
         handleLeaveGrid: clearHover,
     }
 
+
     return (
         <div className="inventory" ref={inventoryRef}>
             <InventoryTabs {...tabsProps} />

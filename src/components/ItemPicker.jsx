@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import InventoryGrid from './InventoryGrid'
 import Tooltip from "./Tooltip"
 
@@ -6,13 +6,15 @@ import useInventoryItems from '../hooks/useInventoryItems'
 import useSlotHover from "../hooks/useSlotHover"
 import useTooltipPosition from "../hooks/useTooltipPosition"
 import useMousePosition from '../hooks/useMousePosition'
+import { canPlaceItem } from '../utils/inventory'
+import InventoryTabs from './InventoryTabs'
 
 
-const ItemPicker = ({ items, size }) => {
-
-    console.log(items)
+const ItemPicker = ({ items, size, handlePickItem }) => {
 
     const [activeTab, setActiveTab] = useState(0);
+    const [tabCount, setTabCount] = useState(1);
+    const [placedItems, setPlacedItems] = useState([]);
     const tooltipRef = useRef(null);
     const mousePosition = useMousePosition();
 
@@ -20,17 +22,33 @@ const ItemPicker = ({ items, size }) => {
 
     const tooltipPosition = useTooltipPosition({ tooltipRef, mousePosition, hoveredItem });
 
+
+    useEffect(() => {
+        setPlacedItems(items.filter(item => item.tab === activeTab))
+        setTabCount(Math.max(...items.map(item => item.tab)) + 1)
+    }, [items, activeTab])
+
+
     const gridProps = {
-        items: items,
+        items: placedItems,
         inventorySize: size,
         handleHoverSlot: handleHoverSlot,
-        handleLeaveGrid: clearHover
+        handleLeaveGrid: clearHover,
+        handleClickSlot: handlePickItem
+    }
 
+    const tabsProps = {
+        activeTab,
+        setActiveTab,
+        tabCount: tabCount
     }
 
     return (
         <div className='inventory'>
+            {tabCount > 1 && <InventoryTabs {...tabsProps} />}
+
             <InventoryGrid {...gridProps} />
+
             {hoveredItem &&
                 <Tooltip mousePosition={mousePosition} >
                     {hoveredItem.item.name}

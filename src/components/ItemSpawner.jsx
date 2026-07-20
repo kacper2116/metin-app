@@ -3,6 +3,7 @@ import '../styles/ItemSpawner.css'
 import items_arr from "../data/items.json";
 import ItemPicker from './ItemPicker';
 import useInventoryItems from '../hooks/useInventoryItems';
+import { findItemBySlot, placeItemsInGrid } from '../utils/inventory';
 
 const ItemSpawner = () => {
 
@@ -10,17 +11,19 @@ const ItemSpawner = () => {
     const [showModal, setShowModal] = useState(false)
     const [results, setResults] = useState(items_arr);
     const [filter, setFilter] = useState(null);
-    console.log(results)
-
-    const filterOptions = {
-
-    }
     const size = { x: 5, y: 6 };
 
-    const { items } = useInventoryItems(size);
+    const items = placeItemsInGrid(items_arr, size);
 
-    const allItems = items_arr;
+    const handlePickItem = (e) => {
 
+        const slotIndex = Number(e.currentTarget.id.split('-')[1]);
+        const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
+        setItemToSpawn(itemInSlot)
+    }
+
+
+    console.log(itemToSpawn)
 
     return (
         <div className='item-spawner'>
@@ -32,7 +35,7 @@ const ItemSpawner = () => {
                     <button className='close-modal-button' onClick={() => setShowModal(false)}>X</button>
                     <input type='text' className='search-item' placeholder='Wyszukaj item' />
 
-                    <ItemPicker items={items} size={size} />
+                    <ItemPicker items={items} size={size} handlePickItem={handlePickItem} />
                 </div>
             }
 

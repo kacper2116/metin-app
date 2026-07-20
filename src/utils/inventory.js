@@ -69,3 +69,29 @@ export const canPlaceItem = (items, page, slot, item, inventorySize) => {
     }
     return true;
 }
+
+export const placeItemsInGrid = (items, inventorySize) => {
+
+    const result = [];
+    let currentTab = 0;
+
+    for (const item of items) {
+
+        let placed = false;
+
+        for (let slot = 0; slot < inventorySize.x * inventorySize.y; slot++) {
+            if (canPlaceItem(result, currentTab, slot, item, inventorySize)) {
+                result.push({ item: item, tab: currentTab, slot: slot });
+                placed = true;
+                break;
+            }
+        }
+
+        if (!placed) {
+            currentTab++;
+            result.push({ item: item, tab: currentTab, slot: 0 })
+        }
+    }
+
+    return result;
+};
