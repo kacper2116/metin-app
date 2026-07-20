@@ -5,37 +5,31 @@ import ItemPicker from './ItemPicker';
 import useInventoryItems from '../hooks/useInventoryItems';
 import { findItemBySlot, placeItemsInGrid } from '../utils/inventory';
 
-const ItemSpawner = () => {
+const ItemSpawner = ({ inventorySize, spawnItem }) => {
 
     const [itemToSpawn, setItemToSpawn] = useState(null);
     const [showModal, setShowModal] = useState(false)
-    const [results, setResults] = useState(items_arr);
     const [filter, setFilter] = useState(null);
-    const size = { x: 5, y: 6 };
+    const spawnerSize = { x: 5, y: 6 };
 
-    const items = placeItemsInGrid(items_arr, size);
+    const items = placeItemsInGrid(items_arr, spawnerSize);
 
-    const handlePickItem = (e) => {
-
-        const slotIndex = Number(e.currentTarget.id.split('-')[1]);
-        const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
-        setItemToSpawn(itemInSlot)
+    const handleSpawnItem = (item) => {
+        const itemId = item.item.id;
+        spawnItem(itemId);
     }
-
-
-    console.log(itemToSpawn)
 
     return (
         <div className='item-spawner'>
-            <div className='select-item' onClick={() => setShowModal(true)}>{itemToSpawn ?? 'Wybierz item'}</div>
-            <button className='spawn-button'>Spawn</button>
+            <div className='select-item' onClick={() => setShowModal(true)}>{itemToSpawn?.item.name ?? 'Wybierz item'}</div>
+            <button className='spawn-button' onClick={() => handleSpawnItem(itemToSpawn)}>Spawn</button>
 
             {showModal &&
                 <div className='modal'>
                     <button className='close-modal-button' onClick={() => setShowModal(false)}>X</button>
                     <input type='text' className='search-item' placeholder='Wyszukaj item' />
 
-                    <ItemPicker items={items} size={size} handlePickItem={handlePickItem} />
+                    <ItemPicker items={items} inventorySize={spawnerSize} setItemToSpawn={setItemToSpawn} />
                 </div>
             }
 

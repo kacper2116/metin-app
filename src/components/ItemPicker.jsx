@@ -6,11 +6,11 @@ import useInventoryItems from '../hooks/useInventoryItems'
 import useSlotHover from "../hooks/useSlotHover"
 import useTooltipPosition from "../hooks/useTooltipPosition"
 import useMousePosition from '../hooks/useMousePosition'
-import { canPlaceItem } from '../utils/inventory'
+import { canPlaceItem, findItemBySlot } from '../utils/inventory'
 import InventoryTabs from './InventoryTabs'
 
 
-const ItemPicker = ({ items, size, handlePickItem }) => {
+const ItemPicker = ({ items, inventorySize, setItemToSpawn }) => {
 
     const [activeTab, setActiveTab] = useState(0);
     const [tabCount, setTabCount] = useState(1);
@@ -18,10 +18,16 @@ const ItemPicker = ({ items, size, handlePickItem }) => {
     const tooltipRef = useRef(null);
     const mousePosition = useMousePosition();
 
-    const { hoveredItem, setHoveredItem, handleHoverSlot, clearHover } = useSlotHover({ items, activeTab, inventorySize: size });
+    const { hoveredItem, setHoveredItem, handleHoverSlot, clearHover } = useSlotHover({ items, activeTab, inventorySize });
 
     const tooltipPosition = useTooltipPosition({ tooltipRef, mousePosition, hoveredItem });
 
+    const handlePickItem = (e) => {
+
+        const slotIndex = Number(e.currentTarget.id.split('-')[1]);
+        const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
+        setItemToSpawn(itemInSlot)
+    }
 
     useEffect(() => {
         setPlacedItems(items.filter(item => item.tab === activeTab))
@@ -31,7 +37,7 @@ const ItemPicker = ({ items, size, handlePickItem }) => {
 
     const gridProps = {
         items: placedItems,
-        inventorySize: size,
+        inventorySize: inventorySize,
         handleHoverSlot: handleHoverSlot,
         handleLeaveGrid: clearHover,
         handleClickSlot: handlePickItem

@@ -11,15 +11,14 @@ import items_arr from "../data/items.json";
 import useTooltipPosition from "../hooks/useTooltipPosition"
 import useSlotHover from "../hooks/useSlotHover"
 
-const Inventory = () => {
+const Inventory = ({ inventorySize, inventory }) => {
 
     const [activeTab, setActiveTab] = useState(0)
     const tooltipRef = useRef(null);
     const inventoryRef = useRef(null);
     const tabCount = 2;
-    const inventorySize = { x: 5, y: 9 };
 
-    const { items, setItems, spawnItem, findItemBySlot, canPlaceItem } = useInventoryItems({ inventorySize });
+    const { items, setItems, spawnItem, findItemBySlot, canPlaceItem } = inventory;
 
     const { hoveredItem, setHoveredItem, handleHoverSlot, clearHover } = useSlotHover({ items, activeTab, inventorySize });
 
@@ -27,16 +26,11 @@ const Inventory = () => {
         items, setItems, activeTab, canPlaceItem, inventorySize, handleHoverSlot
     });
 
-
     const mousePosition = useMousePosition();
 
     const tooltipPosition = useTooltipPosition({ tooltipRef, mousePosition, hoveredItem });
 
     const activeTabItems = items?.filter(item => item.tab === activeTab);
-
-    const showItemTooltip = (item) => {
-        console.log("showing tooltip")
-    }
 
     const tabsProps = {
         activeTab,
