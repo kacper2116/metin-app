@@ -20,6 +20,7 @@ const ItemSpawner = () => {
     const { items } = useInventoryItems(size);
 
 
+
     return (
         <div className='item-spawner'>
             <div className='select-item' onClick={() => setShowModal(true)}>{itemToSpawn ?? 'Wybierz item'}</div>

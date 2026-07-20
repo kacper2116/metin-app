@@ -1,12 +1,9 @@
 .tooltip {
-    position: absolute;
-    left: 300px;
-    top: 100px;
+    position: fixed;
     color: white;
     background: rgba(0, 0, 0, 0.2);
     border-left: 2px solid #3d3d3d;
     border-right: 2px solid #3d3d3d;
-
     color: #e3e3e3;
     padding: 10px;
     text-align: center;
