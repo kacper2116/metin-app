@@ -49,6 +49,7 @@ const ItemPicker = ({ items, inventorySize, setItemToSpawn }) => {
         tabCount: tabCount
     }
 
+
     return (
         <div className='inventory'>
             {tabCount > 1 && <InventoryTabs {...tabsProps} />}
