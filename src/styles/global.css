@@ -12,7 +12,7 @@ button {
 }
 
 button:hover:not(.active) {
-    background: hsl(53, 6%, 35%);
+    background: hsl(53, 6%, 33%);
 }
 
 button.active {
