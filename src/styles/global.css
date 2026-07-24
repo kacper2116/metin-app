@@ -4,15 +4,15 @@ button {
     justify-content: center;
     color: #d3d3d3;
     position: relative;
-    background: hsl(53, 6%, 25%);
+    background: hsl(53, 6%, 22%);
     border-radius: 5px;
     border: none;
-    box-shadow: inset hsl(53, 6%, 60%) 1px 1px 0.7px 1px, inset hsl(53, 6%, 10%) -1px -1px 0.7px 1px;
+    box-shadow: inset hsl(53, 6%, 50%) 1px 1px 0.7px 1px, inset hsl(53, 6%, 10%) -1px -1px 0.7px 1px;
     font-weight: 300;
 }
 
 button:hover:not(.active) {
-    background: hsl(53, 6%, 40%);
+    background: hsl(53, 6%, 35%);
 }
 
 button.active {
