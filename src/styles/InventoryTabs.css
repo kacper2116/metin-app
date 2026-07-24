@@ -13,13 +13,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #bdbaba60;
+    background-color: hsla(0, 2%, 74%, 0.376);
     color: white;
-    font-weight: 400;
     box-shadow: inset #8d8c8c 1px 1px 2px 1px, inset #131313a2 -2px -2px 2px 1px;
+    border-radius: 0;
 }
 
-.tab-active {
-    background-color: #ffffff7a;
+.tab:hover:not(.active) {
+    background: hsla(0, 0%, 90%, 0.478) !important;
+}
+
+.tab.active {
+    background-color: hsla(0, 0%, 100%, 0.478);
     box-shadow: inset #131313a2 1px 1px 2px 1px, inset #dad9d9 -2px -2px 2px 1px;
 }

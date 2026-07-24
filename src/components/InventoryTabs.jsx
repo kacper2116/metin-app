@@ -8,7 +8,7 @@ const InventoryTabs = (props) => {
     return (
         <div className="tabs">
             {Array.from({ length: tabCount }).map((_, index) => (
-                <button key={`tab-${index}`} className={`tab ${activeTab === index && 'tab-active'}`} onClick={() => setActiveTab(index)}>{index + 1}</button>
+                <button key={`tab-${index}`} className={`tab ${activeTab === index && 'active'}`} onClick={() => setActiveTab(index)}>{index + 1}</button>
             ))}
         </div>
     )

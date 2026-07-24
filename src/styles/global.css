@@ -1,0 +1,38 @@
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d3d3d3;
+    position: relative;
+    background: hsl(53, 6%, 25%);
+    border-radius: 5px;
+    border: none;
+    box-shadow: inset hsl(53, 6%, 60%) 1px 1px 0.7px 1px, inset hsl(53, 6%, 10%) -1px -1px 0.7px 1px;
+    font-weight: 300;
+}
+
+button:hover:not(.active) {
+    background: hsl(53, 6%, 40%);
+}
+
+button.active {
+    box-shadow: none;
+    background: hsl(53, 6%, 10%);
+}
+
+
+button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    opacity: 0.12;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.4' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+}
+
+
+
+button,
+select {
+    padding: 0.25rem;
+}

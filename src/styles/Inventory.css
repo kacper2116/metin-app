@@ -1,6 +1,6 @@
 .inventory {
     width: fit-content;
-    border: 3px solid rgb(59, 46, 33);
+
     border-radius: 5px;
     overflow: hidden;
     padding: 3px;
@@ -9,8 +9,5 @@
     flex-direction: column;
     gap: 5px;
     user-select: none;
-    box-shadow: 0 0 3px 1px rgb(120, 120, 120);
-
-    /*     filter: drop-shadow(1px 0 1px rgb(120, 120, 120)) drop-shadow(-1px 0 1px rgb(120, 120, 120)) drop-shadow(0 1px 1px rgb(120, 120, 120)) drop-shadow(0 -1px 1px rgb(120, 120, 120));
- */
+    box-shadow: 0 0 1px 1px rgb(88, 69, 50);
 }

@@ -2,26 +2,27 @@
     width: 262px;
     border-radius: 5px;
     margin-bottom: 10px;
-    color: white;
-
     display: flex;
     gap: 5px;
     position: relative;
 }
 
-.select-item,
-.spawn-button {
-    padding: 0.3rem;
-    cursor: pointer;
-    text-align: center;
-}
-
 .select-item {
     width: 70%;
-    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(99, 99, 99);
+    border-radius: 5px;
     overflow: hidden;
     text-overflow: ellipsis;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+}
 
+.select-item:hover {
+    background: rgb(59, 59, 59);
 }
 
 .spawn-button {
@@ -29,17 +30,17 @@
 }
 
 .modal {
-
     position: absolute;
     left: -300px;
     top: 0;
     border-radius: 5px;
-    background: grey;
     padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 5px;
-
+    border-radius: 5px;
+    box-shadow: 0 0 1px 2px rgb(88, 69, 50);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .modal .close-modal-button {
@@ -48,47 +49,32 @@
     top: 0;
     width: 25px;
     height: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: inherit;
-    border: none;
-}
-
-.modal .search-item {
-    width: 100%;
-    padding: 0.25rem;
-    margin-top: 25px;
+    font-size: 1.7rem;
 }
 
 .filter-options {
     margin-top: 25px;
-    display: flex;
-    flex-direction: column;
 }
 
 .filter-profession {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     gap: 5px;
 }
 
-
-
-.filter-profession button {
+.filter-profession-button {
     flex: 1;
-    border-radius: 5px;
-    border: none;
 }
 
-.filter-options button,
-select {
-    padding: 0.25rem;
+.filter-type,
+.filter-plus {
+    color: #d3d3d3;
+    background: hsl(53, 6%, 10%);
+    outline: none;
 }
 
 .filter-type {
-    margin-top: 5px;
+    margin-top: 10px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -96,4 +82,5 @@ select {
 .filter-plus {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    margin-bottom: 10px;
 }
