@@ -115,8 +115,6 @@ const ItemSpawner = ({ inventorySize, spawnItem }) => {
                             }
                         </div>
 
-
-
                     </div>
 
                     <ItemPicker items={items} inventorySize={spawnerSize} setItemToSpawn={setItemToSpawn} />

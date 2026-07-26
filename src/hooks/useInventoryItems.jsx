@@ -5,12 +5,8 @@ import swords from '../data/swords.json'
 
 const useInventoryItems = ({ inventorySize }) => {
 
-    const [items, setItems] = useState([
-        { item: items_arr[0], tab: 0, slot: 0 },
-        { item: items_arr[1], tab: 0, slot: 14 },
-    ])
+    const [items, setItems] = useState([])
 
-    console.log(swords)
     const addItem = (item) => {
         setItems((prev) => {
             let updated = structuredClone(prev)
@@ -28,7 +24,9 @@ const useInventoryItems = ({ inventorySize }) => {
 
             for (let slot = 0; slot < inventorySize.x * inventorySize.y; slot++) {
                 if (canPlaceItem(items, tab, slot, itemToSpawn, inventorySize)) {
-                    addItem({ item: itemToSpawn, tab: tab, slot: slot });
+                    const itemInstance = { instanceId: crypto.randomUUID(), item: itemToSpawn, bonuses: [], stones: [], slot: slot, tab: tab }
+
+                    addItem(itemInstance);
                     console.log("Dodano item");
                     return;
                 }
@@ -36,9 +34,7 @@ const useInventoryItems = ({ inventorySize }) => {
         }
         console.log("Nie można dodać itemu")
     }
-
     return { items, setItems, spawnItem }
-
 };
 
 export default useInventoryItems;
