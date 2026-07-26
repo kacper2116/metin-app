@@ -11,6 +11,7 @@ const ItemSpawner = ({ inventorySize, spawnItem }) => {
     const [showModal, setShowModal] = useState(false)
     const [filter, setFilter] = useState({
         type: 'weapon',
+        subtype: null,
         profession: 'warrior',
         plus: 0
     });
@@ -38,15 +39,31 @@ const ItemSpawner = ({ inventorySize, spawnItem }) => {
 
     }
 
-    const handleSetFilter = (e) => {
+    const weaponTypes = {
+        warrior: [{ value: "sword", label: "miecze" }, { value: "two_handed", label: "dwuręczne" }],
+        ninja: [{ value: "sword", label: "miecze" }, { value: "dagger", label: "sztylety" }, { value: "bow", label: "łuki" }],
+        sura: [{ value: "sword", label: "miecze" }, { value: "blade", label: "ostrza" }],
+        shaman: [{ value: "fans", label: "wachlarze" }, { value: "bell", label: "dzwonki" }]
+    }
 
+    const handleSetFilter = (e) => {
         const prop = e.target.name;
         const value = e.target.value
         setFilter(prev => ({
             ...prev,
-            [prop]: value
+            [prop]: prev[prop] === value ? null : value,
         }))
     }
+
+    useEffect(() => {
+
+        if (filter.subtype === null) return;
+        setFilter(prev => ({
+            ...prev,
+            subtype: null
+        }))
+
+    }, [filter.profession, filter.type])
 
     return (
         <div className='item-spawner'>
@@ -64,23 +81,42 @@ const ItemSpawner = ({ inventorySize, spawnItem }) => {
                                     key={profession.value}
                                     name="profession"
                                     value={profession.value}
-                                    className={`filter-profession-button ${filter.profession === profession.value ? 'active' : ''}`}
-                                    onClick={handleSetFilter}
+                                    className={`filter-button ${filter.profession === profession.value ? 'active' : ''}`}
+                                    onClick={(e) => filter.profession !== profession.value && handleSetFilter(e)}
                                 >{profession.label}</button>
                             )}
                         </div>
                         <div className='wrapper'>
-                            <select className='filter-type' onChange={handleSetFilter} name="type">
-                                {filterOptions.type.map(type =>
-                                    <option value={type.value} key={type.value}>{type.label}</option>
-                                )}
-                            </select>
-                            <select className='filter-plus' onChange={handleSetFilter} name='plus'>
-                                {filterOptions.plus.map(plus =>
-                                    <option key={plus} value={plus}>{'+' + plus}</option>
-                                )}
-                            </select>
+                            <div>
+                                <select className='filter-type' onChange={handleSetFilter} name="type">
+                                    {filterOptions.type.map(type =>
+                                        <option value={type.value} key={type.value}>{type.label}</option>
+                                    )}
+                                </select>
+                                <select className='filter-plus' onChange={handleSetFilter} name='plus'>
+                                    {filterOptions.plus.map(plus =>
+                                        <option key={plus} value={plus}>{'+' + plus}</option>
+                                    )}
+                                </select>
+                            </div>
+
+                            {filter.type === 'weapon' &&
+                                <div className='filter-subtype'>
+                                    {weaponTypes[filter.profession].map(subtype =>
+                                        <button
+                                            key={subtype.value}
+                                            name='subtype'
+                                            value={subtype.value}
+                                            className={`filter-button ${filter.subtype === subtype.value ? 'active' : ''}`}
+                                            onClick={handleSetFilter}
+                                        >{subtype.label[0].toUpperCase() + subtype.label.slice(1)}</button>
+                                    )}
+                                </div>
+                            }
                         </div>
+
+
+
                     </div>
 
                     <ItemPicker items={items} inventorySize={spawnerSize} setItemToSpawn={setItemToSpawn} />

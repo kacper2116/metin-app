@@ -1,0 +1,64 @@
+[
+    {
+        "id": 10,
+        "name": "Miecz+0",
+        "upgrade_level": 0,
+        "next_item_id": 11,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 13,
+                "max": 15
+            },
+            "magical_attack": {
+                "min": 15,
+                "max": 19
+            },
+            "attack_speed": 22
+        },
+        "classes": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade_cost": {
+            "yang": null,
+            "upgrade_items": null
+        },
+        "img": "https://pl-wiki.metin2.gameforge.com/images/7/7a/Miecz.png",
+        "size": 2
+    },
+    {
+        "id": 20,
+        "name": "Długi miecz+0",
+        "upgrade_level": 0,
+        "next_item_id": 21,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 13,
+                "max": 15
+            },
+            "magical_attack": {
+                "min": 15,
+                "max": 19
+            },
+            "attack_speed": 22
+        },
+        "classes": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade_cost": {
+            "yang": null,
+            "upgrade_items": null
+        },
+        "img": "https://pl-wiki.metin2.gameforge.com/images/b/be/D%C5%82ugi_Miecz.png",
+        "size": 2
+    }
+]

@@ -1,15 +1,16 @@
 import { useState, useEffect } from "react";
 import { isSlotEmpty, canPlaceItem } from '../utils/inventory'
 import items_arr from '../data/items.json'
+import swords from '../data/swords.json'
 
 const useInventoryItems = ({ inventorySize }) => {
 
     const [items, setItems] = useState([
         { item: items_arr[0], tab: 0, slot: 0 },
         { item: items_arr[1], tab: 0, slot: 14 },
-        { item: items_arr[2], tab: 0, slot: 30 },
     ])
 
+    console.log(swords)
     const addItem = (item) => {
         setItems((prev) => {
             let updated = structuredClone(prev)

@@ -52,8 +52,11 @@
     font-size: 1.7rem;
 }
 
+.wrapper {}
+
 .filter-options {
     margin-top: 25px;
+    min-height: 102px;
 }
 
 .filter-profession {
@@ -62,7 +65,7 @@
     gap: 5px;
 }
 
-.filter-profession-button {
+.filter-button {
     flex: 1;
 }
 
@@ -82,5 +85,12 @@
 .filter-plus {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+
+}
+
+.filter-subtype {
+    display: flex;
+    gap: 5px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
