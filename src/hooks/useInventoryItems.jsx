@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { isSlotEmpty, canPlaceItem } from '../utils/inventory'
-import items_arr from '../data/items.json'
-import swords from '../data/swords.json'
+import { itemsDB } from '../data/itemsDB'
 
 const useInventoryItems = ({ inventorySize }) => {
 
@@ -18,7 +17,7 @@ const useInventoryItems = ({ inventorySize }) => {
 
     const spawnItem = (id) => {
 
-        const itemToSpawn = items_arr.find(item => item.id === id);
+        const itemToSpawn = itemsDB.find(item => item.id === id);
 
         for (let tab = 0; tab < 2; tab++) {
 

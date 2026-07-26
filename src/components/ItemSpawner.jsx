@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../styles/ItemSpawner.css'
-import items_arr from "../data/items.json";
+import { itemsDB } from "../data/itemsDB";
 import ItemPicker from './ItemPicker';
 import useInventoryItems from '../hooks/useInventoryItems';
 import { findItemBySlot, placeItemsInGrid } from '../utils/inventory';
@@ -15,8 +15,10 @@ const ItemSpawner = ({ inventorySize, spawnItem }) => {
         profession: 'warrior',
         plus: 0
     });
+    const [filteredItems, setFilteredItems] = useState(itemsDB)
     const spawnerSize = { x: 5, y: 6 };
-    const items = placeItemsInGrid(items_arr, spawnerSize);
+
+    const items = placeItemsInGrid(filteredItems, spawnerSize);
 
     const handleSpawnItem = (item) => {
         const itemId = item.item.id;
@@ -49,6 +51,8 @@ const ItemSpawner = ({ inventorySize, spawnItem }) => {
     const handleSetFilter = (e) => {
         const prop = e.target.name;
         const value = e.target.value
+
+
         setFilter(prev => ({
             ...prev,
             [prop]: prev[prop] === value ? null : value,
@@ -64,6 +68,21 @@ const ItemSpawner = ({ inventorySize, spawnItem }) => {
         }))
 
     }, [filter.profession, filter.type])
+
+    useEffect(() => {
+        console.log(filteredItems)
+
+        const filtered = itemsDB.filter(item =>
+            item.type === filter.type &&
+            (!filter.subtype || item.subtype === filter.subtype) &&
+            item.profession.includes(filter.profession) &&
+            item.plus === filter.plus
+        )
+
+
+        setFilteredItems(filtered);
+
+    }, [filter])
 
     return (
         <div className='item-spawner'>
@@ -88,12 +107,12 @@ const ItemSpawner = ({ inventorySize, spawnItem }) => {
                         </div>
                         <div className='wrapper'>
                             <div>
-                                <select className='filter-type' onChange={handleSetFilter} name="type">
+                                <select className='filter-type' onChange={handleSetFilter} value={filter.type} name="type">
                                     {filterOptions.type.map(type =>
                                         <option value={type.value} key={type.value}>{type.label}</option>
                                     )}
                                 </select>
-                                <select className='filter-plus' onChange={handleSetFilter} name='plus'>
+                                <select className='filter-plus' onChange={handleSetFilter} value={filter.plus} name='plus'>
                                     {filterOptions.plus.map(plus =>
                                         <option key={plus} value={plus}>{'+' + plus}</option>
                                     )}
