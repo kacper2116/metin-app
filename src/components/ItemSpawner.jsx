@@ -50,8 +50,9 @@ const ItemSpawner = ({ inventorySize, spawnItem }) => {
 
     const handleSetFilter = (e) => {
         const prop = e.target.name;
-        const value = e.target.value
+        let value = e.target.value
 
+        if (prop === 'plus') value = Number(value);
 
         setFilter(prev => ({
             ...prev,
