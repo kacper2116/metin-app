@@ -1,14 +1,13 @@
 .app-container {
 
     width: 100%;
-    min-width: 800px;
-    max-width: 1200px;
 
+    max-width: 1200px;
+    gap: 50px;
     border: 2px solid rgb(53, 53, 53);
     border-radius: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 30px 20px;
 
 }
