@@ -61,7 +61,6 @@ const Inventory = ({ inventorySize, inventory }) => {
             <InventoryTabs {...tabsProps} />
             <InventoryGrid {...gridProps} />
 
-            <button onClick={() => spawnItem(1)}>Add item</button>
             {draggedItem && <Ghost draggedItem={draggedItem} />}
 
             {hoveredItem &&
