@@ -2,6 +2,16 @@
     width: 400px;
 }
 
+.blacksmith-nickname {
+    color: #77E05A;
+    display: flex;
+    justify-self: center;
+    position: relative;
+    top: -20px;
+    left: -5px;
+    font-size: 0.9em;
+}
+
 .blacksmith-img {
     width: 100%;
     height: auto;
