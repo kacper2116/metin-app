@@ -5,20 +5,27 @@
     display: flex;
     gap: 5px;
     position: relative;
+    color: #d3d3d3;
 }
 
 .select-item {
     width: 70%;
     display: flex;
     align-items: center;
-    justify-content: center;
     border: 1px solid rgb(99, 99, 99);
     border-radius: 5px;
-    overflow: hidden;
-    text-overflow: ellipsis;
     cursor: pointer;
-    color: white;
-    font-size: 1rem;
+}
+
+.select-item>span {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .select-item:hover {

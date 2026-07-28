@@ -15,7 +15,7 @@
 
 .filter-type,
 .filter-plus {
-    color: #d3d3d3;
+    color: inherit;
     background: hsl(53, 6%, 10%);
     outline: none;
 }
