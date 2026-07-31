@@ -9,12 +9,13 @@
 }
 
 .select-item {
-    width: 70%;
+    width: 100%;
     display: flex;
     align-items: center;
     border: 1px solid rgb(99, 99, 99);
     border-radius: 5px;
     cursor: pointer;
+    padding: 0.25rem;
 }
 
 .select-item>span {

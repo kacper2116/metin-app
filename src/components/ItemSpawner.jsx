@@ -23,7 +23,8 @@ const ItemSpawner = ({ inventorySize, spawnItem }) => {
     return (
         <div className='item-spawner'>
             <div className='select-item' onClick={() => setShowModal(true)}><span>{itemToSpawn?.item.name ?? 'Wybierz item'}</span></div>
-            <button className='spawn-button' onClick={() => handleSpawnItem(itemToSpawn)}>Spawn</button>
+            {itemToSpawn &&
+                <button className='spawn-button' onClick={() => handleSpawnItem(itemToSpawn)}>Spawn</button>}
 
             {showModal &&
                 <div className='modal'>
