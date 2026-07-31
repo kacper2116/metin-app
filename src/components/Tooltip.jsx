@@ -14,6 +14,8 @@ const Tooltip = ({ children, mousePosition }) => {
         setTooltipSize({ width: rect.width, height: rect.height });
     }, [children])
 
+
+
     const position = tooltipSize
         ? {
             left: Math.max(
@@ -36,6 +38,7 @@ const Tooltip = ({ children, mousePosition }) => {
             left: mousePosition.x,
             top: mousePosition.y
         };
+
     return (
         <div className='tooltip' ref={tooltipRef}
             style={position}>

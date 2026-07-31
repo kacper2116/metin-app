@@ -10,7 +10,7 @@ import Ghost from "./Ghost"
 import items_arr from "../data/items.json";
 import useTooltipPosition from "../hooks/useTooltipPosition"
 import useSlotHover from "../hooks/useSlotHover"
-
+import TooltipContent from "./TooltipContent"
 const Inventory = ({ inventorySize, inventory }) => {
 
     const [activeTab, setActiveTab] = useState(0)
@@ -55,7 +55,6 @@ const Inventory = ({ inventorySize, inventory }) => {
         handleLeaveGrid: clearHover,
     }
 
-
     return (
         <div className="inventory" ref={inventoryRef}>
             <InventoryTabs {...tabsProps} />
@@ -65,7 +64,7 @@ const Inventory = ({ inventorySize, inventory }) => {
 
             {hoveredItem &&
                 <Tooltip mousePosition={mousePosition} >
-                    {hoveredItem.item.name}
+                    <TooltipContent itemInstance={hoveredItem} />
                 </Tooltip>}
 
         </div>
