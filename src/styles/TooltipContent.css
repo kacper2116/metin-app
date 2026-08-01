@@ -1,0 +1,51 @@
+.tooltip-content {
+    color: #bababa;
+    font-size: 0.9rem;
+    text-shadow:
+        -1px -1px 1px black,
+        1px -1px 1px black,
+        -1px 1px 1px black,
+        1px 1px 1px black;
+}
+
+.tooltip-name {
+    color: #D8CFAC;
+}
+
+.tooltip-name--bonus {
+    color: #E5B300;
+}
+
+
+.tooltip-level,
+.tooltip-stats {
+    margin-top: 6px;
+}
+
+.tooltip-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.tooltip-stat {
+    color: #7BA57F;
+}
+
+.tooltip-stat--negative {
+    color: #CE6C69;
+}
+
+.tooltip-wearable {
+    margin-top: 6px;
+}
+
+.tooltip-professions {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.tooltip-bonus {
+    color: #9EC8A2;
+}

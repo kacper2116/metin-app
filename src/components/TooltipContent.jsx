@@ -1,4 +1,6 @@
 
+import '../styles/TooltipContent.css'
+
 const TooltipContent = ({ itemInstance }) => {
 
     const item = itemInstance.item;
@@ -51,9 +53,12 @@ const TooltipContent = ({ itemInstance }) => {
         <div className='tooltip-content'>
             <div className='tooltip-name'>{item.name}</div>
             {item.required_level && <div className='tooltip-level'>{formatStat("required_level", item.required_level)}</div>}
-            {Object.entries(item.stats).map(([name, value]) => (
-                <div key={name} className='tooltip-stat'>{formatStat(name, value)}</div>
-            ))}
+            {item.stats &&
+                <div className='tooltip-stats'>
+                    {Object.entries(item.stats).map(([name, value]) => (
+                        <div key={name} className='tooltip-stat'>{formatStat(name, value)}</div>
+                    ))}</div>
+            }
             {wearableItemTypes.includes(item.type) && <div className="tooltip-wearable">[ Do ubrania ]</div>}
             {item.profession && (
                 <div className="tooltip-professions">
