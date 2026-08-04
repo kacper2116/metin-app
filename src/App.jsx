@@ -15,6 +15,7 @@ const App = () => {
       <div className='inventory-wrapper'>
         <ItemSpawner inventorySize={inventorySize} spawnItem={inventory.spawnItem} />
         <Inventory inventorySize={inventorySize} inventory={inventory} />
+
       </div>
     </div>
   )

@@ -1,23 +1,22 @@
-import React, { forwardRef, useLayoutEffect, useRef, useState } from 'react'
+import React, { forwardRef, useContext, useLayoutEffect, useRef, useState } from 'react'
 import '../styles/Tooltip.css'
+import MouseContext from '../contexts/MouseContext'
 
-const Tooltip = ({ children, mousePosition }) => {
+const Tooltip = ({ children }) => {
 
 
     const tooltipRef = useRef(null)
     const [tooltipSize, setTooltipSize] = useState(null)
-
-
+    const mousePosition = useContext(MouseContext);
+    console.log(mousePosition)
 
     useLayoutEffect(() => {
         const rect = tooltipRef.current.getBoundingClientRect();
         setTooltipSize({ width: rect.width, height: rect.height });
-        console.log(mousePosition)
+
     }, [children])
 
     const offset = 50
-
-
     const style = tooltipSize
         ? {
             left: Math.max(

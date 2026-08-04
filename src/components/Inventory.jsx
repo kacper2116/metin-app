@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react"
+import { useEffect, useState, useRef, useContext } from "react"
 import '../styles/Inventory.css'
 import Tooltip from "./Tooltip"
 import InventoryTabs from "./InventoryTabs"
@@ -11,6 +11,8 @@ import items_arr from "../data/items.json";
 import useTooltipPosition from "../hooks/useTooltipPosition"
 import useSlotHover from "../hooks/useSlotHover"
 import TooltipContent from "./TooltipContent"
+import MouseContext from "../contexts/MouseContext"
+import TooltipContext from "../contexts/TooltipContext"
 const Inventory = ({ inventorySize, inventory }) => {
 
     const [activeTab, setActiveTab] = useState(0)
@@ -26,9 +28,7 @@ const Inventory = ({ inventorySize, inventory }) => {
         items, setItems, activeTab, canPlaceItem, inventorySize, handleHoverSlot
     });
 
-    const mousePosition = useMousePosition();
-
-    const tooltipPosition = useTooltipPosition({ tooltipRef, mousePosition, hoveredItem });
+    const mousePosition = useContext(MouseContext)
 
     const activeTabItems = items?.filter(item => item.tab === activeTab);
 
@@ -61,12 +61,6 @@ const Inventory = ({ inventorySize, inventory }) => {
             <InventoryGrid {...gridProps} />
 
             {draggedItem && <Ghost draggedItem={draggedItem} />}
-
-            {hoveredItem &&
-                <Tooltip mousePosition={mousePosition} >
-                    <TooltipContent itemInstance={hoveredItem} />
-                </Tooltip>}
-
         </div>
     )
 }
