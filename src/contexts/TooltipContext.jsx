@@ -4,7 +4,6 @@ import TooltipContent from '../components/TooltipContent';
 
 const TooltipContext = createContext();
 
-
 export const TooltipProvider = ({ children }) => {
 
     const [item, setItem] = useState(null);

@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
-import { itemsDB } from '../data/itemsDB';
+import { useEffect, useState } from 'react'
 import '../styles/ItemFilter.css';
+import { itemsDB } from '../data/itemsDB';
 const ItemFilter = ({ setFilteredItems }) => {
 
     const [filter, setFilter] = useState({

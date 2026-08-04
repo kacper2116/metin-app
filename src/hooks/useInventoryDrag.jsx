@@ -1,8 +1,7 @@
-import React, { act } from 'react'
+import { act, useContext } from 'react'
 import { useState, useEffect, useRef } from 'react';
 import { getSelectedSlots, getItemSlots, findItemBySlot, canPlaceItem } from '../utils/inventory';
-import useMousePosition from './useMousePosition';
-
+import MouseContext from '../contexts/MouseContext';
 
 const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHoverSlot }) => {
 
@@ -12,7 +11,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
     const moveMode = useRef(null);
     const itemOriginSlots = useRef([]);
 
-    const mousePosition = useMousePosition();
+    const mousePosition = useContext(MouseContext);
 
     const handleClickSlot = (e) => {
 

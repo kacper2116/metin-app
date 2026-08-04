@@ -1,13 +1,11 @@
-import React, { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import InventoryGrid from './InventoryGrid'
 import Tooltip from "./Tooltip"
-
+import InventoryTabs from './InventoryTabs'
 import useInventoryItems from '../hooks/useInventoryItems'
 import useSlotHover from "../hooks/useSlotHover"
-import useTooltipPosition from "../hooks/useTooltipPosition"
-import useMousePosition from '../hooks/useMousePosition'
 import { canPlaceItem, findItemBySlot } from '../utils/inventory'
-import InventoryTabs from './InventoryTabs'
+
 
 
 const ItemPicker = ({ items, inventorySize, setItemToSpawn }) => {
@@ -16,11 +14,8 @@ const ItemPicker = ({ items, inventorySize, setItemToSpawn }) => {
     const [tabCount, setTabCount] = useState(1);
     const [placedItems, setPlacedItems] = useState([]);
     const tooltipRef = useRef(null);
-    const mousePosition = useMousePosition();
 
     const { hoveredItem, setHoveredItem, handleHoverSlot, clearHover } = useSlotHover({ items, activeTab, inventorySize });
-
-    const tooltipPosition = useTooltipPosition({ tooltipRef, mousePosition, hoveredItem });
 
     const handlePickItem = (e) => {
 

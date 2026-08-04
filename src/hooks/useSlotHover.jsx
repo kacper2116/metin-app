@@ -3,7 +3,6 @@ import useInventoryDrag from './useInventoryDrag';
 import { findItemBySlot } from '../utils/inventory';
 import TooltipContext from '../contexts/TooltipContext';
 
-
 const useSlotHover = ({ items, activeTab, inventorySize }) => {
 
     const { showTooltip, hideTooltip } = useContext(TooltipContext);

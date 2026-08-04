@@ -2,17 +2,16 @@ import { useEffect, useState, useRef, useContext } from "react"
 import '../styles/Inventory.css'
 import Tooltip from "./Tooltip"
 import InventoryTabs from "./InventoryTabs"
-import useInventoryItems from "../hooks/useInventoryItems"
-import useInventoryDrag from "../hooks/useInventoryDrag"
-import useMousePosition from '../hooks/useMousePosition'
 import InventoryGrid from "./InventoryGrid"
 import Ghost from "./Ghost"
-import items_arr from "../data/items.json";
-import useTooltipPosition from "../hooks/useTooltipPosition"
-import useSlotHover from "../hooks/useSlotHover"
 import TooltipContent from "./TooltipContent"
+import useInventoryItems from "../hooks/useInventoryItems"
+import useInventoryDrag from "../hooks/useInventoryDrag"
+import useSlotHover from "../hooks/useSlotHover"
 import MouseContext from "../contexts/MouseContext"
 import TooltipContext from "../contexts/TooltipContext"
+import items_arr from "../data/items.json";
+
 const Inventory = ({ inventorySize, inventory }) => {
 
     const [activeTab, setActiveTab] = useState(0)

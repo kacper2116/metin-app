@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import '../styles/ItemSpawner.css'
-import { itemsDB } from "../data/itemsDB";
 import ItemPicker from './ItemPicker';
+import ItemFilter from './ItemFilter';
 import useInventoryItems from '../hooks/useInventoryItems';
 import { findItemBySlot, placeItemsInGrid } from '../utils/inventory';
-import ItemFilter from './ItemFilter';
+import { itemsDB } from "../data/itemsDB";
 
 const ItemSpawner = ({ inventorySize, spawnItem }) => {
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import '../styles/InventoryTabs.css'
 
 const InventoryTabs = (props) => {

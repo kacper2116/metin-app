@@ -15,8 +15,6 @@ const useInventoryItems = ({ inventorySize }) => {
         })
     }
 
-    console.log(items)
-
     const spawnItem = (id) => {
 
         const itemToSpawn = itemsDB.find(item => item.id === id);

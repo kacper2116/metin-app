@@ -1,14 +1,12 @@
-import React, { forwardRef, useContext, useLayoutEffect, useRef, useState } from 'react'
+import { forwardRef, useContext, useLayoutEffect, useRef, useState } from 'react'
 import '../styles/Tooltip.css'
 import MouseContext from '../contexts/MouseContext'
 
 const Tooltip = ({ children }) => {
 
-
     const tooltipRef = useRef(null)
     const [tooltipSize, setTooltipSize] = useState(null)
     const mousePosition = useContext(MouseContext);
-    console.log(mousePosition)
 
     useLayoutEffect(() => {
         const rect = tooltipRef.current.getBoundingClientRect();
