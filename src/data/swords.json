@@ -27,25 +27,25 @@
             "yang": null,
             "upgrade_items": null
         },
-        "img": "https://pl-wiki.metin2.gameforge.com/images/7/7a/Miecz.png",
+        "img": "items/swords/sword.png",
         "size": 2
     },
     {
-        "id": 20,
-        "name": "Długi miecz+0",
-        "plus": 0,
-        "next_item_id": 21,
+        "id": 11,
+        "name": "Miecz+1",
+        "plus": 1,
+        "next_item_id": 12,
         "type": "weapon",
         "subtype": "sword",
-        "required_level": 5,
+        "required_level": 1,
         "stats": {
             "attack": {
-                "min": 13,
-                "max": 15
+                "min": 20,
+                "max": 22
             },
             "magical_attack": {
-                "min": 15,
-                "max": 19
+                "min": 22,
+                "max": 26
             },
             "attack_speed": 22
         },
@@ -55,10 +55,196 @@
             "sura"
         ],
         "upgrade_cost": {
-            "yang": null,
+            "yang": 600,
             "upgrade_items": null
         },
-        "img": "https://pl-wiki.metin2.gameforge.com/images/b/be/D%C5%82ugi_Miecz.png",
+        "img": "items/swords/sword.png",
+        "size": 2
+    },
+    {
+        "id": 12,
+        "name": "Miecz+2",
+        "plus": 2,
+        "next_item_id": 13,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 27,
+                "max": 29
+            },
+            "magical_attack": {
+                "min": 29,
+                "max": 33
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade_cost": {
+            "yang": 1200,
+            "upgrade_items": null
+        },
+        "img": "items/swords/sword.png",
+        "size": 2
+    },
+    {
+        "id": 13,
+        "name": "Miecz+1",
+        "plus": 1,
+        "next_item_id": 14,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 20,
+                "max": 22
+            },
+            "magical_attack": {
+                "min": 22,
+                "max": 26
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade_cost": {
+            "yang": 600,
+            "upgrade_items": null
+        },
+        "img": "items/swords/sword.png",
+        "size": 2
+    },
+    {
+        "id": 14,
+        "name": "Miecz+3",
+        "plus": 3,
+        "next_item_id": 15,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 34,
+                "max": 36
+            },
+            "magical_attack": {
+                "min": 36,
+                "max": 40
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade_cost": {
+            "yang": 2500,
+            "upgrade_items": null
+        },
+        "img": "items/swords/sword.png",
+        "size": 2
+    },
+    {
+        "id": 15,
+        "name": "Miecz+4",
+        "plus": 4,
+        "next_item_id": 16,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 41,
+                "max": 43
+            },
+            "magical_attack": {
+                "min": 43,
+                "max": 47
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade_cost": {
+            "yang": 5000,
+            "upgrade_items": null
+        },
+        "img": "items/swords/sword.png",
+        "size": 2
+    },
+    {
+        "id": 16,
+        "name": "Miecz+5",
+        "plus": 5,
+        "next_item_id": 17,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 48,
+                "max": 50
+            },
+            "magical_attack": {
+                "min": 50,
+                "max": 54
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade_cost": {
+            "yang": 10000,
+            "upgrade_items": null
+        },
+        "img": "items/swords/sword.png",
+        "size": 2
+    },
+    {
+        "id": 17,
+        "name": "Miecz+6",
+        "plus": 6,
+        "next_item_id": 18,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 55,
+                "max": 57
+            },
+            "magical_attack": {
+                "min": 57,
+                "max": 61
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade_cost": {
+            "yang": 20000,
+            "upgrade_items": null
+        },
+        "img": "items/swords/sword.png",
         "size": 2
     }
 ]

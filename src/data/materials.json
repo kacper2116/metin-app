@@ -1,0 +1,452 @@
+[
+    {
+        "id": 30005,
+        "name": "Piece of Broken Armour",
+        "type": "material",
+        "description": "A fragment of a broken suit of armour."
+    },
+    {
+        "id": 30006,
+        "name": "Orc Tooth",
+        "type": "material",
+        "description": "A yellow-brown, vile smelling tooth of an Orc. On the edges there are indefinable, crusty residues."
+    },
+    {
+        "id": 30007,
+        "name": "Orc Amulet",
+        "type": "material",
+        "description": "An amulet which encourages Orcs during battle."
+    },
+    {
+        "id": 30008,
+        "name": "Esoteric Primer",
+        "type": "material",
+        "description": "The beginner's handbook of Esoteric Doctrine."
+    },
+    {
+        "id": 30009,
+        "name": "Unknown Medicine",
+        "type": "material",
+        "description": "Unknown medicine with unknown ingredients."
+    },
+    {
+        "id": 30010,
+        "name": "Bear Gall",
+        "type": "material",
+        "description": "Bear gall is known for reviving the sense of taste."
+    },
+    {
+        "id": 30011,
+        "name": "Ball",
+        "type": "material",
+        "description": "A silky ball of thread."
+    },
+    {
+        "id": 30014,
+        "name": "Yeti Fur",
+        "type": "material",
+        "description": "The fur of the legendary creature, the Yeti, that protects against the cold."
+    },
+    {
+        "id": 30015,
+        "name": "Demon's Keepsake",
+        "type": "material",
+        "description": "A grim keepsake of a Demon that exudes cold air."
+    },
+    {
+        "id": 30016,
+        "name": "Demon's Gem",
+        "type": "material",
+        "description": "A gem that is known for holding the souls of the dead."
+    },
+    {
+        "id": 30017,
+        "name": "Ornamental Hairpin",
+        "type": "material",
+        "description": "A decorated hairpin for a woman."
+    },
+    {
+        "id": 30018,
+        "name": "Red Hairband",
+        "type": "material",
+        "description": "A fancy ribbon to tie up a woman's hair."
+    },
+    {
+        "id": 30019,
+        "name": "Flaming Mane",
+        "type": "material",
+        "description": "A flaming mane thread that is used to make winter clothes."
+    },
+    {
+        "id": 30021,
+        "name": "Piece of Gem",
+        "type": "material",
+        "description": "A gem broken apart by a hard substance."
+    },
+    {
+        "id": 30022,
+        "name": "Snake Tail",
+        "type": "material",
+        "description": "The scaly, multicoloured tail of a rattlesnake."
+    },
+    {
+        "id": 30023,
+        "name": "White Tiger Hide",
+        "type": "material",
+        "description": "Valued as the most precious animal hide among collectors."
+    },
+    {
+        "id": 30025,
+        "name": "Spider's Poison Sack",
+        "type": "material",
+        "description": "The venom sack of a spider."
+    },
+    {
+        "id": 30025,
+        "name": "Spider's Poison Sack",
+        "type": "material",
+        "description": "The venom sack of a spider."
+    },
+    {
+        "id": 30030,
+        "name": "Rusty Blade",
+        "type": "material",
+        "description": "A rusty dagger blade."
+    },
+    {
+        "id": 30031,
+        "name": "Ornament",
+        "type": "material",
+        "description": "A favourite ornament amongst girls."
+    },
+    {
+        "id": 30032,
+        "name": "Black Uniform",
+        "type": "material",
+        "description": "A worn out black uniform."
+    },
+    {
+        "id": 30033,
+        "name": "Broken Porcelain",
+        "type": "material",
+        "description": "Some valuable porcelain from the region that has been broken into pieces."
+    },
+    {
+        "id": 30034,
+        "name": "White Hairband",
+        "type": "material",
+        "description": "An elegant ribbon to tie up a woman's hair."
+    },
+    {
+        "id": 30035,
+        "name": "Face Cream",
+        "type": "material",
+        "description": "Women use it to keep their skin youthful."
+    },
+    {
+        "id": 30038,
+        "name": "Tiger Hide",
+        "type": "material",
+        "description": "A favourite animal hide amongst collectors."
+    },
+    {
+        "id": 30039,
+        "name": "Piece of Fabric",
+        "type": "material",
+        "description": "Fabric used to cover someone's wound."
+    },
+    {
+        "id": 30040,
+        "name": "Leaf",
+        "type": "material",
+        "description": "Unknown plant leaf."
+    },
+    {
+        "id": 30041,
+        "name": "Shiriken",
+        "type": "material",
+        "description": "A throwing weapon that Ninja warriors use."
+    },
+    {
+        "id": 30042,
+        "name": "Tiger Fang",
+        "type": "material",
+        "description": "The solid, shiny fang of this wildcat."
+    },
+    {
+        "id": 30045,
+        "name": "Scorpion Needle",
+        "type": "material",
+        "description": "A needle that contains lethal scorpion poison."
+    },
+    {
+        "id": 30046,
+        "name": "Scorpion Tail",
+        "type": "material",
+        "description": "A poisonous scorpion tail."
+    },
+    {
+        "id": 30047,
+        "name": "Curse Book",
+        "type": "material",
+        "description": "An esoteric book used to curse people."
+    },
+    {
+        "id": 30048,
+        "name": "Piece of Ice",
+        "type": "material",
+        "description": "A clump of frozen water that consistently exudes cold air."
+    },
+    {
+        "id": 30049,
+        "name": "Ice Killer Whale Horn",
+        "type": "material",
+        "description": "It is a valuable sculpting material."
+    },
+    {
+        "id": 30050,
+        "name": "Ice Marble",
+        "type": "material",
+        "description": "A marble made from ice. It does not melt in hot weather."
+    },
+    {
+        "id": 30051,
+        "name": "Unknown Talisman",
+        "type": "material",
+        "description": "Unknown talisman, only Esoterics can read it."
+    },
+    {
+        "id": 30052,
+        "name": "Flag",
+        "type": "material",
+        "description": "A flag to mark savage troops."
+    },
+    {
+        "id": 30053,
+        "name": "Bear Foot Skin",
+        "type": "material",
+        "description": "A favourite stamina food among many people."
+    },
+    {
+        "id": 30055,
+        "name": "Scorpion Claw",
+        "type": "material",
+        "description": "The sturdy looking claw from the tentacle of a scorpion."
+    },
+    {
+        "id": 30056,
+        "name": "Spider Web",
+        "type": "material",
+        "description": "A spider uses its silk to make its home."
+    },
+    {
+        "id": 30057,
+        "name": "Spider Eyes",
+        "type": "material",
+        "description": "Spider eyes are a favourite with collectors."
+    },
+    {
+        "id": 30058,
+        "name": "Spider Egg Sack",
+        "type": "material",
+        "description": "Used as a charm by women who do not have any children."
+    },
+    {
+        "id": 30059,
+        "name": "Spider Legs",
+        "type": "material",
+        "description": "Shamans use the hairy legs of spiders at work."
+    },
+    {
+        "id": 30060,
+        "name": "Frog Tongue",
+        "type": "material",
+        "description": "An elastic, very sticky tongue."
+    },
+    {
+        "id": 30061,
+        "name": "Frog's Legs",
+        "type": "material",
+        "description": "An exotic cooking ingredient, that tastes like chicken!"
+    },
+    {
+        "id": 30067,
+        "name": "Snakeskin",
+        "type": "material",
+        "description": "The scaly, shiny skin of a snake."
+    },
+    {
+        "id": 30070,
+        "name": "Wolf Fur+",
+        "type": "material",
+        "description": "The thickest hairs in wolf's fur are used to make combs and brushes."
+    },
+    {
+        "id": 30071,
+        "name": "Bear Gall+",
+        "type": "material",
+        "description": "Bear gall is known for reviving the sense of taste."
+    },
+    {
+        "id": 30072,
+        "name": "Bear Foot Skin+",
+        "type": "material",
+        "description": "A favourite stamina food among many people."
+    },
+    {
+        "id": 30073,
+        "name": "White Hairband+",
+        "type": "material",
+        "description": "A popular ribbon to tie up a woman's hair."
+    },
+    {
+        "id": 30074,
+        "name": "Black Uniform+",
+        "type": "material",
+        "description": "A worn out black uniform."
+    },
+    {
+        "id": 30075,
+        "name": "Shiriken+",
+        "type": "material",
+        "description": "A throwing weapon used by Ninja warriors."
+    },
+    {
+        "id": 30076,
+        "name": "Orc Amulet+",
+        "type": "material",
+        "description": "An amulet that encourages Orcs during battle."
+    },
+    {
+        "id": 30077,
+        "name": "Orc Tooth+",
+        "type": "material",
+        "description": "A yellow-brown, vile smelling tooth of an Orc. On the edges there are indefinable, crusty residues."
+    },
+    {
+        "id": 30078,
+        "name": "Esoteric Primer+",
+        "type": "material",
+        "description": "A beginners handbook of esoteric doctrine."
+    },
+    {
+        "id": 30079,
+        "name": "Unknown Talisman+",
+        "type": "material",
+        "description": "An unknown talisman, only Esoterics can read it."
+    },
+    {
+        "id": 30080,
+        "name": "Curse Book+",
+        "type": "material",
+        "description": "This Esoteric Book can be used to curse someone."
+    },
+    {
+        "id": 30081,
+        "name": "Scorpion Tail+",
+        "type": "material",
+        "description": "A poisonous scorpion tail."
+    },
+    {
+        "id": 30082,
+        "name": "Snake Tail+",
+        "type": "material",
+        "description": "The scaly, colourful tail of a rattlesnake."
+    },
+    {
+        "id": 30083,
+        "name": "Unknown Medicine+",
+        "type": "material",
+        "description": "Unknown medicine with unknown ingredients."
+    },
+    {
+        "id": 30084,
+        "name": "Unknown Talisman+",
+        "type": "material",
+        "description": "An unknown talisman, only Esoterics can read it."
+    },
+    {
+        "id": 30085,
+        "name": "Piece of Fabric+",
+        "type": "material",
+        "description": "A fabric used to cover someone's wound."
+    },
+    {
+        "id": 30086,
+        "name": "Demon's Keepsake+",
+        "type": "material",
+        "description": "A gloomy keepsake of a Demon."
+    },
+    {
+        "id": 30087,
+        "name": "Demon's Gem+",
+        "type": "material",
+        "description": "A gem that is known for holding the souls of the dead."
+    },
+    {
+        "id": 30088,
+        "name": "Piece of Ice+",
+        "type": "material",
+        "description": "Frozen water that remains exudes cold air."
+    },
+    {
+        "id": 30089,
+        "name": "Yeti Fur+",
+        "type": "material",
+        "description": "The fur of the legendary creature, the Yeti, protects against the cold."
+    },
+    {
+        "id": 30090,
+        "name": "Ice Marble+",
+        "type": "material",
+        "description": "A marble made from ice. It does not melt in the hot weather."
+    },
+    {
+        "id": 30091,
+        "name": "Warrior's Symbol",
+        "type": "material",
+        "description": "The Warrior symbol given to the legendary Warriors."
+    },
+    {
+        "id": 30092,
+        "name": "Warrior's Symbol",
+        "type": "material",
+        "description": "The Warrior symbol given to the legendary Warriors."
+    },
+    {
+        "id": 27799,
+        "name": "Fishbones",
+        "type": "material",
+        "description": "The bones of a fish"
+    },
+    {
+        "id": 27987,
+        "name": "Clam",
+        "type": "material",
+        "description": "A clam with a pretty shell. Sometimes it holds a precious pearl inside."
+    },
+    {
+        "id": 27992,
+        "name": "White Pearl",
+        "type": "material",
+        "description": "The pure white treasure found inside a seashell."
+    },
+    {
+        "id": 27993,
+        "name": "Blue Pearl",
+        "type": "material",
+        "description": "A magnificent deep blue pearl found inside a seashell."
+    },
+    {
+        "id": 27994,
+        "name": "Blood-Red Pearl",
+        "type": "material",
+        "description": "The tawny-coloured treasure from the inside of a seashell."
+    },
+    {
+        "id": 30193,
+        "name": "Finger Bones",
+        "type": "material",
+        "description": "The last remains of a fallen hero."
+    }
+]

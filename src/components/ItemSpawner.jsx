@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import '../styles/ItemSpawner.css'
 import ItemPicker from './ItemPicker';
 import ItemFilter from './ItemFilter';
