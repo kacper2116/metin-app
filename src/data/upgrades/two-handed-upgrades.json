@@ -1,0 +1,214 @@
+[
+    {
+        "name": "two-handed-1-20",
+        "upgrades": {
+            "1": {
+                "cost": 600,
+                "materials": []
+            },
+            "2": {
+                "cost": 1200,
+                "materials": []
+            },
+            "3": {
+                "cost": 2500,
+                "materials": []
+            },
+            "4": {
+                "cost": 5000,
+                "materials": []
+            },
+            "5": {
+                "cost": 10000,
+                "materials": []
+            },
+            "6": {
+                "cost": 20000,
+                "materials": []
+            },
+            "7": {
+                "cost": 30000,
+                "materials": [
+                    {
+                        "id": 30034,
+                        "count": 2
+                    }
+                ]
+            },
+            "8": {
+                "cost": 45000,
+                "materials": [
+                    {
+                        "id": 30011,
+                        "count": 2
+                    }
+                ]
+            },
+            "9": {
+                "cost": 75000,
+                "materials": [
+                    {
+                        "id": 30035,
+                        "count": 2
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "two-handed-25-40",
+        "upgrades": {
+            "1": {
+                "cost": 1000,
+                "materials": []
+            },
+            "2": {
+                "cost": 2000,
+                "materials": []
+            },
+            "3": {
+                "cost": 4000,
+                "materials": []
+            },
+            "4": {
+                "cost": 8000,
+                "materials": []
+            },
+            "5": {
+                "cost": 13000,
+                "materials": [
+                    {
+                        "id": 30052,
+                        "count": 2
+                    }
+                ]
+            },
+            "6": {
+                "cost": 20000,
+                "materials": [
+                    {
+                        "id": 30046,
+                        "count": 2
+                    }
+                ]
+            },
+            "7": {
+                "cost": 40000,
+                "materials": [
+                    {
+                        "id": 30045,
+                        "count": 2
+                    },
+                    {
+                        "id": 27799,
+                        "count": 1
+                    }
+                ]
+            },
+            "8": {
+                "cost": 70000,
+                "materials": [
+                    {
+                        "id": 30025,
+                        "count": 2
+                    },
+                    {
+                        "id": 27987,
+                        "count": 1
+                    }
+                ]
+            },
+            "9": {
+                "cost": 120000,
+                "materials": [
+                    {
+                        "id": 30058,
+                        "count": 2
+                    },
+                    {
+                        "id": 27987,
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "two-handed-45-75",
+        "upgrades": {
+            "1": {
+                "cost": 1200,
+                "materials": []
+            },
+            "2": {
+                "cost": 2500,
+                "materials": []
+            },
+            "3": {
+                "cost": 5000,
+                "materials": []
+            },
+            "4": {
+                "cost": 10000,
+                "materials": []
+            },
+            "5": {
+                "cost": 20000,
+                "materials": [
+                    {
+                        "id": 30083,
+                        "count": 2
+                    }
+                ]
+            },
+            "6": {
+                "cost": 30000,
+                "materials": [
+                    {
+                        "id": 30060,
+                        "count": 2
+                    }
+                ]
+            },
+            "7": {
+                "cost": 45000,
+                "materials": [
+                    {
+                        "id": 30061,
+                        "count": 2
+                    },
+                    {
+                        "id": 27992,
+                        "count": 1
+                    }
+                ]
+            },
+            "8": {
+                "cost": 90000,
+                "materials": [
+                    {
+                        "id": 30088,
+                        "count": 2
+                    },
+                    {
+                        "id": 27993,
+                        "count": 1
+                    }
+                ]
+            },
+            "9": {
+                "cost": 150000,
+                "materials": [
+                    {
+                        "id": 30019,
+                        "count": 2
+                    },
+                    {
+                        "id": 27994,
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    }
+]

@@ -1,6 +1,6 @@
 [
     {
-        "name": "swords-1-25",
+        "name": "daggers-1-20",
         "upgrades": {
             "1": {
                 "cost": 600,
@@ -30,8 +30,8 @@
                 "cost": 30000,
                 "materials": [
                     {
-                        "id": 30053,
-                        "count": 1
+                        "id": 30070,
+                        "count": 2
                     }
                 ]
             },
@@ -39,7 +39,7 @@
                 "cost": 45000,
                 "materials": [
                     {
-                        "id": 30073,
+                        "id": 30072,
                         "count": 2
                     }
                 ]
@@ -48,7 +48,7 @@
                 "cost": 75000,
                 "materials": [
                     {
-                        "id": 30033,
+                        "id": 30017,
                         "count": 2
                     }
                 ]
@@ -56,7 +56,7 @@
         }
     },
     {
-        "name": "swords-25-40",
+        "name": "daggers-25-40",
         "upgrades": {
             "1": {
                 "cost": 1000,
@@ -78,8 +78,8 @@
                 "cost": 13000,
                 "materials": [
                     {
-                        "id": 30030,
-                        "count": 2
+                        "id": 30041,
+                        "count": 1
                     }
                 ]
             },
@@ -87,7 +87,7 @@
                 "cost": 20000,
                 "materials": [
                     {
-                        "id": 30075,
+                        "id": 30008,
                         "count": 2
                     }
                 ]
@@ -96,7 +96,7 @@
                 "cost": 40000,
                 "materials": [
                     {
-                        "id": 30056,
+                        "id": 30057,
                         "count": 2
                     },
                     {
@@ -109,7 +109,7 @@
                 "cost": 70000,
                 "materials": [
                     {
-                        "id": 30022,
+                        "id": 30081,
                         "count": 2
                     },
                     {
@@ -122,7 +122,7 @@
                 "cost": 120000,
                 "materials": [
                     {
-                        "id": 30067,
+                        "id": 30077,
                         "count": 2
                     },
                     {
@@ -134,7 +134,7 @@
         }
     },
     {
-        "name": "swords-45-75",
+        "name": "daggers-45-75",
         "upgrades": {
             "1": {
                 "cost": 1200,
@@ -156,8 +156,8 @@
                 "cost": 20000,
                 "materials": [
                     {
-                        "id": 30079,
-                        "count": 1
+                        "id": 30009,
+                        "count": 2
                     }
                 ]
             },
@@ -165,8 +165,8 @@
                 "cost": 30000,
                 "materials": [
                     {
-                        "id": 30015,
-                        "count": 1
+                        "id": 30039,
+                        "count": 2
                     }
                 ]
             },
@@ -174,7 +174,7 @@
                 "cost": 45000,
                 "materials": [
                     {
-                        "id": 30016,
+                        "id": 30040,
                         "count": 2
                     },
                     {
@@ -187,7 +187,7 @@
                 "cost": 90000,
                 "materials": [
                     {
-                        "id": 30089,
+                        "id": 30048,
                         "count": 2
                     },
                     {
@@ -200,7 +200,7 @@
                 "cost": 150000,
                 "materials": [
                     {
-                        "id": 30091,
+                        "id": 30090,
                         "count": 2
                     },
                     {
