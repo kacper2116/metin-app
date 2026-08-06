@@ -1,0 +1,214 @@
+[
+    {
+        "name": "shield-1",
+        "upgrades": {
+            "1": {
+                "cost": 600,
+                "materials": []
+            },
+            "2": {
+                "cost": 1200,
+                "materials": []
+            },
+            "3": {
+                "cost": 2500,
+                "materials": []
+            },
+            "4": {
+                "cost": 5000,
+                "materials": []
+            },
+            "5": {
+                "cost": 10000,
+                "materials": []
+            },
+            "6": {
+                "cost": 20000,
+                "materials": []
+            },
+            "7": {
+                "cost": 30000,
+                "materials": [
+                    {
+                        "id": 30071,
+                        "count": 2
+                    }
+                ]
+            },
+            "8": {
+                "cost": 45000,
+                "materials": [
+                    {
+                        "id": 30023,
+                        "count": 1
+                    }
+                ]
+            },
+            "9": {
+                "cost": 75000,
+                "materials": [
+                    {
+                        "id": 30074,
+                        "count": 2
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "shield-21",
+        "upgrades": {
+            "1": {
+                "cost": 1000,
+                "materials": []
+            },
+            "2": {
+                "cost": 2000,
+                "materials": []
+            },
+            "3": {
+                "cost": 4000,
+                "materials": []
+            },
+            "4": {
+                "cost": 8000,
+                "materials": []
+            },
+            "5": {
+                "cost": 13000,
+                "materials": [
+                    {
+                        "id": 30005,
+                        "count": 1
+                    }
+                ]
+            },
+            "6": {
+                "cost": 20000,
+                "materials": [
+                    {
+                        "id": 30078,
+                        "count": 1
+                    }
+                ]
+            },
+            "7": {
+                "cost": 40000,
+                "materials": [
+                    {
+                        "id": 30051,
+                        "count": 1
+                    },
+                    {
+                        "id": 27799,
+                        "count": 1
+                    }
+                ]
+            },
+            "8": {
+                "cost": 70000,
+                "materials": [
+                    {
+                        "id": 30055,
+                        "count": 2
+                    },
+                    {
+                        "id": 27987,
+                        "count": 1
+                    }
+                ]
+            },
+            "9": {
+                "cost": 120000,
+                "materials": [
+                    {
+                        "id": 30047,
+                        "count": 2
+                    },
+                    {
+                        "id": 27987,
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "shields-41-61",
+        "upgrades": {
+            "1": {
+                "cost": 1200,
+                "materials": []
+            },
+            "2": {
+                "cost": 2500,
+                "materials": []
+            },
+            "3": {
+                "cost": 5000,
+                "materials": []
+            },
+            "4": {
+                "cost": 10000,
+                "materials": []
+            },
+            "5": {
+                "cost": 20000,
+                "materials": [
+                    {
+                        "id": 30059,
+                        "count": 2
+                    }
+                ]
+            },
+            "6": {
+                "cost": 30000,
+                "materials": [
+                    {
+                        "id": 30080,
+                        "count": 2
+                    }
+                ]
+            },
+            "7": {
+                "cost": 45000,
+                "materials": [
+                    {
+                        "id": 30085,
+                        "count": 2
+                    },
+                    {
+                        "id": 27992,
+                        "count": 1
+                    }
+                ]
+            },
+            "8": {
+                "cost": 90000,
+                "materials": [
+                    {
+                        "id": 30049,
+                        "count": 2
+                    },
+                    {
+                        "id": 27993,
+                        "count": 1
+                    }
+                ]
+            },
+            "9": {
+                "cost": 150000,
+                "materials": [
+                    {
+                        "id": 30042,
+                        "count": 2
+                    },
+                    {
+                        "id": 27994,
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    }
+]
