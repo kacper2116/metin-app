@@ -1,0 +1,214 @@
+[
+    {
+        "name": "necklaces-1-22",
+        "upgrades": {
+            "1": {
+                "cost": 600,
+                "materials": []
+            },
+            "2": {
+                "cost": 1200,
+                "materials": []
+            },
+            "3": {
+                "cost": 2500,
+                "materials": []
+            },
+            "4": {
+                "cost": 5000,
+                "materials": []
+            },
+            "5": {
+                "cost": 10000,
+                "materials": []
+            },
+            "6": {
+                "cost": 20000,
+                "materials": []
+            },
+            "7": {
+                "cost": 30000,
+                "materials": [
+                    {
+                        "id": 30070,
+                        "count": 2
+                    }
+                ]
+            },
+            "8": {
+                "cost": 45000,
+                "materials": [
+                    {
+                        "id": 30018,
+                        "count": 2
+                    }
+                ]
+            },
+            "9": {
+                "cost": 75000,
+                "materials": [
+                    {
+                        "id": 30017,
+                        "count": 2
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "necklaces-28-42",
+        "upgrades": {
+            "1": {
+                "cost": 1000,
+                "materials": []
+            },
+            "2": {
+                "cost": 2000,
+                "materials": []
+            },
+            "3": {
+                "cost": 4000,
+                "materials": []
+            },
+            "4": {
+                "cost": 8000,
+                "materials": []
+            },
+            "5": {
+                "cost": 13000,
+                "materials": [
+                    {
+                        "id": 30041,
+                        "count": 2
+                    }
+                ]
+            },
+            "6": {
+                "cost": 20000,
+                "materials": [
+                    {
+                        "id": 30076,
+                        "count": 2
+                    }
+                ]
+            },
+            "7": {
+                "cost": 40000,
+                "materials": [
+                    {
+                        "id": 30051,
+                        "count": 2
+                    },
+                    {
+                        "id": 27799,
+                        "count": 1
+                    }
+                ]
+            },
+            "8": {
+                "cost": 70000,
+                "materials": [
+                    {
+                        "id": 30081,
+                        "count": 2
+                    },
+                    {
+                        "id": 27987,
+                        "count": 1
+                    }
+                ]
+            },
+            "9": {
+                "cost": 120000,
+                "materials": [
+                    {
+                        "id": 30077,
+                        "count": 2
+                    },
+                    {
+                        "id": 27987,
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "necklaces-46-54",
+        "upgrades": {
+            "1": {
+                "cost": 1200,
+                "materials": []
+            },
+            "2": {
+                "cost": 2500,
+                "materials": []
+            },
+            "3": {
+                "cost": 5000,
+                "materials": []
+            },
+            "4": {
+                "cost": 10000,
+                "materials": []
+            },
+            "5": {
+                "cost": 20000,
+                "materials": [
+                    {
+                        "id": 30009,
+                        "count": 2
+                    }
+                ]
+            },
+            "6": {
+                "cost": 30000,
+                "materials": [
+                    {
+                        "id": 30039,
+                        "count": 2
+                    }
+                ]
+            },
+            "7": {
+                "cost": 45000,
+                "materials": [
+                    {
+                        "id": 30040,
+                        "count": 2
+                    },
+                    {
+                        "id": 27992,
+                        "count": 1
+                    }
+                ]
+            },
+            "8": {
+                "cost": 90000,
+                "materials": [
+                    {
+                        "id": 30048,
+                        "count": 2
+                    },
+                    {
+                        "id": 27993,
+                        "count": 1
+                    }
+                ]
+            },
+            "9": {
+                "cost": 150000,
+                "materials": [
+                    {
+                        "id": 30090,
+                        "count": 2
+                    },
+                    {
+                        "id": 27994,
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    }
+]
