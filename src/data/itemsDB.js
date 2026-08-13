@@ -1,4 +1,4 @@
-import swords from './swords.json'
+import swords from './items/swords.json'
 
 export const itemsDB = [
     ...swords

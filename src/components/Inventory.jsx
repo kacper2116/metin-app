@@ -10,7 +10,7 @@ import useInventoryDrag from "../hooks/useInventoryDrag"
 import useSlotHover from "../hooks/useSlotHover"
 import MouseContext from "../contexts/MouseContext"
 import TooltipContext from "../contexts/TooltipContext"
-import items_arr from "../data/items.json";
+
 
 const Inventory = ({ inventorySize, inventory }) => {
 
