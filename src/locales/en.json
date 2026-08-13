@@ -1,0 +1,17 @@
+{
+    "items": {
+        "sword": "Sword"
+    },
+    "stats": {
+        "required_level": "Required level",
+        "attack": "Attack value",
+        "magical_attack": "Magical attack value",
+        "attack_speed": "Attack speed"
+    },
+    "professions": {
+        "warrior": "Warrior",
+        "ninja": "Ninja",
+        "sura": "Sura",
+        "shaman": "Shaman"
+    }
+}

@@ -1,9 +1,18 @@
 
 import '../styles/TooltipContent.css'
+import en from '../locales/en.json'
 
 const TooltipContent = ({ itemInstance }) => {
 
     const item = itemInstance.item;
+
+    const translate = (category, key) => {
+        return en[category]?.[key] ?? key;
+    }
+
+    const itemName = `${translate("items", item.name.split('+')[0])}+${item.plus}`
+
+    console.log(itemName)
 
     const wearableItemTypes = [
         'weapon',
