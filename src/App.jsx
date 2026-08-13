@@ -4,10 +4,12 @@ import Inventory from './components/Inventory'
 import Blacksmith from './components/Blacksmith'
 import ItemSpawner from './components/ItemSpawner'
 import useInventoryItems from './hooks/useInventoryItems'
+import { useState } from 'react'
 const App = () => {
 
   const inventorySize = { x: 5, y: 9 };
   const inventory = useInventoryItems({ inventorySize })
+
 
   return (
     <div className='app-container'>

@@ -1,7 +1,10 @@
-import { useEffect, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import '../styles/ItemFilter.css';
 import { itemsDB } from '../data/itemsDB';
+import LocaleContext from '../contexts/LocaleContext'
 const ItemFilter = ({ setFilteredItems }) => {
+
+    const { translate } = useContext(LocaleContext)
 
     const [filter, setFilter] = useState({
         type: 'weapon',
@@ -12,25 +15,24 @@ const ItemFilter = ({ setFilteredItems }) => {
 
     const filterOptions = {
         type: [
-            { value: "weapon", label: "Bronie" },
-            { value: "armor", label: "Zbroje" },
-            { value: "shield", label: "Tarcze" },
-            { value: "helmet", label: "Hełmy" },
-            { value: "earring", label: "Kolczyki" },
-            { value: "necklace", label: "Naszyjniki" },
-            { value: "bracelet", label: "Bransolety" },
-            { value: "shoes", label: "Buty" }
+            "weapon",
+            "armor",
+            "shield",
+            "helmet",
+            "earrings",
+            "necklace",
+            "bracelet",
+            "shoes"
         ],
         plus: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
-        profession: [{ value: "warrior", label: "Wojownik" }, { value: "ninja", label: "Ninja" }, { value: "sura", label: "Sura" }, { value: "shaman", label: "Szaman" }]
-
+        profession: ["warrior", "ninja", "sura", "shaman"]
     }
 
     const weaponTypes = {
-        warrior: [{ value: "sword", label: "miecze" }, { value: "two_handed", label: "dwuręczne" }],
-        ninja: [{ value: "sword", label: "miecze" }, { value: "dagger", label: "sztylety" }, { value: "bow", label: "łuki" }],
-        sura: [{ value: "sword", label: "miecze" }, { value: "blade", label: "ostrza" }],
-        shaman: [{ value: "fans", label: "wachlarze" }, { value: "bell", label: "dzwonki" }]
+        warrior: ["sword", "two_handed"],
+        ninja: ["sword", "dagger", "bow"],
+        sura: ["sword", "blade"],
+        shaman: ["fan", "bell"]
     }
 
     const handleSetFilter = (e) => {
@@ -73,18 +75,18 @@ const ItemFilter = ({ setFilteredItems }) => {
             <div className='filter-profession' >
                 {filterOptions.profession.map(profession =>
                     <button
-                        key={profession.value}
+                        key={profession}
                         name="profession"
-                        value={profession.value}
-                        className={`filter-button ${filter.profession === profession.value ? 'active' : ''}`}
-                        onClick={(e) => filter.profession !== profession.value && handleSetFilter(e)}
-                    >{profession.label}</button>
+                        value={profession}
+                        className={`filter-button ${filter.profession === profession ? 'active' : ''}`}
+                        onClick={(e) => filter.profession !== profession && handleSetFilter(e)}
+                    >{translate("professions", profession)}</button>
                 )}
             </div>
 
             <select className='filter-type' onChange={handleSetFilter} value={filter.type} name="type">
                 {filterOptions.type.map(type =>
-                    <option value={type.value} key={type.value}>{type.label}</option>
+                    <option value={type} key={type}>{translate("filters.type", type)}</option>
                 )}
             </select>
             <select className='filter-plus' onChange={handleSetFilter} value={filter.plus} name='plus'>
@@ -97,12 +99,12 @@ const ItemFilter = ({ setFilteredItems }) => {
                 <div className='filter-subtype'>
                     {weaponTypes[filter.profession].map(subtype =>
                         <button
-                            key={subtype.value}
+                            key={subtype}
                             name='subtype'
-                            value={subtype.value}
-                            className={`filter-button ${filter.subtype === subtype.value ? 'active' : ''}`}
+                            value={subtype}
+                            className={`filter-button ${filter.subtype === subtype ? 'active' : ''}`}
                             onClick={handleSetFilter}
-                        >{subtype.label[0].toUpperCase() + subtype.label.slice(1)}</button>
+                        >{translate("filters.weapon_type", subtype)}</button>
                     )}
                 </div>
             }

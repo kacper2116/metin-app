@@ -1,18 +1,16 @@
 
 import '../styles/TooltipContent.css'
 import en from '../locales/en.json'
+import { useContext } from 'react';
+import LocaleContext from '../contexts/LocaleContext'
 
 const TooltipContent = ({ itemInstance }) => {
 
     const item = itemInstance.item;
 
-    const translate = (category, key) => {
-        return en[category]?.[key] ?? key;
-    }
 
-    const itemName = `${translate("items", item.name.split('+')[0])}+${item.plus}`
+    const localeContext = useContext(LocaleContext)
 
-    console.log(itemName)
 
     const wearableItemTypes = [
         'weapon',

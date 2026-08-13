@@ -4,13 +4,16 @@ import './index.css'
 import App from './App.jsx'
 import { MouseProvider } from './contexts/MouseContext.jsx'
 import { TooltipProvider } from './contexts/TooltipContext.jsx'
+import { LocaleProvider } from './contexts/LocaleContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <MouseProvider>
-      <TooltipProvider>
-        <App />
-      </TooltipProvider>
+      <LocaleProvider>
+        <TooltipProvider>
+          <App />
+        </TooltipProvider>
+      </LocaleProvider>
     </MouseProvider>
   </StrictMode>,
 )
