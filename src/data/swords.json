@@ -1,7 +1,7 @@
 [
     {
         "id": 10,
-        "name": "Miecz+0",
+        "name": "sword+0",
         "plus": 0,
         "next_item_id": 11,
         "type": "weapon",
@@ -23,16 +23,13 @@
             "ninja",
             "sura"
         ],
-        "upgrade_cost": {
-            "yang": null,
-            "upgrade_items": null
-        },
+        "upgrade-scheme": "swords-1-20",
         "img": "items/swords/sword.png",
         "size": 2
     },
     {
         "id": 11,
-        "name": "Miecz+1",
+        "name": "sword+1",
         "plus": 1,
         "next_item_id": 12,
         "type": "weapon",
@@ -54,16 +51,13 @@
             "ninja",
             "sura"
         ],
-        "upgrade_cost": {
-            "yang": 600,
-            "upgrade_items": null
-        },
+        "upgrade-scheme": "swords-1-20",
         "img": "items/swords/sword.png",
         "size": 2
     },
     {
         "id": 12,
-        "name": "Miecz+2",
+        "name": "sword+2",
         "plus": 2,
         "next_item_id": 13,
         "type": "weapon",
@@ -85,49 +79,15 @@
             "ninja",
             "sura"
         ],
-        "upgrade_cost": {
-            "yang": 1200,
-            "upgrade_items": null
-        },
+        "upgrade-scheme": "swords-1-20",
         "img": "items/swords/sword.png",
         "size": 2
     },
     {
         "id": 13,
-        "name": "Miecz+1",
-        "plus": 1,
-        "next_item_id": 14,
-        "type": "weapon",
-        "subtype": "sword",
-        "required_level": 1,
-        "stats": {
-            "attack": {
-                "min": 20,
-                "max": 22
-            },
-            "magical_attack": {
-                "min": 22,
-                "max": 26
-            },
-            "attack_speed": 22
-        },
-        "profession": [
-            "warrior",
-            "ninja",
-            "sura"
-        ],
-        "upgrade_cost": {
-            "yang": 600,
-            "upgrade_items": null
-        },
-        "img": "items/swords/sword.png",
-        "size": 2
-    },
-    {
-        "id": 14,
-        "name": "Miecz+3",
+        "name": "sword+3",
         "plus": 3,
-        "next_item_id": 15,
+        "next_item_id": 14,
         "type": "weapon",
         "subtype": "sword",
         "required_level": 1,
@@ -147,18 +107,15 @@
             "ninja",
             "sura"
         ],
-        "upgrade_cost": {
-            "yang": 2500,
-            "upgrade_items": null
-        },
+        "upgrade-scheme": "swords-1-20",
         "img": "items/swords/sword.png",
         "size": 2
     },
     {
-        "id": 15,
-        "name": "Miecz+4",
+        "id": 14,
+        "name": "sword+4",
         "plus": 4,
-        "next_item_id": 16,
+        "next_item_id": 15,
         "type": "weapon",
         "subtype": "sword",
         "required_level": 1,
@@ -178,18 +135,15 @@
             "ninja",
             "sura"
         ],
-        "upgrade_cost": {
-            "yang": 5000,
-            "upgrade_items": null
-        },
+        "upgrade-scheme": "swords-1-20",
         "img": "items/swords/sword.png",
         "size": 2
     },
     {
-        "id": 16,
-        "name": "Miecz+5",
+        "id": 15,
+        "name": "sword+5",
         "plus": 5,
-        "next_item_id": 17,
+        "next_item_id": 16,
         "type": "weapon",
         "subtype": "sword",
         "required_level": 1,
@@ -209,18 +163,15 @@
             "ninja",
             "sura"
         ],
-        "upgrade_cost": {
-            "yang": 10000,
-            "upgrade_items": null
-        },
+        "upgrade-scheme": "swords-1-20",
         "img": "items/swords/sword.png",
         "size": 2
     },
     {
-        "id": 17,
-        "name": "Miecz+6",
+        "id": 16,
+        "name": "sword+6",
         "plus": 6,
-        "next_item_id": 18,
+        "next_item_id": 17,
         "type": "weapon",
         "subtype": "sword",
         "required_level": 1,
@@ -240,10 +191,91 @@
             "ninja",
             "sura"
         ],
-        "upgrade_cost": {
-            "yang": 20000,
-            "upgrade_items": null
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/sword.png",
+        "size": 2
+    },
+    {
+        "id": 17,
+        "name": "sword+7",
+        "plus": 7,
+        "next_item_id": 18,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 62,
+                "max": 64
+            },
+            "magical_attack": {
+                "min": 64,
+                "max": 68
+            },
+            "attack_speed": 22
         },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/sword.png",
+        "size": 2
+    },
+    {
+        "id": 18,
+        "name": "sword+8",
+        "plus": 8,
+        "next_item_id": 19,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 69,
+                "max": 71
+            },
+            "magical_attack": {
+                "min": 71,
+                "max": 75
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/sword.png",
+        "size": 2
+    },
+    {
+        "id": 19,
+        "name": "sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 76,
+                "max": 78
+            },
+            "magical_attack": {
+                "min": 78,
+                "max": 82
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
         "img": "items/swords/sword.png",
         "size": 2
     }
