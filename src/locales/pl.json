@@ -4,6 +4,7 @@
     },
     "stats": {
         "required_level": "Od Poziomu",
+        "wearable": "Do Ubrania",
         "attack": "Wartość Ataku",
         "magical_attack": "Wartość Magicznego ataku",
         "attack_speed": "Szybkość Ataku"

@@ -8,9 +8,7 @@ const TooltipContent = ({ itemInstance }) => {
 
     const item = itemInstance.item;
 
-
-    const localeContext = useContext(LocaleContext)
-
+    const { translate } = useContext(LocaleContext)
 
     const wearableItemTypes = [
         'weapon',
@@ -23,21 +21,13 @@ const TooltipContent = ({ itemInstance }) => {
         'shoes'
     ]
 
-    const professions = {
-        warrior: "Wojownik",
-        ninja: "Ninja",
-        sura: "Sura",
-        shaman: "Szaman"
-
-    }
-
     const statsLabels = {
-        required_level: { label: 'Od poziomu', unit: null },
-        attack: { label: "Wartość ataku", unit: null },
-        magical_attack: { label: 'Wartość magicznego ataku', unit: null },
-        attack_speed: { label: 'Prędkość ataku', unit: '%' },
-        defense: { label: 'Obrona', unit: null },
-        movement_speed: { label: 'Prędkość ruchu', unit: '%' },
+        required_level: { label: translate('stats', 'required_level'), unit: null },
+        attack: { label: translate('stats', 'attack'), unit: null },
+        magical_attack: { label: translate('stats', 'magical_attack'), unit: null },
+        attack_speed: { label: translate('stats', 'attack_speed'), unit: '%' },
+        defense: { label: translate('stats', 'defense'), unit: null },
+        movement_speed: { label: translate('stats', 'movement_speed'), unit: '%' },
     }
 
     const formatStatValue = (value) => {
@@ -58,19 +48,20 @@ const TooltipContent = ({ itemInstance }) => {
 
     return (
         <div className='tooltip-content'>
-            <div className='tooltip-name'>{item.name}</div>
+            <div className='tooltip-name'>{`${translate('items', item.name.split('+')[0])}+${item.plus}`}</div>
             {item.required_level && <div className='tooltip-level'>{formatStat("required_level", item.required_level)}</div>}
             {item.stats &&
                 <div className='tooltip-stats'>
                     {Object.entries(item.stats).map(([name, value]) => (
+
                         <div key={name} className='tooltip-stat'>{formatStat(name, value)}</div>
                     ))}</div>
             }
-            {wearableItemTypes.includes(item.type) && <div className="tooltip-wearable">[ Do ubrania ]</div>}
+            {wearableItemTypes.includes(item.type) && <div className="tooltip-wearable">[ {translate("stats", "wearable")} ]</div>}
             {item.profession && (
                 <div className="tooltip-professions">
                     {item.profession.map(prof => (
-                        <span className="tooltip-profession">{professions[prof]}</span>))}
+                        <span className="tooltip-profession">{translate("professions", prof)}</span>))}
                 </div>
             )
             }

@@ -3,10 +3,11 @@
         "sword": "Sword"
     },
     "stats": {
-        "required_level": "Required level",
-        "attack": "Attack value",
-        "magical_attack": "Magical attack value",
-        "attack_speed": "Attack speed"
+        "required_level": "From Level",
+        "wearable": "Wearable",
+        "attack": "Attack Value",
+        "magical_attack": "Magical Attack value",
+        "attack_speed": "Attack Speed"
     },
     "professions": {
         "warrior": "Warrior",
