@@ -178,5 +178,385 @@
         "upgrade-scheme": "armors-1-18",
         "img": "items/armors/warrior/monk_plate_armor.png",
         "size": 2
+    },
+    {
+        "id": 11210,
+        "name": "iron plate armor+0",
+        "plus": 0,
+        "next_item_id": 11211,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 21,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/iron_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11211,
+        "name": "iron plate armor+1",
+        "plus": 1,
+        "next_item_id": 11212,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 27,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/iron_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11212,
+        "name": "iron plate armor+2",
+        "plus": 2,
+        "next_item_id": 11213,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 33,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/iron_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11213,
+        "name": "iron plate armor+3",
+        "plus": 3,
+        "next_item_id": 11214,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 39,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/iron_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11214,
+        "name": "iron plate armor+4",
+        "plus": 4,
+        "next_item_id": 11215,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 45,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/iron_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11215,
+        "name": "iron plate armor+5",
+        "plus": 5,
+        "next_item_id": 11216,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 51,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/iron_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11216,
+        "name": "iron plate armor+6",
+        "plus": 6,
+        "next_item_id": 11217,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 57,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/iron_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11217,
+        "name": "iron plate armor+7",
+        "plus": 7,
+        "next_item_id": 11218,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 63,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/iron_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11218,
+        "name": "iron plate armor+8",
+        "plus": 8,
+        "next_item_id": 11219,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 69,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/iron_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11219,
+        "name": "iron plate armor+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 75,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/iron_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11220,
+        "name": "tiger plate armor+0",
+        "plus": 0,
+        "next_item_id": 11221,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 29,
+            "movement_speed": -3
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/tiger_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11221,
+        "name": "tiger plate armor+1",
+        "plus": 1,
+        "next_item_id": 11222,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 35,
+            "movement_speed": -3
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/tiger_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11222,
+        "name": "tiger plate armor+2",
+        "plus": 2,
+        "next_item_id": 11223,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 41,
+            "movement_speed": -3
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/tiger_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11223,
+        "name": "tiger plate armor+3",
+        "plus": 3,
+        "next_item_id": 11224,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 47,
+            "movement_speed": -3
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/tiger_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11224,
+        "name": "tiger plate armor+4",
+        "plus": 4,
+        "next_item_id": 11225,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 53,
+            "movement_speed": -3
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/tiger_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11225,
+        "name": "tiger plate armor+5",
+        "plus": 5,
+        "next_item_id": 11226,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 59,
+            "movement_speed": -3
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/tiger_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11226,
+        "name": "tiger plate armor+6",
+        "plus": 6,
+        "next_item_id": 11227,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 65,
+            "movement_speed": -3
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/tiger_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11227,
+        "name": "tiger plate armor+7",
+        "plus": 7,
+        "next_item_id": 11228,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 71,
+            "movement_speed": -3
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/tiger_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11228,
+        "name": "tiger plate armor+8",
+        "plus": 8,
+        "next_item_id": 11229,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 77,
+            "movement_speed": -3
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/tiger_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11229,
+        "name": "tiger plate armor+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 83,
+            "movement_speed": -3
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/tiger_plate_armor.png",
+        "size": 2
     }
 ]
