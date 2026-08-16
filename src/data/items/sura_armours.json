@@ -1,0 +1,1912 @@
+[
+    {
+        "id": 11600,
+        "name": "requiem plate armour+0",
+        "plus": 0,
+        "next_item_id": 11601,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 12,
+            "movement_speed": 0
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/requiem_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11601,
+        "name": "requiem plate armour+1",
+        "plus": 1,
+        "next_item_id": 11602,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 18,
+            "movement_speed": 0
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/requiem_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11602,
+        "name": "requiem plate armour+2",
+        "plus": 2,
+        "next_item_id": 11603,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 24,
+            "movement_speed": 0
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/requiem_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11603,
+        "name": "requiem plate armour+3",
+        "plus": 3,
+        "next_item_id": 11604,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 30,
+            "movement_speed": 0
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/requiem_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11604,
+        "name": "requiem plate armour+4",
+        "plus": 4,
+        "next_item_id": 11605,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 36,
+            "movement_speed": 0
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/requiem_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11605,
+        "name": "requiem plate armour+5",
+        "plus": 5,
+        "next_item_id": 11606,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 42,
+            "movement_speed": 0
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/requiem_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11606,
+        "name": "requiem plate armour+6",
+        "plus": 6,
+        "next_item_id": 11607,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 48,
+            "movement_speed": 0
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/requiem_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11607,
+        "name": "requiem plate armour+7",
+        "plus": 7,
+        "next_item_id": 11608,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 54,
+            "movement_speed": 0
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/requiem_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11608,
+        "name": "requiem plate armour+8",
+        "plus": 8,
+        "next_item_id": 11609,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 60,
+            "movement_speed": 0
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/requiem_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11609,
+        "name": "requiem plate armour+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 66,
+            "movement_speed": 0
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/requiem_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11610,
+        "name": "storm plate armour+0",
+        "plus": 0,
+        "next_item_id": 11611,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 21,
+            "movement_speed": -2
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/storm_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11611,
+        "name": "storm plate armour+1",
+        "plus": 1,
+        "next_item_id": 11612,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 27,
+            "movement_speed": -2
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/storm_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11612,
+        "name": "storm plate armour+2",
+        "plus": 2,
+        "next_item_id": 11613,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 33,
+            "movement_speed": -2
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/storm_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11613,
+        "name": "storm plate armour+3",
+        "plus": 3,
+        "next_item_id": 11614,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 39,
+            "movement_speed": -2
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/storm_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11614,
+        "name": "storm plate armour+4",
+        "plus": 4,
+        "next_item_id": 11615,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 45,
+            "movement_speed": -2
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/storm_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11615,
+        "name": "storm plate armour+5",
+        "plus": 5,
+        "next_item_id": 11616,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 51,
+            "movement_speed": -2
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/storm_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11616,
+        "name": "storm plate armour+6",
+        "plus": 6,
+        "next_item_id": 11617,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 57,
+            "movement_speed": -2
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/storm_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11617,
+        "name": "storm plate armour+7",
+        "plus": 7,
+        "next_item_id": 11618,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 63,
+            "movement_speed": -2
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/storm_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11618,
+        "name": "storm plate armour+8",
+        "plus": 8,
+        "next_item_id": 11619,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 69,
+            "movement_speed": -2
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/storm_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11619,
+        "name": "storm plate armour+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 75,
+            "movement_speed": -2
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/storm_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11620,
+        "name": "misfortune armour+0",
+        "plus": 0,
+        "next_item_id": 11621,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 29,
+            "movement_speed": -3
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/misfortune_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11621,
+        "name": "misfortune armour+1",
+        "plus": 1,
+        "next_item_id": 11622,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 35,
+            "movement_speed": -3
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/misfortune_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11622,
+        "name": "misfortune armour+2",
+        "plus": 2,
+        "next_item_id": 11623,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 41,
+            "movement_speed": -3
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/misfortune_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11623,
+        "name": "misfortune armour+3",
+        "plus": 3,
+        "next_item_id": 11624,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 47,
+            "movement_speed": -3
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/misfortune_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11624,
+        "name": "misfortune armour+4",
+        "plus": 4,
+        "next_item_id": 11625,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 53,
+            "movement_speed": -3
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/misfortune_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11625,
+        "name": "misfortune armour+5",
+        "plus": 5,
+        "next_item_id": 11626,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 59,
+            "movement_speed": -3
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/misfortune_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11626,
+        "name": "misfortune armour+6",
+        "plus": 6,
+        "next_item_id": 11627,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 65,
+            "movement_speed": -3
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/misfortune_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11627,
+        "name": "misfortune armour+7",
+        "plus": 7,
+        "next_item_id": 11628,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 71,
+            "movement_speed": -3
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/misfortune_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11628,
+        "name": "misfortune armour+8",
+        "plus": 8,
+        "next_item_id": 11629,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 77,
+            "movement_speed": -3
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/misfortune_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11629,
+        "name": "misfortune armour+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 83,
+            "movement_speed": -3
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/sura/misfortune_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11630,
+        "name": "ghost plate armour+0",
+        "plus": 0,
+        "next_item_id": 11631,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 38,
+            "movement_speed": -5
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/ghost_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11631,
+        "name": "ghost plate armour+1",
+        "plus": 1,
+        "next_item_id": 11632,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 44,
+            "movement_speed": -5
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/ghost_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11632,
+        "name": "ghost plate armour+2",
+        "plus": 2,
+        "next_item_id": 11633,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 50,
+            "movement_speed": -5
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/ghost_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11633,
+        "name": "ghost plate armour+3",
+        "plus": 3,
+        "next_item_id": 11634,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 56,
+            "movement_speed": -5
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/ghost_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11634,
+        "name": "ghost plate armour+4",
+        "plus": 4,
+        "next_item_id": 11635,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 62,
+            "movement_speed": -5
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/ghost_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11635,
+        "name": "ghost plate armour+5",
+        "plus": 5,
+        "next_item_id": 11636,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 68,
+            "movement_speed": -5
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/ghost_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11636,
+        "name": "ghost plate armour+6",
+        "plus": 6,
+        "next_item_id": 11637,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 74,
+            "movement_speed": -5
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/ghost_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11637,
+        "name": "ghost plate armour+7",
+        "plus": 7,
+        "next_item_id": 11638,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 80,
+            "movement_speed": -5
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/ghost_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11638,
+        "name": "ghost plate armour+8",
+        "plus": 8,
+        "next_item_id": 11639,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 86,
+            "movement_speed": -5
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/ghost_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11639,
+        "name": "ghost plate armour+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 92,
+            "movement_speed": -5
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/ghost_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11640,
+        "name": "yin and yang armour+0",
+        "plus": 0,
+        "next_item_id": 11641,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 47,
+            "movement_speed": -7
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/yin_and_yang_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11641,
+        "name": "yin and yang armour+1",
+        "plus": 1,
+        "next_item_id": 11642,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 53,
+            "movement_speed": -7
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/yin_and_yang_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11642,
+        "name": "yin and yang armour+2",
+        "plus": 2,
+        "next_item_id": 11643,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 59,
+            "movement_speed": -7
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/yin_and_yang_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11643,
+        "name": "yin and yang armour+3",
+        "plus": 3,
+        "next_item_id": 11644,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 65,
+            "movement_speed": -7
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/yin_and_yang_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11644,
+        "name": "yin and yang armour+4",
+        "plus": 4,
+        "next_item_id": 11645,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 71,
+            "movement_speed": -7
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/yin_and_yang_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11645,
+        "name": "yin and yang armour+5",
+        "plus": 5,
+        "next_item_id": 11646,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 77,
+            "movement_speed": -7
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/yin_and_yang_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11646,
+        "name": "yin and yang armour+6",
+        "plus": 6,
+        "next_item_id": 11647,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 83,
+            "movement_speed": -7
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/yin_and_yang_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11647,
+        "name": "yin and yang armour+7",
+        "plus": 7,
+        "next_item_id": 11648,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 89,
+            "movement_speed": -7
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/yin_and_yang_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11648,
+        "name": "yin and yang armour+8",
+        "plus": 8,
+        "next_item_id": 11649,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 95,
+            "movement_speed": -7
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/yin_and_yang_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11649,
+        "name": "yin and yang armour+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 101,
+            "movement_speed": -7
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/yin_and_yang_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11650,
+        "name": "mystic plate armour+0",
+        "plus": 0,
+        "next_item_id": 11651,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 55,
+            "movement_speed": -8
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/mystic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11651,
+        "name": "mystic plate armour+1",
+        "plus": 1,
+        "next_item_id": 11652,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 61,
+            "movement_speed": -8
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/mystic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11652,
+        "name": "mystic plate armour+2",
+        "plus": 2,
+        "next_item_id": 11653,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 67,
+            "movement_speed": -8
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/mystic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11653,
+        "name": "mystic plate armour+3",
+        "plus": 3,
+        "next_item_id": 11654,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 73,
+            "movement_speed": -8
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/mystic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11654,
+        "name": "mystic plate armour+4",
+        "plus": 4,
+        "next_item_id": 11655,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 79,
+            "movement_speed": -8
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/mystic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11655,
+        "name": "mystic plate armour+5",
+        "plus": 5,
+        "next_item_id": 11656,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 85,
+            "movement_speed": -8
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/mystic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11656,
+        "name": "mystic plate armour+6",
+        "plus": 6,
+        "next_item_id": 11657,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 91,
+            "movement_speed": -8
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/mystic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11657,
+        "name": "mystic plate armour+7",
+        "plus": 7,
+        "next_item_id": 11658,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 97,
+            "movement_speed": -8
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/mystic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11658,
+        "name": "mystic plate armour+8",
+        "plus": 8,
+        "next_item_id": 11659,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 103,
+            "movement_speed": -8
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/mystic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11659,
+        "name": "mystic plate armour+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 109,
+            "movement_speed": -8
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/sura/mystic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11660,
+        "name": "fog plate armour+0",
+        "plus": 0,
+        "next_item_id": 11661,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 64,
+            "movement_speed": -10
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/fog_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11661,
+        "name": "fog plate armour+1",
+        "plus": 1,
+        "next_item_id": 11662,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 70,
+            "movement_speed": -10
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/fog_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11662,
+        "name": "fog plate armour+2",
+        "plus": 2,
+        "next_item_id": 11663,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 76,
+            "movement_speed": -10
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/fog_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11663,
+        "name": "fog plate armour+3",
+        "plus": 3,
+        "next_item_id": 11664,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 82,
+            "movement_speed": -10
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/fog_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11664,
+        "name": "fog plate armour+4",
+        "plus": 4,
+        "next_item_id": 11665,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 88,
+            "movement_speed": -10
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/fog_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11665,
+        "name": "fog plate armour+5",
+        "plus": 5,
+        "next_item_id": 11666,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 94,
+            "movement_speed": -10
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/fog_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11666,
+        "name": "fog plate armour+6",
+        "plus": 6,
+        "next_item_id": 11667,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 100,
+            "movement_speed": -10
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/fog_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11667,
+        "name": "fog plate armour+7",
+        "plus": 7,
+        "next_item_id": 11668,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 106,
+            "movement_speed": -10
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/fog_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11668,
+        "name": "fog plate armour+8",
+        "plus": 8,
+        "next_item_id": 11669,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 112,
+            "movement_speed": -10
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/fog_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11669,
+        "name": "fog plate armour+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 118,
+            "movement_speed": -10
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/fog_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11670,
+        "name": "ghost mask armour+0",
+        "plus": 0,
+        "next_item_id": 11671,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 72,
+            "movement_speed": -12
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/ghost_mask_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11671,
+        "name": "ghost mask armour+1",
+        "plus": 1,
+        "next_item_id": 11672,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 78,
+            "movement_speed": -12
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/ghost_mask_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11672,
+        "name": "ghost mask armour+2",
+        "plus": 2,
+        "next_item_id": 11673,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 84,
+            "movement_speed": -12
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/ghost_mask_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11673,
+        "name": "ghost mask armour+3",
+        "plus": 3,
+        "next_item_id": 11674,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 90,
+            "movement_speed": -12
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/ghost_mask_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11674,
+        "name": "ghost mask armour+4",
+        "plus": 4,
+        "next_item_id": 11675,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 96,
+            "movement_speed": -12
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/ghost_mask_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11675,
+        "name": "ghost mask armour+5",
+        "plus": 5,
+        "next_item_id": 11676,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 102,
+            "movement_speed": -12
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/ghost_mask_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11676,
+        "name": "ghost mask armour+6",
+        "plus": 6,
+        "next_item_id": 11677,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 108,
+            "movement_speed": -12
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/ghost_mask_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11677,
+        "name": "ghost mask armour+7",
+        "plus": 7,
+        "next_item_id": 11678,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 114,
+            "movement_speed": -12
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/ghost_mask_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11678,
+        "name": "ghost mask armour+8",
+        "plus": 8,
+        "next_item_id": 11679,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 120,
+            "movement_speed": -12
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/ghost_mask_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11679,
+        "name": "ghost mask armour+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 126,
+            "movement_speed": -12
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/ghost_mask_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11680,
+        "name": "spirit plate armour+0",
+        "plus": 0,
+        "next_item_id": 11681,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 81,
+            "movement_speed": -13
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/spirit_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11681,
+        "name": "spirit plate armour+1",
+        "plus": 1,
+        "next_item_id": 11682,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 87,
+            "movement_speed": -13
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/spirit_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11682,
+        "name": "spirit plate armour+2",
+        "plus": 2,
+        "next_item_id": 11683,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 93,
+            "movement_speed": -13
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/spirit_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11683,
+        "name": "spirit plate armour+3",
+        "plus": 3,
+        "next_item_id": 11684,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 99,
+            "movement_speed": -13
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/spirit_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11684,
+        "name": "spirit plate armour+4",
+        "plus": 4,
+        "next_item_id": 11685,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 105,
+            "movement_speed": -13
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/spirit_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11685,
+        "name": "spirit plate armour+5",
+        "plus": 5,
+        "next_item_id": 11686,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 111,
+            "movement_speed": -13
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/spirit_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11686,
+        "name": "spirit plate armour+6",
+        "plus": 6,
+        "next_item_id": 11687,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 117,
+            "movement_speed": -13
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/spirit_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11687,
+        "name": "spirit plate armour+7",
+        "plus": 7,
+        "next_item_id": 11688,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 123,
+            "movement_speed": -13
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/spirit_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11688,
+        "name": "spirit plate armour+8",
+        "plus": 8,
+        "next_item_id": 11689,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 129,
+            "movement_speed": -13
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/spirit_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11689,
+        "name": "spirit plate armour+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 135,
+            "movement_speed": -13
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/sura/spirit_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11690,
+        "name": "magic plate armour+0",
+        "plus": 0,
+        "next_item_id": 11691,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 66,
+        "stats": {
+            "defence": 90,
+            "movement_speed": -15,
+            "magic_resistance": 2
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/sura/magic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11691,
+        "name": "magic plate armour+1",
+        "plus": 1,
+        "next_item_id": 11692,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 66,
+        "stats": {
+            "defence": 96,
+            "movement_speed": -14,
+            "magic_resistance": 3
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/sura/magic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11692,
+        "name": "magic plate armour+2",
+        "plus": 2,
+        "next_item_id": 11693,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 66,
+        "stats": {
+            "defence": 102,
+            "movement_speed": -13,
+            "magic_resistance": 4
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/sura/magic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11693,
+        "name": "magic plate armour+3",
+        "plus": 3,
+        "next_item_id": 11694,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 67,
+        "stats": {
+            "defence": 108,
+            "movement_speed": -12,
+            "magic_resistance": 5
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/sura/magic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11694,
+        "name": "magic plate armour+4",
+        "plus": 4,
+        "next_item_id": 11695,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 67,
+        "stats": {
+            "defence": 114,
+            "movement_speed": -11,
+            "magic_resistance": 6
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/sura/magic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11695,
+        "name": "magic plate armour+5",
+        "plus": 5,
+        "next_item_id": 11696,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 68,
+        "stats": {
+            "defence": 120,
+            "movement_speed": -10,
+            "magic_resistance": 7
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/sura/magic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11696,
+        "name": "magic plate armour+6",
+        "plus": 6,
+        "next_item_id": 11697,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 68,
+        "stats": {
+            "defence": 126,
+            "movement_speed": -9,
+            "magic_resistance": 9
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/sura/magic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11697,
+        "name": "magic plate armour+7",
+        "plus": 7,
+        "next_item_id": 11698,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 69,
+        "stats": {
+            "defence": 132,
+            "movement_speed": -8,
+            "magic_resistance": 12
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/sura/magic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11698,
+        "name": "magic plate armour+8",
+        "plus": 8,
+        "next_item_id": 11699,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 69,
+        "stats": {
+            "defence": 138,
+            "movement_speed": -7,
+            "magic_resistance": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/sura/magic_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11699,
+        "name": "magic plate armour+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 70,
+        "stats": {
+            "defence": 144,
+            "movement_speed": -6,
+            "magic_resistance": 20
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/sura/magic_plate_armour.png",
+        "size": 2
+    }
+]
