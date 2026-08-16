@@ -1,0 +1,4692 @@
+[
+    {
+        "id": 1000,
+        "name": "dagger+0",
+        "plus": 0,
+        "next_item_id": 1001,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 8,
+                "max": 11
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1001,
+        "name": "dagger+1",
+        "plus": 1,
+        "next_item_id": 1002,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 12,
+                "max": 15
+            },
+            "magical_attack": {
+                "min": 4,
+                "max": 4
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1002,
+        "name": "dagger+2",
+        "plus": 2,
+        "next_item_id": 1003,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 16,
+                "max": 19
+            },
+            "magical_attack": {
+                "min": 8,
+                "max": 8
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1003,
+        "name": "dagger+3",
+        "plus": 3,
+        "next_item_id": 1004,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 20,
+                "max": 23
+            },
+            "magical_attack": {
+                "min": 12,
+                "max": 12
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1004,
+        "name": "dagger+4",
+        "plus": 4,
+        "next_item_id": 1005,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 24,
+                "max": 27
+            },
+            "magical_attack": {
+                "min": 16,
+                "max": 16
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1005,
+        "name": "dagger+5",
+        "plus": 5,
+        "next_item_id": 1006,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 28,
+                "max": 31
+            },
+            "magical_attack": {
+                "min": 20,
+                "max": 20
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1006,
+        "name": "dagger+6",
+        "plus": 6,
+        "next_item_id": 1007,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 32,
+                "max": 35
+            },
+            "magical_attack": {
+                "min": 24,
+                "max": 24
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1007,
+        "name": "dagger+7",
+        "plus": 7,
+        "next_item_id": 1008,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 36,
+                "max": 39
+            },
+            "magical_attack": {
+                "min": 28,
+                "max": 28
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1008,
+        "name": "dagger+8",
+        "plus": 8,
+        "next_item_id": 1009,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 40,
+                "max": 43
+            },
+            "magical_attack": {
+                "min": 32,
+                "max": 32
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1009,
+        "name": "dagger+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 44,
+                "max": 47
+            },
+            "magical_attack": {
+                "min": 36,
+                "max": 36
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/dagger.png",
+        "size": 1
+    },
+    {
+        "id": 4000,
+        "name": "amija+0",
+        "plus": 0,
+        "next_item_id": 4001,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 12,
+                "max": 14
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/amija.png",
+        "size": 1
+    },
+    {
+        "id": 4001,
+        "name": "amija+1",
+        "plus": 1,
+        "next_item_id": 4002,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 16,
+                "max": 18
+            },
+            "magical_attack": {
+                "min": 4,
+                "max": 4
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/amija.png",
+        "size": 1
+    },
+    {
+        "id": 4002,
+        "name": "amija+2",
+        "plus": 2,
+        "next_item_id": 4003,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 20,
+                "max": 22
+            },
+            "magical_attack": {
+                "min": 8,
+                "max": 8
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/amija.png",
+        "size": 1
+    },
+    {
+        "id": 4003,
+        "name": "amija+3",
+        "plus": 3,
+        "next_item_id": 4004,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 24,
+                "max": 26
+            },
+            "magical_attack": {
+                "min": 12,
+                "max": 12
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/amija.png",
+        "size": 1
+    },
+    {
+        "id": 4004,
+        "name": "amija+4",
+        "plus": 4,
+        "next_item_id": 4005,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 28,
+                "max": 30
+            },
+            "magical_attack": {
+                "min": 16,
+                "max": 16
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/amija.png",
+        "size": 1
+    },
+    {
+        "id": 4005,
+        "name": "amija+5",
+        "plus": 5,
+        "next_item_id": 4006,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 32,
+                "max": 34
+            },
+            "magical_attack": {
+                "min": 20,
+                "max": 20
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/amija.png",
+        "size": 1
+    },
+    {
+        "id": 4006,
+        "name": "amija+6",
+        "plus": 6,
+        "next_item_id": 4007,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 36,
+                "max": 38
+            },
+            "magical_attack": {
+                "min": 24,
+                "max": 24
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/amija.png",
+        "size": 1
+    },
+    {
+        "id": 4007,
+        "name": "amija+7",
+        "plus": 7,
+        "next_item_id": 4008,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 40,
+                "max": 42
+            },
+            "magical_attack": {
+                "min": 28,
+                "max": 28
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/amija.png",
+        "size": 1
+    },
+    {
+        "id": 4008,
+        "name": "amija+8",
+        "plus": 8,
+        "next_item_id": 4009,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 44,
+                "max": 46
+            },
+            "magical_attack": {
+                "min": 32,
+                "max": 32
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/amija.png",
+        "size": 1
+    },
+    {
+        "id": 4009,
+        "name": "amija+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 48,
+                "max": 52
+            },
+            "magical_attack": {
+                "min": 36,
+                "max": 36
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/amija.png",
+        "size": 1
+    },
+    {
+        "id": 1010,
+        "name": "cobra dagger+0",
+        "plus": 0,
+        "next_item_id": 1011,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 13,
+                "max": 15
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/cobra_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1011,
+        "name": "cobra dagger+1",
+        "plus": 1,
+        "next_item_id": 1012,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 17,
+                "max": 19
+            },
+            "magical_attack": {
+                "min": 4,
+                "max": 4
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/cobra_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1012,
+        "name": "cobra dagger+2",
+        "plus": 2,
+        "next_item_id": 1013,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 21,
+                "max": 23
+            },
+            "magical_attack": {
+                "min": 8,
+                "max": 8
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/cobra_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1013,
+        "name": "cobra dagger+3",
+        "plus": 3,
+        "next_item_id": 1014,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 25,
+                "max": 27
+            },
+            "magical_attack": {
+                "min": 12,
+                "max": 12
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/cobra_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1014,
+        "name": "cobra dagger+4",
+        "plus": 4,
+        "next_item_id": 1015,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 29,
+                "max": 31
+            },
+            "magical_attack": {
+                "min": 16,
+                "max": 16
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/cobra_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1015,
+        "name": "cobra dagger+5",
+        "plus": 5,
+        "next_item_id": 1016,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 33,
+                "max": 35
+            },
+            "magical_attack": {
+                "min": 20,
+                "max": 20
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/cobra_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1016,
+        "name": "cobra dagger+6",
+        "plus": 6,
+        "next_item_id": 1017,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 37,
+                "max": 39
+            },
+            "magical_attack": {
+                "min": 24,
+                "max": 24
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/cobra_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1017,
+        "name": "cobra dagger+7",
+        "plus": 7,
+        "next_item_id": 1018,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 41,
+                "max": 43
+            },
+            "magical_attack": {
+                "min": 28,
+                "max": 28
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/cobra_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1018,
+        "name": "cobra dagger+8",
+        "plus": 8,
+        "next_item_id": 1019,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 45,
+                "max": 47
+            },
+            "magical_attack": {
+                "min": 32,
+                "max": 32
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/cobra_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1019,
+        "name": "cobra dagger+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 49,
+                "max": 53
+            },
+            "magical_attack": {
+                "min": 36,
+                "max": 36
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/cobra_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 4010,
+        "name": "nine blades+0",
+        "plus": 0,
+        "next_item_id": 4011,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 14,
+                "max": 16
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/nine_blades.png",
+        "size": 1
+    },
+    {
+        "id": 4011,
+        "name": "nine blades+1",
+        "plus": 1,
+        "next_item_id": 4012,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 18,
+                "max": 20
+            },
+            "magical_attack": {
+                "min": 4,
+                "max": 4
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/nine_blades.png",
+        "size": 1
+    },
+    {
+        "id": 4012,
+        "name": "nine blades+2",
+        "plus": 2,
+        "next_item_id": 4013,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 22,
+                "max": 24
+            },
+            "magical_attack": {
+                "min": 8,
+                "max": 8
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/nine_blades.png",
+        "size": 1
+    },
+    {
+        "id": 4013,
+        "name": "nine blades+3",
+        "plus": 3,
+        "next_item_id": 4014,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 26,
+                "max": 28
+            },
+            "magical_attack": {
+                "min": 12,
+                "max": 12
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/nine_blades.png",
+        "size": 1
+    },
+    {
+        "id": 4014,
+        "name": "nine blades+4",
+        "plus": 4,
+        "next_item_id": 4015,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 30,
+                "max": 32
+            },
+            "magical_attack": {
+                "min": 16,
+                "max": 16
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/nine_blades.png",
+        "size": 1
+    },
+    {
+        "id": 4015,
+        "name": "nine blades+5",
+        "plus": 5,
+        "next_item_id": 4016,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 34,
+                "max": 36
+            },
+            "magical_attack": {
+                "min": 20,
+                "max": 20
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/nine_blades.png",
+        "size": 1
+    },
+    {
+        "id": 4016,
+        "name": "nine blades+6",
+        "plus": 6,
+        "next_item_id": 4017,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 38,
+                "max": 40
+            },
+            "magical_attack": {
+                "min": 24,
+                "max": 24
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/nine_blades.png",
+        "size": 1
+    },
+    {
+        "id": 4017,
+        "name": "nine blades+7",
+        "plus": 7,
+        "next_item_id": 4018,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 42,
+                "max": 44
+            },
+            "magical_attack": {
+                "min": 28,
+                "max": 28
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/nine_blades.png",
+        "size": 1
+    },
+    {
+        "id": 4018,
+        "name": "nine blades+8",
+        "plus": 8,
+        "next_item_id": 4019,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 46,
+                "max": 48
+            },
+            "magical_attack": {
+                "min": 32,
+                "max": 32
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/nine_blades.png",
+        "size": 1
+    },
+    {
+        "id": 4019,
+        "name": "nine blades+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 50,
+                "max": 54
+            },
+            "magical_attack": {
+                "min": 36,
+                "max": 36
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/nine_blades.png",
+        "size": 1
+    },
+    {
+        "id": 1020,
+        "name": "scissor dagger+0",
+        "plus": 0,
+        "next_item_id": 1021,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 15,
+                "max": 19
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/scissor_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1021,
+        "name": "scissor dagger+1",
+        "plus": 1,
+        "next_item_id": 1022,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 19,
+                "max": 23
+            },
+            "magical_attack": {
+                "min": 4,
+                "max": 4
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/scissor_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1022,
+        "name": "scissor dagger+2",
+        "plus": 2,
+        "next_item_id": 1023,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 23,
+                "max": 27
+            },
+            "magical_attack": {
+                "min": 8,
+                "max": 8
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/scissor_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1023,
+        "name": "scissor dagger+3",
+        "plus": 3,
+        "next_item_id": 1024,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 27,
+                "max": 31
+            },
+            "magical_attack": {
+                "min": 12,
+                "max": 12
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/scissor_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1024,
+        "name": "scissor dagger+4",
+        "plus": 4,
+        "next_item_id": 1025,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 31,
+                "max": 35
+            },
+            "magical_attack": {
+                "min": 16,
+                "max": 16
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/scissor_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1025,
+        "name": "scissor dagger+5",
+        "plus": 5,
+        "next_item_id": 1026,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 35,
+                "max": 39
+            },
+            "magical_attack": {
+                "min": 20,
+                "max": 20
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/scissor_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1026,
+        "name": "scissor dagger+6",
+        "plus": 6,
+        "next_item_id": 1027,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 39,
+                "max": 43
+            },
+            "magical_attack": {
+                "min": 24,
+                "max": 24
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/scissor_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1027,
+        "name": "scissor dagger+7",
+        "plus": 7,
+        "next_item_id": 1028,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 43,
+                "max": 47
+            },
+            "magical_attack": {
+                "min": 28,
+                "max": 28
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/scissor_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1028,
+        "name": "scissor dagger+8",
+        "plus": 8,
+        "next_item_id": 1029,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 47,
+                "max": 51
+            },
+            "magical_attack": {
+                "min": 32,
+                "max": 32
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/scissor_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1029,
+        "name": "scissor dagger+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 51,
+                "max": 55
+            },
+            "magical_attack": {
+                "min": 36,
+                "max": 36
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-1-20",
+        "img": "items/daggers/scissor_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 4020,
+        "name": "short knife+0",
+        "plus": 0,
+        "next_item_id": 4021,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 28,
+                "max": 32
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/short_knife.png",
+        "size": 1
+    },
+    {
+        "id": 4021,
+        "name": "short knife+1",
+        "plus": 1,
+        "next_item_id": 4022,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 31,
+                "max": 35
+            },
+            "magical_attack": {
+                "min": 3,
+                "max": 3
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/short_knife.png",
+        "size": 1
+    },
+    {
+        "id": 4022,
+        "name": "short knife+2",
+        "plus": 2,
+        "next_item_id": 4023,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 34,
+                "max": 38
+            },
+            "magical_attack": {
+                "min": 6,
+                "max": 6
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/short_knife.png",
+        "size": 1
+    },
+    {
+        "id": 4023,
+        "name": "short knife+3",
+        "plus": 3,
+        "next_item_id": 4024,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 37,
+                "max": 41
+            },
+            "magical_attack": {
+                "min": 9,
+                "max": 9
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/short_knife.png",
+        "size": 1
+    },
+    {
+        "id": 4024,
+        "name": "short knife+4",
+        "plus": 4,
+        "next_item_id": 4025,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 40,
+                "max": 44
+            },
+            "magical_attack": {
+                "min": 12,
+                "max": 12
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/short_knife.png",
+        "size": 1
+    },
+    {
+        "id": 4025,
+        "name": "short knife+5",
+        "plus": 5,
+        "next_item_id": 4026,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 45,
+                "max": 49
+            },
+            "magical_attack": {
+                "min": 17,
+                "max": 17
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/short_knife.png",
+        "size": 1
+    },
+    {
+        "id": 4026,
+        "name": "short knife+6",
+        "plus": 6,
+        "next_item_id": 4027,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 51,
+                "max": 55
+            },
+            "magical_attack": {
+                "min": 23,
+                "max": 23
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/short_knife.png",
+        "size": 1
+    },
+    {
+        "id": 4027,
+        "name": "short knife+7",
+        "plus": 7,
+        "next_item_id": 4028,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 58,
+                "max": 62
+            },
+            "magical_attack": {
+                "min": 30,
+                "max": 30
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/short_knife.png",
+        "size": 1
+    },
+    {
+        "id": 4028,
+        "name": "short knife+8",
+        "plus": 8,
+        "next_item_id": 4029,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 66,
+                "max": 70
+            },
+            "magical_attack": {
+                "min": 38,
+                "max": 38
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/short_knife.png",
+        "size": 1
+    },
+    {
+        "id": 4029,
+        "name": "short knife+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 75,
+                "max": 79
+            },
+            "magical_attack": {
+                "min": 47,
+                "max": 47
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/short_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1170,
+        "name": "black leaf dirk+0",
+        "plus": 0,
+        "next_item_id": 1171,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 40,
+                "max": 44
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/daggers/black_leaf_dirk.png",
+        "size": 1
+    },
+    {
+        "id": 1171,
+        "name": "black leaf dirk+1",
+        "plus": 1,
+        "next_item_id": 1172,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 43,
+                "max": 47
+            },
+            "magical_attack": {
+                "min": 3,
+                "max": 3
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/daggers/black_leaf_dirk.png",
+        "size": 1
+    },
+    {
+        "id": 1172,
+        "name": "black leaf dirk+2",
+        "plus": 2,
+        "next_item_id": 1173,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 45,
+                "max": 49
+            },
+            "magical_attack": {
+                "min": 5,
+                "max": 5
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/daggers/black_leaf_dirk.png",
+        "size": 1
+    },
+    {
+        "id": 1173,
+        "name": "black leaf dirk+3",
+        "plus": 3,
+        "next_item_id": 1174,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 48,
+                "max": 52
+            },
+            "magical_attack": {
+                "min": 8,
+                "max": 8
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/daggers/black_leaf_dirk.png",
+        "size": 1
+    },
+    {
+        "id": 1174,
+        "name": "black leaf dirk+4",
+        "plus": 4,
+        "next_item_id": 1175,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 50,
+                "max": 54
+            },
+            "magical_attack": {
+                "min": 10,
+                "max": 10
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/daggers/black_leaf_dirk.png",
+        "size": 1
+    },
+    {
+        "id": 1175,
+        "name": "black leaf dirk+5",
+        "plus": 5,
+        "next_item_id": 1176,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 55,
+                "max": 59
+            },
+            "magical_attack": {
+                "min": 15,
+                "max": 15
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/daggers/black_leaf_dirk.png",
+        "size": 1
+    },
+    {
+        "id": 1176,
+        "name": "black leaf dirk+6",
+        "plus": 6,
+        "next_item_id": 1177,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 60,
+                "max": 67
+            },
+            "magical_attack": {
+                "min": 20,
+                "max": 20
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/daggers/black_leaf_dirk.png",
+        "size": 1
+    },
+    {
+        "id": 1177,
+        "name": "black leaf dirk+7",
+        "plus": 7,
+        "next_item_id": 1178,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 67,
+                "max": 71
+            },
+            "magical_attack": {
+                "min": 27,
+                "max": 27
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/daggers/black_leaf_dirk.png",
+        "size": 1
+    },
+    {
+        "id": 1178,
+        "name": "black leaf dirk+8",
+        "plus": 8,
+        "next_item_id": 1179,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 74,
+                "max": 78
+            },
+            "magical_attack": {
+                "min": 34,
+                "max": 34
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/daggers/black_leaf_dirk.png",
+        "size": 1
+    },
+    {
+        "id": 1179,
+        "name": "black leaf dirk+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 83,
+                "max": 87
+            },
+            "magical_attack": {
+                "min": 43,
+                "max": 43
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/daggers/black_leaf_dirk.png",
+        "size": 1
+    },
+    {
+        "id": 1030,
+        "name": "lucky knife+0",
+        "plus": 0,
+        "next_item_id": 1031,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 30,
+                "max": 36
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/lucky_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1031,
+        "name": "lucky knife+1",
+        "plus": 1,
+        "next_item_id": 1032,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 33,
+                "max": 39
+            },
+            "magical_attack": {
+                "min": 3,
+                "max": 3
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/lucky_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1032,
+        "name": "lucky knife+2",
+        "plus": 2,
+        "next_item_id": 1033,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 36,
+                "max": 42
+            },
+            "magical_attack": {
+                "min": 6,
+                "max": 6
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/lucky_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1033,
+        "name": "lucky knife+3",
+        "plus": 3,
+        "next_item_id": 1034,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 39,
+                "max": 45
+            },
+            "magical_attack": {
+                "min": 9,
+                "max": 9
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/lucky_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1034,
+        "name": "lucky knife+4",
+        "plus": 4,
+        "next_item_id": 1035,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 42,
+                "max": 48
+            },
+            "magical_attack": {
+                "min": 12,
+                "max": 12
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/lucky_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1035,
+        "name": "lucky knife+5",
+        "plus": 5,
+        "next_item_id": 1036,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 47,
+                "max": 53
+            },
+            "magical_attack": {
+                "min": 17,
+                "max": 17
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/lucky_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1036,
+        "name": "lucky knife+6",
+        "plus": 6,
+        "next_item_id": 1037,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 53,
+                "max": 59
+            },
+            "magical_attack": {
+                "min": 23,
+                "max": 23
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/lucky_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1037,
+        "name": "lucky knife+7",
+        "plus": 7,
+        "next_item_id": 1038,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 60,
+                "max": 66
+            },
+            "magical_attack": {
+                "min": 30,
+                "max": 30
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/lucky_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1038,
+        "name": "lucky knife+8",
+        "plus": 8,
+        "next_item_id": 1039,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 68,
+                "max": 74
+            },
+            "magical_attack": {
+                "min": 38,
+                "max": 38
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/lucky_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1039,
+        "name": "lucky knife+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 77,
+                "max": 83
+            },
+            "magical_attack": {
+                "min": 47,
+                "max": 47
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/lucky_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1040,
+        "name": "cat bite knife+0",
+        "plus": 0,
+        "next_item_id": 1041,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 33,
+                "max": 37
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/cat_bite_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1041,
+        "name": "cat bite knife+1",
+        "plus": 1,
+        "next_item_id": 1042,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 36,
+                "max": 40
+            },
+            "magical_attack": {
+                "min": 3,
+                "max": 3
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/cat_bite_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1042,
+        "name": "cat bite knife+2",
+        "plus": 2,
+        "next_item_id": 1043,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 39,
+                "max": 43
+            },
+            "magical_attack": {
+                "min": 6,
+                "max": 6
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/cat_bite_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1043,
+        "name": "cat bite knife+3",
+        "plus": 3,
+        "next_item_id": 1044,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 42,
+                "max": 46
+            },
+            "magical_attack": {
+                "min": 9,
+                "max": 9
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/cat_bite_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1044,
+        "name": "cat bite knife+4",
+        "plus": 4,
+        "next_item_id": 1045,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 45,
+                "max": 49
+            },
+            "magical_attack": {
+                "min": 12,
+                "max": 12
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/cat_bite_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1045,
+        "name": "cat bite knife+5",
+        "plus": 5,
+        "next_item_id": 1046,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 50,
+                "max": 54
+            },
+            "magical_attack": {
+                "min": 17,
+                "max": 17
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/cat_bite_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1046,
+        "name": "cat bite knife+6",
+        "plus": 6,
+        "next_item_id": 1047,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 55,
+                "max": 60
+            },
+            "magical_attack": {
+                "min": 23,
+                "max": 23
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/cat_bite_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1047,
+        "name": "cat bite knife+7",
+        "plus": 7,
+        "next_item_id": 1048,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 63,
+                "max": 67
+            },
+            "magical_attack": {
+                "min": 30,
+                "max": 30
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/cat_bite_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1048,
+        "name": "cat bite knife+8",
+        "plus": 8,
+        "next_item_id": 1049,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 71,
+                "max": 75
+            },
+            "magical_attack": {
+                "min": 38,
+                "max": 38
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/cat_bite_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1049,
+        "name": "cat bite knife+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 80,
+                "max": 84
+            },
+            "magical_attack": {
+                "min": 47,
+                "max": 47
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/cat_bite_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1050,
+        "name": "devil mask dagger+0",
+        "plus": 0,
+        "next_item_id": 1051,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 36,
+                "max": 40
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/devil_mask_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1051,
+        "name": "devil mask dagger+1",
+        "plus": 1,
+        "next_item_id": 1052,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 39,
+                "max": 43
+            },
+            "magical_attack": {
+                "min": 3,
+                "max": 3
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/devil_mask_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1052,
+        "name": "devil mask dagger+2",
+        "plus": 2,
+        "next_item_id": 1053,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 42,
+                "max": 46
+            },
+            "magical_attack": {
+                "min": 6,
+                "max": 6
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/devil_mask_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1053,
+        "name": "devil mask dagger+3",
+        "plus": 3,
+        "next_item_id": 1054,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 45,
+                "max": 49
+            },
+            "magical_attack": {
+                "min": 9,
+                "max": 9
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/devil_mask_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1054,
+        "name": "devil mask dagger+4",
+        "plus": 4,
+        "next_item_id": 1055,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 48,
+                "max": 52
+            },
+            "magical_attack": {
+                "min": 12,
+                "max": 12
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/devil_mask_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1055,
+        "name": "devil mask dagger+5",
+        "plus": 5,
+        "next_item_id": 1056,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 53,
+                "max": 57
+            },
+            "magical_attack": {
+                "min": 17,
+                "max": 17
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/devil_mask_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1056,
+        "name": "devil mask dagger+6",
+        "plus": 6,
+        "next_item_id": 1057,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 59,
+                "max": 63
+            },
+            "magical_attack": {
+                "min": 23,
+                "max": 23
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/devil_mask_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1057,
+        "name": "devil mask dagger+7",
+        "plus": 7,
+        "next_item_id": 1058,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 66,
+                "max": 70
+            },
+            "magical_attack": {
+                "min": 30,
+                "max": 30
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/devil_mask_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1058,
+        "name": "devil mask dagger+8",
+        "plus": 8,
+        "next_item_id": 1059,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 74,
+                "max": 78
+            },
+            "magical_attack": {
+                "min": 38,
+                "max": 38
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/devil_mask_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1059,
+        "name": "devil mask dagger+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 83,
+                "max": 87
+            },
+            "magical_attack": {
+                "min": 47,
+                "max": 47
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-25-40",
+        "img": "items/daggers/devil_mask_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1060,
+        "name": "devil fist dagger+0",
+        "plus": 0,
+        "next_item_id": 1061,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 47,
+                "max": 51
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/devil_fist_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1061,
+        "name": "devil fist dagger+1",
+        "plus": 1,
+        "next_item_id": 1062,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 49,
+                "max": 53
+            },
+            "magical_attack": {
+                "min": 2,
+                "max": 2
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/devil_fist_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1062,
+        "name": "devil fist dagger+2",
+        "plus": 2,
+        "next_item_id": 1063,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 51,
+                "max": 55
+            },
+            "magical_attack": {
+                "min": 4,
+                "max": 4
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/devil_fist_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1063,
+        "name": "devil fist dagger+3",
+        "plus": 3,
+        "next_item_id": 1064,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 53,
+                "max": 57
+            },
+            "magical_attack": {
+                "min": 6,
+                "max": 6
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/devil_fist_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1064,
+        "name": "devil fist dagger+4",
+        "plus": 4,
+        "next_item_id": 1065,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 55,
+                "max": 59
+            },
+            "magical_attack": {
+                "min": 8,
+                "max": 8
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/devil_fist_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1065,
+        "name": "devil fist dagger+5",
+        "plus": 5,
+        "next_item_id": 1066,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 59,
+                "max": 63
+            },
+            "magical_attack": {
+                "min": 12,
+                "max": 12
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/devil_fist_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1066,
+        "name": "devil fist dagger+6",
+        "plus": 6,
+        "next_item_id": 1067,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 64,
+                "max": 68
+            },
+            "magical_attack": {
+                "min": 17,
+                "max": 17
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/devil_fist_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1067,
+        "name": "devil fist dagger+7",
+        "plus": 7,
+        "next_item_id": 1068,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 70,
+                "max": 74
+            },
+            "magical_attack": {
+                "min": 23,
+                "max": 23
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/devil_fist_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1068,
+        "name": "devil fist dagger+8",
+        "plus": 8,
+        "next_item_id": 1069,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 77,
+                "max": 81
+            },
+            "magical_attack": {
+                "min": 30,
+                "max": 30
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/devil_fist_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1069,
+        "name": "devil fist dagger+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 85,
+                "max": 89
+            },
+            "magical_attack": {
+                "min": 38,
+                "max": 38
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/devil_fist_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1070,
+        "name": "bloody dagger+0",
+        "plus": 0,
+        "next_item_id": 1071,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 48,
+                "max": 56
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/bloody_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1071,
+        "name": "bloody dagger+1",
+        "plus": 1,
+        "next_item_id": 1072,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 50,
+                "max": 58
+            },
+            "magical_attack": {
+                "min": 2,
+                "max": 2
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/bloody_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1072,
+        "name": "bloody dagger+2",
+        "plus": 2,
+        "next_item_id": 1073,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 52,
+                "max": 60
+            },
+            "magical_attack": {
+                "min": 4,
+                "max": 4
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/bloody_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1073,
+        "name": "bloody dagger+3",
+        "plus": 3,
+        "next_item_id": 1074,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 54,
+                "max": 62
+            },
+            "magical_attack": {
+                "min": 6,
+                "max": 6
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/bloody_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1074,
+        "name": "bloody dagger+4",
+        "plus": 4,
+        "next_item_id": 1075,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 56,
+                "max": 64
+            },
+            "magical_attack": {
+                "min": 8,
+                "max": 8
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/bloody_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1075,
+        "name": "bloody dagger+5",
+        "plus": 5,
+        "next_item_id": 1076,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 60,
+                "max": 68
+            },
+            "magical_attack": {
+                "min": 12,
+                "max": 12
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/bloody_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1076,
+        "name": "bloody dagger+6",
+        "plus": 6,
+        "next_item_id": 1077,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 65,
+                "max": 73
+            },
+            "magical_attack": {
+                "min": 17,
+                "max": 17
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/bloody_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1077,
+        "name": "bloody dagger+7",
+        "plus": 7,
+        "next_item_id": 1078,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 71,
+                "max": 79
+            },
+            "magical_attack": {
+                "min": 23,
+                "max": 23
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/bloody_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1078,
+        "name": "bloody dagger+8",
+        "plus": 8,
+        "next_item_id": 1079,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 78,
+                "max": 86
+            },
+            "magical_attack": {
+                "min": 30,
+                "max": 30
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/bloody_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1079,
+        "name": "bloody dagger+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 86,
+                "max": 94
+            },
+            "magical_attack": {
+                "min": 38,
+                "max": 38
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/bloody_dagger.png",
+        "size": 1
+    },
+    {
+        "id": 1080,
+        "name": "rib knife+0",
+        "plus": 0,
+        "next_item_id": 1081,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 49,
+                "max": 59
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/rib_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1081,
+        "name": "rib knife+1",
+        "plus": 1,
+        "next_item_id": 1082,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 51,
+                "max": 61
+            },
+            "magical_attack": {
+                "min": 2,
+                "max": 2
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/rib_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1082,
+        "name": "rib knife+2",
+        "plus": 2,
+        "next_item_id": 1083,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 53,
+                "max": 63
+            },
+            "magical_attack": {
+                "min": 4,
+                "max": 4
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/rib_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1083,
+        "name": "rib knife+3",
+        "plus": 3,
+        "next_item_id": 1084,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 55,
+                "max": 65
+            },
+            "magical_attack": {
+                "min": 6,
+                "max": 6
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/rib_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1084,
+        "name": "rib knife+4",
+        "plus": 4,
+        "next_item_id": 1085,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 57,
+                "max": 67
+            },
+            "magical_attack": {
+                "min": 8,
+                "max": 8
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/rib_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1085,
+        "name": "rib knife+5",
+        "plus": 5,
+        "next_item_id": 1086,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 61,
+                "max": 71
+            },
+            "magical_attack": {
+                "min": 12,
+                "max": 12
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/rib_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1086,
+        "name": "rib knife+6",
+        "plus": 6,
+        "next_item_id": 1087,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 66,
+                "max": 76
+            },
+            "magical_attack": {
+                "min": 17,
+                "max": 17
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/rib_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1087,
+        "name": "rib knife+7",
+        "plus": 7,
+        "next_item_id": 1088,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 72,
+                "max": 82
+            },
+            "magical_attack": {
+                "min": 23,
+                "max": 23
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/rib_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1088,
+        "name": "rib knife+8",
+        "plus": 8,
+        "next_item_id": 1089,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 79,
+                "max": 89
+            },
+            "magical_attack": {
+                "min": 30,
+                "max": 30
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/rib_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1089,
+        "name": "rib knife+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 87,
+                "max": 97
+            },
+            "magical_attack": {
+                "min": 38,
+                "max": 38
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/rib_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1090,
+        "name": "chakram+0",
+        "plus": 0,
+        "next_item_id": 1091,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 53,
+                "max": 65
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1091,
+        "name": "chakram+1",
+        "plus": 1,
+        "next_item_id": 1092,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 55,
+                "max": 67
+            },
+            "magical_attack": {
+                "min": 2,
+                "max": 2
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1092,
+        "name": "chakram+2",
+        "plus": 2,
+        "next_item_id": 1093,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 57,
+                "max": 69
+            },
+            "magical_attack": {
+                "min": 4,
+                "max": 4
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1093,
+        "name": "chakram+3",
+        "plus": 3,
+        "next_item_id": 1094,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 59,
+                "max": 71
+            },
+            "magical_attack": {
+                "min": 6,
+                "max": 6
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1094,
+        "name": "chakram+4",
+        "plus": 4,
+        "next_item_id": 1095,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 61,
+                "max": 73
+            },
+            "magical_attack": {
+                "min": 8,
+                "max": 8
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1095,
+        "name": "chakram+5",
+        "plus": 5,
+        "next_item_id": 1096,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 65,
+                "max": 77
+            },
+            "magical_attack": {
+                "min": 12,
+                "max": 12
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1096,
+        "name": "chakram+6",
+        "plus": 6,
+        "next_item_id": 1097,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 70,
+                "max": 82
+            },
+            "magical_attack": {
+                "min": 17,
+                "max": 17
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1097,
+        "name": "chakram+7",
+        "plus": 7,
+        "next_item_id": 1098,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 76,
+                "max": 88
+            },
+            "magical_attack": {
+                "min": 23,
+                "max": 23
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1098,
+        "name": "chakram+8",
+        "plus": 8,
+        "next_item_id": 1099,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 83,
+                "max": 95
+            },
+            "magical_attack": {
+                "min": 30,
+                "max": 30
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1099,
+        "name": "chakram+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 91,
+                "max": 103
+            },
+            "magical_attack": {
+                "min": 38,
+                "max": 38
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-45-75",
+        "img": "items/daggers/chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1110,
+        "name": "lightning knife+0",
+        "plus": 0,
+        "next_item_id": 1111,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 74,
+                "max": 86
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/lightning_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1111,
+        "name": "lightning knife+1",
+        "plus": 1,
+        "next_item_id": 1112,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 80,
+                "max": 92
+            },
+            "magical_attack": {
+                "min": 6,
+                "max": 6
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/lightning_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1112,
+        "name": "lightning knife+2",
+        "plus": 2,
+        "next_item_id": 1113,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 87,
+                "max": 99
+            },
+            "magical_attack": {
+                "min": 13,
+                "max": 13
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/lightning_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1113,
+        "name": "lightning knife+3",
+        "plus": 3,
+        "next_item_id": 1114,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 95,
+                "max": 107
+            },
+            "magical_attack": {
+                "min": 21,
+                "max": 21
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/lightning_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1114,
+        "name": "lightning knife+4",
+        "plus": 4,
+        "next_item_id": 1115,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 104,
+                "max": 116
+            },
+            "magical_attack": {
+                "min": 30,
+                "max": 30
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/lightning_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1115,
+        "name": "lightning knife+5",
+        "plus": 5,
+        "next_item_id": 1116,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 114,
+                "max": 126
+            },
+            "magical_attack": {
+                "min": 40,
+                "max": 40
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/lightning_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1116,
+        "name": "lightning knife+6",
+        "plus": 6,
+        "next_item_id": 1117,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 125,
+                "max": 137
+            },
+            "magical_attack": {
+                "min": 51,
+                "max": 51
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/lightning_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1117,
+        "name": "lightning knife+7",
+        "plus": 7,
+        "next_item_id": 1118,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 137,
+                "max": 149
+            },
+            "magical_attack": {
+                "min": 63,
+                "max": 63
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/lightning_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1118,
+        "name": "lightning knife+8",
+        "plus": 8,
+        "next_item_id": 1119,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 150,
+                "max": 162
+            },
+            "magical_attack": {
+                "min": 76,
+                "max": 76
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/lightning_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1119,
+        "name": "lightning knife+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 164,
+                "max": 176
+            },
+            "magical_attack": {
+                "min": 90,
+                "max": 90
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/lightning_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1100,
+        "name": "dragon knife+0",
+        "plus": 0,
+        "next_item_id": 1101,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 74,
+                "max": 86
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/dragon_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1101,
+        "name": "dragon knife+1",
+        "plus": 1,
+        "next_item_id": 1102,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 82,
+                "max": 94
+            },
+            "magical_attack": {
+                "min": 8,
+                "max": 8
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/dragon_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1102,
+        "name": "dragon knife+2",
+        "plus": 2,
+        "next_item_id": 1103,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 91,
+                "max": 103
+            },
+            "magical_attack": {
+                "min": 17,
+                "max": 17
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/dragon_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1103,
+        "name": "dragon knife+3",
+        "plus": 3,
+        "next_item_id": 1104,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 101,
+                "max": 113
+            },
+            "magical_attack": {
+                "min": 27,
+                "max": 27
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/dragon_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1104,
+        "name": "dragon knife+4",
+        "plus": 4,
+        "next_item_id": 1105,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 112,
+                "max": 124
+            },
+            "magical_attack": {
+                "min": 38,
+                "max": 38
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/dragon_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1105,
+        "name": "dragon knife+5",
+        "plus": 5,
+        "next_item_id": 1106,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 124,
+                "max": 136
+            },
+            "magical_attack": {
+                "min": 50,
+                "max": 50
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/dragon_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1106,
+        "name": "dragon knife+6",
+        "plus": 6,
+        "next_item_id": 1107,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 137,
+                "max": 149
+            },
+            "magical_attack": {
+                "min": 63,
+                "max": 63
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/dragon_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1107,
+        "name": "dragon knife+7",
+        "plus": 7,
+        "next_item_id": 1108,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 151,
+                "max": 163
+            },
+            "magical_attack": {
+                "min": 77,
+                "max": 77
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/dragon_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1108,
+        "name": "dragon knife+8",
+        "plus": 8,
+        "next_item_id": 1109,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 176,
+                "max": 188
+            },
+            "magical_attack": {
+                "min": 102,
+                "max": 102
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/dragon_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1109,
+        "name": "dragon knife+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 211,
+                "max": 223
+            },
+            "magical_attack": {
+                "min": 137,
+                "max": 137
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/dragon_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1120,
+        "name": "siamese knife+0",
+        "plus": 0,
+        "next_item_id": 1121,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 74,
+                "max": 86
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 15,
+            "strong_against_monsters": 5
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/siamese_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1121,
+        "name": "siamese knife+1",
+        "plus": 1,
+        "next_item_id": 1122,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 80,
+                "max": 92
+            },
+            "magical_attack": {
+                "min": 6,
+                "max": 6
+            },
+            "attack_speed": 15,
+            "strong_against_monsters": 6
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/siamese_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1122,
+        "name": "siamese knife+2",
+        "plus": 2,
+        "next_item_id": 1123,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 87,
+                "max": 99
+            },
+            "magical_attack": {
+                "min": 13,
+                "max": 13
+            },
+            "attack_speed": 15,
+            "strong_against_monsters": 7
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/siamese_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1123,
+        "name": "siamese knife+3",
+        "plus": 3,
+        "next_item_id": 1124,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 95,
+                "max": 107
+            },
+            "magical_attack": {
+                "min": 21,
+                "max": 21
+            },
+            "attack_speed": 15,
+            "strong_against_monsters": 8
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/siamese_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1124,
+        "name": "siamese knife+4",
+        "plus": 4,
+        "next_item_id": 1125,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 104,
+                "max": 116
+            },
+            "magical_attack": {
+                "min": 30,
+                "max": 30
+            },
+            "attack_speed": 15,
+            "strong_against_monsters": 10
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/siamese_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1125,
+        "name": "siamese knife+5",
+        "plus": 5,
+        "next_item_id": 1126,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 114,
+                "max": 126
+            },
+            "magical_attack": {
+                "min": 40,
+                "max": 40
+            },
+            "attack_speed": 15,
+            "strong_against_monsters": 12
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/siamese_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1126,
+        "name": "siamese knife+6",
+        "plus": 6,
+        "next_item_id": 1127,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 125,
+                "max": 137
+            },
+            "magical_attack": {
+                "min": 51,
+                "max": 51
+            },
+            "attack_speed": 15,
+            "strong_against_monsters": 14
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/siamese_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1127,
+        "name": "siamese knife+7",
+        "plus": 7,
+        "next_item_id": 1128,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 137,
+                "max": 149
+            },
+            "magical_attack": {
+                "min": 63,
+                "max": 63
+            },
+            "attack_speed": 15,
+            "strong_against_monsters": 17
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/siamese_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1128,
+        "name": "siamese knife+8",
+        "plus": 8,
+        "next_item_id": 1129,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 150,
+                "max": 162
+            },
+            "magical_attack": {
+                "min": 76,
+                "max": 76
+            },
+            "attack_speed": 15,
+            "strong_against_monsters": 20
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/siamese_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1129,
+        "name": "siamese knife+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 164,
+                "max": 176
+            },
+            "magical_attack": {
+                "min": 90,
+                "max": 90
+            },
+            "attack_speed": 15,
+            "strong_against_monsters": 25
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/siamese_knife.png",
+        "size": 1
+    },
+    {
+        "id": 1130,
+        "name": "devil wing chakram+0",
+        "plus": 0,
+        "next_item_id": 1131,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 83,
+                "max": 92
+            },
+            "magical_attack": {
+                "min": 0,
+                "max": 0
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/devil_wing_chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1131,
+        "name": "devil wing chakram+1",
+        "plus": 1,
+        "next_item_id": 1132,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 91,
+                "max": 100
+            },
+            "magical_attack": {
+                "min": 8,
+                "max": 8
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/devil_wing_chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1132,
+        "name": "devil wing chakram+2",
+        "plus": 2,
+        "next_item_id": 1133,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 100,
+                "max": 109
+            },
+            "magical_attack": {
+                "min": 17,
+                "max": 17
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/devil_wing_chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1133,
+        "name": "devil wing chakram+3",
+        "plus": 3,
+        "next_item_id": 1134,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 110,
+                "max": 119
+            },
+            "magical_attack": {
+                "min": 27,
+                "max": 27
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/devil_wing_chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1134,
+        "name": "devil wing chakram+4",
+        "plus": 4,
+        "next_item_id": 1135,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 121,
+                "max": 130
+            },
+            "magical_attack": {
+                "min": 38,
+                "max": 38
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/devil_wing_chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1135,
+        "name": "devil wing chakram+5",
+        "plus": 5,
+        "next_item_id": 1136,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 133,
+                "max": 142
+            },
+            "magical_attack": {
+                "min": 50,
+                "max": 50
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/devil_wing_chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1136,
+        "name": "devil wing chakram+6",
+        "plus": 6,
+        "next_item_id": 1137,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 146,
+                "max": 155
+            },
+            "magical_attack": {
+                "min": 63,
+                "max": 63
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/devil_wing_chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1137,
+        "name": "devil wing chakram+7",
+        "plus": 7,
+        "next_item_id": 1138,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 160,
+                "max": 169
+            },
+            "magical_attack": {
+                "min": 77,
+                "max": 77
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/devil_wing_chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1138,
+        "name": "devil wing chakram+8",
+        "plus": 8,
+        "next_item_id": 1139,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 184,
+                "max": 193
+            },
+            "magical_attack": {
+                "min": 101,
+                "max": 101
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/devil_wing_chakram.png",
+        "size": 1
+    },
+    {
+        "id": 1139,
+        "name": "devil wing chakram+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "dagger",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 220,
+                "max": 229
+            },
+            "magical_attack": {
+                "min": 137,
+                "max": 137
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "daggers-65-75",
+        "img": "items/daggers/devil_wing_chakram.png",
+        "size": 1
+    }
+]
