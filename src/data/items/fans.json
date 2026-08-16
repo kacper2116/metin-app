@@ -1,0 +1,4432 @@
+[
+    {
+        "id": 7000,
+        "name": "fan+0",
+        "plus": 0,
+        "next_item_id": 7001,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 11,
+                "max": 15
+            },
+            "magical_attack": {
+                "min": 13,
+                "max": 15
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/fan.png",
+        "size": 1
+    },
+    {
+        "id": 7001,
+        "name": "fan+1",
+        "plus": 1,
+        "next_item_id": 7002,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 18,
+                "max": 22
+            },
+            "magical_attack": {
+                "min": 20,
+                "max": 22
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/fan.png",
+        "size": 1
+    },
+    {
+        "id": 7002,
+        "name": "fan+2",
+        "plus": 2,
+        "next_item_id": 7003,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 25,
+                "max": 29
+            },
+            "magical_attack": {
+                "min": 27,
+                "max": 29
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/fan.png",
+        "size": 1
+    },
+    {
+        "id": 7003,
+        "name": "fan+3",
+        "plus": 3,
+        "next_item_id": 7004,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 32,
+                "max": 36
+            },
+            "magical_attack": {
+                "min": 34,
+                "max": 36
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/fan.png",
+        "size": 1
+    },
+    {
+        "id": 7004,
+        "name": "fan+4",
+        "plus": 4,
+        "next_item_id": 7005,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 39,
+                "max": 43
+            },
+            "magical_attack": {
+                "min": 41,
+                "max": 43
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/fan.png",
+        "size": 1
+    },
+    {
+        "id": 7005,
+        "name": "fan+5",
+        "plus": 5,
+        "next_item_id": 7006,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 46,
+                "max": 50
+            },
+            "magical_attack": {
+                "min": 48,
+                "max": 50
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/fan.png",
+        "size": 1
+    },
+    {
+        "id": 7006,
+        "name": "fan+6",
+        "plus": 6,
+        "next_item_id": 7007,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 53,
+                "max": 57
+            },
+            "magical_attack": {
+                "min": 55,
+                "max": 57
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/fan.png",
+        "size": 1
+    },
+    {
+        "id": 7007,
+        "name": "fan+7",
+        "plus": 7,
+        "next_item_id": 7008,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 60,
+                "max": 64
+            },
+            "magical_attack": {
+                "min": 62,
+                "max": 64
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/fan.png",
+        "size": 1
+    },
+    {
+        "id": 7008,
+        "name": "fan+8",
+        "plus": 8,
+        "next_item_id": 7009,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 67,
+                "max": 71
+            },
+            "magical_attack": {
+                "min": 69,
+                "max": 71
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/fan.png",
+        "size": 1
+    },
+    {
+        "id": 7009,
+        "name": "fan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 74,
+                "max": 78
+            },
+            "magical_attack": {
+                "min": 76,
+                "max": 78
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/fan.png",
+        "size": 1
+    },
+    {
+        "id": 7010,
+        "name": "iron fan+0",
+        "plus": 0,
+        "next_item_id": 7011,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 11,
+                "max": 17
+            },
+            "magical_attack": {
+                "min": 14,
+                "max": 22
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/iron_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7011,
+        "name": "iron fan+1",
+        "plus": 1,
+        "next_item_id": 7012,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 18,
+                "max": 24
+            },
+            "magical_attack": {
+                "min": 21,
+                "max": 29
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/iron_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7012,
+        "name": "iron fan+2",
+        "plus": 2,
+        "next_item_id": 7013,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 25,
+                "max": 31
+            },
+            "magical_attack": {
+                "min": 28,
+                "max": 36
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/iron_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7013,
+        "name": "iron fan+3",
+        "plus": 3,
+        "next_item_id": 7014,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 32,
+                "max": 38
+            },
+            "magical_attack": {
+                "min": 35,
+                "max": 43
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/iron_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7014,
+        "name": "iron fan+4",
+        "plus": 4,
+        "next_item_id": 7015,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 39,
+                "max": 45
+            },
+            "magical_attack": {
+                "min": 42,
+                "max": 50
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/iron_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7015,
+        "name": "iron fan+5",
+        "plus": 5,
+        "next_item_id": 7016,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 46,
+                "max": 52
+            },
+            "magical_attack": {
+                "min": 49,
+                "max": 57
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/iron_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7016,
+        "name": "iron fan+6",
+        "plus": 6,
+        "next_item_id": 7017,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 53,
+                "max": 59
+            },
+            "magical_attack": {
+                "min": 56,
+                "max": 64
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/iron_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7017,
+        "name": "iron fan+7",
+        "plus": 7,
+        "next_item_id": 7018,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 60,
+                "max": 66
+            },
+            "magical_attack": {
+                "min": 63,
+                "max": 71
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/iron_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7018,
+        "name": "iron fan+8",
+        "plus": 8,
+        "next_item_id": 7019,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 67,
+                "max": 73
+            },
+            "magical_attack": {
+                "min": 70,
+                "max": 78
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/iron_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7019,
+        "name": "iron fan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 74,
+                "max": 80
+            },
+            "magical_attack": {
+                "min": 77,
+                "max": 85
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/iron_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7020,
+        "name": "black tiger fan+0",
+        "plus": 0,
+        "next_item_id": 7021,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 15,
+                "max": 19
+            },
+            "magical_attack": {
+                "min": 18,
+                "max": 28
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/black_tiger_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7021,
+        "name": "black tiger fan+1",
+        "plus": 1,
+        "next_item_id": 7022,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 20,
+                "max": 26
+            },
+            "magical_attack": {
+                "min": 25,
+                "max": 35
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/black_tiger_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7022,
+        "name": "black tiger fan+2",
+        "plus": 2,
+        "next_item_id": 7023,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 27,
+                "max": 35
+            },
+            "magical_attack": {
+                "min": 32,
+                "max": 42
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/black_tiger_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7023,
+        "name": "black tiger fan+3",
+        "plus": 3,
+        "next_item_id": 7024,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 34,
+                "max": 40
+            },
+            "magical_attack": {
+                "min": 39,
+                "max": 49
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/black_tiger_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7024,
+        "name": "black tiger fan+4",
+        "plus": 4,
+        "next_item_id": 7025,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 41,
+                "max": 47
+            },
+            "magical_attack": {
+                "min": 46,
+                "max": 56
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/black_tiger_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7025,
+        "name": "black tiger fan+5",
+        "plus": 5,
+        "next_item_id": 7026,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 48,
+                "max": 54
+            },
+            "magical_attack": {
+                "min": 53,
+                "max": 63
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/black_tiger_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7026,
+        "name": "black tiger fan+6",
+        "plus": 6,
+        "next_item_id": 7027,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 55,
+                "max": 61
+            },
+            "magical_attack": {
+                "min": 60,
+                "max": 70
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/black_tiger_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7027,
+        "name": "black tiger fan+7",
+        "plus": 7,
+        "next_item_id": 7028,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 62,
+                "max": 68
+            },
+            "magical_attack": {
+                "min": 67,
+                "max": 77
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/black_tiger_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7028,
+        "name": "black tiger fan+8",
+        "plus": 8,
+        "next_item_id": 7029,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 69,
+                "max": 75
+            },
+            "magical_attack": {
+                "min": 74,
+                "max": 84
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/black_tiger_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7029,
+        "name": "black tiger fan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 76,
+                "max": 82
+            },
+            "magical_attack": {
+                "min": 81,
+                "max": 91
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/black_tiger_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7030,
+        "name": "crane wing fan+0",
+        "plus": 0,
+        "next_item_id": 7031,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 17,
+                "max": 21
+            },
+            "magical_attack": {
+                "min": 24,
+                "max": 32
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/crane_wing_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7031,
+        "name": "crane wing fan+1",
+        "plus": 1,
+        "next_item_id": 7032,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 24,
+                "max": 28
+            },
+            "magical_attack": {
+                "min": 31,
+                "max": 39
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/crane_wing_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7032,
+        "name": "crane wing fan+2",
+        "plus": 2,
+        "next_item_id": 7033,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 31,
+                "max": 35
+            },
+            "magical_attack": {
+                "min": 38,
+                "max": 46
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/crane_wing_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7033,
+        "name": "crane wing fan+3",
+        "plus": 3,
+        "next_item_id": 7034,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 38,
+                "max": 42
+            },
+            "magical_attack": {
+                "min": 45,
+                "max": 53
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/crane_wing_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7034,
+        "name": "crane wing fan+4",
+        "plus": 4,
+        "next_item_id": 7035,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 45,
+                "max": 49
+            },
+            "magical_attack": {
+                "min": 52,
+                "max": 60
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/crane_wing_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7035,
+        "name": "crane wing fan+5",
+        "plus": 5,
+        "next_item_id": 7036,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 52,
+                "max": 56
+            },
+            "magical_attack": {
+                "min": 59,
+                "max": 67
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/crane_wing_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7036,
+        "name": "crane wing fan+6",
+        "plus": 6,
+        "next_item_id": 7037,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 59,
+                "max": 63
+            },
+            "magical_attack": {
+                "min": 66,
+                "max": 74
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/crane_wing_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7037,
+        "name": "crane wing fan+7",
+        "plus": 7,
+        "next_item_id": 7038,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 66,
+                "max": 70
+            },
+            "magical_attack": {
+                "min": 73,
+                "max": 81
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/crane_wing_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7038,
+        "name": "crane wing fan+8",
+        "plus": 8,
+        "next_item_id": 7039,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 73,
+                "max": 77
+            },
+            "magical_attack": {
+                "min": 80,
+                "max": 88
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/crane_wing_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7039,
+        "name": "crane wing fan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 80,
+                "max": 84
+            },
+            "magical_attack": {
+                "min": 87,
+                "max": 95
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/crane_wing_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7040,
+        "name": "peacock fan+0",
+        "plus": 0,
+        "next_item_id": 7041,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 18,
+                "max": 24
+            },
+            "magical_attack": {
+                "min": 29,
+                "max": 33
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/peacock_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7041,
+        "name": "peacock fan+1",
+        "plus": 1,
+        "next_item_id": 7042,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 25,
+                "max": 31
+            },
+            "magical_attack": {
+                "min": 36,
+                "max": 40
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/peacock_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7042,
+        "name": "peacock fan+2",
+        "plus": 2,
+        "next_item_id": 7043,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 32,
+                "max": 38
+            },
+            "magical_attack": {
+                "min": 43,
+                "max": 47
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/peacock_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7043,
+        "name": "peacock fan+3",
+        "plus": 3,
+        "next_item_id": 7044,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 39,
+                "max": 45
+            },
+            "magical_attack": {
+                "min": 50,
+                "max": 54
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/peacock_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7044,
+        "name": "peacock fan+4",
+        "plus": 4,
+        "next_item_id": 7045,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 46,
+                "max": 52
+            },
+            "magical_attack": {
+                "min": 57,
+                "max": 61
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/peacock_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7045,
+        "name": "peacock fan+5",
+        "plus": 5,
+        "next_item_id": 7046,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 53,
+                "max": 59
+            },
+            "magical_attack": {
+                "min": 64,
+                "max": 68
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/peacock_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7046,
+        "name": "peacock fan+6",
+        "plus": 6,
+        "next_item_id": 7047,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 60,
+                "max": 66
+            },
+            "magical_attack": {
+                "min": 71,
+                "max": 75
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/peacock_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7047,
+        "name": "peacock fan+7",
+        "plus": 7,
+        "next_item_id": 7048,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 67,
+                "max": 73
+            },
+            "magical_attack": {
+                "min": 78,
+                "max": 82
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/peacock_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7048,
+        "name": "peacock fan+8",
+        "plus": 8,
+        "next_item_id": 7049,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 74,
+                "max": 80
+            },
+            "magical_attack": {
+                "min": 85,
+                "max": 89
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/peacock_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7049,
+        "name": "peacock fan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 81,
+                "max": 87
+            },
+            "magical_attack": {
+                "min": 92,
+                "max": 96
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-1-20",
+        "img": "items/fans/peacock_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7050,
+        "name": "aquatic fan+0",
+        "plus": 0,
+        "next_item_id": 7051,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 27,
+                "max": 41
+            },
+            "magical_attack": {
+                "min": 29,
+                "max": 41
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/aquatic_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7051,
+        "name": "aquatic fan+1",
+        "plus": 1,
+        "next_item_id": 7052,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 33,
+                "max": 47
+            },
+            "magical_attack": {
+                "min": 36,
+                "max": 45
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/aquatic_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7052,
+        "name": "aquatic fan+2",
+        "plus": 2,
+        "next_item_id": 7053,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 39,
+                "max": 53
+            },
+            "magical_attack": {
+                "min": 41,
+                "max": 51
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/aquatic_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7053,
+        "name": "aquatic fan+3",
+        "plus": 3,
+        "next_item_id": 7054,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 45,
+                "max": 59
+            },
+            "magical_attack": {
+                "min": 47,
+                "max": 57
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/aquatic_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7054,
+        "name": "aquatic fan+4",
+        "plus": 4,
+        "next_item_id": 7055,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 51,
+                "max": 65
+            },
+            "magical_attack": {
+                "min": 53,
+                "max": 63
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/aquatic_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7055,
+        "name": "aquatic fan+5",
+        "plus": 5,
+        "next_item_id": 7056,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 59,
+                "max": 73
+            },
+            "magical_attack": {
+                "min": 61,
+                "max": 71
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/aquatic_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7056,
+        "name": "aquatic fan+6",
+        "plus": 6,
+        "next_item_id": 7057,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 68,
+                "max": 82
+            },
+            "magical_attack": {
+                "min": 70,
+                "max": 80
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/aquatic_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7057,
+        "name": "aquatic fan+7",
+        "plus": 7,
+        "next_item_id": 7058,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 78,
+                "max": 92
+            },
+            "magical_attack": {
+                "min": 80,
+                "max": 90
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/aquatic_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7058,
+        "name": "aquatic fan+8",
+        "plus": 8,
+        "next_item_id": 7059,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 89,
+                "max": 103
+            },
+            "magical_attack": {
+                "min": 91,
+                "max": 101
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/aquatic_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7059,
+        "name": "aquatic fan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 101,
+                "max": 115
+            },
+            "magical_attack": {
+                "min": 103,
+                "max": 113
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/aquatic_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7160,
+        "name": "autumn wind fan+0",
+        "plus": 0,
+        "next_item_id": 7161,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 43,
+                "max": 55
+            },
+            "magical_attack": {
+                "min": 45,
+                "max": 76
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/fans/autumn_wind_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7161,
+        "name": "autumn wind fan+1",
+        "plus": 1,
+        "next_item_id": 7162,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 49,
+                "max": 61
+            },
+            "magical_attack": {
+                "min": 51,
+                "max": 82
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/fans/autumn_wind_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7162,
+        "name": "autumn wind fan+2",
+        "plus": 2,
+        "next_item_id": 7163,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 54,
+                "max": 66
+            },
+            "magical_attack": {
+                "min": 56,
+                "max": 87
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/fans/autumn_wind_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7163,
+        "name": "autumn wind fan+3",
+        "plus": 3,
+        "next_item_id": 7164,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 60,
+                "max": 72
+            },
+            "magical_attack": {
+                "min": 62,
+                "max": 93
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/fans/autumn_wind_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7164,
+        "name": "autumn wind fan+4",
+        "plus": 4,
+        "next_item_id": 7165,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 65,
+                "max": 77
+            },
+            "magical_attack": {
+                "min": 67,
+                "max": 98
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/fans/autumn_wind_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7165,
+        "name": "autumn wind fan+5",
+        "plus": 5,
+        "next_item_id": 7166,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 73,
+                "max": 85
+            },
+            "magical_attack": {
+                "min": 75,
+                "max": 106
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/fans/autumn_wind_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7166,
+        "name": "autumn wind fan+6",
+        "plus": 6,
+        "next_item_id": 7167,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 81,
+                "max": 93
+            },
+            "magical_attack": {
+                "min": 83,
+                "max": 114
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/fans/autumn_wind_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7167,
+        "name": "autumn wind fan+7",
+        "plus": 7,
+        "next_item_id": 7168,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 91,
+                "max": 103
+            },
+            "magical_attack": {
+                "min": 93,
+                "max": 124
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/fans/autumn_wind_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7168,
+        "name": "autumn wind fan+8",
+        "plus": 8,
+        "next_item_id": 7169,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 101,
+                "max": 113
+            },
+            "magical_attack": {
+                "min": 103,
+                "max": 134
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/fans/autumn_wind_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7169,
+        "name": "autumn wind fan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 113,
+                "max": 125
+            },
+            "magical_attack": {
+                "min": 115,
+                "max": 146
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/fans/autumn_wind_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7060,
+        "name": "stone fan+0",
+        "plus": 0,
+        "next_item_id": 7061,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 30,
+                "max": 46
+            },
+            "magical_attack": {
+                "min": 33,
+                "max": 47
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/stone_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7061,
+        "name": "stone fan+1",
+        "plus": 1,
+        "next_item_id": 7062,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 36,
+                "max": 52
+            },
+            "magical_attack": {
+                "min": 39,
+                "max": 53
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/stone_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7062,
+        "name": "stone fan+2",
+        "plus": 2,
+        "next_item_id": 7063,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 42,
+                "max": 58
+            },
+            "magical_attack": {
+                "min": 45,
+                "max": 59
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/stone_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7063,
+        "name": "stone fan+3",
+        "plus": 3,
+        "next_item_id": 7064,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 51,
+                "max": 65
+            },
+            "magical_attack": {
+                "min": 48,
+                "max": 64
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/stone_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7064,
+        "name": "stone fan+4",
+        "plus": 4,
+        "next_item_id": 7065,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 57,
+                "max": 71
+            },
+            "magical_attack": {
+                "min": 54,
+                "max": 70
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/stone_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7065,
+        "name": "stone fan+5",
+        "plus": 5,
+        "next_item_id": 7066,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 62,
+                "max": 78
+            },
+            "magical_attack": {
+                "min": 65,
+                "max": 79
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/stone_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7066,
+        "name": "stone fan+6",
+        "plus": 6,
+        "next_item_id": 7067,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 71,
+                "max": 87
+            },
+            "magical_attack": {
+                "min": 74,
+                "max": 88
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/stone_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7067,
+        "name": "stone fan+7",
+        "plus": 7,
+        "next_item_id": 7068,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 81,
+                "max": 97
+            },
+            "magical_attack": {
+                "min": 84,
+                "max": 98
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/stone_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7068,
+        "name": "stone fan+8",
+        "plus": 8,
+        "next_item_id": 7069,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 92,
+                "max": 108
+            },
+            "magical_attack": {
+                "min": 95,
+                "max": 109
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/stone_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7069,
+        "name": "stone fan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 104,
+                "max": 120
+            },
+            "magical_attack": {
+                "min": 107,
+                "max": 121
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/stone_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7070,
+        "name": "ocean fan+0",
+        "plus": 0,
+        "next_item_id": 7071,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 35,
+                "max": 45
+            },
+            "magical_attack": {
+                "min": 30,
+                "max": 62
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/ocean_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7071,
+        "name": "ocean fan+1",
+        "plus": 1,
+        "next_item_id": 7072,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 41,
+                "max": 51
+            },
+            "magical_attack": {
+                "min": 36,
+                "max": 68
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/ocean_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7072,
+        "name": "ocean fan+2",
+        "plus": 2,
+        "next_item_id": 7073,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 47,
+                "max": 57
+            },
+            "magical_attack": {
+                "min": 42,
+                "max": 74
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/ocean_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7073,
+        "name": "ocean fan+3",
+        "plus": 3,
+        "next_item_id": 7074,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 53,
+                "max": 63
+            },
+            "magical_attack": {
+                "min": 48,
+                "max": 80
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/ocean_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7074,
+        "name": "ocean fan+4",
+        "plus": 4,
+        "next_item_id": 7075,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 59,
+                "max": 69
+            },
+            "magical_attack": {
+                "min": 54,
+                "max": 86
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/ocean_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7075,
+        "name": "ocean fan+5",
+        "plus": 5,
+        "next_item_id": 7076,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 67,
+                "max": 77
+            },
+            "magical_attack": {
+                "min": 62,
+                "max": 94
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/ocean_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7076,
+        "name": "ocean fan+6",
+        "plus": 6,
+        "next_item_id": 7077,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 76,
+                "max": 86
+            },
+            "magical_attack": {
+                "min": 71,
+                "max": 103
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/ocean_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7077,
+        "name": "ocean fan+7",
+        "plus": 7,
+        "next_item_id": 7078,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 86,
+                "max": 96
+            },
+            "magical_attack": {
+                "min": 81,
+                "max": 113
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/ocean_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7078,
+        "name": "ocean fan+8",
+        "plus": 8,
+        "next_item_id": 7079,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 97,
+                "max": 107
+            },
+            "magical_attack": {
+                "min": 92,
+                "max": 124
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/ocean_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7079,
+        "name": "ocean fan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 109,
+                "max": 119
+            },
+            "magical_attack": {
+                "min": 104,
+                "max": 136
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-25-40",
+        "img": "items/fans/ocean_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7080,
+        "name": "sting fan+0",
+        "plus": 0,
+        "next_item_id": 7081,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 37,
+                "max": 53
+            },
+            "magical_attack": {
+                "min": 42,
+                "max": 60
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sting_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7081,
+        "name": "sting fan+1",
+        "plus": 1,
+        "next_item_id": 7082,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 43,
+                "max": 59
+            },
+            "magical_attack": {
+                "min": 48,
+                "max": 66
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sting_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7082,
+        "name": "sting fan+2",
+        "plus": 2,
+        "next_item_id": 7083,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 49,
+                "max": 65
+            },
+            "magical_attack": {
+                "min": 54,
+                "max": 72
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sting_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7083,
+        "name": "sting fan+3",
+        "plus": 3,
+        "next_item_id": 7084,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 55,
+                "max": 71
+            },
+            "magical_attack": {
+                "min": 60,
+                "max": 78
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sting_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7084,
+        "name": "sting fan+4",
+        "plus": 4,
+        "next_item_id": 7085,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 61,
+                "max": 77
+            },
+            "magical_attack": {
+                "min": 66,
+                "max": 84
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sting_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7085,
+        "name": "sting fan+5",
+        "plus": 5,
+        "next_item_id": 7086,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 69,
+                "max": 85
+            },
+            "magical_attack": {
+                "min": 74,
+                "max": 92
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sting_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7086,
+        "name": "sting fan+6",
+        "plus": 6,
+        "next_item_id": 7087,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 78,
+                "max": 94
+            },
+            "magical_attack": {
+                "min": 83,
+                "max": 101
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sting_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7087,
+        "name": "sting fan+7",
+        "plus": 7,
+        "next_item_id": 7088,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 88,
+                "max": 104
+            },
+            "magical_attack": {
+                "min": 93,
+                "max": 111
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sting_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7088,
+        "name": "sting fan+8",
+        "plus": 8,
+        "next_item_id": 7089,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 99,
+                "max": 115
+            },
+            "magical_attack": {
+                "min": 104,
+                "max": 122
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sting_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7089,
+        "name": "sting fan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 111,
+                "max": 127
+            },
+            "magical_attack": {
+                "min": 116,
+                "max": 134
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sting_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7090,
+        "name": "phoenix fan+0",
+        "plus": 0,
+        "next_item_id": 7091,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 50,
+                "max": 64
+            },
+            "magical_attack": {
+                "min": 59,
+                "max": 89
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/phoenix_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7091,
+        "name": "phoenix fan+1",
+        "plus": 1,
+        "next_item_id": 7092,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 55,
+                "max": 69
+            },
+            "magical_attack": {
+                "min": 64,
+                "max": 94
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/phoenix_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7092,
+        "name": "phoenix fan+2",
+        "plus": 2,
+        "next_item_id": 7093,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 60,
+                "max": 74
+            },
+            "magical_attack": {
+                "min": 69,
+                "max": 99
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/phoenix_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7093,
+        "name": "phoenix fan+3",
+        "plus": 3,
+        "next_item_id": 7094,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 65,
+                "max": 79
+            },
+            "magical_attack": {
+                "min": 74,
+                "max": 104
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/phoenix_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7094,
+        "name": "phoenix fan+4",
+        "plus": 4,
+        "next_item_id": 7095,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 70,
+                "max": 84
+            },
+            "magical_attack": {
+                "min": 79,
+                "max": 109
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/phoenix_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7095,
+        "name": "phoenix fan+5",
+        "plus": 5,
+        "next_item_id": 7096,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 77,
+                "max": 91
+            },
+            "magical_attack": {
+                "min": 86,
+                "max": 116
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/phoenix_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7096,
+        "name": "phoenix fan+6",
+        "plus": 6,
+        "next_item_id": 7097,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 85,
+                "max": 99
+            },
+            "magical_attack": {
+                "min": 94,
+                "max": 124
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/phoenix_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7097,
+        "name": "phoenix fan+7",
+        "plus": 7,
+        "next_item_id": 7098,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 94,
+                "max": 108
+            },
+            "magical_attack": {
+                "min": 103,
+                "max": 133
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/phoenix_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7098,
+        "name": "phoenix fan+8",
+        "plus": 8,
+        "next_item_id": 7099,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 104,
+                "max": 118
+            },
+            "magical_attack": {
+                "min": 113,
+                "max": 143
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/phoenix_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7099,
+        "name": "phoenix fan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 115,
+                "max": 129
+            },
+            "magical_attack": {
+                "min": 124,
+                "max": 154
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/phoenix_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7100,
+        "name": "triple fan+0",
+        "plus": 0,
+        "next_item_id": 7101,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 49,
+                "max": 73
+            },
+            "magical_attack": {
+                "min": 68,
+                "max": 90
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/triple_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7101,
+        "name": "triple fan+1",
+        "plus": 1,
+        "next_item_id": 7102,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 54,
+                "max": 78
+            },
+            "magical_attack": {
+                "min": 73,
+                "max": 95
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/triple_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7102,
+        "name": "triple fan+2",
+        "plus": 2,
+        "next_item_id": 7103,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 59,
+                "max": 83
+            },
+            "magical_attack": {
+                "min": 78,
+                "max": 100
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/triple_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7103,
+        "name": "triple fan+3",
+        "plus": 3,
+        "next_item_id": 7104,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 64,
+                "max": 88
+            },
+            "magical_attack": {
+                "min": 83,
+                "max": 105
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/triple_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7104,
+        "name": "triple fan+4",
+        "plus": 4,
+        "next_item_id": 7105,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 69,
+                "max": 93
+            },
+            "magical_attack": {
+                "min": 88,
+                "max": 110
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/triple_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7105,
+        "name": "triple fan+5",
+        "plus": 5,
+        "next_item_id": 7106,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 76,
+                "max": 100
+            },
+            "magical_attack": {
+                "min": 95,
+                "max": 117
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/triple_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7106,
+        "name": "triple fan+6",
+        "plus": 6,
+        "next_item_id": 7107,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 84,
+                "max": 108
+            },
+            "magical_attack": {
+                "min": 103,
+                "max": 125
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/triple_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7107,
+        "name": "triple fan+7",
+        "plus": 7,
+        "next_item_id": 7108,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 93,
+                "max": 117
+            },
+            "magical_attack": {
+                "min": 112,
+                "max": 134
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/triple_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7108,
+        "name": "triple fan+8",
+        "plus": 8,
+        "next_item_id": 7109,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 103,
+                "max": 137
+            },
+            "magical_attack": {
+                "min": 122,
+                "max": 144
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/triple_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7109,
+        "name": "triple fan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 114,
+                "max": 138
+            },
+            "magical_attack": {
+                "min": 133,
+                "max": 155
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/triple_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7110,
+        "name": "eyebrow fan+0",
+        "plus": 0,
+        "next_item_id": 7111,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 52,
+                "max": 78
+            },
+            "magical_attack": {
+                "min": 70,
+                "max": 100
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/eyebrow_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7111,
+        "name": "eyebrow fan+1",
+        "plus": 1,
+        "next_item_id": 7112,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 57,
+                "max": 83
+            },
+            "magical_attack": {
+                "min": 75,
+                "max": 105
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/eyebrow_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7112,
+        "name": "eyebrow fan+2",
+        "plus": 2,
+        "next_item_id": 7113,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 62,
+                "max": 88
+            },
+            "magical_attack": {
+                "min": 80,
+                "max": 110
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/eyebrow_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7113,
+        "name": "eyebrow fan+3",
+        "plus": 3,
+        "next_item_id": 7114,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 67,
+                "max": 93
+            },
+            "magical_attack": {
+                "min": 85,
+                "max": 115
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/eyebrow_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7114,
+        "name": "eyebrow fan+4",
+        "plus": 4,
+        "next_item_id": 7115,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 72,
+                "max": 98
+            },
+            "magical_attack": {
+                "min": 90,
+                "max": 120
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/eyebrow_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7115,
+        "name": "eyebrow fan+5",
+        "plus": 5,
+        "next_item_id": 7116,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 79,
+                "max": 105
+            },
+            "magical_attack": {
+                "min": 97,
+                "max": 127
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/eyebrow_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7116,
+        "name": "eyebrow fan+6",
+        "plus": 6,
+        "next_item_id": 7117,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 87,
+                "max": 113
+            },
+            "magical_attack": {
+                "min": 105,
+                "max": 135
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/eyebrow_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7117,
+        "name": "eyebrow fan+7",
+        "plus": 7,
+        "next_item_id": 7118,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 96,
+                "max": 122
+            },
+            "magical_attack": {
+                "min": 114,
+                "max": 144
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/eyebrow_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7118,
+        "name": "eyebrow fan+8",
+        "plus": 8,
+        "next_item_id": 7119,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 106,
+                "max": 132
+            },
+            "magical_attack": {
+                "min": 124,
+                "max": 154
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/eyebrow_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7119,
+        "name": "eyebrow fan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 117,
+                "max": 143
+            },
+            "magical_attack": {
+                "min": 135,
+                "max": 165
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/eyebrow_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7120,
+        "name": "sun fan+0",
+        "plus": 0,
+        "next_item_id": 7121,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 55,
+                "max": 83
+            },
+            "magical_attack": {
+                "min": 83,
+                "max": 97
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sun_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7121,
+        "name": "sun fan+1",
+        "plus": 1,
+        "next_item_id": 7122,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 60,
+                "max": 88
+            },
+            "magical_attack": {
+                "min": 88,
+                "max": 102
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sun_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7122,
+        "name": "sun fan+2",
+        "plus": 2,
+        "next_item_id": 7123,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 65,
+                "max": 93
+            },
+            "magical_attack": {
+                "min": 93,
+                "max": 107
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sun_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7123,
+        "name": "sun fan+3",
+        "plus": 3,
+        "next_item_id": 7124,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 70,
+                "max": 98
+            },
+            "magical_attack": {
+                "min": 98,
+                "max": 112
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sun_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7124,
+        "name": "sun fan+4",
+        "plus": 4,
+        "next_item_id": 7125,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 75,
+                "max": 103
+            },
+            "magical_attack": {
+                "min": 103,
+                "max": 117
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sun_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7125,
+        "name": "sun fan+5",
+        "plus": 5,
+        "next_item_id": 7126,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 82,
+                "max": 110
+            },
+            "magical_attack": {
+                "min": 110,
+                "max": 124
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sun_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7126,
+        "name": "sun fan+6",
+        "plus": 6,
+        "next_item_id": 7127,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 90,
+                "max": 118
+            },
+            "magical_attack": {
+                "min": 118,
+                "max": 132
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sun_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7127,
+        "name": "sun fan+7",
+        "plus": 7,
+        "next_item_id": 7128,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 99,
+                "max": 127
+            },
+            "magical_attack": {
+                "min": 127,
+                "max": 141
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sun_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7128,
+        "name": "sun fan+8",
+        "plus": 8,
+        "next_item_id": 7129,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 109,
+                "max": 137
+            },
+            "magical_attack": {
+                "min": 137,
+                "max": 151
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sun_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7129,
+        "name": "sun fan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 120,
+                "max": 148
+            },
+            "magical_attack": {
+                "min": 148,
+                "max": 162
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/sun_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7130,
+        "name": "heavenly bird fan+0",
+        "plus": 0,
+        "next_item_id": 7131,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 64,
+                "max": 96
+            },
+            "magical_attack": {
+                "min": 83,
+                "max": 99
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/heavenly_bird_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7131,
+        "name": "heavenly bird fan+1",
+        "plus": 1,
+        "next_item_id": 7132,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 72,
+                "max": 104
+            },
+            "magical_attack": {
+                "min": 88,
+                "max": 104
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/heavenly_bird_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7132,
+        "name": "heavenly bird fan+2",
+        "plus": 2,
+        "next_item_id": 7133,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 81,
+                "max": 113
+            },
+            "magical_attack": {
+                "min": 99,
+                "max": 111
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/heavenly_bird_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7133,
+        "name": "heavenly bird fan+3",
+        "plus": 3,
+        "next_item_id": 7134,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 91,
+                "max": 123
+            },
+            "magical_attack": {
+                "min": 102,
+                "max": 120
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/heavenly_bird_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7134,
+        "name": "heavenly bird fan+4",
+        "plus": 4,
+        "next_item_id": 7135,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 102,
+                "max": 134
+            },
+            "magical_attack": {
+                "min": 111,
+                "max": 130
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/heavenly_bird_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7135,
+        "name": "heavenly bird fan+5",
+        "plus": 5,
+        "next_item_id": 7136,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 114,
+                "max": 146
+            },
+            "magical_attack": {
+                "min": 119,
+                "max": 140
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/heavenly_bird_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7136,
+        "name": "heavenly bird fan+6",
+        "plus": 6,
+        "next_item_id": 7137,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 127,
+                "max": 159
+            },
+            "magical_attack": {
+                "min": 125,
+                "max": 150
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/heavenly_bird_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7137,
+        "name": "heavenly bird fan+7",
+        "plus": 7,
+        "next_item_id": 7138,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 141,
+                "max": 173
+            },
+            "magical_attack": {
+                "min": 129,
+                "max": 158
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/heavenly_bird_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7138,
+        "name": "heavenly bird fan+8",
+        "plus": 8,
+        "next_item_id": 7139,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 166,
+                "max": 198
+            },
+            "magical_attack": {
+                "min": 137,
+                "max": 175
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/heavenly_bird_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7139,
+        "name": "heavenly bird fan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 201,
+                "max": 233
+            },
+            "magical_attack": {
+                "min": 148,
+                "max": 198
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/heavenly_bird_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7140,
+        "name": "salvation fan+0",
+        "plus": 0,
+        "next_item_id": 7141,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 69,
+                "max": 91
+            },
+            "magical_attack": {
+                "min": 95,
+                "max": 115
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/salvation_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7141,
+        "name": "salvation fan+1",
+        "plus": 1,
+        "next_item_id": 7142,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 75,
+                "max": 97
+            },
+            "magical_attack": {
+                "min": 101,
+                "max": 121
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/salvation_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7142,
+        "name": "salvation fan+2",
+        "plus": 2,
+        "next_item_id": 7143,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 82,
+                "max": 104
+            },
+            "magical_attack": {
+                "min": 108,
+                "max": 128
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/salvation_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7143,
+        "name": "salvation fan+3",
+        "plus": 3,
+        "next_item_id": 7144,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 90,
+                "max": 112
+            },
+            "magical_attack": {
+                "min": 116,
+                "max": 136
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/salvation_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7144,
+        "name": "salvation fan+4",
+        "plus": 4,
+        "next_item_id": 7145,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 99,
+                "max": 121
+            },
+            "magical_attack": {
+                "min": 125,
+                "max": 145
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/salvation_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7145,
+        "name": "salvation fan+5",
+        "plus": 5,
+        "next_item_id": 7146,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 109,
+                "max": 131
+            },
+            "magical_attack": {
+                "min": 135,
+                "max": 155
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/salvation_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7146,
+        "name": "salvation fan+6",
+        "plus": 6,
+        "next_item_id": 7147,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 120,
+                "max": 142
+            },
+            "magical_attack": {
+                "min": 146,
+                "max": 166
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/salvation_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7147,
+        "name": "salvation fan+7",
+        "plus": 7,
+        "next_item_id": 7148,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 132,
+                "max": 154
+            },
+            "magical_attack": {
+                "min": 158,
+                "max": 178
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/salvation_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7148,
+        "name": "salvation fan+8",
+        "plus": 8,
+        "next_item_id": 7149,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 145,
+                "max": 167
+            },
+            "magical_attack": {
+                "min": 171,
+                "max": 191
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/salvation_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7149,
+        "name": "salvation fan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 159,
+                "max": 181
+            },
+            "magical_attack": {
+                "min": 185,
+                "max": 205
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/salvation_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7150,
+        "name": "ecstasy fan+0",
+        "plus": 0,
+        "next_item_id": 7151,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 69,
+                "max": 91
+            },
+            "magical_attack": {
+                "min": 95,
+                "max": 115
+            },
+            "attack_speed": 15,
+            "casting_speed": 5
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/ecstasy_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7151,
+        "name": "ecstasy fan+1",
+        "plus": 1,
+        "next_item_id": 7152,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 75,
+                "max": 97
+            },
+            "magical_attack": {
+                "min": 101,
+                "max": 121
+            },
+            "attack_speed": 15,
+            "casting_speed": 6
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/ecstasy_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7152,
+        "name": "ecstasy fan+2",
+        "plus": 2,
+        "next_item_id": 7153,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 82,
+                "max": 104
+            },
+            "magical_attack": {
+                "min": 108,
+                "max": 128
+            },
+            "attack_speed": 15,
+            "casting_speed": 7
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/ecstasy_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7153,
+        "name": "ecstasy fan+3",
+        "plus": 3,
+        "next_item_id": 7154,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 90,
+                "max": 112
+            },
+            "magical_attack": {
+                "min": 116,
+                "max": 136
+            },
+            "attack_speed": 15,
+            "casting_speed": 8
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/ecstasy_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7154,
+        "name": "ecstasy fan+4",
+        "plus": 4,
+        "next_item_id": 7155,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 99,
+                "max": 121
+            },
+            "magical_attack": {
+                "min": 125,
+                "max": 145
+            },
+            "attack_speed": 15,
+            "casting_speed": 10
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/ecstasy_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7155,
+        "name": "ecstasy fan+5",
+        "plus": 5,
+        "next_item_id": 7156,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 109,
+                "max": 131
+            },
+            "magical_attack": {
+                "min": 135,
+                "max": 155
+            },
+            "attack_speed": 15,
+            "casting_speed": 12
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/ecstasy_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7156,
+        "name": "ecstasy fan+6",
+        "plus": 6,
+        "next_item_id": 7157,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 120,
+                "max": 142
+            },
+            "magical_attack": {
+                "min": 146,
+                "max": 166
+            },
+            "attack_speed": 15,
+            "casting_speed": 14
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/ecstasy_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7157,
+        "name": "ecstasy fan+7",
+        "plus": 7,
+        "next_item_id": 7158,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 132,
+                "max": 154
+            },
+            "magical_attack": {
+                "min": 158,
+                "max": 178
+            },
+            "attack_speed": 15,
+            "casting_speed": 17
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/ecstasy_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7158,
+        "name": "ecstasy fan+8",
+        "plus": 8,
+        "next_item_id": 7159,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 145,
+                "max": 167
+            },
+            "magical_attack": {
+                "min": 171,
+                "max": 191
+            },
+            "attack_speed": 15,
+            "casting_speed": 20
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/ecstasy_fan.png",
+        "size": 1
+    },
+    {
+        "id": 7159,
+        "name": "ecstasy fan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "fan",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 159,
+                "max": 181
+            },
+            "magical_attack": {
+                "min": 185,
+                "max": 205
+            },
+            "attack_speed": 15,
+            "casting_speed": 25
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "fans-40-75",
+        "img": "items/fans/ecstasy_fan.png",
+        "size": 1
+    }
+]
