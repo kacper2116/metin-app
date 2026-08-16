@@ -1,6 +1,6 @@
 [
     {
-        "name": "armors-1-18",
+        "name": "armour-1-18",
         "upgrades": {
             "1": {
                 "cost": 600,
@@ -56,7 +56,7 @@
         }
     },
     {
-        "name": "armors-26-42",
+        "name": "armour-26-42",
         "upgrades": {
             "1": {
                 "cost": 1000,
@@ -134,7 +134,7 @@
         }
     },
     {
-        "name": "armors-48-70",
+        "name": "armour-48-70",
         "upgrades": {
             "1": {
                 "cost": 1200,
