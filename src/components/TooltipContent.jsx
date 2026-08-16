@@ -27,6 +27,7 @@ const TooltipContent = ({ itemInstance }) => {
         attack_speed: { label: translate('stats.attack_speed'), unit: '%' },
         defence: { label: translate('stats.defence'), unit: null },
         movement_speed: { label: translate('stats.movement_speed'), unit: '%' },
+        magic_resistance: { label: translate('stats.magic_resistance') + ':', unit: '%' }
     }
 
     const formatStatValue = (value) => {
