@@ -11,7 +11,7 @@ const TooltipContent = ({ itemInstance }) => {
 
     const wearableItemTypes = [
         'weapon',
-        'armor',
+        'armour',
         'shield',
         'helmet',
         'bracelet',

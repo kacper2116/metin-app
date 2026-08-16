@@ -16,7 +16,7 @@ const ItemFilter = ({ setFilteredItems }) => {
     const filterOptions = {
         type: [
             "weapon",
-            "armor",
+            "armour",
             "shield",
             "helmet",
             "earrings",

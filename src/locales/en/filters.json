@@ -1,7 +1,7 @@
 {
     "type": {
         "weapon": "Weapons",
-        "armor": "Armors",
+        "armour": "Armours",
         "shield": "Shields",
         "helmet": "Helmets",
         "earrings": "Earrings",
