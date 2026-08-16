@@ -1,0 +1,20 @@
+[
+    {
+        "id": 11200,
+        "name": "monk plate armor+0",
+        "plus": 0,
+        "next_item_id": 11201,
+        "type": "armor",
+        "subtype": "null",
+        "required_level": 1,
+        "stats": {
+            "defence": 12
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/monk_plate_armor.png",
+        "size": 2
+    }
+]

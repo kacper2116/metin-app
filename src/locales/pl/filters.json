@@ -1,0 +1,21 @@
+{
+    "type": {
+        "weapon": "Bronie",
+        "armor": "Zbroje",
+        "shield": "Tarcze",
+        "helmet": "Hełmy",
+        "earrings": "Kolczyki",
+        "necklace": "Naszyjniki",
+        "bracelet": "Bransolety",
+        "shoes": "Buty"
+    },
+    "weapon_type": {
+        "sword": "Miecze",
+        "two_handed": "Dwuręczne",
+        "dagger": "Sztylety",
+        "bow": "Łuki",
+        "blade": "Ostrza",
+        "fan": "Wachlarze",
+        "bell": "Dzwonki"
+    }
+}

@@ -80,13 +80,13 @@ const ItemFilter = ({ setFilteredItems }) => {
                         value={profession}
                         className={`filter-button ${filter.profession === profession ? 'active' : ''}`}
                         onClick={(e) => filter.profession !== profession && handleSetFilter(e)}
-                    >{translate("professions", profession)}</button>
+                    >{translate(`common.professions.${profession}`)}</button>
                 )}
             </div>
 
             <select className='filter-type' onChange={handleSetFilter} value={filter.type} name="type">
                 {filterOptions.type.map(type =>
-                    <option value={type} key={type}>{translate("filters.type", type)}</option>
+                    <option value={type} key={type}>{translate(`filters.type.${type}`)}</option>
                 )}
             </select>
             <select className='filter-plus' onChange={handleSetFilter} value={filter.plus} name='plus'>
@@ -104,7 +104,7 @@ const ItemFilter = ({ setFilteredItems }) => {
                             value={subtype}
                             className={`filter-button ${filter.subtype === subtype ? 'active' : ''}`}
                             onClick={handleSetFilter}
-                        >{translate("filters.weapon_type", subtype)}</button>
+                        >{translate(`filters.weapon_type.${subtype}`)}</button>
                     )}
                 </div>
             }

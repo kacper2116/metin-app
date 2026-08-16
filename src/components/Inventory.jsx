@@ -11,7 +11,6 @@ import useSlotHover from "../hooks/useSlotHover"
 import MouseContext from "../contexts/MouseContext"
 import TooltipContext from "../contexts/TooltipContext"
 
-
 const Inventory = ({ inventorySize, inventory }) => {
 
     const [activeTab, setActiveTab] = useState(0)

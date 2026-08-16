@@ -24,13 +24,13 @@ const ItemSpawner = ({ inventorySize, spawnItem }) => {
 
     return (
         <div className='item-spawner'>
-            <div className='select-item' onClick={() => setShowModal(true)}><span>{itemToSpawn?.item.name ?? translate('ui', 'select_item')}</span></div>
+            <div className='select-item' onClick={() => setShowModal(true)}><span>{itemToSpawn?.item.name ?? translate('ui.select_item')}</span></div>
             {itemToSpawn &&
                 <button className='spawn-button' onClick={() => handleSpawnItem(itemToSpawn)}>Spawn</button>}
 
             {showModal &&
                 <div className='modal'>
-                    <button className='close-modal-button' onClick={() => setShowModal(false)} title='Zamknij'>&times;</button>
+                    <button className='close-modal-button' onClick={() => setShowModal(false)} title={translate('ui.close')}>&times;</button>
 
                     <ItemFilter setFilteredItems={setFilteredItems} />
                     <ItemPicker items={placedItems} inventorySize={gridSize} setItemToSpawn={setItemToSpawn} />

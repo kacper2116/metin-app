@@ -1,0 +1,21 @@
+{
+    "type": {
+        "weapon": "Weapons",
+        "armor": "Armors",
+        "shield": "Shields",
+        "helmet": "Helmets",
+        "earrings": "Earrings",
+        "necklace": "Necklaces",
+        "bracelet": "Bracelets",
+        "shoes": "Shoes"
+    },
+    "weapon_type": {
+        "sword": "Swords",
+        "two_handed": "Two Handed",
+        "dagger": "Daggers",
+        "bow": "Bows",
+        "blade": "Blades",
+        "fan": "Fans",
+        "bell": "Bells"
+    }
+}

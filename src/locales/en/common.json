@@ -1,0 +1,8 @@
+{
+    "professions": {
+        "warrior": "Warrior",
+        "ninja": "Ninja",
+        "sura": "Sura",
+        "shaman": "Shaman"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "required_level": "From Level",
+    "wearable": "Wearable",
+    "attack": "Attack Value",
+    "magical_attack": "Magical Attack value",
+    "attack_speed": "Attack Speed"
+}
