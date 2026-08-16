@@ -57,7 +57,7 @@ const TooltipContent = ({ itemInstance }) => {
                 <div className='tooltip-stats'>
                     {Object.entries(item.stats).map(([name, value]) => (
 
-                        <div key={name} className='tooltip-stat'>{formatStat(name, value)}</div>
+                        <div key={name} className={value >= 0 ? 'tooltip-stat' : 'tooltip-stat--negative'}>{formatStat(name, value)}</div>
                     ))}</div>
             }
             {wearableItemTypes.includes(item.type) && <div className="tooltip-wearable">[ {translate("stats.wearable")} ]</div>}

@@ -4,5 +4,6 @@
     "attack": "Attack Value",
     "magical_attack": "Magical Attack value",
     "attack_speed": "Attack Speed",
-    "defence": "Defence"
+    "defence": "Defence",
+    "movement_speed": "Movement Speed"
 }
