@@ -21,11 +21,11 @@ const TooltipContent = ({ itemInstance }) => {
     ]
 
     const statsLabels = {
-        required_level: { label: translate('stats.required_level'), unit: null },
-        attack: { label: translate('stats.attack'), unit: null },
-        magical_attack: { label: translate('stats.magical_attack'), unit: null },
+        required_level: { label: translate('stats.required_level') + ':', unit: null },
+        attack: { label: translate('stats.attack') + ':', unit: null },
+        magical_attack: { label: translate('stats.magical_attack') + ':', unit: null },
         attack_speed: { label: translate('stats.attack_speed'), unit: '%' },
-        defense: { label: translate('stats.defense'), unit: null },
+        defence: { label: translate('stats.defence'), unit: null },
         movement_speed: { label: translate('stats.movement_speed'), unit: '%' },
     }
 
@@ -39,10 +39,11 @@ const TooltipContent = ({ itemInstance }) => {
     const formatStat = (name, value) => {
 
         const stat = statsLabels[name];
+
         if (!stat) return '';
         const statValue = formatStatValue(value);
 
-        return `${stat.label}: ${statValue}${stat.unit ?? ''}`;
+        return `${stat.label} ${statValue}${stat.unit ?? ''}`;
     }
 
     const itemDisplayName = translate(`items.${item.name.split('+')[0]}`) + '+' + item.plus;

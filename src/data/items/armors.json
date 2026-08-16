@@ -5,10 +5,172 @@
         "plus": 0,
         "next_item_id": 11201,
         "type": "armor",
-        "subtype": "null",
+        "subtype": null,
         "required_level": 1,
         "stats": {
             "defence": 12
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/monk_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11201,
+        "name": "monk plate armor+1",
+        "plus": 1,
+        "next_item_id": 11202,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 18
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/monk_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11202,
+        "name": "monk plate armor+2",
+        "plus": 2,
+        "next_item_id": 11203,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/monk_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11203,
+        "name": "monk plate armor+3",
+        "plus": 3,
+        "next_item_id": 11204,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 30
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/monk_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11204,
+        "name": "monk plate armor+4",
+        "plus": 4,
+        "next_item_id": 11205,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 36
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/monk_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11205,
+        "name": "monk plate armor+5",
+        "plus": 5,
+        "next_item_id": 11206,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 42
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/monk_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11206,
+        "name": "monk plate armor+6",
+        "plus": 6,
+        "next_item_id": 11207,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 48
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/monk_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11207,
+        "name": "monk plate armor+7",
+        "plus": 7,
+        "next_item_id": 11208,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 54
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/monk_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11208,
+        "name": "monk plate armor+8",
+        "plus": 8,
+        "next_item_id": 11209,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 60
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armors-1-18",
+        "img": "items/armors/warrior/monk_plate_armor.png",
+        "size": 2
+    },
+    {
+        "id": 11209,
+        "name": "monk plate armor+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armor",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 66
         },
         "profession": [
             "warrior"
