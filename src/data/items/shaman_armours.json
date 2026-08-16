@@ -1,0 +1,1912 @@
+[
+    {
+        "id": 11800,
+        "name": "crimson clothing+0",
+        "plus": 0,
+        "next_item_id": 11801,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 12,
+            "movement_speed": 0
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/crimson_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11801,
+        "name": "crimson clothing+1",
+        "plus": 1,
+        "next_item_id": 11802,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 18,
+            "movement_speed": 0
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/crimson_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11802,
+        "name": "crimson clothing+2",
+        "plus": 2,
+        "next_item_id": 11803,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 24,
+            "movement_speed": 0
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/crimson_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11803,
+        "name": "crimson clothing+3",
+        "plus": 3,
+        "next_item_id": 11804,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 30,
+            "movement_speed": 0
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/crimson_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11804,
+        "name": "crimson clothing+4",
+        "plus": 4,
+        "next_item_id": 11805,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 36,
+            "movement_speed": 0
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/crimson_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11805,
+        "name": "crimson clothing+5",
+        "plus": 5,
+        "next_item_id": 11806,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 42,
+            "movement_speed": 0
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/crimson_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11806,
+        "name": "crimson clothing+6",
+        "plus": 6,
+        "next_item_id": 11807,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 48,
+            "movement_speed": 0
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/crimson_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11807,
+        "name": "crimson clothing+7",
+        "plus": 7,
+        "next_item_id": 11808,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 54,
+            "movement_speed": 0
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/crimson_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11808,
+        "name": "crimson clothing+8",
+        "plus": 8,
+        "next_item_id": 11809,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 60,
+            "movement_speed": 0
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/crimson_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11809,
+        "name": "crimson clothing+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 1,
+        "stats": {
+            "defence": 66,
+            "movement_speed": 0
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/crimson_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11810,
+        "name": "turquoise clothing+0",
+        "plus": 0,
+        "next_item_id": 11811,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 21,
+            "movement_speed": -2
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/turquoise_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11811,
+        "name": "turquoise clothing+1",
+        "plus": 1,
+        "next_item_id": 11812,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 27,
+            "movement_speed": -2
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/turquoise_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11812,
+        "name": "turquoise clothing+2",
+        "plus": 2,
+        "next_item_id": 11813,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 33,
+            "movement_speed": -2
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/turquoise_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11813,
+        "name": "turquoise clothing+3",
+        "plus": 3,
+        "next_item_id": 11814,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 39,
+            "movement_speed": -2
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/turquoise_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11814,
+        "name": "turquoise clothing+4",
+        "plus": 4,
+        "next_item_id": 11815,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 45,
+            "movement_speed": -2
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/turquoise_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11815,
+        "name": "turquoise clothing+5",
+        "plus": 5,
+        "next_item_id": 11816,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 51,
+            "movement_speed": -2
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/turquoise_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11816,
+        "name": "turquoise clothing+6",
+        "plus": 6,
+        "next_item_id": 11817,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 57,
+            "movement_speed": -2
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/turquoise_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11817,
+        "name": "turquoise clothing+7",
+        "plus": 7,
+        "next_item_id": 11818,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 63,
+            "movement_speed": -2
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/turquoise_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11818,
+        "name": "turquoise clothing+8",
+        "plus": 8,
+        "next_item_id": 11819,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 69,
+            "movement_speed": -2
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/turquoise_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11819,
+        "name": "turquoise clothing+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 9,
+        "stats": {
+            "defence": 75,
+            "movement_speed": -2
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/turquoise_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11820,
+        "name": "pink clothing+0",
+        "plus": 0,
+        "next_item_id": 11821,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 29,
+            "movement_speed": -3
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/pink_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11821,
+        "name": "pink clothing+1",
+        "plus": 1,
+        "next_item_id": 11822,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 35,
+            "movement_speed": -3
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/pink_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11822,
+        "name": "pink clothing+2",
+        "plus": 2,
+        "next_item_id": 11823,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 41,
+            "movement_speed": -3
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/pink_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11823,
+        "name": "pink clothing+3",
+        "plus": 3,
+        "next_item_id": 11824,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 47,
+            "movement_speed": -3
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/pink_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11824,
+        "name": "pink clothing+4",
+        "plus": 4,
+        "next_item_id": 11825,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 53,
+            "movement_speed": -3
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/pink_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11825,
+        "name": "pink clothing+5",
+        "plus": 5,
+        "next_item_id": 11826,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 59,
+            "movement_speed": -3
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/pink_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11826,
+        "name": "pink clothing+6",
+        "plus": 6,
+        "next_item_id": 11827,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 65,
+            "movement_speed": -3
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/pink_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11827,
+        "name": "pink clothing+7",
+        "plus": 7,
+        "next_item_id": 11828,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 71,
+            "movement_speed": -3
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/pink_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11828,
+        "name": "pink clothing+8",
+        "plus": 8,
+        "next_item_id": 11829,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 77,
+            "movement_speed": -3
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/pink_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11829,
+        "name": "pink clothing+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 18,
+        "stats": {
+            "defence": 83,
+            "movement_speed": -3
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-1-18",
+        "img": "items/armours/shaman/pink_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11830,
+        "name": "amorous clothing+0",
+        "plus": 0,
+        "next_item_id": 11831,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 38,
+            "movement_speed": -5
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/amorous_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11831,
+        "name": "amorous clothing+1",
+        "plus": 1,
+        "next_item_id": 11832,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 44,
+            "movement_speed": -5
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/amorous_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11832,
+        "name": "amorous clothing+2",
+        "plus": 2,
+        "next_item_id": 11833,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 50,
+            "movement_speed": -5
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/amorous_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11833,
+        "name": "amorous clothing+3",
+        "plus": 3,
+        "next_item_id": 11834,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 56,
+            "movement_speed": -5
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/amorous_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11834,
+        "name": "amorous clothing+4",
+        "plus": 4,
+        "next_item_id": 11835,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 62,
+            "movement_speed": -5
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/amorous_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11835,
+        "name": "amorous clothing+5",
+        "plus": 5,
+        "next_item_id": 11836,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 68,
+            "movement_speed": -5
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/amorous_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11836,
+        "name": "amorous clothing+6",
+        "plus": 6,
+        "next_item_id": 11837,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 74,
+            "movement_speed": -5
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/amorous_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11837,
+        "name": "amorous clothing+7",
+        "plus": 7,
+        "next_item_id": 11838,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 80,
+            "movement_speed": -5
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/amorous_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11838,
+        "name": "amorous clothing+8",
+        "plus": 8,
+        "next_item_id": 11839,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 86,
+            "movement_speed": -5
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/amorous_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11839,
+        "name": "amorous clothing+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 92,
+            "movement_speed": -5
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/amorous_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11840,
+        "name": "heavenly clothing+0",
+        "plus": 0,
+        "next_item_id": 11841,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 47,
+            "movement_speed": -7
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/heavenly_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11841,
+        "name": "heavenly clothing+1",
+        "plus": 1,
+        "next_item_id": 11842,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 53,
+            "movement_speed": -7
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/heavenly_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11842,
+        "name": "heavenly clothing+2",
+        "plus": 2,
+        "next_item_id": 11843,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 59,
+            "movement_speed": -7
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/heavenly_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11843,
+        "name": "heavenly clothing+3",
+        "plus": 3,
+        "next_item_id": 11844,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 65,
+            "movement_speed": -7
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/heavenly_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11844,
+        "name": "heavenly clothing+4",
+        "plus": 4,
+        "next_item_id": 11845,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 71,
+            "movement_speed": -7
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/heavenly_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11845,
+        "name": "heavenly clothing+5",
+        "plus": 5,
+        "next_item_id": 11846,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 77,
+            "movement_speed": -7
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/heavenly_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11846,
+        "name": "heavenly clothing+6",
+        "plus": 6,
+        "next_item_id": 11847,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 83,
+            "movement_speed": -7
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/heavenly_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11847,
+        "name": "heavenly clothing+7",
+        "plus": 7,
+        "next_item_id": 11848,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 89,
+            "movement_speed": -7
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/heavenly_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11848,
+        "name": "heavenly clothing+8",
+        "plus": 8,
+        "next_item_id": 11849,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 95,
+            "movement_speed": -7
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/heavenly_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11849,
+        "name": "heavenly clothing+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 101,
+            "movement_speed": -7
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/heavenly_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11850,
+        "name": "sun clothing+0",
+        "plus": 0,
+        "next_item_id": 11851,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 55,
+            "movement_speed": -8
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/sun_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11851,
+        "name": "sun clothing+1",
+        "plus": 1,
+        "next_item_id": 11852,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 61,
+            "movement_speed": -8
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/sun_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11852,
+        "name": "sun clothing+2",
+        "plus": 2,
+        "next_item_id": 11853,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 67,
+            "movement_speed": -8
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/sun_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11853,
+        "name": "sun clothing+3",
+        "plus": 3,
+        "next_item_id": 11854,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 73,
+            "movement_speed": -8
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/sun_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11854,
+        "name": "sun clothing+4",
+        "plus": 4,
+        "next_item_id": 11855,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 79,
+            "movement_speed": -8
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/sun_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11855,
+        "name": "sun clothing+5",
+        "plus": 5,
+        "next_item_id": 11856,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 85,
+            "movement_speed": -8
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/sun_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11856,
+        "name": "sun clothing+6",
+        "plus": 6,
+        "next_item_id": 11857,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 91,
+            "movement_speed": -8
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/sun_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11857,
+        "name": "sun clothing+7",
+        "plus": 7,
+        "next_item_id": 11858,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 97,
+            "movement_speed": -8
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/sun_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11858,
+        "name": "sun clothing+8",
+        "plus": 8,
+        "next_item_id": 11859,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 103,
+            "movement_speed": -8
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/sun_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11859,
+        "name": "sun clothing+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 109,
+            "movement_speed": -8
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/shaman/sun_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11860,
+        "name": "clothing of morality+0",
+        "plus": 0,
+        "next_item_id": 11861,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 64,
+            "movement_speed": -10
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/clothing_of_morality.png",
+        "size": 2
+    },
+    {
+        "id": 11861,
+        "name": "clothing of morality+1",
+        "plus": 1,
+        "next_item_id": 11862,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 70,
+            "movement_speed": -10
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/clothing_of_morality.png",
+        "size": 2
+    },
+    {
+        "id": 11862,
+        "name": "clothing of morality+2",
+        "plus": 2,
+        "next_item_id": 11863,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 76,
+            "movement_speed": -10
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/clothing_of_morality.png",
+        "size": 2
+    },
+    {
+        "id": 11863,
+        "name": "clothing of morality+3",
+        "plus": 3,
+        "next_item_id": 11864,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 82,
+            "movement_speed": -10
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/clothing_of_morality.png",
+        "size": 2
+    },
+    {
+        "id": 11864,
+        "name": "clothing of morality+4",
+        "plus": 4,
+        "next_item_id": 11865,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 88,
+            "movement_speed": -10
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/clothing_of_morality.png",
+        "size": 2
+    },
+    {
+        "id": 11865,
+        "name": "clothing of morality+5",
+        "plus": 5,
+        "next_item_id": 11866,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 94,
+            "movement_speed": -10
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/clothing_of_morality.png",
+        "size": 2
+    },
+    {
+        "id": 11866,
+        "name": "clothing of morality+6",
+        "plus": 6,
+        "next_item_id": 11867,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 100,
+            "movement_speed": -10
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/clothing_of_morality.png",
+        "size": 2
+    },
+    {
+        "id": 11867,
+        "name": "clothing of morality+7",
+        "plus": 7,
+        "next_item_id": 11868,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 106,
+            "movement_speed": -10
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/clothing_of_morality.png",
+        "size": 2
+    },
+    {
+        "id": 11868,
+        "name": "clothing of morality+8",
+        "plus": 8,
+        "next_item_id": 11869,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 112,
+            "movement_speed": -10
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/clothing_of_morality.png",
+        "size": 2
+    },
+    {
+        "id": 11869,
+        "name": "clothing of morality+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 118,
+            "movement_speed": -10
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/clothing_of_morality.png",
+        "size": 2
+    },
+    {
+        "id": 11870,
+        "name": "orange cat dress+0",
+        "plus": 0,
+        "next_item_id": 11871,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 72,
+            "movement_speed": -12
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/orange_cat_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11871,
+        "name": "orange cat dress+1",
+        "plus": 1,
+        "next_item_id": 11872,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 78,
+            "movement_speed": -12
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/orange_cat_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11872,
+        "name": "orange cat dress+2",
+        "plus": 2,
+        "next_item_id": 11873,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 84,
+            "movement_speed": -12
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/orange_cat_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11873,
+        "name": "orange cat dress+3",
+        "plus": 3,
+        "next_item_id": 11874,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 90,
+            "movement_speed": -12
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/orange_cat_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11874,
+        "name": "orange cat dress+4",
+        "plus": 4,
+        "next_item_id": 11875,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 96,
+            "movement_speed": -12
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/orange_cat_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11875,
+        "name": "orange cat dress+5",
+        "plus": 5,
+        "next_item_id": 11876,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 102,
+            "movement_speed": -12
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/orange_cat_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11876,
+        "name": "orange cat dress+6",
+        "plus": 6,
+        "next_item_id": 11877,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 108,
+            "movement_speed": -12
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/orange_cat_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11877,
+        "name": "orange cat dress+7",
+        "plus": 7,
+        "next_item_id": 11878,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 114,
+            "movement_speed": -12
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/orange_cat_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11878,
+        "name": "orange cat dress+8",
+        "plus": 8,
+        "next_item_id": 11879,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 120,
+            "movement_speed": -12
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/orange_cat_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11879,
+        "name": "orange cat dress+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 126,
+            "movement_speed": -12
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/orange_cat_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11880,
+        "name": "baroness dress+0",
+        "plus": 0,
+        "next_item_id": 11881,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 81,
+            "movement_speed": -13
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/baroness_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11881,
+        "name": "baroness dress+1",
+        "plus": 1,
+        "next_item_id": 11882,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 87,
+            "movement_speed": -13
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/baroness_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11882,
+        "name": "baroness dress+2",
+        "plus": 2,
+        "next_item_id": 11883,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 93,
+            "movement_speed": -13
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/baroness_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11883,
+        "name": "baroness dress+3",
+        "plus": 3,
+        "next_item_id": 11884,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 99,
+            "movement_speed": -13
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/baroness_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11884,
+        "name": "baroness dress+4",
+        "plus": 4,
+        "next_item_id": 11885,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 105,
+            "movement_speed": -13
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/baroness_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11885,
+        "name": "baroness dress+5",
+        "plus": 5,
+        "next_item_id": 11886,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 111,
+            "movement_speed": -13
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/baroness_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11886,
+        "name": "baroness dress+6",
+        "plus": 6,
+        "next_item_id": 11887,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 117,
+            "movement_speed": -13
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/baroness_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11887,
+        "name": "baroness dress+7",
+        "plus": 7,
+        "next_item_id": 11888,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 123,
+            "movement_speed": -13
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/baroness_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11888,
+        "name": "baroness dress+8",
+        "plus": 8,
+        "next_item_id": 11889,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 129,
+            "movement_speed": -13
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/baroness_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11889,
+        "name": "baroness dress+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 135,
+            "movement_speed": -13
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/shaman/baroness_dress.png",
+        "size": 2
+    },
+    {
+        "id": 11890,
+        "name": "black clothing+0",
+        "plus": 0,
+        "next_item_id": 11891,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 66,
+        "stats": {
+            "defence": 90,
+            "movement_speed": -15,
+            "magic_resistance": 2
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/shaman/black_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11891,
+        "name": "black clothing+1",
+        "plus": 1,
+        "next_item_id": 11892,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 66,
+        "stats": {
+            "defence": 96,
+            "movement_speed": -14,
+            "magic_resistance": 3
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/shaman/black_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11892,
+        "name": "black clothing+2",
+        "plus": 2,
+        "next_item_id": 11893,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 66,
+        "stats": {
+            "defence": 102,
+            "movement_speed": -13,
+            "magic_resistance": 4
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/shaman/black_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11893,
+        "name": "black clothing+3",
+        "plus": 3,
+        "next_item_id": 11894,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 67,
+        "stats": {
+            "defence": 108,
+            "movement_speed": -12,
+            "magic_resistance": 5
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/shaman/black_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11894,
+        "name": "black clothing+4",
+        "plus": 4,
+        "next_item_id": 11895,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 67,
+        "stats": {
+            "defence": 114,
+            "movement_speed": -11,
+            "magic_resistance": 6
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/shaman/black_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11895,
+        "name": "black clothing+5",
+        "plus": 5,
+        "next_item_id": 11896,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 68,
+        "stats": {
+            "defence": 120,
+            "movement_speed": -10,
+            "magic_resistance": 7
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/shaman/black_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11896,
+        "name": "black clothing+6",
+        "plus": 6,
+        "next_item_id": 11897,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 68,
+        "stats": {
+            "defence": 126,
+            "movement_speed": -9,
+            "magic_resistance": 9
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/shaman/black_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11897,
+        "name": "black clothing+7",
+        "plus": 7,
+        "next_item_id": 11898,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 69,
+        "stats": {
+            "defence": 132,
+            "movement_speed": -8,
+            "magic_resistance": 12
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/shaman/black_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11898,
+        "name": "black clothing+8",
+        "plus": 8,
+        "next_item_id": 11899,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 69,
+        "stats": {
+            "defence": 138,
+            "movement_speed": -7,
+            "magic_resistance": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/shaman/black_clothing.png",
+        "size": 2
+    },
+    {
+        "id": 11899,
+        "name": "black clothing+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 70,
+        "stats": {
+            "defence": 144,
+            "movement_speed": -6,
+            "magic_resistance": 20
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/shaman/black_clothing.png",
+        "size": 2
+    }
+]
