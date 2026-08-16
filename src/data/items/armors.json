@@ -1128,5 +1128,775 @@
         "upgrade-scheme": "armours-26-42",
         "img": "items/armours/warrior/dragon_plate_armour.png",
         "size": 2
+    },
+    {
+        "id": 11260,
+        "name": "scale plate armour+0",
+        "plus": 0,
+        "next_item_id": 11261,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 64,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/scale_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11261,
+        "name": "scale plate armour+1",
+        "plus": 1,
+        "next_item_id": 11262,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 70,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/scale_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11262,
+        "name": "scale plate armour+2",
+        "plus": 2,
+        "next_item_id": 11263,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 76,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/scale_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11263,
+        "name": "scale plate armour+3",
+        "plus": 3,
+        "next_item_id": 11264,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 82,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/scale_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11264,
+        "name": "scale plate armour+4",
+        "plus": 4,
+        "next_item_id": 11265,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 88,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/scale_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11265,
+        "name": "scale plate armour+5",
+        "plus": 5,
+        "next_item_id": 11266,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 94,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/scale_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11266,
+        "name": "scale plate armour+6",
+        "plus": 6,
+        "next_item_id": 11267,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 100,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/scale_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11267,
+        "name": "scale plate armour+7",
+        "plus": 7,
+        "next_item_id": 11268,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 106,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/scale_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11268,
+        "name": "scale plate armour+8",
+        "plus": 8,
+        "next_item_id": 11269,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 112,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/scale_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11269,
+        "name": "scale plate armour+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 48,
+        "stats": {
+            "defence": 118,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/scale_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11270,
+        "name": "gold plate armour+0",
+        "plus": 0,
+        "next_item_id": 11271,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 72,
+            "movement_speed": -12
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/gold_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11271,
+        "name": "gold plate armour+1",
+        "plus": 1,
+        "next_item_id": 11272,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 78,
+            "movement_speed": -12
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/gold_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11272,
+        "name": "gold plate armour+2",
+        "plus": 2,
+        "next_item_id": 11273,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 84,
+            "movement_speed": -12
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/gold_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11273,
+        "name": "gold plate armour+3",
+        "plus": 3,
+        "next_item_id": 11274,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 90,
+            "movement_speed": -12
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/gold_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11274,
+        "name": "gold plate armour+4",
+        "plus": 4,
+        "next_item_id": 11275,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 96,
+            "movement_speed": -12
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/gold_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11275,
+        "name": "gold plate armour+5",
+        "plus": 5,
+        "next_item_id": 11276,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 102,
+            "movement_speed": -12
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/gold_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11276,
+        "name": "gold plate armour+6",
+        "plus": 6,
+        "next_item_id": 11277,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 108,
+            "movement_speed": -12
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/gold_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11277,
+        "name": "gold plate armour+7",
+        "plus": 7,
+        "next_item_id": 11278,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 114,
+            "movement_speed": -12
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/gold_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11278,
+        "name": "gold plate armour+8",
+        "plus": 8,
+        "next_item_id": 11279,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 120,
+            "movement_speed": -12
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/gold_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11279,
+        "name": "gold plate armour+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 54,
+        "stats": {
+            "defence": 126,
+            "movement_speed": -12
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/gold_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11280,
+        "name": "dragon god armour+0",
+        "plus": 0,
+        "next_item_id": 11281,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 81,
+            "movement_speed": -13
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/dragon_god_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11281,
+        "name": "dragon god armour+1",
+        "plus": 1,
+        "next_item_id": 11282,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 87,
+            "movement_speed": -13
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/dragon_god_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11282,
+        "name": "dragon god armour+2",
+        "plus": 2,
+        "next_item_id": 11283,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 93,
+            "movement_speed": -13
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/dragon_god_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11283,
+        "name": "dragon god armour+3",
+        "plus": 3,
+        "next_item_id": 11284,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 99,
+            "movement_speed": -13
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/dragon_god_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11284,
+        "name": "dragon god armour+4",
+        "plus": 4,
+        "next_item_id": 11285,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 105,
+            "movement_speed": -13
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/dragon_god_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11285,
+        "name": "dragon god armour+5",
+        "plus": 5,
+        "next_item_id": 11286,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 111,
+            "movement_speed": -13
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/dragon_god_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11286,
+        "name": "dragon god armour+6",
+        "plus": 6,
+        "next_item_id": 11287,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 117,
+            "movement_speed": -13
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/dragon_god_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11287,
+        "name": "dragon god armour+7",
+        "plus": 7,
+        "next_item_id": 11288,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 123,
+            "movement_speed": -13
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/dragon_god_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11288,
+        "name": "dragon god armour+8",
+        "plus": 8,
+        "next_item_id": 11289,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 129,
+            "movement_speed": -13
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/dragon_god_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11289,
+        "name": "dragon god armour+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 61,
+        "stats": {
+            "defence": 135,
+            "movement_speed": -13
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-61",
+        "img": "items/armours/warrior/dragon_god_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11290,
+        "name": "black steel armour+0",
+        "plus": 0,
+        "next_item_id": 11291,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 66,
+        "stats": {
+            "defence": 90,
+            "movement_speed": -15,
+            "magic_resistance": 2
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/warrior/black_steel_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11291,
+        "name": "black steel armour+1",
+        "plus": 1,
+        "next_item_id": 11292,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 66,
+        "stats": {
+            "defence": 96,
+            "movement_speed": -14,
+            "magic_resistance": 3
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/warrior/black_steel_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11292,
+        "name": "black steel armour+2",
+        "plus": 2,
+        "next_item_id": 11293,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 66,
+        "stats": {
+            "defence": 102,
+            "movement_speed": -13,
+            "magic_resistance": 4
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/warrior/black_steel_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11293,
+        "name": "black steel armour+3",
+        "plus": 3,
+        "next_item_id": 11294,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 67,
+        "stats": {
+            "defence": 108,
+            "movement_speed": -12,
+            "magic_resistance": 5
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/warrior/black_steel_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11294,
+        "name": "black steel armour+4",
+        "plus": 4,
+        "next_item_id": 11295,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 67,
+        "stats": {
+            "defence": 114,
+            "movement_speed": -11,
+            "magic_resistance": 6
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/warrior/black_steel_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11295,
+        "name": "black steel armour+5",
+        "plus": 5,
+        "next_item_id": 11296,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 68,
+        "stats": {
+            "defence": 120,
+            "movement_speed": -10,
+            "magic_resistance": 7
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/warrior/black_steel_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11296,
+        "name": "black steel armour+6",
+        "plus": 6,
+        "next_item_id": 11297,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 68,
+        "stats": {
+            "defence": 126,
+            "movement_speed": -9,
+            "magic_resistance": 9
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/warrior/black_steel_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11297,
+        "name": "black steel armour+7",
+        "plus": 7,
+        "next_item_id": 11298,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 69,
+        "stats": {
+            "defence": 132,
+            "movement_speed": -8,
+            "magic_resistance": 12
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/warrior/black_steel_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11298,
+        "name": "black steel armour+8",
+        "plus": 8,
+        "next_item_id": 11299,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 69,
+        "stats": {
+            "defence": 138,
+            "movement_speed": -7,
+            "magic_resistance": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/warrior/black_steel_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11299,
+        "name": "black steel armour+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 70,
+        "stats": {
+            "defence": 144,
+            "movement_speed": -6,
+            "magic_resistance": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-48-70",
+        "img": "items/armours/warrior/black_steel_armour.png",
+        "size": 2
     }
 ]
