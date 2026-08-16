@@ -1,0 +1,3972 @@
+[
+    {
+        "id": 2000,
+        "name": "bow+0",
+        "plus": 0,
+        "next_item_id": 2001,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 7,
+                "max": 29
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/bow.png",
+        "size": 2
+    },
+    {
+        "id": 2001,
+        "name": "bow+1",
+        "plus": 1,
+        "next_item_id": 2002,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 15,
+                "max": 37
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/bow.png",
+        "size": 2
+    },
+    {
+        "id": 2002,
+        "name": "bow+2",
+        "plus": 2,
+        "next_item_id": 2003,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 23,
+                "max": 45
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/bow.png",
+        "size": 2
+    },
+    {
+        "id": 2003,
+        "name": "bow+3",
+        "plus": 3,
+        "next_item_id": 2004,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 31,
+                "max": 53
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/bow.png",
+        "size": 2
+    },
+    {
+        "id": 2004,
+        "name": "bow+4",
+        "plus": 4,
+        "next_item_id": 2005,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 39,
+                "max": 61
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/bow.png",
+        "size": 2
+    },
+    {
+        "id": 2005,
+        "name": "bow+5",
+        "plus": 5,
+        "next_item_id": 2006,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 47,
+                "max": 69
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/bow.png",
+        "size": 2
+    },
+    {
+        "id": 2006,
+        "name": "bow+6",
+        "plus": 6,
+        "next_item_id": 2007,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 55,
+                "max": 77
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/bow.png",
+        "size": 2
+    },
+    {
+        "id": 2007,
+        "name": "bow+7",
+        "plus": 7,
+        "next_item_id": 2008,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 63,
+                "max": 85
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/bow.png",
+        "size": 2
+    },
+    {
+        "id": 2008,
+        "name": "bow+8",
+        "plus": 8,
+        "next_item_id": 2009,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 71,
+                "max": 93
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/bow.png",
+        "size": 2
+    },
+    {
+        "id": 2009,
+        "name": "bow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 79,
+                "max": 101
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/bow.png",
+        "size": 2
+    },
+    {
+        "id": 2010,
+        "name": "long bow+0",
+        "plus": 0,
+        "next_item_id": 2011,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 15,
+                "max": 51
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2011,
+        "name": "long bow+1",
+        "plus": 1,
+        "next_item_id": 2012,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 23,
+                "max": 59
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2012,
+        "name": "long bow+2",
+        "plus": 2,
+        "next_item_id": 2013,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 31,
+                "max": 67
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2013,
+        "name": "long bow+3",
+        "plus": 3,
+        "next_item_id": 2014,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 39,
+                "max": 75
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2014,
+        "name": "long bow+4",
+        "plus": 4,
+        "next_item_id": 2015,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 47,
+                "max": 83
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2015,
+        "name": "long bow+5",
+        "plus": 5,
+        "next_item_id": 2016,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 55,
+                "max": 91
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2016,
+        "name": "long bow+6",
+        "plus": 6,
+        "next_item_id": 2017,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 63,
+                "max": 99
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2017,
+        "name": "long bow+7",
+        "plus": 7,
+        "next_item_id": 2018,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 71,
+                "max": 107
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2018,
+        "name": "long bow+8",
+        "plus": 8,
+        "next_item_id": 2019,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 79,
+                "max": 115
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2019,
+        "name": "long bow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 87,
+                "max": 123
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2020,
+        "name": "composite bow+0",
+        "plus": 0,
+        "next_item_id": 2021,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 19,
+                "max": 57
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/composite_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2021,
+        "name": "composite bow+1",
+        "plus": 1,
+        "next_item_id": 2022,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 27,
+                "max": 65
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/composite_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2022,
+        "name": "composite bow+2",
+        "plus": 2,
+        "next_item_id": 2023,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 35,
+                "max": 73
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/composite_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2023,
+        "name": "composite bow+3",
+        "plus": 3,
+        "next_item_id": 2024,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 43,
+                "max": 81
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/composite_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2024,
+        "name": "composite bow+4",
+        "plus": 4,
+        "next_item_id": 2025,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 51,
+                "max": 89
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/composite_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2025,
+        "name": "composite bow+5",
+        "plus": 5,
+        "next_item_id": 2026,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 59,
+                "max": 97
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/composite_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2026,
+        "name": "composite bow+6",
+        "plus": 6,
+        "next_item_id": 2027,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 67,
+                "max": 105
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/composite_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2027,
+        "name": "composite bow+7",
+        "plus": 7,
+        "next_item_id": 2028,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 75,
+                "max": 113
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/composite_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2028,
+        "name": "composite bow+8",
+        "plus": 8,
+        "next_item_id": 2029,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 83,
+                "max": 121
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/composite_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2029,
+        "name": "composite bow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 91,
+                "max": 129
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/composite_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2030,
+        "name": "battle bow+0",
+        "plus": 0,
+        "next_item_id": 2031,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 26,
+                "max": 70
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2031,
+        "name": "battle bow+1",
+        "plus": 1,
+        "next_item_id": 2032,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 34,
+                "max": 78
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2032,
+        "name": "battle bow+2",
+        "plus": 2,
+        "next_item_id": 2033,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 42,
+                "max": 86
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2033,
+        "name": "battle bow+3",
+        "plus": 3,
+        "next_item_id": 2034,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 50,
+                "max": 94
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2034,
+        "name": "battle bow+4",
+        "plus": 4,
+        "next_item_id": 2035,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 58,
+                "max": 102
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2035,
+        "name": "battle bow+5",
+        "plus": 5,
+        "next_item_id": 2036,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 66,
+                "max": 110
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2036,
+        "name": "battle bow+6",
+        "plus": 6,
+        "next_item_id": 2037,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 74,
+                "max": 118
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2037,
+        "name": "battle bow+7",
+        "plus": 7,
+        "next_item_id": 2038,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 82,
+                "max": 126
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2038,
+        "name": "battle bow+8",
+        "plus": 8,
+        "next_item_id": 2039,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 90,
+                "max": 134
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2039,
+        "name": "battle bow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 98,
+                "max": 142
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2040,
+        "name": "horseback long bow+0",
+        "plus": 0,
+        "next_item_id": 2041,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 40,
+                "max": 88
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/horseback_long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2041,
+        "name": "horseback long bow+1",
+        "plus": 1,
+        "next_item_id": 2042,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 48,
+                "max": 96
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/horseback_long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2042,
+        "name": "horseback long bow+2",
+        "plus": 2,
+        "next_item_id": 2043,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 56,
+                "max": 104
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/horseback_long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2043,
+        "name": "horseback long bow+3",
+        "plus": 3,
+        "next_item_id": 2044,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 64,
+                "max": 112
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/horseback_long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2044,
+        "name": "horseback long bow+4",
+        "plus": 4,
+        "next_item_id": 2045,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 72,
+                "max": 120
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/horseback_long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2045,
+        "name": "horseback long bow+5",
+        "plus": 5,
+        "next_item_id": 2046,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 80,
+                "max": 128
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/horseback_long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2046,
+        "name": "horseback long bow+6",
+        "plus": 6,
+        "next_item_id": 2047,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 88,
+                "max": 136
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/horseback_long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2047,
+        "name": "horseback long bow+7",
+        "plus": 7,
+        "next_item_id": 2048,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 96,
+                "max": 144
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/horseback_long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2048,
+        "name": "horseback long bow+8",
+        "plus": 8,
+        "next_item_id": 2049,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 104,
+                "max": 152
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/horseback_long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2049,
+        "name": "horseback long bow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 112,
+                "max": 160
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-1-20",
+        "img": "items/bows/horseback_long_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2050,
+        "name": "horseback battle bow+0",
+        "plus": 0,
+        "next_item_id": 2051,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 50,
+                "max": 118
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/horseback_battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2051,
+        "name": "horseback battle bow+1",
+        "plus": 1,
+        "next_item_id": 2052,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 57,
+                "max": 125
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/horseback_battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2052,
+        "name": "horseback battle bow+2",
+        "plus": 2,
+        "next_item_id": 2053,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 64,
+                "max": 132
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/horseback_battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2053,
+        "name": "horseback battle bow+3",
+        "plus": 3,
+        "next_item_id": 2054,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 71,
+                "max": 139
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/horseback_battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2054,
+        "name": "horseback battle bow+4",
+        "plus": 4,
+        "next_item_id": 2055,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 78,
+                "max": 146
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/horseback_battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2055,
+        "name": "horseback battle bow+5",
+        "plus": 5,
+        "next_item_id": 2056,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 87,
+                "max": 155
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/horseback_battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2056,
+        "name": "horseback battle bow+6",
+        "plus": 6,
+        "next_item_id": 2057,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 97,
+                "max": 165
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/horseback_battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2057,
+        "name": "horseback battle bow+7",
+        "plus": 7,
+        "next_item_id": 2058,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 108,
+                "max": 176
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/horseback_battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2058,
+        "name": "horseback battle bow+8",
+        "plus": 8,
+        "next_item_id": 2059,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 120,
+                "max": 188
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/horseback_battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2059,
+        "name": "horseback battle bow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 133,
+                "max": 201
+            },
+            "attack_speed": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/horseback_battle_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2150,
+        "name": "hornbow+0",
+        "plus": 0,
+        "next_item_id": 2151,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 85,
+                "max": 178
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bows/hornbow.png",
+        "size": 2
+    },
+    {
+        "id": 2151,
+        "name": "hornbow+1",
+        "plus": 1,
+        "next_item_id": 2152,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 92,
+                "max": 185
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bows/hornbow.png",
+        "size": 2
+    },
+    {
+        "id": 2152,
+        "name": "hornbow+2",
+        "plus": 2,
+        "next_item_id": 2153,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 98,
+                "max": 191
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bows/hornbow.png",
+        "size": 2
+    },
+    {
+        "id": 2153,
+        "name": "hornbow+3",
+        "plus": 3,
+        "next_item_id": 2154,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 105,
+                "max": 198
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bows/hornbow.png",
+        "size": 2
+    },
+    {
+        "id": 2154,
+        "name": "hornbow+4",
+        "plus": 4,
+        "next_item_id": 2155,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 111,
+                "max": 204
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bows/hornbow.png",
+        "size": 2
+    },
+    {
+        "id": 2155,
+        "name": "hornbow+5",
+        "plus": 5,
+        "next_item_id": 2156,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 120,
+                "max": 213
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bows/hornbow.png",
+        "size": 2
+    },
+    {
+        "id": 2156,
+        "name": "hornbow+6",
+        "plus": 6,
+        "next_item_id": 2157,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 129,
+                "max": 222
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bows/hornbow.png",
+        "size": 2
+    },
+    {
+        "id": 2157,
+        "name": "hornbow+7",
+        "plus": 7,
+        "next_item_id": 2158,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 140,
+                "max": 233
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bows/hornbow.png",
+        "size": 2
+    },
+    {
+        "id": 2158,
+        "name": "hornbow+8",
+        "plus": 8,
+        "next_item_id": 2159,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 151,
+                "max": 244
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bows/hornbow.png",
+        "size": 2
+    },
+    {
+        "id": 2159,
+        "name": "hornbow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 164,
+                "max": 257
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bows/hornbow.png",
+        "size": 2
+    },
+    {
+        "id": 2060,
+        "name": "copper crafted bow+0",
+        "plus": 0,
+        "next_item_id": 2061,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 62,
+                "max": 128
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/copper_crafted_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2061,
+        "name": "copper crafted bow+1",
+        "plus": 1,
+        "next_item_id": 2062,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 69,
+                "max": 135
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/copper_crafted_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2062,
+        "name": "copper crafted bow+2",
+        "plus": 2,
+        "next_item_id": 2063,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 76,
+                "max": 142
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/copper_crafted_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2063,
+        "name": "copper crafted bow+3",
+        "plus": 3,
+        "next_item_id": 2064,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 83,
+                "max": 149
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/copper_crafted_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2064,
+        "name": "copper crafted bow+4",
+        "plus": 4,
+        "next_item_id": 2065,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 90,
+                "max": 156
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/copper_crafted_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2065,
+        "name": "copper crafted bow+5",
+        "plus": 5,
+        "next_item_id": 2066,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 99,
+                "max": 165
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/copper_crafted_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2066,
+        "name": "copper crafted bow+6",
+        "plus": 6,
+        "next_item_id": 2067,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 109,
+                "max": 175
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/copper_crafted_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2067,
+        "name": "copper crafted bow+7",
+        "plus": 7,
+        "next_item_id": 2068,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 120,
+                "max": 186
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/copper_crafted_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2068,
+        "name": "copper crafted bow+8",
+        "plus": 8,
+        "next_item_id": 2069,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 132,
+                "max": 198
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/copper_crafted_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2069,
+        "name": "copper crafted bow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 145,
+                "max": 211
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/copper_crafted_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2070,
+        "name": "black ruin bow+0",
+        "plus": 0,
+        "next_item_id": 2071,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 64,
+                "max": 150
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/black_ruin_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2071,
+        "name": "black ruin bow+1",
+        "plus": 1,
+        "next_item_id": 2072,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 71,
+                "max": 157
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/black_ruin_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2072,
+        "name": "black ruin bow+2",
+        "plus": 2,
+        "next_item_id": 2073,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 78,
+                "max": 164
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/black_ruin_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2073,
+        "name": "black ruin bow+3",
+        "plus": 3,
+        "next_item_id": 2074,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 85,
+                "max": 171
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/black_ruin_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2074,
+        "name": "black ruin bow+4",
+        "plus": 4,
+        "next_item_id": 2075,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 92,
+                "max": 178
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/black_ruin_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2075,
+        "name": "black ruin bow+5",
+        "plus": 5,
+        "next_item_id": 2076,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 101,
+                "max": 187
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/black_ruin_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2076,
+        "name": "black ruin bow+6",
+        "plus": 6,
+        "next_item_id": 2077,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 111,
+                "max": 197
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/black_ruin_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2077,
+        "name": "black ruin bow+7",
+        "plus": 7,
+        "next_item_id": 2078,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 122,
+                "max": 208
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/black_ruin_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2078,
+        "name": "black ruin bow+8",
+        "plus": 8,
+        "next_item_id": 2079,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 134,
+                "max": 220
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/black_ruin_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2079,
+        "name": "black ruin bow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 147,
+                "max": 233
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-25-36",
+        "img": "items/bows/black_ruin_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2080,
+        "name": "red eye bow+0",
+        "plus": 0,
+        "next_item_id": 2081,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 65,
+                "max": 194
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/red_eye_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2081,
+        "name": "red eye bow+1",
+        "plus": 1,
+        "next_item_id": 2082,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 72,
+                "max": 201
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/red_eye_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2082,
+        "name": "red eye bow+2",
+        "plus": 2,
+        "next_item_id": 2083,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 79,
+                "max": 208
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/red_eye_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2083,
+        "name": "red eye bow+3",
+        "plus": 3,
+        "next_item_id": 2084,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 86,
+                "max": 215
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/red_eye_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2084,
+        "name": "red eye bow+4",
+        "plus": 4,
+        "next_item_id": 2085,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 93,
+                "max": 222
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/red_eye_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2085,
+        "name": "red eye bow+5",
+        "plus": 5,
+        "next_item_id": 2086,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 102,
+                "max": 231
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/red_eye_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2086,
+        "name": "red eye bow+6",
+        "plus": 6,
+        "next_item_id": 2087,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 112,
+                "max": 241
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/red_eye_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2087,
+        "name": "red eye bow+7",
+        "plus": 7,
+        "next_item_id": 2088,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 123,
+                "max": 252
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/red_eye_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2088,
+        "name": "red eye bow+8",
+        "plus": 8,
+        "next_item_id": 2089,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 135,
+                "max": 264
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/red_eye_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2089,
+        "name": "red eye bow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 148,
+                "max": 277
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/red_eye_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2090,
+        "name": "thorn leaf bow+0",
+        "plus": 0,
+        "next_item_id": 2091,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 106,
+                "max": 206
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/thorn_leaf_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2091,
+        "name": "thorn leaf bow+1",
+        "plus": 1,
+        "next_item_id": 2092,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 112,
+                "max": 212
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/thorn_leaf_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2092,
+        "name": "thorn leaf bow+2",
+        "plus": 2,
+        "next_item_id": 2093,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 118,
+                "max": 218
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/thorn_leaf_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2093,
+        "name": "thorn leaf bow+3",
+        "plus": 3,
+        "next_item_id": 2094,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 124,
+                "max": 224
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/thorn_leaf_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2094,
+        "name": "thorn leaf bow+4",
+        "plus": 4,
+        "next_item_id": 2095,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 130,
+                "max": 230
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/thorn_leaf_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2095,
+        "name": "thorn leaf bow+5",
+        "plus": 5,
+        "next_item_id": 2096,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 138,
+                "max": 238
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/thorn_leaf_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2096,
+        "name": "thorn leaf bow+6",
+        "plus": 6,
+        "next_item_id": 2097,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 147,
+                "max": 247
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/thorn_leaf_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2097,
+        "name": "thorn leaf bow+7",
+        "plus": 7,
+        "next_item_id": 2098,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 157,
+                "max": 257
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/thorn_leaf_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2098,
+        "name": "thorn leaf bow+8",
+        "plus": 8,
+        "next_item_id": 2099,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 168,
+                "max": 268
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/thorn_leaf_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2099,
+        "name": "thorn leaf bow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 180,
+                "max": 280
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/thorn_leaf_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2100,
+        "name": "bull's horn bow+0",
+        "plus": 0,
+        "next_item_id": 2101,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 116,
+                "max": 216
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/bulls_horn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2101,
+        "name": "bull's horn bow+1",
+        "plus": 1,
+        "next_item_id": 2102,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 122,
+                "max": 222
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/bulls_horn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2102,
+        "name": "bull's horn bow+2",
+        "plus": 2,
+        "next_item_id": 2103,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 128,
+                "max": 228
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/bulls_horn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2103,
+        "name": "bull's horn bow+3",
+        "plus": 3,
+        "next_item_id": 2104,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 134,
+                "max": 234
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/bulls_horn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2104,
+        "name": "bull's horn bow+4",
+        "plus": 4,
+        "next_item_id": 2105,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 140,
+                "max": 240
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/bulls_horn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2105,
+        "name": "bull's horn bow+5",
+        "plus": 5,
+        "next_item_id": 2106,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 148,
+                "max": 248
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/bulls_horn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2106,
+        "name": "bull's horn bow+6",
+        "plus": 6,
+        "next_item_id": 2107,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 157,
+                "max": 257
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/bulls_horn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2107,
+        "name": "bull's horn bow+7",
+        "plus": 7,
+        "next_item_id": 2108,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 167,
+                "max": 267
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/bulls_horn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2108,
+        "name": "bull's horn bow+8",
+        "plus": 8,
+        "next_item_id": 2109,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 178,
+                "max": 278
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/bulls_horn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2109,
+        "name": "bull's horn bow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 190,
+                "max": 290
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/bulls_horn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2110,
+        "name": "unicorn bow+0",
+        "plus": 0,
+        "next_item_id": 2111,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 139,
+                "max": 213
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/unicorn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2111,
+        "name": "unicorn bow+1",
+        "plus": 1,
+        "next_item_id": 2112,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 145,
+                "max": 219
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/unicorn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2112,
+        "name": "unicorn bow+2",
+        "plus": 2,
+        "next_item_id": 2113,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 151,
+                "max": 225
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/unicorn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2113,
+        "name": "unicorn bow+3",
+        "plus": 3,
+        "next_item_id": 2114,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 157,
+                "max": 231
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/unicorn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2114,
+        "name": "unicorn bow+4",
+        "plus": 4,
+        "next_item_id": 2115,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 163,
+                "max": 237
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/unicorn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2115,
+        "name": "unicorn bow+5",
+        "plus": 5,
+        "next_item_id": 2116,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 171,
+                "max": 245
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/unicorn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2116,
+        "name": "unicorn bow+6",
+        "plus": 6,
+        "next_item_id": 2117,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 180,
+                "max": 254
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/unicorn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2117,
+        "name": "unicorn bow+7",
+        "plus": 7,
+        "next_item_id": 2118,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 190,
+                "max": 264
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/unicorn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2118,
+        "name": "unicorn bow+8",
+        "plus": 8,
+        "next_item_id": 2119,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 201,
+                "max": 275
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/unicorn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2119,
+        "name": "unicorn bow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 213,
+                "max": 287
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/unicorn_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2120,
+        "name": "giant wing bow+0",
+        "plus": 0,
+        "next_item_id": 2121,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 135,
+                "max": 251
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/giant_wing_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2121,
+        "name": "giant wing bow+1",
+        "plus": 1,
+        "next_item_id": 2122,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 141,
+                "max": 257
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/giant_wing_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2122,
+        "name": "giant wing bow+2",
+        "plus": 2,
+        "next_item_id": 2123,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 147,
+                "max": 263
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/giant_wing_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2123,
+        "name": "giant wing bow+3",
+        "plus": 3,
+        "next_item_id": 2124,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 153,
+                "max": 269
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/giant_wing_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2124,
+        "name": "giant wing bow+4",
+        "plus": 4,
+        "next_item_id": 2125,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 159,
+                "max": 275
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/giant_wing_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2125,
+        "name": "giant wing bow+5",
+        "plus": 5,
+        "next_item_id": 2126,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 167,
+                "max": 283
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/giant_wing_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2126,
+        "name": "giant wing bow+6",
+        "plus": 6,
+        "next_item_id": 2127,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 176,
+                "max": 292
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/giant_wing_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2127,
+        "name": "giant wing bow+7",
+        "plus": 7,
+        "next_item_id": 2128,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 186,
+                "max": 302
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/giant_wing_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2128,
+        "name": "giant wing bow+8",
+        "plus": 8,
+        "next_item_id": 2129,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 197,
+                "max": 313
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/giant_wing_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2129,
+        "name": "giant wing bow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 209,
+                "max": 325
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/giant_wing_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2130,
+        "name": "divine apricot bow+0",
+        "plus": 0,
+        "next_item_id": 2131,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 190,
+                "max": 290
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/divine_apricot_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2131,
+        "name": "divine apricot bow+1",
+        "plus": 1,
+        "next_item_id": 2132,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 196,
+                "max": 296
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/divine_apricot_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2132,
+        "name": "divine apricot bow+2",
+        "plus": 2,
+        "next_item_id": 2133,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 203,
+                "max": 303
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/divine_apricot_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2133,
+        "name": "divine apricot bow+3",
+        "plus": 3,
+        "next_item_id": 2134,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 211,
+                "max": 311
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/divine_apricot_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2134,
+        "name": "divine apricot bow+4",
+        "plus": 4,
+        "next_item_id": 2135,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 220,
+                "max": 320
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/divine_apricot_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2135,
+        "name": "divine apricot bow+5",
+        "plus": 5,
+        "next_item_id": 2136,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 230,
+                "max": 330
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/divine_apricot_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2136,
+        "name": "divine apricot bow+6",
+        "plus": 6,
+        "next_item_id": 2137,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 241,
+                "max": 341
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/divine_apricot_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2137,
+        "name": "divine apricot bow+7",
+        "plus": 7,
+        "next_item_id": 2138,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 253,
+                "max": 353
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/divine_apricot_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2138,
+        "name": "divine apricot bow+8",
+        "plus": 8,
+        "next_item_id": 2139,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 266,
+                "max": 366
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/divine_apricot_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2139,
+        "name": "divine apricot bow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 280,
+                "max": 380
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/divine_apricot_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2140,
+        "name": "yellow dragon bow+0",
+        "plus": 0,
+        "next_item_id": 2141,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 187,
+                "max": 293
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/yellow_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2141,
+        "name": "yellow dragon bow+1",
+        "plus": 1,
+        "next_item_id": 2142,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 195,
+                "max": 301
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/yellow_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2142,
+        "name": "yellow dragon bow+2",
+        "plus": 2,
+        "next_item_id": 2143,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 204,
+                "max": 310
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/yellow_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2143,
+        "name": "yellow dragon bow+3",
+        "plus": 3,
+        "next_item_id": 2144,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 214,
+                "max": 320
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/yellow_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2144,
+        "name": "yellow dragon bow+4",
+        "plus": 4,
+        "next_item_id": 2145,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 225,
+                "max": 331
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/yellow_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2145,
+        "name": "yellow dragon bow+5",
+        "plus": 5,
+        "next_item_id": 2146,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 237,
+                "max": 343
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/yellow_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2146,
+        "name": "yellow dragon bow+6",
+        "plus": 6,
+        "next_item_id": 2147,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 250,
+                "max": 356
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/yellow_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2147,
+        "name": "yellow dragon bow+7",
+        "plus": 7,
+        "next_item_id": 2148,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 264,
+                "max": 370
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/yellow_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2148,
+        "name": "yellow dragon bow+8",
+        "plus": 8,
+        "next_item_id": 2149,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 289,
+                "max": 395
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/yellow_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2149,
+        "name": "yellow dragon bow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 324,
+                "max": 430
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/yellow_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2180,
+        "name": "blue dragon bow+0",
+        "plus": 0,
+        "next_item_id": 2181,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 187,
+                "max": 293
+            },
+            "attack_speed": 15,
+            "exp_bonus": 2
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/blue_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2181,
+        "name": "blue dragon bow+1",
+        "plus": 1,
+        "next_item_id": 2182,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 193,
+                "max": 299
+            },
+            "attack_speed": 15,
+            "exp_bonus": 3
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/blue_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2182,
+        "name": "blue dragon bow+2",
+        "plus": 2,
+        "next_item_id": 2183,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 200,
+                "max": 306
+            },
+            "attack_speed": 15,
+            "exp_bonus": 4
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/blue_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2183,
+        "name": "blue dragon bow+3",
+        "plus": 3,
+        "next_item_id": 2184,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 208,
+                "max": 314
+            },
+            "attack_speed": 15,
+            "exp_bonus": 5
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/blue_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2184,
+        "name": "blue dragon bow+4",
+        "plus": 4,
+        "next_item_id": 2185,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 217,
+                "max": 323
+            },
+            "attack_speed": 15,
+            "exp_bonus": 6
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/blue_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2185,
+        "name": "blue dragon bow+5",
+        "plus": 5,
+        "next_item_id": 2186,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 227,
+                "max": 333
+            },
+            "attack_speed": 15,
+            "exp_bonus": 8
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/blue_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2186,
+        "name": "blue dragon bow+6",
+        "plus": 6,
+        "next_item_id": 2187,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 238,
+                "max": 344
+            },
+            "attack_speed": 15,
+            "exp_bonus": 10
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/blue_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2187,
+        "name": "blue dragon bow+7",
+        "plus": 7,
+        "next_item_id": 2188,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 250,
+                "max": 356
+            },
+            "attack_speed": 15,
+            "exp_bonus": 12
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/blue_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2188,
+        "name": "blue dragon bow+8",
+        "plus": 8,
+        "next_item_id": 2189,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 263,
+                "max": 369
+            },
+            "attack_speed": 15,
+            "exp_bonus": 15
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/blue_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2189,
+        "name": "blue dragon bow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 277,
+                "max": 383
+            },
+            "attack_speed": 15,
+            "exp_bonus": 25
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/blue_dragon_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2170,
+        "name": "crow steel bow+0",
+        "plus": 0,
+        "next_item_id": 2171,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 190,
+                "max": 290
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/crow_steel_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2171,
+        "name": "crow steel bow+1",
+        "plus": 1,
+        "next_item_id": 2172,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 196,
+                "max": 296
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/crow_steel_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2172,
+        "name": "crow steel bow+2",
+        "plus": 2,
+        "next_item_id": 2173,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 203,
+                "max": 303
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/crow_steel_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2173,
+        "name": "crow steel bow+3",
+        "plus": 3,
+        "next_item_id": 2174,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 211,
+                "max": 311
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/crow_steel_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2174,
+        "name": "crow steel bow+4",
+        "plus": 4,
+        "next_item_id": 2175,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 220,
+                "max": 320
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/crow_steel_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2175,
+        "name": "crow steel bow+5",
+        "plus": 5,
+        "next_item_id": 2176,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 230,
+                "max": 330
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/crow_steel_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2176,
+        "name": "crow steel bow+6",
+        "plus": 6,
+        "next_item_id": 2177,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 241,
+                "max": 341
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/crow_steel_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2177,
+        "name": "crow steel bow+7",
+        "plus": 7,
+        "next_item_id": 2178,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 253,
+                "max": 353
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/crow_steel_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2178,
+        "name": "crow steel bow+8",
+        "plus": 8,
+        "next_item_id": 2179,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 266,
+                "max": 366
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/crow_steel_bow.png",
+        "size": 2
+    },
+    {
+        "id": 2179,
+        "name": "crow steel bow+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bow",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 280,
+                "max": 380
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "bows-40-75",
+        "img": "items/bows/crow_steel_bow.png",
+        "size": 2
+    }
+]
