@@ -278,5 +278,4735 @@
         "upgrade-scheme": "swords-1-20",
         "img": "items/swords/sword.png",
         "size": 2
+    },
+    {
+        "id": 20,
+        "name": "long sword+0",
+        "plus": 0,
+        "next_item_id": 21,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 15,
+                "max": 19
+            },
+            "magical_attack": {
+                "min": 13,
+                "max": 15
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/long_sword.png",
+        "size": 2
+    },
+    {
+        "id": 21,
+        "name": "long sword+1",
+        "plus": 1,
+        "next_item_id": 22,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 22,
+                "max": 26
+            },
+            "magical_attack": {
+                "min": 20,
+                "max": 22
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/long_sword.png",
+        "size": 2
+    },
+    {
+        "id": 22,
+        "name": "long sword+2",
+        "plus": 2,
+        "next_item_id": 23,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 29,
+                "max": 33
+            },
+            "magical_attack": {
+                "min": 27,
+                "max": 29
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/long_sword.png",
+        "size": 2
+    },
+    {
+        "id": 23,
+        "name": "long sword+3",
+        "plus": 3,
+        "next_item_id": 24,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 36,
+                "max": 40
+            },
+            "magical_attack": {
+                "min": 34,
+                "max": 36
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/long_sword.png",
+        "size": 2
+    },
+    {
+        "id": 24,
+        "name": "long sword+4",
+        "plus": 4,
+        "next_item_id": 25,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 43,
+                "max": 47
+            },
+            "magical_attack": {
+                "min": 41,
+                "max": 43
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/long_sword.png",
+        "size": 2
+    },
+    {
+        "id": 25,
+        "name": "long sword+5",
+        "plus": 5,
+        "next_item_id": 26,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 50,
+                "max": 54
+            },
+            "magical_attack": {
+                "min": 48,
+                "max": 50
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/long_sword.png",
+        "size": 2
+    },
+    {
+        "id": 26,
+        "name": "long sword+6",
+        "plus": 6,
+        "next_item_id": 27,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 57,
+                "max": 61
+            },
+            "magical_attack": {
+                "min": 55,
+                "max": 57
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/long_sword.png",
+        "size": 2
+    },
+    {
+        "id": 27,
+        "name": "long sword+7",
+        "plus": 7,
+        "next_item_id": 28,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 64,
+                "max": 68
+            },
+            "magical_attack": {
+                "min": 62,
+                "max": 64
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/long_sword.png",
+        "size": 2
+    },
+    {
+        "id": 28,
+        "name": "long sword+8",
+        "plus": 8,
+        "next_item_id": 29,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 71,
+                "max": 75
+            },
+            "magical_attack": {
+                "min": 69,
+                "max": 71
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/long_sword.png",
+        "size": 2
+    },
+    {
+        "id": 29,
+        "name": "long sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 78,
+                "max": 82
+            },
+            "magical_attack": {
+                "min": 76,
+                "max": 78
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/long_sword.png",
+        "size": 2
+    },
+    {
+        "id": 30,
+        "name": "crescent sword+0",
+        "plus": 0,
+        "next_item_id": 31,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 20,
+                "max": 24
+            },
+            "magical_attack": {
+                "min": 20,
+                "max": 24
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/crescent_sword.png",
+        "size": 2
+    },
+    {
+        "id": 31,
+        "name": "crescent sword+1",
+        "plus": 1,
+        "next_item_id": 32,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 27,
+                "max": 31
+            },
+            "magical_attack": {
+                "min": 27,
+                "max": 31
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/crescent_sword.png",
+        "size": 2
+    },
+    {
+        "id": 32,
+        "name": "crescent sword+2",
+        "plus": 2,
+        "next_item_id": 33,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 34,
+                "max": 38
+            },
+            "magical_attack": {
+                "min": 34,
+                "max": 38
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/crescent_sword.png",
+        "size": 2
+    },
+    {
+        "id": 33,
+        "name": "crescent sword+3",
+        "plus": 3,
+        "next_item_id": 34,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 41,
+                "max": 45
+            },
+            "magical_attack": {
+                "min": 41,
+                "max": 45
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/crescent_sword.png",
+        "size": 2
+    },
+    {
+        "id": 34,
+        "name": "crescent sword+4",
+        "plus": 4,
+        "next_item_id": 35,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 48,
+                "max": 52
+            },
+            "magical_attack": {
+                "min": 48,
+                "max": 52
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/crescent_sword.png",
+        "size": 2
+    },
+    {
+        "id": 35,
+        "name": "crescent sword+5",
+        "plus": 5,
+        "next_item_id": 36,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 55,
+                "max": 59
+            },
+            "magical_attack": {
+                "min": 55,
+                "max": 59
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/crescent_sword.png",
+        "size": 2
+    },
+    {
+        "id": 36,
+        "name": "crescent sword+6",
+        "plus": 6,
+        "next_item_id": 37,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 62,
+                "max": 66
+            },
+            "magical_attack": {
+                "min": 62,
+                "max": 66
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/crescent_sword.png",
+        "size": 2
+    },
+    {
+        "id": 37,
+        "name": "crescent sword+7",
+        "plus": 7,
+        "next_item_id": 38,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 69,
+                "max": 73
+            },
+            "magical_attack": {
+                "min": 69,
+                "max": 73
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/crescent_sword.png",
+        "size": 2
+    },
+    {
+        "id": 38,
+        "name": "crescent sword+8",
+        "plus": 8,
+        "next_item_id": 39,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 76,
+                "max": 80
+            },
+            "magical_attack": {
+                "min": 76,
+                "max": 80
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/crescent_sword.png",
+        "size": 2
+    },
+    {
+        "id": 39,
+        "name": "crescent sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 83,
+                "max": 87
+            },
+            "magical_attack": {
+                "min": 83,
+                "max": 87
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/crescent_sword.png",
+        "size": 2
+    },
+    {
+        "id": 40,
+        "name": "bamboo sword+0",
+        "plus": 0,
+        "next_item_id": 41,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 22,
+                "max": 26
+            },
+            "magical_attack": {
+                "min": 25,
+                "max": 35
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/bamboo_sword.png",
+        "size": 2
+    },
+    {
+        "id": 41,
+        "name": "bamboo sword+1",
+        "plus": 1,
+        "next_item_id": 42,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 29,
+                "max": 33
+            },
+            "magical_attack": {
+                "min": 32,
+                "max": 42
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/bamboo_sword.png",
+        "size": 2
+    },
+    {
+        "id": 42,
+        "name": "bamboo sword+2",
+        "plus": 2,
+        "next_item_id": 43,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 36,
+                "max": 42
+            },
+            "magical_attack": {
+                "min": 39,
+                "max": 49
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/bamboo_sword.png",
+        "size": 2
+    },
+    {
+        "id": 43,
+        "name": "bamboo sword+3",
+        "plus": 3,
+        "next_item_id": 44,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 43,
+                "max": 49
+            },
+            "magical_attack": {
+                "min": 46,
+                "max": 56
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/bamboo_sword.png",
+        "size": 2
+    },
+    {
+        "id": 44,
+        "name": "bamboo sword+4",
+        "plus": 4,
+        "next_item_id": 45,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 50,
+                "max": 54
+            },
+            "magical_attack": {
+                "min": 53,
+                "max": 63
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/bamboo_sword.png",
+        "size": 2
+    },
+    {
+        "id": 45,
+        "name": "bamboo sword+5",
+        "plus": 5,
+        "next_item_id": 46,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 57,
+                "max": 61
+            },
+            "magical_attack": {
+                "min": 60,
+                "max": 70
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/bamboo_sword.png",
+        "size": 2
+    },
+    {
+        "id": 46,
+        "name": "bamboo sword+6",
+        "plus": 6,
+        "next_item_id": 47,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 64,
+                "max": 68
+            },
+            "magical_attack": {
+                "min": 67,
+                "max": 77
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/bamboo_sword.png",
+        "size": 2
+    },
+    {
+        "id": 47,
+        "name": "bamboo sword+7",
+        "plus": 7,
+        "next_item_id": 48,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 71,
+                "max": 75
+            },
+            "magical_attack": {
+                "min": 74,
+                "max": 84
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/bamboo_sword.png",
+        "size": 2
+    },
+    {
+        "id": 48,
+        "name": "bamboo sword+8",
+        "plus": 8,
+        "next_item_id": 49,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 78,
+                "max": 82
+            },
+            "magical_attack": {
+                "min": 81,
+                "max": 91
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/bamboo_sword.png",
+        "size": 2
+    },
+    {
+        "id": 49,
+        "name": "bamboo sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 85,
+                "max": 89
+            },
+            "magical_attack": {
+                "min": 88,
+                "max": 98
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/bamboo_sword.png",
+        "size": 2
+    },
+    {
+        "id": 50,
+        "name": "broad sword+0",
+        "plus": 0,
+        "next_item_id": 51,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 25,
+                "max": 35
+            },
+            "magical_attack": {
+                "min": 20,
+                "max": 28
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/broad_sword.png",
+        "size": 2
+    },
+    {
+        "id": 51,
+        "name": "broad sword+1",
+        "plus": 1,
+        "next_item_id": 52,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 32,
+                "max": 42
+            },
+            "magical_attack": {
+                "min": 27,
+                "max": 35
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/broad_sword.png",
+        "size": 2
+    },
+    {
+        "id": 52,
+        "name": "broad sword+2",
+        "plus": 2,
+        "next_item_id": 53,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 39,
+                "max": 49
+            },
+            "magical_attack": {
+                "min": 34,
+                "max": 42
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/broad_sword.png",
+        "size": 2
+    },
+    {
+        "id": 53,
+        "name": "broad sword+3",
+        "plus": 3,
+        "next_item_id": 54,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 46,
+                "max": 56
+            },
+            "magical_attack": {
+                "min": 41,
+                "max": 49
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/broad_sword.png",
+        "size": 2
+    },
+    {
+        "id": 54,
+        "name": "broad sword+4",
+        "plus": 4,
+        "next_item_id": 55,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 53,
+                "max": 63
+            },
+            "magical_attack": {
+                "min": 48,
+                "max": 56
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/broad_sword.png",
+        "size": 2
+    },
+    {
+        "id": 55,
+        "name": "broad sword+5",
+        "plus": 5,
+        "next_item_id": 56,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 60,
+                "max": 70
+            },
+            "magical_attack": {
+                "min": 55,
+                "max": 63
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/broad_sword.png",
+        "size": 2
+    },
+    {
+        "id": 56,
+        "name": "broad sword+6",
+        "plus": 6,
+        "next_item_id": 57,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 67,
+                "max": 77
+            },
+            "magical_attack": {
+                "min": 62,
+                "max": 70
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/broad_sword.png",
+        "size": 2
+    },
+    {
+        "id": 57,
+        "name": "broad sword+7",
+        "plus": 7,
+        "next_item_id": 58,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 74,
+                "max": 84
+            },
+            "magical_attack": {
+                "min": 69,
+                "max": 77
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/broad_sword.png",
+        "size": 2
+    },
+    {
+        "id": 58,
+        "name": "broad sword+8",
+        "plus": 8,
+        "next_item_id": 59,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 81,
+                "max": 91
+            },
+            "magical_attack": {
+                "min": 76,
+                "max": 84
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/broad_sword.png",
+        "size": 2
+    },
+    {
+        "id": 59,
+        "name": "broad sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 88,
+                "max": 98
+            },
+            "magical_attack": {
+                "min": 83,
+                "max": 91
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-1-20",
+        "img": "items/swords/broad_sword.png",
+        "size": 2
+    },
+    {
+        "id": 60,
+        "name": "silver sword+0",
+        "plus": 0,
+        "next_item_id": 61,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 36,
+                "max": 46
+            },
+            "magical_attack": {
+                "min": 38,
+                "max": 52
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/silver_sword.png",
+        "size": 2
+    },
+    {
+        "id": 61,
+        "name": "silver sword+1",
+        "plus": 1,
+        "next_item_id": 62,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 42,
+                "max": 52
+            },
+            "magical_attack": {
+                "min": 44,
+                "max": 58
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/silver_sword.png",
+        "size": 2
+    },
+    {
+        "id": 62,
+        "name": "silver sword+2",
+        "plus": 2,
+        "next_item_id": 63,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 48,
+                "max": 58
+            },
+            "magical_attack": {
+                "min": 50,
+                "max": 64
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/silver_sword.png",
+        "size": 2
+    },
+    {
+        "id": 63,
+        "name": "silver sword+3",
+        "plus": 3,
+        "next_item_id": 64,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 54,
+                "max": 64
+            },
+            "magical_attack": {
+                "min": 56,
+                "max": 70
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/silver_sword.png",
+        "size": 2
+    },
+    {
+        "id": 64,
+        "name": "silver sword+4",
+        "plus": 4,
+        "next_item_id": 65,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 60,
+                "max": 70
+            },
+            "magical_attack": {
+                "min": 62,
+                "max": 76
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/silver_sword.png",
+        "size": 2
+    },
+    {
+        "id": 65,
+        "name": "silver sword+5",
+        "plus": 5,
+        "next_item_id": 66,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 68,
+                "max": 78
+            },
+            "magical_attack": {
+                "min": 70,
+                "max": 84
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/silver_sword.png",
+        "size": 2
+    },
+    {
+        "id": 66,
+        "name": "silver sword+6",
+        "plus": 6,
+        "next_item_id": 67,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 76,
+                "max": 86
+            },
+            "magical_attack": {
+                "min": 78,
+                "max": 92
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/silver_sword.png",
+        "size": 2
+    },
+    {
+        "id": 67,
+        "name": "silver sword+7",
+        "plus": 7,
+        "next_item_id": 68,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 87,
+                "max": 97
+            },
+            "magical_attack": {
+                "min": 89,
+                "max": 103
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/silver_sword.png",
+        "size": 2
+    },
+    {
+        "id": 68,
+        "name": "silver sword+8",
+        "plus": 8,
+        "next_item_id": 69,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 98,
+                "max": 108
+            },
+            "magical_attack": {
+                "min": 100,
+                "max": 114
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/silver_sword.png",
+        "size": 2
+    },
+    {
+        "id": 69,
+        "name": "silver sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 109,
+                "max": 119
+            },
+            "magical_attack": {
+                "min": 111,
+                "max": 125
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/silver_sword.png",
+        "size": 2
+    },
+    {
+        "id": 290,
+        "name": "full moon sword+0",
+        "plus": 0,
+        "next_item_id": 291,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 57,
+                "max": 75
+            },
+            "magical_attack": {
+                "min": 62,
+                "max": 88
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/swords/full_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 291,
+        "name": "full moon sword+1",
+        "plus": 1,
+        "next_item_id": 292,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 63,
+                "max": 79
+            },
+            "magical_attack": {
+                "min": 68,
+                "max": 94
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/swords/full_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 292,
+        "name": "full moon sword+2",
+        "plus": 2,
+        "next_item_id": 293,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 68,
+                "max": 84
+            },
+            "magical_attack": {
+                "min": 73,
+                "max": 99
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/swords/full_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 293,
+        "name": "full moon sword+3",
+        "plus": 3,
+        "next_item_id": 294,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 74,
+                "max": 90
+            },
+            "magical_attack": {
+                "min": 79,
+                "max": 105
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/swords/full_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 294,
+        "name": "full moon sword+4",
+        "plus": 4,
+        "next_item_id": 295,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 79,
+                "max": 95
+            },
+            "magical_attack": {
+                "min": 84,
+                "max": 110
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/swords/full_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 295,
+        "name": "full moon sword+5",
+        "plus": 5,
+        "next_item_id": 296,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 87,
+                "max": 105
+            },
+            "magical_attack": {
+                "min": 92,
+                "max": 118
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/swords/full_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 296,
+        "name": "full moon sword+6",
+        "plus": 6,
+        "next_item_id": 297,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 95,
+                "max": 111
+            },
+            "magical_attack": {
+                "min": 100,
+                "max": 126
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/swords/full_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 297,
+        "name": "full moon sword+7",
+        "plus": 7,
+        "next_item_id": 298,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 105,
+                "max": 121
+            },
+            "magical_attack": {
+                "min": 110,
+                "max": 136
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/swords/full_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 298,
+        "name": "full moon sword+8",
+        "plus": 8,
+        "next_item_id": 299,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 115,
+                "max": 131
+            },
+            "magical_attack": {
+                "min": 120,
+                "max": 146
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/swords/full_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 299,
+        "name": "full moon sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 127,
+                "max": 143
+            },
+            "magical_attack": {
+                "min": 132,
+                "max": 154
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/swords/full_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 70,
+        "name": "orchid sword+0",
+        "plus": 0,
+        "next_item_id": 71,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 38,
+                "max": 52
+            },
+            "magical_attack": {
+                "min": 36,
+                "max": 46
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/orchid_sword.png",
+        "size": 2
+    },
+    {
+        "id": 71,
+        "name": "orchid sword+1",
+        "plus": 1,
+        "next_item_id": 72,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 44,
+                "max": 58
+            },
+            "magical_attack": {
+                "min": 42,
+                "max": 52
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/orchid_sword.png",
+        "size": 2
+    },
+    {
+        "id": 72,
+        "name": "orchid sword+2",
+        "plus": 2,
+        "next_item_id": 73,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 50,
+                "max": 64
+            },
+            "magical_attack": {
+                "min": 48,
+                "max": 58
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/orchid_sword.png",
+        "size": 2
+    },
+    {
+        "id": 73,
+        "name": "orchid sword+3",
+        "plus": 3,
+        "next_item_id": 74,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 56,
+                "max": 70
+            },
+            "magical_attack": {
+                "min": 54,
+                "max": 64
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/orchid_sword.png",
+        "size": 2
+    },
+    {
+        "id": 74,
+        "name": "orchid sword+4",
+        "plus": 4,
+        "next_item_id": 75,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 62,
+                "max": 76
+            },
+            "magical_attack": {
+                "min": 60,
+                "max": 70
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/orchid_sword.png",
+        "size": 2
+    },
+    {
+        "id": 75,
+        "name": "orchid sword+5",
+        "plus": 5,
+        "next_item_id": 76,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 70,
+                "max": 84
+            },
+            "magical_attack": {
+                "min": 68,
+                "max": 78
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/orchid_sword.png",
+        "size": 2
+    },
+    {
+        "id": 76,
+        "name": "orchid sword+6",
+        "plus": 6,
+        "next_item_id": 77,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 79,
+                "max": 93
+            },
+            "magical_attack": {
+                "min": 76,
+                "max": 86
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/orchid_sword.png",
+        "size": 2
+    },
+    {
+        "id": 77,
+        "name": "orchid sword+7",
+        "plus": 7,
+        "next_item_id": 78,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 89,
+                "max": 103
+            },
+            "magical_attack": {
+                "min": 87,
+                "max": 97
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/orchid_sword.png",
+        "size": 2
+    },
+    {
+        "id": 78,
+        "name": "orchid sword+8",
+        "plus": 8,
+        "next_item_id": 79,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 100,
+                "max": 114
+            },
+            "magical_attack": {
+                "min": 98,
+                "max": 108
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/orchid_sword.png",
+        "size": 2
+    },
+    {
+        "id": 79,
+        "name": "orchid sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 112,
+                "max": 126
+            },
+            "magical_attack": {
+                "min": 110,
+                "max": 120
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/orchid_sword.png",
+        "size": 2
+    },
+    {
+        "id": 80,
+        "name": "bastard sword+0",
+        "plus": 0,
+        "next_item_id": 81,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 48,
+                "max": 58
+            },
+            "magical_attack": {
+                "min": 52,
+                "max": 68
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/bastard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 81,
+        "name": "bastard sword+1",
+        "plus": 1,
+        "next_item_id": 82,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 54,
+                "max": 64
+            },
+            "magical_attack": {
+                "min": 58,
+                "max": 74
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/bastard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 82,
+        "name": "bastard sword+2",
+        "plus": 2,
+        "next_item_id": 83,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 60,
+                "max": 70
+            },
+            "magical_attack": {
+                "min": 64,
+                "max": 80
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/bastard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 83,
+        "name": "bastard sword+3",
+        "plus": 3,
+        "next_item_id": 84,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 66,
+                "max": 76
+            },
+            "magical_attack": {
+                "min": 70,
+                "max": 86
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/bastard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 84,
+        "name": "bastard sword+4",
+        "plus": 4,
+        "next_item_id": 85,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 72,
+                "max": 82
+            },
+            "magical_attack": {
+                "min": 76,
+                "max": 92
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/bastard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 85,
+        "name": "bastard sword+5",
+        "plus": 5,
+        "next_item_id": 86,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 80,
+                "max": 90
+            },
+            "magical_attack": {
+                "min": 84,
+                "max": 100
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/bastard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 86,
+        "name": "bastard sword+6",
+        "plus": 6,
+        "next_item_id": 87,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 89,
+                "max": 99
+            },
+            "magical_attack": {
+                "min": 93,
+                "max": 109
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/bastard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 87,
+        "name": "bastard sword+7",
+        "plus": 7,
+        "next_item_id": 88,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 99,
+                "max": 109
+            },
+            "magical_attack": {
+                "min": 103,
+                "max": 119
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/bastard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 88,
+        "name": "bastard sword+8",
+        "plus": 8,
+        "next_item_id": 89,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 110,
+                "max": 120
+            },
+            "magical_attack": {
+                "min": 114,
+                "max": 130
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/bastard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 89,
+        "name": "bastard sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 122,
+                "max": 132
+            },
+            "magical_attack": {
+                "min": 126,
+                "max": 142
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/bastard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 90,
+        "name": "barbarian sword+0",
+        "plus": 0,
+        "next_item_id": 91,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 52,
+                "max": 68
+            },
+            "magical_attack": {
+                "min": 48,
+                "max": 58
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/barbarian_sword.png",
+        "size": 2
+    },
+    {
+        "id": 91,
+        "name": "barbarian sword+1",
+        "plus": 1,
+        "next_item_id": 92,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 58,
+                "max": 74
+            },
+            "magical_attack": {
+                "min": 54,
+                "max": 64
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/barbarian_sword.png",
+        "size": 2
+    },
+    {
+        "id": 92,
+        "name": "barbarian sword+2",
+        "plus": 2,
+        "next_item_id": 93,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 64,
+                "max": 80
+            },
+            "magical_attack": {
+                "min": 60,
+                "max": 70
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/barbarian_sword.png",
+        "size": 2
+    },
+    {
+        "id": 93,
+        "name": "barbarian sword+3",
+        "plus": 3,
+        "next_item_id": 94,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 70,
+                "max": 86
+            },
+            "magical_attack": {
+                "min": 66,
+                "max": 76
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/barbarian_sword.png",
+        "size": 2
+    },
+    {
+        "id": 94,
+        "name": "barbarian sword+4",
+        "plus": 4,
+        "next_item_id": 95,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 76,
+                "max": 92
+            },
+            "magical_attack": {
+                "min": 72,
+                "max": 82
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/barbarian_sword.png",
+        "size": 2
+    },
+    {
+        "id": 95,
+        "name": "barbarian sword+5",
+        "plus": 5,
+        "next_item_id": 96,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 84,
+                "max": 100
+            },
+            "magical_attack": {
+                "min": 80,
+                "max": 90
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/barbarian_sword.png",
+        "size": 2
+    },
+    {
+        "id": 96,
+        "name": "barbarian sword+6",
+        "plus": 6,
+        "next_item_id": 97,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 93,
+                "max": 109
+            },
+            "magical_attack": {
+                "min": 89,
+                "max": 99
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/barbarian_sword.png",
+        "size": 2
+    },
+    {
+        "id": 97,
+        "name": "barbarian sword+7",
+        "plus": 7,
+        "next_item_id": 98,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 103,
+                "max": 119
+            },
+            "magical_attack": {
+                "min": 99,
+                "max": 109
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/barbarian_sword.png",
+        "size": 2
+    },
+    {
+        "id": 98,
+        "name": "barbarian sword+8",
+        "plus": 8,
+        "next_item_id": 99,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 114,
+                "max": 130
+            },
+            "magical_attack": {
+                "min": 110,
+                "max": 120
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/barbarian_sword.png",
+        "size": 2
+    },
+    {
+        "id": 99,
+        "name": "barbarian sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 126,
+                "max": 142
+            },
+            "magical_attack": {
+                "min": 122,
+                "max": 132
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-25-40",
+        "img": "items/swords/barbarian_sword.png",
+        "size": 2
+    },
+    {
+        "id": 100,
+        "name": "bloody sword+0",
+        "plus": 0,
+        "next_item_id": 101,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 65,
+                "max": 87
+            },
+            "magical_attack": {
+                "min": 69,
+                "max": 91
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/bloody_sword.png",
+        "size": 2
+    },
+    {
+        "id": 101,
+        "name": "bloody sword+1",
+        "plus": 1,
+        "next_item_id": 102,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 70,
+                "max": 92
+            },
+            "magical_attack": {
+                "min": 74,
+                "max": 96
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/bloody_sword.png",
+        "size": 2
+    },
+    {
+        "id": 102,
+        "name": "bloody sword+2",
+        "plus": 2,
+        "next_item_id": 103,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 75,
+                "max": 97
+            },
+            "magical_attack": {
+                "min": 79,
+                "max": 101
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/bloody_sword.png",
+        "size": 2
+    },
+    {
+        "id": 103,
+        "name": "bloody sword+3",
+        "plus": 3,
+        "next_item_id": 104,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 80,
+                "max": 102
+            },
+            "magical_attack": {
+                "min": 84,
+                "max": 106
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/bloody_sword.png",
+        "size": 2
+    },
+    {
+        "id": 104,
+        "name": "bloody sword+4",
+        "plus": 4,
+        "next_item_id": 105,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 85,
+                "max": 107
+            },
+            "magical_attack": {
+                "min": 89,
+                "max": 111
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/bloody_sword.png",
+        "size": 2
+    },
+    {
+        "id": 105,
+        "name": "bloody sword+5",
+        "plus": 5,
+        "next_item_id": 106,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 92,
+                "max": 114
+            },
+            "magical_attack": {
+                "min": 96,
+                "max": 118
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/bloody_sword.png",
+        "size": 2
+    },
+    {
+        "id": 106,
+        "name": "bloody sword+6",
+        "plus": 6,
+        "next_item_id": 107,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 100,
+                "max": 122
+            },
+            "magical_attack": {
+                "min": 104,
+                "max": 126
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/bloody_sword.png",
+        "size": 2
+    },
+    {
+        "id": 107,
+        "name": "bloody sword+7",
+        "plus": 7,
+        "next_item_id": 108,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 109,
+                "max": 131
+            },
+            "magical_attack": {
+                "min": 113,
+                "max": 135
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/bloody_sword.png",
+        "size": 2
+    },
+    {
+        "id": 108,
+        "name": "bloody sword+8",
+        "plus": 8,
+        "next_item_id": 109,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 119,
+                "max": 141
+            },
+            "magical_attack": {
+                "min": 123,
+                "max": 145
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/bloody_sword.png",
+        "size": 2
+    },
+    {
+        "id": 109,
+        "name": "bloody sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 130,
+                "max": 152
+            },
+            "magical_attack": {
+                "min": 134,
+                "max": 156
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/bloody_sword.png",
+        "size": 2
+    },
+    {
+        "id": 110,
+        "name": "great sword+0",
+        "plus": 0,
+        "next_item_id": 111,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 69,
+                "max": 91
+            },
+            "magical_attack": {
+                "min": 65,
+                "max": 87
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/great_sword.png",
+        "size": 2
+    },
+    {
+        "id": 111,
+        "name": "great sword+1",
+        "plus": 1,
+        "next_item_id": 112,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 74,
+                "max": 96
+            },
+            "magical_attack": {
+                "min": 70,
+                "max": 92
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/great_sword.png",
+        "size": 2
+    },
+    {
+        "id": 112,
+        "name": "great sword+2",
+        "plus": 2,
+        "next_item_id": 113,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 79,
+                "max": 101
+            },
+            "magical_attack": {
+                "min": 75,
+                "max": 97
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/great_sword.png",
+        "size": 2
+    },
+    {
+        "id": 113,
+        "name": "great sword+3",
+        "plus": 3,
+        "next_item_id": 114,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 84,
+                "max": 106
+            },
+            "magical_attack": {
+                "min": 80,
+                "max": 102
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/great_sword.png",
+        "size": 2
+    },
+    {
+        "id": 114,
+        "name": "great sword+4",
+        "plus": 4,
+        "next_item_id": 115,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 89,
+                "max": 111
+            },
+            "magical_attack": {
+                "min": 85,
+                "max": 107
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/great_sword.png",
+        "size": 2
+    },
+    {
+        "id": 115,
+        "name": "great sword+5",
+        "plus": 5,
+        "next_item_id": 116,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 96,
+                "max": 118
+            },
+            "magical_attack": {
+                "min": 92,
+                "max": 114
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/great_sword.png",
+        "size": 2
+    },
+    {
+        "id": 116,
+        "name": "great sword+6",
+        "plus": 6,
+        "next_item_id": 117,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 104,
+                "max": 126
+            },
+            "magical_attack": {
+                "min": 100,
+                "max": 122
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/great_sword.png",
+        "size": 2
+    },
+    {
+        "id": 117,
+        "name": "great sword+7",
+        "plus": 7,
+        "next_item_id": 118,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 113,
+                "max": 135
+            },
+            "magical_attack": {
+                "min": 109,
+                "max": 131
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/great_sword.png",
+        "size": 2
+    },
+    {
+        "id": 118,
+        "name": "great sword+8",
+        "plus": 8,
+        "next_item_id": 119,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 123,
+                "max": 145
+            },
+            "magical_attack": {
+                "min": 119,
+                "max": 141
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/great_sword.png",
+        "size": 2
+    },
+    {
+        "id": 119,
+        "name": "great sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 134,
+                "max": 156
+            },
+            "magical_attack": {
+                "min": 130,
+                "max": 152
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/great_sword.png",
+        "size": 2
+    },
+    {
+        "id": 120,
+        "name": "flying wizard sword+0",
+        "plus": 0,
+        "next_item_id": 121,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 74,
+                "max": 100
+            },
+            "magical_attack": {
+                "min": 72,
+                "max": 108
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/flying_wizard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 121,
+        "name": "flying wizard sword+1",
+        "plus": 1,
+        "next_item_id": 122,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 79,
+                "max": 105
+            },
+            "magical_attack": {
+                "min": 77,
+                "max": 113
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/flying_wizard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 122,
+        "name": "flying wizard sword+2",
+        "plus": 2,
+        "next_item_id": 123,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 84,
+                "max": 110
+            },
+            "magical_attack": {
+                "min": 82,
+                "max": 118
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/flying_wizard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 123,
+        "name": "flying wizard sword+3",
+        "plus": 3,
+        "next_item_id": 124,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 89,
+                "max": 115
+            },
+            "magical_attack": {
+                "min": 87,
+                "max": 123
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/flying_wizard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 124,
+        "name": "flying wizard sword+4",
+        "plus": 4,
+        "next_item_id": 125,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 94,
+                "max": 120
+            },
+            "magical_attack": {
+                "min": 92,
+                "max": 128
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/flying_wizard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 125,
+        "name": "flying wizard sword+5",
+        "plus": 5,
+        "next_item_id": 126,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 101,
+                "max": 127
+            },
+            "magical_attack": {
+                "min": 99,
+                "max": 135
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/flying_wizard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 126,
+        "name": "flying wizard sword+6",
+        "plus": 6,
+        "next_item_id": 127,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 109,
+                "max": 135
+            },
+            "magical_attack": {
+                "min": 107,
+                "max": 143
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/flying_wizard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 127,
+        "name": "flying wizard sword+7",
+        "plus": 7,
+        "next_item_id": 128,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 118,
+                "max": 144
+            },
+            "magical_attack": {
+                "min": 116,
+                "max": 152
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/flying_wizard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 128,
+        "name": "flying wizard sword+8",
+        "plus": 8,
+        "next_item_id": 129,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 128,
+                "max": 154
+            },
+            "magical_attack": {
+                "min": 126,
+                "max": 162
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/flying_wizard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 129,
+        "name": "flying wizard sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 139,
+                "max": 165
+            },
+            "magical_attack": {
+                "min": 137,
+                "max": 173
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/flying_wizard_sword.png",
+        "size": 2
+    },
+    {
+        "id": 130,
+        "name": "half moon sword+0",
+        "plus": 0,
+        "next_item_id": 131,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 72,
+                "max": 108
+            },
+            "magical_attack": {
+                "min": 74,
+                "max": 100
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/half_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 131,
+        "name": "half moon sword+1",
+        "plus": 1,
+        "next_item_id": 132,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 77,
+                "max": 113
+            },
+            "magical_attack": {
+                "min": 79,
+                "max": 105
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/half_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 132,
+        "name": "half moon sword+2",
+        "plus": 2,
+        "next_item_id": 133,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 82,
+                "max": 118
+            },
+            "magical_attack": {
+                "min": 84,
+                "max": 110
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/half_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 133,
+        "name": "half moon sword+3",
+        "plus": 3,
+        "next_item_id": 134,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 87,
+                "max": 123
+            },
+            "magical_attack": {
+                "min": 89,
+                "max": 115
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/half_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 134,
+        "name": "half moon sword+4",
+        "plus": 4,
+        "next_item_id": 135,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 92,
+                "max": 128
+            },
+            "magical_attack": {
+                "min": 94,
+                "max": 120
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/half_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 135,
+        "name": "half moon sword+5",
+        "plus": 5,
+        "next_item_id": 136,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 99,
+                "max": 135
+            },
+            "magical_attack": {
+                "min": 101,
+                "max": 127
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/half_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 136,
+        "name": "half moon sword+6",
+        "plus": 6,
+        "next_item_id": 137,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 107,
+                "max": 143
+            },
+            "magical_attack": {
+                "min": 109,
+                "max": 135
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/half_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 137,
+        "name": "half moon sword+7",
+        "plus": 7,
+        "next_item_id": 138,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 116,
+                "max": 152
+            },
+            "magical_attack": {
+                "min": 118,
+                "max": 144
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/half_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 138,
+        "name": "half moon sword+8",
+        "plus": 8,
+        "next_item_id": 139,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 126,
+                "max": 162
+            },
+            "magical_attack": {
+                "min": 128,
+                "max": 154
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/half_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 139,
+        "name": "half moon sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 137,
+                "max": 173
+            },
+            "magical_attack": {
+                "min": 139,
+                "max": 165
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-45-60",
+        "img": "items/swords/half_moon_sword.png",
+        "size": 2
+    },
+    {
+        "id": 140,
+        "name": "nymph sword+0",
+        "plus": 0,
+        "next_item_id": 141,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 102,
+                "max": 138
+            },
+            "magical_attack": {
+                "min": 69,
+                "max": 81
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/nymph_sword.png",
+        "size": 2
+    },
+    {
+        "id": 141,
+        "name": "nymph sword+1",
+        "plus": 1,
+        "next_item_id": 142,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 108,
+                "max": 144
+            },
+            "magical_attack": {
+                "min": 75,
+                "max": 87
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/nymph_sword.png",
+        "size": 2
+    },
+    {
+        "id": 142,
+        "name": "nymph sword+2",
+        "plus": 2,
+        "next_item_id": 143,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 115,
+                "max": 151
+            },
+            "magical_attack": {
+                "min": 82,
+                "max": 94
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/nymph_sword.png",
+        "size": 2
+    },
+    {
+        "id": 143,
+        "name": "nymph sword+3",
+        "plus": 3,
+        "next_item_id": 144,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 123,
+                "max": 159
+            },
+            "magical_attack": {
+                "min": 90,
+                "max": 102
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/nymph_sword.png",
+        "size": 2
+    },
+    {
+        "id": 144,
+        "name": "nymph sword+4",
+        "plus": 4,
+        "next_item_id": 145,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 132,
+                "max": 168
+            },
+            "magical_attack": {
+                "min": 99,
+                "max": 111
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/nymph_sword.png",
+        "size": 2
+    },
+    {
+        "id": 145,
+        "name": "nymph sword+5",
+        "plus": 5,
+        "next_item_id": 146,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 142,
+                "max": 178
+            },
+            "magical_attack": {
+                "min": 109,
+                "max": 121
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/nymph_sword.png",
+        "size": 2
+    },
+    {
+        "id": 146,
+        "name": "nymph sword+6",
+        "plus": 6,
+        "next_item_id": 147,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 153,
+                "max": 189
+            },
+            "magical_attack": {
+                "min": 120,
+                "max": 132
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/nymph_sword.png",
+        "size": 2
+    },
+    {
+        "id": 147,
+        "name": "nymph sword+7",
+        "plus": 7,
+        "next_item_id": 148,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 165,
+                "max": 201
+            },
+            "magical_attack": {
+                "min": 132,
+                "max": 144
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/nymph_sword.png",
+        "size": 2
+    },
+    {
+        "id": 148,
+        "name": "nymph sword+8",
+        "plus": 8,
+        "next_item_id": 149,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 178,
+                "max": 214
+            },
+            "magical_attack": {
+                "min": 145,
+                "max": 157
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/nymph_sword.png",
+        "size": 2
+    },
+    {
+        "id": 149,
+        "name": "nymph sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 192,
+                "max": 228
+            },
+            "magical_attack": {
+                "min": 159,
+                "max": 171
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/nymph_sword.png",
+        "size": 2
+    },
+    {
+        "id": 150,
+        "name": "battle sword+0",
+        "plus": 0,
+        "next_item_id": 151,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 100,
+                "max": 140
+            },
+            "magical_attack": {
+                "min": 65,
+                "max": 87
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/battle_sword.png",
+        "size": 2
+    },
+    {
+        "id": 151,
+        "name": "battle sword+1",
+        "plus": 1,
+        "next_item_id": 152,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 108,
+                "max": 148
+            },
+            "magical_attack": {
+                "min": 71,
+                "max": 93
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/battle_sword.png",
+        "size": 2
+    },
+    {
+        "id": 152,
+        "name": "battle sword+2",
+        "plus": 2,
+        "next_item_id": 153,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 117,
+                "max": 157
+            },
+            "magical_attack": {
+                "min": 78,
+                "max": 100
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/battle_sword.png",
+        "size": 2
+    },
+    {
+        "id": 153,
+        "name": "battle sword+3",
+        "plus": 3,
+        "next_item_id": 154,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 127,
+                "max": 167
+            },
+            "magical_attack": {
+                "min": 86,
+                "max": 108
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/battle_sword.png",
+        "size": 2
+    },
+    {
+        "id": 154,
+        "name": "battle sword+4",
+        "plus": 4,
+        "next_item_id": 155,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 138,
+                "max": 178
+            },
+            "magical_attack": {
+                "min": 95,
+                "max": 117
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/battle_sword.png",
+        "size": 2
+    },
+    {
+        "id": 155,
+        "name": "battle sword+5",
+        "plus": 5,
+        "next_item_id": 156,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 150,
+                "max": 190
+            },
+            "magical_attack": {
+                "min": 105,
+                "max": 127
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/battle_sword.png",
+        "size": 2
+    },
+    {
+        "id": 156,
+        "name": "battle sword+6",
+        "plus": 6,
+        "next_item_id": 157,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 163,
+                "max": 203
+            },
+            "magical_attack": {
+                "min": 116,
+                "max": 138
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/battle_sword.png",
+        "size": 2
+    },
+    {
+        "id": 157,
+        "name": "battle sword+7",
+        "plus": 7,
+        "next_item_id": 158,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 177,
+                "max": 217
+            },
+            "magical_attack": {
+                "min": 128,
+                "max": 150
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/battle_sword.png",
+        "size": 2
+    },
+    {
+        "id": 158,
+        "name": "battle sword+8",
+        "plus": 8,
+        "next_item_id": 159,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 202,
+                "max": 242
+            },
+            "magical_attack": {
+                "min": 141,
+                "max": 163
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/battle_sword.png",
+        "size": 2
+    },
+    {
+        "id": 159,
+        "name": "battle sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 237,
+                "max": 277
+            },
+            "magical_attack": {
+                "min": 155,
+                "max": 177
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/battle_sword.png",
+        "size": 2
+    },
+    {
+        "id": 170,
+        "name": "sting sword+0",
+        "plus": 0,
+        "next_item_id": 171,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 102,
+                "max": 138
+            },
+            "magical_attack": {
+                "min": 69,
+                "max": 81
+            },
+            "attack_speed": 15,
+            "max_hp": 50
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/sting_sword.png",
+        "size": 2
+    },
+    {
+        "id": 171,
+        "name": "sting sword+1",
+        "plus": 1,
+        "next_item_id": 172,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 108,
+                "max": 144
+            },
+            "magical_attack": {
+                "min": 75,
+                "max": 87
+            },
+            "attack_speed": 15,
+            "max_hp": 100
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/sting_sword.png",
+        "size": 2
+    },
+    {
+        "id": 172,
+        "name": "sting sword+2",
+        "plus": 2,
+        "next_item_id": 173,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 115,
+                "max": 151
+            },
+            "magical_attack": {
+                "min": 82,
+                "max": 94
+            },
+            "attack_speed": 15,
+            "max_hp": 150
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/sting_sword.png",
+        "size": 2
+    },
+    {
+        "id": 173,
+        "name": "sting sword+3",
+        "plus": 3,
+        "next_item_id": 174,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 123,
+                "max": 159
+            },
+            "magical_attack": {
+                "min": 90,
+                "max": 102
+            },
+            "attack_speed": 15,
+            "max_hp": 300
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/sting_sword.png",
+        "size": 2
+    },
+    {
+        "id": 174,
+        "name": "sting sword+4",
+        "plus": 4,
+        "next_item_id": 175,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 132,
+                "max": 168
+            },
+            "magical_attack": {
+                "min": 99,
+                "max": 111
+            },
+            "attack_speed": 15,
+            "max_hp": 450
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/sting_sword.png",
+        "size": 2
+    },
+    {
+        "id": 175,
+        "name": "sting sword+5",
+        "plus": 5,
+        "next_item_id": 176,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 142,
+                "max": 178
+            },
+            "magical_attack": {
+                "min": 109,
+                "max": 121
+            },
+            "attack_speed": 15,
+            "max_hp": 600
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/sting_sword.png",
+        "size": 2
+    },
+    {
+        "id": 176,
+        "name": "sting sword+6",
+        "plus": 6,
+        "next_item_id": 177,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 153,
+                "max": 189
+            },
+            "magical_attack": {
+                "min": 120,
+                "max": 132
+            },
+            "attack_speed": 15,
+            "max_hp": 800
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/sting_sword.png",
+        "size": 2
+    },
+    {
+        "id": 177,
+        "name": "sting sword+7",
+        "plus": 7,
+        "next_item_id": 178,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 165,
+                "max": 201
+            },
+            "magical_attack": {
+                "min": 132,
+                "max": 144
+            },
+            "attack_speed": 15,
+            "max_hp": 1000
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/sting_sword.png",
+        "size": 2
+    },
+    {
+        "id": 178,
+        "name": "sting sword+8",
+        "plus": 8,
+        "next_item_id": 179,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 178,
+                "max": 214
+            },
+            "magical_attack": {
+                "min": 145,
+                "max": 157
+            },
+            "attack_speed": 15,
+            "max_hp": 1200
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/sting_sword.png",
+        "size": 2
+    },
+    {
+        "id": 179,
+        "name": "sting sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 192,
+                "max": 228
+            },
+            "magical_attack": {
+                "min": 159,
+                "max": 171
+            },
+            "attack_speed": 15,
+            "max_hp": 1500
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/sting_sword.png",
+        "size": 2
+    },
+    {
+        "id": 180,
+        "name": "poison sword+0",
+        "plus": 0,
+        "next_item_id": 181,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 100,
+                "max": 140
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/poison_sword.png",
+        "size": 2
+    },
+    {
+        "id": 181,
+        "name": "poison sword+1",
+        "plus": 1,
+        "next_item_id": 182,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 108,
+                "max": 148
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/poison_sword.png",
+        "size": 2
+    },
+    {
+        "id": 182,
+        "name": "poison sword+2",
+        "plus": 2,
+        "next_item_id": 183,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 117,
+                "max": 157
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/poison_sword.png",
+        "size": 2
+    },
+    {
+        "id": 183,
+        "name": "poison sword+3",
+        "plus": 3,
+        "next_item_id": 184,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 127,
+                "max": 167
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/poison_sword.png",
+        "size": 2
+    },
+    {
+        "id": 184,
+        "name": "poison sword+4",
+        "plus": 4,
+        "next_item_id": 185,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 138,
+                "max": 178
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/poison_sword.png",
+        "size": 2
+    },
+    {
+        "id": 185,
+        "name": "poison sword+5",
+        "plus": 5,
+        "next_item_id": 186,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 150,
+                "max": 190
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/poison_sword.png",
+        "size": 2
+    },
+    {
+        "id": 186,
+        "name": "poison sword+6",
+        "plus": 6,
+        "next_item_id": 187,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 163,
+                "max": 203
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/poison_sword.png",
+        "size": 2
+    },
+    {
+        "id": 187,
+        "name": "poison sword+7",
+        "plus": 7,
+        "next_item_id": 188,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 177,
+                "max": 217
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/poison_sword.png",
+        "size": 2
+    },
+    {
+        "id": 188,
+        "name": "poison sword+8",
+        "plus": 8,
+        "next_item_id": 189,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 202,
+                "max": 242
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/poison_sword.png",
+        "size": 2
+    },
+    {
+        "id": 189,
+        "name": "poison sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "sword",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 237,
+                "max": 277
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura"
+        ],
+        "upgrade-scheme": "swords-65-75",
+        "img": "items/swords/poison_sword.png",
+        "size": 2
     }
 ]
