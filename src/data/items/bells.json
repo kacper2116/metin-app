@@ -1,0 +1,3382 @@
+[
+    {
+        "id": 5000,
+        "name": "copper bell+0",
+        "plus": 0,
+        "next_item_id": 5001,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 13,
+                "max": 15
+            },
+            "magical_attack": {
+                "min": 10,
+                "max": 18
+            },
+            "attack_speed": 32
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/copper_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5001,
+        "name": "copper bell+1",
+        "plus": 1,
+        "next_item_id": 5002,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 20,
+                "max": 22
+            },
+            "magical_attack": {
+                "min": 17,
+                "max": 25
+            },
+            "attack_speed": 32
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/copper_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5002,
+        "name": "copper bell+2",
+        "plus": 2,
+        "next_item_id": 5003,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 27,
+                "max": 29
+            },
+            "magical_attack": {
+                "min": 24,
+                "max": 32
+            },
+            "attack_speed": 32
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/copper_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5003,
+        "name": "copper bell+3",
+        "plus": 3,
+        "next_item_id": 5004,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 34,
+                "max": 36
+            },
+            "magical_attack": {
+                "min": 31,
+                "max": 39
+            },
+            "attack_speed": 32
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/copper_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5004,
+        "name": "copper bell+4",
+        "plus": 4,
+        "next_item_id": 5005,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 41,
+                "max": 43
+            },
+            "magical_attack": {
+                "min": 38,
+                "max": 46
+            },
+            "attack_speed": 32
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/copper_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5005,
+        "name": "copper bell+5",
+        "plus": 5,
+        "next_item_id": 5006,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 48,
+                "max": 50
+            },
+            "magical_attack": {
+                "min": 45,
+                "max": 53
+            },
+            "attack_speed": 32
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/copper_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5006,
+        "name": "copper bell+6",
+        "plus": 6,
+        "next_item_id": 5007,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 55,
+                "max": 57
+            },
+            "magical_attack": {
+                "min": 52,
+                "max": 60
+            },
+            "attack_speed": 32
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/copper_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5007,
+        "name": "copper bell+7",
+        "plus": 7,
+        "next_item_id": 5008,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 62,
+                "max": 64
+            },
+            "magical_attack": {
+                "min": 59,
+                "max": 67
+            },
+            "attack_speed": 32
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/copper_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5008,
+        "name": "copper bell+8",
+        "plus": 8,
+        "next_item_id": 5009,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 69,
+                "max": 71
+            },
+            "magical_attack": {
+                "min": 66,
+                "max": 74
+            },
+            "attack_speed": 32
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/copper_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5009,
+        "name": "copper bell+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 76,
+                "max": 78
+            },
+            "magical_attack": {
+                "min": 73,
+                "max": 81
+            },
+            "attack_speed": 32
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/copper_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5010,
+        "name": "silver bell+0",
+        "plus": 0,
+        "next_item_id": 5011,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 20,
+                "max": 26
+            },
+            "magical_attack": {
+                "min": 4,
+                "max": 30
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/silver_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5011,
+        "name": "silver bell+1",
+        "plus": 1,
+        "next_item_id": 5012,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 27,
+                "max": 33
+            },
+            "magical_attack": {
+                "min": 11,
+                "max": 37
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/silver_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5012,
+        "name": "silver bell+2",
+        "plus": 2,
+        "next_item_id": 5013,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 34,
+                "max": 40
+            },
+            "magical_attack": {
+                "min": 18,
+                "max": 44
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/silver_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5013,
+        "name": "silver bell+3",
+        "plus": 3,
+        "next_item_id": 5014,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 41,
+                "max": 47
+            },
+            "magical_attack": {
+                "min": 25,
+                "max": 51
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/silver_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5014,
+        "name": "silver bell+4",
+        "plus": 4,
+        "next_item_id": 5015,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 48,
+                "max": 54
+            },
+            "magical_attack": {
+                "min": 32,
+                "max": 58
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/silver_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5015,
+        "name": "silver bell+5",
+        "plus": 5,
+        "next_item_id": 5016,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 55,
+                "max": 61
+            },
+            "magical_attack": {
+                "min": 39,
+                "max": 65
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/silver_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5016,
+        "name": "silver bell+6",
+        "plus": 6,
+        "next_item_id": 5017,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 62,
+                "max": 68
+            },
+            "magical_attack": {
+                "min": 46,
+                "max": 72
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/silver_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5017,
+        "name": "silver bell+7",
+        "plus": 7,
+        "next_item_id": 5018,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 69,
+                "max": 75
+            },
+            "magical_attack": {
+                "min": 53,
+                "max": 79
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/silver_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5018,
+        "name": "silver bell+8",
+        "plus": 8,
+        "next_item_id": 5019,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 76,
+                "max": 82
+            },
+            "magical_attack": {
+                "min": 60,
+                "max": 86
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/silver_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5019,
+        "name": "silver bell+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 83,
+                "max": 89
+            },
+            "magical_attack": {
+                "min": 67,
+                "max": 93
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/silver_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5020,
+        "name": "golden bell+0",
+        "plus": 0,
+        "next_item_id": 5021,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 25,
+                "max": 35
+            },
+            "magical_attack": {
+                "min": 19,
+                "max": 27
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/golden_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5021,
+        "name": "golden bell+1",
+        "plus": 1,
+        "next_item_id": 5022,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 32,
+                "max": 42
+            },
+            "magical_attack": {
+                "min": 26,
+                "max": 34
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/golden_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5022,
+        "name": "golden bell+2",
+        "plus": 2,
+        "next_item_id": 5023,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 39,
+                "max": 49
+            },
+            "magical_attack": {
+                "min": 33,
+                "max": 41
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/golden_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5023,
+        "name": "golden bell+3",
+        "plus": 3,
+        "next_item_id": 5024,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 46,
+                "max": 56
+            },
+            "magical_attack": {
+                "min": 40,
+                "max": 48
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/golden_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5024,
+        "name": "golden bell+4",
+        "plus": 4,
+        "next_item_id": 5025,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 53,
+                "max": 63
+            },
+            "magical_attack": {
+                "min": 47,
+                "max": 55
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/golden_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5025,
+        "name": "golden bell+5",
+        "plus": 5,
+        "next_item_id": 5026,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 60,
+                "max": 70
+            },
+            "magical_attack": {
+                "min": 54,
+                "max": 62
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/golden_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5026,
+        "name": "golden bell+6",
+        "plus": 6,
+        "next_item_id": 5027,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 67,
+                "max": 77
+            },
+            "magical_attack": {
+                "min": 61,
+                "max": 69
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/golden_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5027,
+        "name": "golden bell+7",
+        "plus": 7,
+        "next_item_id": 5028,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 74,
+                "max": 84
+            },
+            "magical_attack": {
+                "min": 68,
+                "max": 76
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/golden_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5028,
+        "name": "golden bell+8",
+        "plus": 8,
+        "next_item_id": 5029,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 81,
+                "max": 91
+            },
+            "magical_attack": {
+                "min": 75,
+                "max": 83
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/golden_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5029,
+        "name": "golden bell+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 88,
+                "max": 98
+            },
+            "magical_attack": {
+                "min": 82,
+                "max": 90
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-1-20",
+        "img": "items/bells/golden_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5110,
+        "name": "antique bell+0",
+        "plus": 0,
+        "next_item_id": 5111,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 50,
+                "max": 70
+            },
+            "magical_attack": {
+                "min": 35,
+                "max": 60
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bells/antique_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5111,
+        "name": "antique bell+1",
+        "plus": 1,
+        "next_item_id": 5112,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 56,
+                "max": 76
+            },
+            "magical_attack": {
+                "min": 41,
+                "max": 66
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bells/antique_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5112,
+        "name": "antique bell+2",
+        "plus": 2,
+        "next_item_id": 5113,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 61,
+                "max": 81
+            },
+            "magical_attack": {
+                "min": 46,
+                "max": 71
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bells/antique_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5113,
+        "name": "antique bell+3",
+        "plus": 3,
+        "next_item_id": 5114,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 67,
+                "max": 87
+            },
+            "magical_attack": {
+                "min": 52,
+                "max": 77
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bells/antique_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5114,
+        "name": "antique bell+4",
+        "plus": 4,
+        "next_item_id": 5115,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 72,
+                "max": 92
+            },
+            "magical_attack": {
+                "min": 57,
+                "max": 82
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bells/antique_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5115,
+        "name": "antique bell+5",
+        "plus": 5,
+        "next_item_id": 5116,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 80,
+                "max": 100
+            },
+            "magical_attack": {
+                "min": 65,
+                "max": 90
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bells/antique_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5116,
+        "name": "antique bell+6",
+        "plus": 6,
+        "next_item_id": 5117,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 88,
+                "max": 108
+            },
+            "magical_attack": {
+                "min": 73,
+                "max": 98
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bells/antique_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5117,
+        "name": "antique bell+7",
+        "plus": 7,
+        "next_item_id": 5118,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 98,
+                "max": 118
+            },
+            "magical_attack": {
+                "min": 83,
+                "max": 108
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bells/antique_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5118,
+        "name": "antique bell+8",
+        "plus": 8,
+        "next_item_id": 5119,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 108,
+                "max": 128
+            },
+            "magical_attack": {
+                "min": 93,
+                "max": 118
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bells/antique_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5119,
+        "name": "antique bell+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 120,
+                "max": 140
+            },
+            "magical_attack": {
+                "min": 105,
+                "max": 130
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/bells/antique_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5030,
+        "name": "jade bell+0",
+        "plus": 0,
+        "next_item_id": 5031,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 29,
+                "max": 39
+            },
+            "magical_attack": {
+                "min": 30,
+                "max": 38
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/jade_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5031,
+        "name": "jade bell+1",
+        "plus": 1,
+        "next_item_id": 5032,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 35,
+                "max": 45
+            },
+            "magical_attack": {
+                "min": 36,
+                "max": 44
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/jade_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5032,
+        "name": "jade bell+2",
+        "plus": 2,
+        "next_item_id": 5033,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 41,
+                "max": 51
+            },
+            "magical_attack": {
+                "min": 42,
+                "max": 50
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/jade_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5033,
+        "name": "jade bell+3",
+        "plus": 3,
+        "next_item_id": 5034,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 47,
+                "max": 57
+            },
+            "magical_attack": {
+                "min": 48,
+                "max": 56
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/jade_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5034,
+        "name": "jade bell+4",
+        "plus": 4,
+        "next_item_id": 5035,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 53,
+                "max": 63
+            },
+            "magical_attack": {
+                "min": 54,
+                "max": 62
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/jade_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5035,
+        "name": "jade bell+5",
+        "plus": 5,
+        "next_item_id": 5036,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 61,
+                "max": 71
+            },
+            "magical_attack": {
+                "min": 62,
+                "max": 70
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/jade_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5036,
+        "name": "jade bell+6",
+        "plus": 6,
+        "next_item_id": 5037,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 70,
+                "max": 80
+            },
+            "magical_attack": {
+                "min": 71,
+                "max": 79
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/jade_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5037,
+        "name": "jade bell+7",
+        "plus": 7,
+        "next_item_id": 5038,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 80,
+                "max": 90
+            },
+            "magical_attack": {
+                "min": 81,
+                "max": 89
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/jade_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5038,
+        "name": "jade bell+8",
+        "plus": 8,
+        "next_item_id": 5039,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 91,
+                "max": 101
+            },
+            "magical_attack": {
+                "min": 92,
+                "max": 100
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/jade_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5039,
+        "name": "jade bell+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 103,
+                "max": 113
+            },
+            "magical_attack": {
+                "min": 104,
+                "max": 112
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/jade_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5040,
+        "name": "fountain bell+0",
+        "plus": 0,
+        "next_item_id": 5041,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 41,
+                "max": 51
+            },
+            "magical_attack": {
+                "min": 26,
+                "max": 52
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/fountain_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5041,
+        "name": "fountain bell+1",
+        "plus": 1,
+        "next_item_id": 5042,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 47,
+                "max": 57
+            },
+            "magical_attack": {
+                "min": 32,
+                "max": 58
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/fountain_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5042,
+        "name": "fountain bell+2",
+        "plus": 2,
+        "next_item_id": 5043,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 53,
+                "max": 63
+            },
+            "magical_attack": {
+                "min": 38,
+                "max": 64
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/fountain_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5043,
+        "name": "fountain bell+3",
+        "plus": 3,
+        "next_item_id": 5044,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 59,
+                "max": 69
+            },
+            "magical_attack": {
+                "min": 44,
+                "max": 70
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/fountain_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5044,
+        "name": "fountain bell+4",
+        "plus": 4,
+        "next_item_id": 5045,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 65,
+                "max": 75
+            },
+            "magical_attack": {
+                "min": 50,
+                "max": 76
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/fountain_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5045,
+        "name": "fountain bell+5",
+        "plus": 5,
+        "next_item_id": 5046,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 73,
+                "max": 83
+            },
+            "magical_attack": {
+                "min": 58,
+                "max": 84
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/fountain_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5046,
+        "name": "fountain bell+6",
+        "plus": 6,
+        "next_item_id": 5047,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 82,
+                "max": 92
+            },
+            "magical_attack": {
+                "min": 67,
+                "max": 93
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/fountain_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5047,
+        "name": "fountain bell+7",
+        "plus": 7,
+        "next_item_id": 5048,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 92,
+                "max": 102
+            },
+            "magical_attack": {
+                "min": 77,
+                "max": 103
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/fountain_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5048,
+        "name": "fountain bell+8",
+        "plus": 8,
+        "next_item_id": 5049,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 103,
+                "max": 113
+            },
+            "magical_attack": {
+                "min": 88,
+                "max": 114
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/fountain_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5049,
+        "name": "fountain bell+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 115,
+                "max": 125
+            },
+            "magical_attack": {
+                "min": 100,
+                "max": 126
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-32-40",
+        "img": "items/bells/fountain_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5050,
+        "name": "apricot bell+0",
+        "plus": 0,
+        "next_item_id": 5051,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 42,
+                "max": 60
+            },
+            "magical_attack": {
+                "min": 42,
+                "max": 48
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/apricot_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5051,
+        "name": "apricot bell+1",
+        "plus": 1,
+        "next_item_id": 5052,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 48,
+                "max": 66
+            },
+            "magical_attack": {
+                "min": 48,
+                "max": 54
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/apricot_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5052,
+        "name": "apricot bell+2",
+        "plus": 2,
+        "next_item_id": 5053,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 54,
+                "max": 72
+            },
+            "magical_attack": {
+                "min": 54,
+                "max": 60
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/apricot_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5053,
+        "name": "apricot bell+3",
+        "plus": 3,
+        "next_item_id": 5054,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 60,
+                "max": 78
+            },
+            "magical_attack": {
+                "min": 60,
+                "max": 66
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/apricot_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5054,
+        "name": "apricot bell+4",
+        "plus": 4,
+        "next_item_id": 5055,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 66,
+                "max": 84
+            },
+            "magical_attack": {
+                "min": 66,
+                "max": 72
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/apricot_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5055,
+        "name": "apricot bell+5",
+        "plus": 5,
+        "next_item_id": 5056,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 74,
+                "max": 92
+            },
+            "magical_attack": {
+                "min": 74,
+                "max": 80
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/apricot_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5056,
+        "name": "apricot bell+6",
+        "plus": 6,
+        "next_item_id": 5057,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 83,
+                "max": 101
+            },
+            "magical_attack": {
+                "min": 83,
+                "max": 89
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/apricot_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5057,
+        "name": "apricot bell+7",
+        "plus": 7,
+        "next_item_id": 5058,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 93,
+                "max": 111
+            },
+            "magical_attack": {
+                "min": 93,
+                "max": 99
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/apricot_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5058,
+        "name": "apricot bell+8",
+        "plus": 8,
+        "next_item_id": 5059,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 104,
+                "max": 122
+            },
+            "magical_attack": {
+                "min": 104,
+                "max": 110
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/apricot_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5059,
+        "name": "apricot bell+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 116,
+                "max": 134
+            },
+            "magical_attack": {
+                "min": 116,
+                "max": 122
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/apricot_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5060,
+        "name": "magical bell+0",
+        "plus": 0,
+        "next_item_id": 5061,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 59,
+                "max": 89
+            },
+            "magical_attack": {
+                "min": 43,
+                "max": 67
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/magical_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5061,
+        "name": "magical bell+1",
+        "plus": 1,
+        "next_item_id": 5062,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 64,
+                "max": 94
+            },
+            "magical_attack": {
+                "min": 48,
+                "max": 72
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/magical_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5062,
+        "name": "magical bell+2",
+        "plus": 2,
+        "next_item_id": 5063,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 69,
+                "max": 99
+            },
+            "magical_attack": {
+                "min": 53,
+                "max": 77
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/magical_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5063,
+        "name": "magical bell+3",
+        "plus": 3,
+        "next_item_id": 5064,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 74,
+                "max": 104
+            },
+            "magical_attack": {
+                "min": 58,
+                "max": 82
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/magical_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5064,
+        "name": "magical bell+4",
+        "plus": 4,
+        "next_item_id": 5065,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 79,
+                "max": 109
+            },
+            "magical_attack": {
+                "min": 63,
+                "max": 87
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/magical_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5065,
+        "name": "magical bell+5",
+        "plus": 5,
+        "next_item_id": 5066,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 86,
+                "max": 116
+            },
+            "magical_attack": {
+                "min": 70,
+                "max": 94
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/magical_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5066,
+        "name": "magical bell+6",
+        "plus": 6,
+        "next_item_id": 5067,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 94,
+                "max": 124
+            },
+            "magical_attack": {
+                "min": 78,
+                "max": 102
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/magical_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5067,
+        "name": "magical bell+7",
+        "plus": 7,
+        "next_item_id": 5068,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 103,
+                "max": 133
+            },
+            "magical_attack": {
+                "min": 87,
+                "max": 111
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/magical_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5068,
+        "name": "magical bell+8",
+        "plus": 8,
+        "next_item_id": 5069,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 113,
+                "max": 143
+            },
+            "magical_attack": {
+                "min": 97,
+                "max": 121
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/magical_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5069,
+        "name": "magical bell+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 124,
+                "max": 154
+            },
+            "magical_attack": {
+                "min": 108,
+                "max": 132
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/magical_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5070,
+        "name": "golden bug bell+0",
+        "plus": 0,
+        "next_item_id": 5071,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 68,
+                "max": 90
+            },
+            "magical_attack": {
+                "min": 47,
+                "max": 77
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/golden_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5071,
+        "name": "golden bug bell+1",
+        "plus": 1,
+        "next_item_id": 5072,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 73,
+                "max": 95
+            },
+            "magical_attack": {
+                "min": 52,
+                "max": 82
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/golden_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5072,
+        "name": "golden bug bell+2",
+        "plus": 2,
+        "next_item_id": 5073,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 78,
+                "max": 100
+            },
+            "magical_attack": {
+                "min": 57,
+                "max": 87
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/golden_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5073,
+        "name": "golden bug bell+3",
+        "plus": 3,
+        "next_item_id": 5074,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 83,
+                "max": 105
+            },
+            "magical_attack": {
+                "min": 62,
+                "max": 92
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/golden_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5074,
+        "name": "golden bug bell+4",
+        "plus": 4,
+        "next_item_id": 5075,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 88,
+                "max": 110
+            },
+            "magical_attack": {
+                "min": 67,
+                "max": 97
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/golden_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5075,
+        "name": "golden bug bell+5",
+        "plus": 5,
+        "next_item_id": 5076,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 95,
+                "max": 117
+            },
+            "magical_attack": {
+                "min": 74,
+                "max": 104
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/golden_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5076,
+        "name": "golden bug bell+6",
+        "plus": 6,
+        "next_item_id": 5077,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 103,
+                "max": 125
+            },
+            "magical_attack": {
+                "min": 82,
+                "max": 112
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/golden_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5077,
+        "name": "golden bug bell+7",
+        "plus": 7,
+        "next_item_id": 5078,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 112,
+                "max": 134
+            },
+            "magical_attack": {
+                "min": 91,
+                "max": 121
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/golden_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5078,
+        "name": "golden bug bell+8",
+        "plus": 8,
+        "next_item_id": 5079,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 118,
+                "max": 144
+            },
+            "magical_attack": {
+                "min": 101,
+                "max": 131
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/golden_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5079,
+        "name": "golden bug bell+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 139,
+                "max": 155
+            },
+            "magical_attack": {
+                "min": 112,
+                "max": 142
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/golden_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5080,
+        "name": "steel bug bell+0",
+        "plus": 0,
+        "next_item_id": 5081,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 76,
+                "max": 104
+            },
+            "magical_attack": {
+                "min": 65,
+                "max": 75
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/steel_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5081,
+        "name": "steel bug bell+1",
+        "plus": 1,
+        "next_item_id": 5082,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 81,
+                "max": 109
+            },
+            "magical_attack": {
+                "min": 70,
+                "max": 80
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/steel_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5082,
+        "name": "steel bug bell+2",
+        "plus": 2,
+        "next_item_id": 5083,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 86,
+                "max": 114
+            },
+            "magical_attack": {
+                "min": 75,
+                "max": 85
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/steel_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5083,
+        "name": "steel bug bell+3",
+        "plus": 3,
+        "next_item_id": 5084,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 91,
+                "max": 119
+            },
+            "magical_attack": {
+                "min": 80,
+                "max": 90
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/steel_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5084,
+        "name": "steel bug bell+4",
+        "plus": 4,
+        "next_item_id": 5085,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 96,
+                "max": 124
+            },
+            "magical_attack": {
+                "min": 85,
+                "max": 95
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/steel_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5085,
+        "name": "steel bug bell+5",
+        "plus": 5,
+        "next_item_id": 5086,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 103,
+                "max": 131
+            },
+            "magical_attack": {
+                "min": 92,
+                "max": 102
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/steel_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5086,
+        "name": "steel bug bell+6",
+        "plus": 6,
+        "next_item_id": 5087,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 111,
+                "max": 139
+            },
+            "magical_attack": {
+                "min": 100,
+                "max": 110
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/steel_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5087,
+        "name": "steel bug bell+7",
+        "plus": 7,
+        "next_item_id": 5088,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 120,
+                "max": 148
+            },
+            "magical_attack": {
+                "min": 109,
+                "max": 119
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/steel_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5088,
+        "name": "steel bug bell+8",
+        "plus": 8,
+        "next_item_id": 5089,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 130,
+                "max": 158
+            },
+            "magical_attack": {
+                "min": 119,
+                "max": 129
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/steel_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5089,
+        "name": "steel bug bell+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 141,
+                "max": 169
+            },
+            "magical_attack": {
+                "min": 130,
+                "max": 140
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/steel_bug_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5100,
+        "name": "heaven and earth bell+0",
+        "plus": 0,
+        "next_item_id": 5101,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 72,
+                "max": 108
+            },
+            "magical_attack": {
+                "min": 65,
+                "max": 75
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/heaven_and_earth_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5101,
+        "name": "heaven and earth bell+1",
+        "plus": 1,
+        "next_item_id": 5102,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 78,
+                "max": 114
+            },
+            "magical_attack": {
+                "min": 71,
+                "max": 81
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/heaven_and_earth_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5102,
+        "name": "heaven and earth bell+2",
+        "plus": 2,
+        "next_item_id": 5103,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 85,
+                "max": 121
+            },
+            "magical_attack": {
+                "min": 78,
+                "max": 88
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/heaven_and_earth_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5103,
+        "name": "heaven and earth bell+3",
+        "plus": 3,
+        "next_item_id": 5104,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 93,
+                "max": 129
+            },
+            "magical_attack": {
+                "min": 86,
+                "max": 96
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/heaven_and_earth_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5104,
+        "name": "heaven and earth bell+4",
+        "plus": 4,
+        "next_item_id": 5105,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 102,
+                "max": 138
+            },
+            "magical_attack": {
+                "min": 95,
+                "max": 105
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/heaven_and_earth_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5105,
+        "name": "heaven and earth bell+5",
+        "plus": 5,
+        "next_item_id": 5106,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 112,
+                "max": 148
+            },
+            "magical_attack": {
+                "min": 105,
+                "max": 115
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/heaven_and_earth_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5106,
+        "name": "heaven and earth bell+6",
+        "plus": 6,
+        "next_item_id": 5107,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 123,
+                "max": 159
+            },
+            "magical_attack": {
+                "min": 116,
+                "max": 126
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/heaven_and_earth_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5107,
+        "name": "heaven and earth bell+7",
+        "plus": 7,
+        "next_item_id": 5108,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 135,
+                "max": 171
+            },
+            "magical_attack": {
+                "min": 128,
+                "max": 138
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/heaven_and_earth_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5108,
+        "name": "heaven and earth bell+8",
+        "plus": 8,
+        "next_item_id": 5109,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 148,
+                "max": 184
+            },
+            "magical_attack": {
+                "min": 141,
+                "max": 151
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/heaven_and_earth_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5109,
+        "name": "heaven and earth bell+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 162,
+                "max": 198
+            },
+            "magical_attack": {
+                "min": 155,
+                "max": 165
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/heaven_and_earth_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5090,
+        "name": "thunder bird bell+0",
+        "plus": 0,
+        "next_item_id": 5091,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 91,
+                "max": 129
+            },
+            "magical_attack": {
+                "min": 47,
+                "max": 77
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/thunder_bird_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5091,
+        "name": "thunder bird bell+1",
+        "plus": 1,
+        "next_item_id": 5092,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 99,
+                "max": 137
+            },
+            "magical_attack": {
+                "min": 52,
+                "max": 84
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/thunder_bird_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5092,
+        "name": "thunder bird bell+2",
+        "plus": 2,
+        "next_item_id": 5093,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 108,
+                "max": 146
+            },
+            "magical_attack": {
+                "min": 57,
+                "max": 91
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/thunder_bird_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5093,
+        "name": "thunder bird bell+3",
+        "plus": 3,
+        "next_item_id": 5094,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 118,
+                "max": 156
+            },
+            "magical_attack": {
+                "min": 66,
+                "max": 100
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/thunder_bird_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5094,
+        "name": "thunder bird bell+4",
+        "plus": 4,
+        "next_item_id": 5095,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 129,
+                "max": 167
+            },
+            "magical_attack": {
+                "min": 75,
+                "max": 110
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/thunder_bird_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5095,
+        "name": "thunder bird bell+5",
+        "plus": 5,
+        "next_item_id": 5096,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 141,
+                "max": 179
+            },
+            "magical_attack": {
+                "min": 83,
+                "max": 120
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/thunder_bird_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5096,
+        "name": "thunder bird bell+6",
+        "plus": 6,
+        "next_item_id": 5097,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 154,
+                "max": 192
+            },
+            "magical_attack": {
+                "min": 89,
+                "max": 130
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/thunder_bird_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5097,
+        "name": "thunder bird bell+7",
+        "plus": 7,
+        "next_item_id": 5098,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 168,
+                "max": 206
+            },
+            "magical_attack": {
+                "min": 93,
+                "max": 138
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/thunder_bird_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5098,
+        "name": "thunder bird bell+8",
+        "plus": 8,
+        "next_item_id": 5099,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 193,
+                "max": 231
+            },
+            "magical_attack": {
+                "min": 101,
+                "max": 155
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/thunder_bird_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5099,
+        "name": "thunder bird bell+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 228,
+                "max": 266
+            },
+            "magical_attack": {
+                "min": 112,
+                "max": 179
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/thunder_bird_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5120,
+        "name": "bamboo bell+0",
+        "plus": 0,
+        "next_item_id": 5121,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 72,
+                "max": 108
+            },
+            "magical_attack": {
+                "min": 70,
+                "max": 80
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/bamboo_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5121,
+        "name": "bamboo bell+1",
+        "plus": 1,
+        "next_item_id": 5122,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 80,
+                "max": 116
+            },
+            "magical_attack": {
+                "min": 78,
+                "max": 88
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/bamboo_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5122,
+        "name": "bamboo bell+2",
+        "plus": 2,
+        "next_item_id": 5123,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 89,
+                "max": 125
+            },
+            "magical_attack": {
+                "min": 87,
+                "max": 97
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/bamboo_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5123,
+        "name": "bamboo bell+3",
+        "plus": 3,
+        "next_item_id": 5124,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 99,
+                "max": 135
+            },
+            "magical_attack": {
+                "min": 97,
+                "max": 107
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/bamboo_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5124,
+        "name": "bamboo bell+4",
+        "plus": 4,
+        "next_item_id": 5125,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 110,
+                "max": 146
+            },
+            "magical_attack": {
+                "min": 108,
+                "max": 118
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/bamboo_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5125,
+        "name": "bamboo bell+5",
+        "plus": 5,
+        "next_item_id": 5126,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 122,
+                "max": 158
+            },
+            "magical_attack": {
+                "min": 120,
+                "max": 130
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/bamboo_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5126,
+        "name": "bamboo bell+6",
+        "plus": 6,
+        "next_item_id": 5127,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 135,
+                "max": 171
+            },
+            "magical_attack": {
+                "min": 133,
+                "max": 143
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/bamboo_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5127,
+        "name": "bamboo bell+7",
+        "plus": 7,
+        "next_item_id": 5128,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 149,
+                "max": 185
+            },
+            "magical_attack": {
+                "min": 147,
+                "max": 157
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/bamboo_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5128,
+        "name": "bamboo bell+8",
+        "plus": 8,
+        "next_item_id": 5129,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 174,
+                "max": 210
+            },
+            "magical_attack": {
+                "min": 172,
+                "max": 182
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/bamboo_bell.png",
+        "size": 1
+    },
+    {
+        "id": 5129,
+        "name": "bamboo bell+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "bell",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 209,
+                "max": 245
+            },
+            "magical_attack": {
+                "min": 207,
+                "max": 217
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "bells-50-75",
+        "img": "items/bells/bamboo_bell.png",
+        "size": 1
+    }
+]
