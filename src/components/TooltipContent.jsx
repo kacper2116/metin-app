@@ -28,7 +28,8 @@ const TooltipContent = ({ itemInstance }) => {
         defence: { label: translate('stats.defence') + ' ', unit: null },
         movement_speed: { label: translate('stats.movement_speed') + ' ', unit: '%' },
         magic_resistance: { label: translate('stats.magic_resistance') + ': ', unit: '%' },
-        max_hp: { label: translate('stats.max_hp') + ' +', unit: null }
+        max_hp: { label: translate('stats.max_hp') + ' +', unit: null },
+        strong_against_half_humans: { label: translate('stats.strong_against_half_humans') + ' +', unit: '%' }
     }
 
     const formatStatValue = (value) => {

@@ -7,5 +7,6 @@
     "defence": "Defence",
     "movement_speed": "Movement Speed",
     "magic_resistance": "Magic Resistance",
-    "max_hp": "Max. HP"
+    "max_hp": "Max. HP",
+    "strong_against_half_humans": "Strong against Half Humans"
 }

@@ -1,0 +1,3972 @@
+[
+    {
+        "id": 3000,
+        "name": "glaive+0",
+        "plus": 0,
+        "next_item_id": 3001,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 14,
+                "max": 22
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/glaive.png",
+        "size": 3
+    },
+    {
+        "id": 3001,
+        "name": "glaive+1",
+        "plus": 1,
+        "next_item_id": 3002,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 22,
+                "max": 30
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/glaive.png",
+        "size": 3
+    },
+    {
+        "id": 3002,
+        "name": "glaive+2",
+        "plus": 2,
+        "next_item_id": 3003,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 30,
+                "max": 38
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/glaive.png",
+        "size": 3
+    },
+    {
+        "id": 3003,
+        "name": "glaive+3",
+        "plus": 3,
+        "next_item_id": 3004,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 38,
+                "max": 46
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/glaive.png",
+        "size": 3
+    },
+    {
+        "id": 3004,
+        "name": "glaive+4",
+        "plus": 4,
+        "next_item_id": 3005,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 46,
+                "max": 54
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/glaive.png",
+        "size": 3
+    },
+    {
+        "id": 3005,
+        "name": "glaive+5",
+        "plus": 5,
+        "next_item_id": 3006,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 54,
+                "max": 62
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/glaive.png",
+        "size": 3
+    },
+    {
+        "id": 3006,
+        "name": "glaive+6",
+        "plus": 6,
+        "next_item_id": 3007,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 62,
+                "max": 70
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/glaive.png",
+        "size": 3
+    },
+    {
+        "id": 3007,
+        "name": "glaive+7",
+        "plus": 7,
+        "next_item_id": 3008,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 70,
+                "max": 78
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/glaive.png",
+        "size": 3
+    },
+    {
+        "id": 3008,
+        "name": "glaive+8",
+        "plus": 8,
+        "next_item_id": 3009,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 78,
+                "max": 86
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/glaive.png",
+        "size": 3
+    },
+    {
+        "id": 3009,
+        "name": "glaive+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 1,
+        "stats": {
+            "attack": {
+                "min": 86,
+                "max": 94
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/glaive.png",
+        "size": 3
+    },
+    {
+        "id": 3010,
+        "name": "spear+0",
+        "plus": 0,
+        "next_item_id": 3011,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 23,
+                "max": 33
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spear.png",
+        "size": 3
+    },
+    {
+        "id": 3011,
+        "name": "spear+1",
+        "plus": 1,
+        "next_item_id": 3012,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 31,
+                "max": 41
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spear.png",
+        "size": 3
+    },
+    {
+        "id": 3012,
+        "name": "spear+2",
+        "plus": 2,
+        "next_item_id": 3013,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 39,
+                "max": 49
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spear.png",
+        "size": 3
+    },
+    {
+        "id": 3013,
+        "name": "spear+3",
+        "plus": 3,
+        "next_item_id": 3014,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 47,
+                "max": 57
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spear.png",
+        "size": 3
+    },
+    {
+        "id": 3014,
+        "name": "spear+4",
+        "plus": 4,
+        "next_item_id": 3015,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 55,
+                "max": 65
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spear.png",
+        "size": 3
+    },
+    {
+        "id": 3015,
+        "name": "spear+5",
+        "plus": 5,
+        "next_item_id": 3016,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 63,
+                "max": 73
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spear.png",
+        "size": 3
+    },
+    {
+        "id": 3016,
+        "name": "spear+6",
+        "plus": 6,
+        "next_item_id": 3017,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 71,
+                "max": 81
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spear.png",
+        "size": 3
+    },
+    {
+        "id": 3017,
+        "name": "spear+7",
+        "plus": 7,
+        "next_item_id": 3018,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 79,
+                "max": 89
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spear.png",
+        "size": 3
+    },
+    {
+        "id": 3018,
+        "name": "spear+8",
+        "plus": 8,
+        "next_item_id": 3019,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 87,
+                "max": 97
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spear.png",
+        "size": 3
+    },
+    {
+        "id": 3019,
+        "name": "spear+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 5,
+        "stats": {
+            "attack": {
+                "min": 95,
+                "max": 105
+            },
+            "attack_speed": 28
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spear.png",
+        "size": 3
+    },
+    {
+        "id": 3020,
+        "name": "guillotine blade+0",
+        "plus": 0,
+        "next_item_id": 3021,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 24,
+                "max": 42
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/guillotine_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3021,
+        "name": "guillotine blade+1",
+        "plus": 1,
+        "next_item_id": 3022,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 32,
+                "max": 50
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/guillotine_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3022,
+        "name": "guillotine blade+2",
+        "plus": 2,
+        "next_item_id": 3023,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 40,
+                "max": 58
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/guillotine_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3023,
+        "name": "guillotine blade+3",
+        "plus": 3,
+        "next_item_id": 3024,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 48,
+                "max": 66
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/guillotine_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3024,
+        "name": "guillotine blade+4",
+        "plus": 4,
+        "next_item_id": 3025,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 56,
+                "max": 74
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/guillotine_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3025,
+        "name": "guillotine blade+5",
+        "plus": 5,
+        "next_item_id": 3026,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 64,
+                "max": 82
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/guillotine_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3026,
+        "name": "guillotine blade+6",
+        "plus": 6,
+        "next_item_id": 3027,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 72,
+                "max": 90
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/guillotine_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3027,
+        "name": "guillotine blade+7",
+        "plus": 7,
+        "next_item_id": 3028,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 80,
+                "max": 98
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/guillotine_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3028,
+        "name": "guillotine blade+8",
+        "plus": 8,
+        "next_item_id": 3029,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 88,
+                "max": 106
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/guillotine_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3029,
+        "name": "guillotine blade+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 10,
+        "stats": {
+            "attack": {
+                "min": 96,
+                "max": 114
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/guillotine_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3030,
+        "name": "spider spear+0",
+        "plus": 0,
+        "next_item_id": 3031,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 30,
+                "max": 44
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spider_spear.png",
+        "size": 3
+    },
+    {
+        "id": 3031,
+        "name": "spider spear+1",
+        "plus": 1,
+        "next_item_id": 3032,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 38,
+                "max": 52
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spider_spear.png",
+        "size": 3
+    },
+    {
+        "id": 3032,
+        "name": "spider spear+2",
+        "plus": 2,
+        "next_item_id": 3033,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 46,
+                "max": 60
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spider_spear.png",
+        "size": 3
+    },
+    {
+        "id": 3033,
+        "name": "spider spear+3",
+        "plus": 3,
+        "next_item_id": 3034,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 54,
+                "max": 68
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spider_spear.png",
+        "size": 3
+    },
+    {
+        "id": 3034,
+        "name": "spider spear+4",
+        "plus": 4,
+        "next_item_id": 3035,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 62,
+                "max": 76
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spider_spear.png",
+        "size": 3
+    },
+    {
+        "id": 3035,
+        "name": "spider spear+5",
+        "plus": 5,
+        "next_item_id": 3036,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 70,
+                "max": 84
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spider_spear.png",
+        "size": 3
+    },
+    {
+        "id": 3036,
+        "name": "spider spear+6",
+        "plus": 6,
+        "next_item_id": 3037,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 78,
+                "max": 92
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spider_spear.png",
+        "size": 3
+    },
+    {
+        "id": 3037,
+        "name": "spider spear+7",
+        "plus": 7,
+        "next_item_id": 3038,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 86,
+                "max": 100
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spider_spear.png",
+        "size": 3
+    },
+    {
+        "id": 3038,
+        "name": "spider spear+8",
+        "plus": 8,
+        "next_item_id": 3039,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 94,
+                "max": 108
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spider_spear.png",
+        "size": 3
+    },
+    {
+        "id": 3039,
+        "name": "spider spear+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 15,
+        "stats": {
+            "attack": {
+                "min": 102,
+                "max": 116
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/spider_spear.png",
+        "size": 3
+    },
+    {
+        "id": 3040,
+        "name": "gisarme+0",
+        "plus": 0,
+        "next_item_id": 3041,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 34,
+                "max": 52
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/gisarme.png",
+        "size": 3
+    },
+    {
+        "id": 3041,
+        "name": "gisarme+1",
+        "plus": 1,
+        "next_item_id": 3042,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 42,
+                "max": 60
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/gisarme.png",
+        "size": 3
+    },
+    {
+        "id": 3042,
+        "name": "gisarme+2",
+        "plus": 2,
+        "next_item_id": 3043,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 50,
+                "max": 68
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/gisarme.png",
+        "size": 3
+    },
+    {
+        "id": 3043,
+        "name": "gisarme+3",
+        "plus": 3,
+        "next_item_id": 3044,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 58,
+                "max": 76
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/gisarme.png",
+        "size": 3
+    },
+    {
+        "id": 3044,
+        "name": "gisarme+4",
+        "plus": 4,
+        "next_item_id": 3045,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 66,
+                "max": 84
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/gisarme.png",
+        "size": 3
+    },
+    {
+        "id": 3045,
+        "name": "gisarme+5",
+        "plus": 5,
+        "next_item_id": 3046,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 74,
+                "max": 92
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/gisarme.png",
+        "size": 3
+    },
+    {
+        "id": 3046,
+        "name": "gisarme+6",
+        "plus": 6,
+        "next_item_id": 3047,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 82,
+                "max": 100
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/gisarme.png",
+        "size": 3
+    },
+    {
+        "id": 3047,
+        "name": "gisarme+7",
+        "plus": 7,
+        "next_item_id": 3048,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 90,
+                "max": 108
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/gisarme.png",
+        "size": 3
+    },
+    {
+        "id": 3048,
+        "name": "gisarme+8",
+        "plus": 8,
+        "next_item_id": 3049,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 98,
+                "max": 116
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/gisarme.png",
+        "size": 3
+    },
+    {
+        "id": 3049,
+        "name": "gisarme+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 20,
+        "stats": {
+            "attack": {
+                "min": 106,
+                "max": 124
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-1-20",
+        "img": "items/two_handed/gisarme.png",
+        "size": 3
+    },
+    {
+        "id": 3050,
+        "name": "war scythe+0",
+        "plus": 0,
+        "next_item_id": 3051,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 52,
+                "max": 86
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/war_scythe.png",
+        "size": 3
+    },
+    {
+        "id": 3051,
+        "name": "war scythe+1",
+        "plus": 1,
+        "next_item_id": 3052,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 58,
+                "max": 92
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/war_scythe.png",
+        "size": 3
+    },
+    {
+        "id": 3052,
+        "name": "war scythe+2",
+        "plus": 2,
+        "next_item_id": 3053,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 64,
+                "max": 98
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/war_scythe.png",
+        "size": 3
+    },
+    {
+        "id": 3053,
+        "name": "war scythe+3",
+        "plus": 3,
+        "next_item_id": 3054,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 70,
+                "max": 104
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/war_scythe.png",
+        "size": 3
+    },
+    {
+        "id": 3054,
+        "name": "war scythe+4",
+        "plus": 4,
+        "next_item_id": 3055,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 76,
+                "max": 110
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/war_scythe.png",
+        "size": 3
+    },
+    {
+        "id": 3055,
+        "name": "war scythe+5",
+        "plus": 5,
+        "next_item_id": 3056,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 84,
+                "max": 118
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/war_scythe.png",
+        "size": 3
+    },
+    {
+        "id": 3056,
+        "name": "war scythe+6",
+        "plus": 6,
+        "next_item_id": 3057,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 93,
+                "max": 127
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/war_scythe.png",
+        "size": 3
+    },
+    {
+        "id": 3057,
+        "name": "war scythe+7",
+        "plus": 7,
+        "next_item_id": 3058,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 103,
+                "max": 137
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/war_scythe.png",
+        "size": 3
+    },
+    {
+        "id": 3058,
+        "name": "war scythe+8",
+        "plus": 8,
+        "next_item_id": 3059,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 114,
+                "max": 148
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/war_scythe.png",
+        "size": 3
+    },
+    {
+        "id": 3059,
+        "name": "war scythe+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 25,
+        "stats": {
+            "attack": {
+                "min": 126,
+                "max": 160
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/war_scythe.png",
+        "size": 3
+    },
+    {
+        "id": 3160,
+        "name": "red iron blade+0",
+        "plus": 0,
+        "next_item_id": 3161,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 72,
+                "max": 109
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/two_handed/red_iron_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3161,
+        "name": "red iron blade+1",
+        "plus": 1,
+        "next_item_id": 3162,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 78,
+                "max": 115
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/two_handed/red_iron_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3162,
+        "name": "red iron blade+2",
+        "plus": 2,
+        "next_item_id": 3163,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 83,
+                "max": 120
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/two_handed/red_iron_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3163,
+        "name": "red iron blade+3",
+        "plus": 3,
+        "next_item_id": 3164,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 89,
+                "max": 126
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/two_handed/red_iron_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3164,
+        "name": "red iron blade+4",
+        "plus": 4,
+        "next_item_id": 3165,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 94,
+                "max": 131
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/two_handed/red_iron_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3165,
+        "name": "red iron blade+5",
+        "plus": 5,
+        "next_item_id": 3166,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 102,
+                "max": 139
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/two_handed/red_iron_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3166,
+        "name": "red iron blade+6",
+        "plus": 6,
+        "next_item_id": 3167,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 110,
+                "max": 147
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/two_handed/red_iron_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3167,
+        "name": "red iron blade+7",
+        "plus": 7,
+        "next_item_id": 3168,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 120,
+                "max": 157
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/two_handed/red_iron_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3168,
+        "name": "red iron blade+8",
+        "plus": 8,
+        "next_item_id": 3169,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 130,
+                "max": 167
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/two_handed/red_iron_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3169,
+        "name": "red iron blade+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 30,
+        "stats": {
+            "attack": {
+                "min": 142,
+                "max": 179
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "weapons-30",
+        "img": "items/two_handed/red_iron_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3060,
+        "name": "battle pitchfork+0",
+        "plus": 0,
+        "next_item_id": 3061,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 58,
+                "max": 88
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/battle_pitchfork.png",
+        "size": 3
+    },
+    {
+        "id": 3061,
+        "name": "battle pitchfork+1",
+        "plus": 1,
+        "next_item_id": 3062,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 64,
+                "max": 94
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/battle_pitchfork.png",
+        "size": 3
+    },
+    {
+        "id": 3062,
+        "name": "battle pitchfork+2",
+        "plus": 2,
+        "next_item_id": 3063,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 70,
+                "max": 100
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/battle_pitchfork.png",
+        "size": 3
+    },
+    {
+        "id": 3063,
+        "name": "battle pitchfork+3",
+        "plus": 3,
+        "next_item_id": 3064,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 76,
+                "max": 106
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/battle_pitchfork.png",
+        "size": 3
+    },
+    {
+        "id": 3064,
+        "name": "battle pitchfork+4",
+        "plus": 4,
+        "next_item_id": 3065,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 82,
+                "max": 112
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/battle_pitchfork.png",
+        "size": 3
+    },
+    {
+        "id": 3065,
+        "name": "battle pitchfork+5",
+        "plus": 5,
+        "next_item_id": 3066,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 90,
+                "max": 120
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/battle_pitchfork.png",
+        "size": 3
+    },
+    {
+        "id": 3066,
+        "name": "battle pitchfork+6",
+        "plus": 6,
+        "next_item_id": 3067,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 99,
+                "max": 129
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/battle_pitchfork.png",
+        "size": 3
+    },
+    {
+        "id": 3067,
+        "name": "battle pitchfork+7",
+        "plus": 7,
+        "next_item_id": 3068,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 109,
+                "max": 139
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/battle_pitchfork.png",
+        "size": 3
+    },
+    {
+        "id": 3068,
+        "name": "battle pitchfork+8",
+        "plus": 8,
+        "next_item_id": 3069,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 120,
+                "max": 150
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/battle_pitchfork.png",
+        "size": 3
+    },
+    {
+        "id": 3069,
+        "name": "battle pitchfork+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 32,
+        "stats": {
+            "attack": {
+                "min": 132,
+                "max": 162
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/battle_pitchfork.png",
+        "size": 3
+    },
+    {
+        "id": 3070,
+        "name": "halberd+0",
+        "plus": 0,
+        "next_item_id": 3071,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 60,
+                "max": 96
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/halberd.png",
+        "size": 3
+    },
+    {
+        "id": 3071,
+        "name": "halberd+1",
+        "plus": 1,
+        "next_item_id": 3072,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 66,
+                "max": 102
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/halberd.png",
+        "size": 3
+    },
+    {
+        "id": 3072,
+        "name": "halberd+2",
+        "plus": 2,
+        "next_item_id": 3073,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 72,
+                "max": 108
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/halberd.png",
+        "size": 3
+    },
+    {
+        "id": 3073,
+        "name": "halberd+3",
+        "plus": 3,
+        "next_item_id": 3074,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 78,
+                "max": 114
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/halberd.png",
+        "size": 3
+    },
+    {
+        "id": 3074,
+        "name": "halberd+4",
+        "plus": 4,
+        "next_item_id": 3075,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 84,
+                "max": 120
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/halberd.png",
+        "size": 3
+    },
+    {
+        "id": 3075,
+        "name": "halberd+5",
+        "plus": 5,
+        "next_item_id": 3076,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 92,
+                "max": 128
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/halberd.png",
+        "size": 3
+    },
+    {
+        "id": 3076,
+        "name": "halberd+6",
+        "plus": 6,
+        "next_item_id": 3077,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 101,
+                "max": 137
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/halberd.png",
+        "size": 3
+    },
+    {
+        "id": 3077,
+        "name": "halberd+7",
+        "plus": 7,
+        "next_item_id": 3078,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 111,
+                "max": 147
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/halberd.png",
+        "size": 3
+    },
+    {
+        "id": 3078,
+        "name": "halberd+8",
+        "plus": 8,
+        "next_item_id": 3079,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 122,
+                "max": 158
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/halberd.png",
+        "size": 3
+    },
+    {
+        "id": 3079,
+        "name": "halberd+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 36,
+        "stats": {
+            "attack": {
+                "min": 134,
+                "max": 170
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/halberd.png",
+        "size": 3
+    },
+    {
+        "id": 3080,
+        "name": "giant axe+0",
+        "plus": 0,
+        "next_item_id": 3081,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 69,
+                "max": 103
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/giant_axe.png",
+        "size": 3
+    },
+    {
+        "id": 3081,
+        "name": "giant axe+1",
+        "plus": 1,
+        "next_item_id": 3082,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 75,
+                "max": 109
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/giant_axe.png",
+        "size": 3
+    },
+    {
+        "id": 3082,
+        "name": "giant axe+2",
+        "plus": 2,
+        "next_item_id": 3083,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 81,
+                "max": 115
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/giant_axe.png",
+        "size": 3
+    },
+    {
+        "id": 3083,
+        "name": "giant axe+3",
+        "plus": 3,
+        "next_item_id": 3084,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 87,
+                "max": 121
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/giant_axe.png",
+        "size": 3
+    },
+    {
+        "id": 3084,
+        "name": "giant axe+4",
+        "plus": 4,
+        "next_item_id": 3085,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 93,
+                "max": 127
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/giant_axe.png",
+        "size": 3
+    },
+    {
+        "id": 3085,
+        "name": "giant axe+5",
+        "plus": 5,
+        "next_item_id": 3086,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 101,
+                "max": 135
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/giant_axe.png",
+        "size": 3
+    },
+    {
+        "id": 3086,
+        "name": "giant axe+6",
+        "plus": 6,
+        "next_item_id": 3087,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 110,
+                "max": 144
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/giant_axe.png",
+        "size": 3
+    },
+    {
+        "id": 3087,
+        "name": "giant axe+7",
+        "plus": 7,
+        "next_item_id": 3088,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 120,
+                "max": 154
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/giant_axe.png",
+        "size": 3
+    },
+    {
+        "id": 3088,
+        "name": "giant axe+8",
+        "plus": 8,
+        "next_item_id": 3089,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 131,
+                "max": 165
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/giant_axe.png",
+        "size": 3
+    },
+    {
+        "id": 3089,
+        "name": "giant axe+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 40,
+        "stats": {
+            "attack": {
+                "min": 143,
+                "max": 177
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-25-40",
+        "img": "items/two_handed/giant_axe.png",
+        "size": 3
+    },
+    {
+        "id": 3090,
+        "name": "glacial pick+0",
+        "plus": 0,
+        "next_item_id": 3091,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 84,
+                "max": 122
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/glacial_pick.png",
+        "size": 3
+    },
+    {
+        "id": 3091,
+        "name": "glacial pick+1",
+        "plus": 1,
+        "next_item_id": 3092,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 89,
+                "max": 127
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/glacial_pick.png",
+        "size": 3
+    },
+    {
+        "id": 3092,
+        "name": "glacial pick+2",
+        "plus": 2,
+        "next_item_id": 3093,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 94,
+                "max": 132
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/glacial_pick.png",
+        "size": 3
+    },
+    {
+        "id": 3093,
+        "name": "glacial pick+3",
+        "plus": 3,
+        "next_item_id": 3094,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 99,
+                "max": 137
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/glacial_pick.png",
+        "size": 3
+    },
+    {
+        "id": 3094,
+        "name": "glacial pick+4",
+        "plus": 4,
+        "next_item_id": 3095,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 104,
+                "max": 142
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/glacial_pick.png",
+        "size": 3
+    },
+    {
+        "id": 3095,
+        "name": "glacial pick+5",
+        "plus": 5,
+        "next_item_id": 3096,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 111,
+                "max": 149
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/glacial_pick.png",
+        "size": 3
+    },
+    {
+        "id": 3096,
+        "name": "glacial pick+6",
+        "plus": 6,
+        "next_item_id": 3097,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 119,
+                "max": 157
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/glacial_pick.png",
+        "size": 3
+    },
+    {
+        "id": 3097,
+        "name": "glacial pick+7",
+        "plus": 7,
+        "next_item_id": 3098,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 128,
+                "max": 166
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/glacial_pick.png",
+        "size": 3
+    },
+    {
+        "id": 3098,
+        "name": "glacial pick+8",
+        "plus": 8,
+        "next_item_id": 3099,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 138,
+                "max": 176
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/glacial_pick.png",
+        "size": 3
+    },
+    {
+        "id": 3099,
+        "name": "glacial pick+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 45,
+        "stats": {
+            "attack": {
+                "min": 149,
+                "max": 187
+            },
+            "attack_speed": 30
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/glacial_pick.png",
+        "size": 3
+    },
+    {
+        "id": 3100,
+        "name": "twelve spirit sword+0",
+        "plus": 0,
+        "next_item_id": 3101,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 85,
+                "max": 139
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/twelve_spirit_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3101,
+        "name": "twelve spirit sword+1",
+        "plus": 1,
+        "next_item_id": 3102,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 90,
+                "max": 144
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/twelve_spirit_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3102,
+        "name": "twelve spirit sword+2",
+        "plus": 2,
+        "next_item_id": 3103,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 95,
+                "max": 144
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/twelve_spirit_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3103,
+        "name": "twelve spirit sword+3",
+        "plus": 3,
+        "next_item_id": 3104,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 100,
+                "max": 154
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/twelve_spirit_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3104,
+        "name": "twelve spirit sword+4",
+        "plus": 4,
+        "next_item_id": 3105,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 105,
+                "max": 159
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/twelve_spirit_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3105,
+        "name": "twelve spirit sword+5",
+        "plus": 5,
+        "next_item_id": 3106,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 112,
+                "max": 166
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/twelve_spirit_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3106,
+        "name": "twelve spirit sword+6",
+        "plus": 6,
+        "next_item_id": 3107,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 120,
+                "max": 174
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/twelve_spirit_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3107,
+        "name": "twelve spirit sword+7",
+        "plus": 7,
+        "next_item_id": 3108,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 129,
+                "max": 183
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/twelve_spirit_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3108,
+        "name": "twelve spirit sword+8",
+        "plus": 8,
+        "next_item_id": 3109,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 139,
+                "max": 193
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/twelve_spirit_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3109,
+        "name": "twelve spirit sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 50,
+        "stats": {
+            "attack": {
+                "min": 150,
+                "max": 204
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/twelve_spirit_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3110,
+        "name": "salvation blade+0",
+        "plus": 0,
+        "next_item_id": 3111,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 86,
+                "max": 154
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/salvation_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3111,
+        "name": "salvation blade+1",
+        "plus": 1,
+        "next_item_id": 3112,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 91,
+                "max": 159
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/salvation_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3112,
+        "name": "salvation blade+2",
+        "plus": 2,
+        "next_item_id": 3113,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 96,
+                "max": 164
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/salvation_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3113,
+        "name": "salvation blade+3",
+        "plus": 3,
+        "next_item_id": 3114,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 101,
+                "max": 169
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/salvation_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3114,
+        "name": "salvation blade+4",
+        "plus": 4,
+        "next_item_id": 3115,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 106,
+                "max": 174
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/salvation_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3115,
+        "name": "salvation blade+5",
+        "plus": 5,
+        "next_item_id": 3116,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 113,
+                "max": 181
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/salvation_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3116,
+        "name": "salvation blade+6",
+        "plus": 6,
+        "next_item_id": 3117,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 121,
+                "max": 189
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/salvation_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3117,
+        "name": "salvation blade+7",
+        "plus": 7,
+        "next_item_id": 3118,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 130,
+                "max": 198
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/salvation_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3118,
+        "name": "salvation blade+8",
+        "plus": 8,
+        "next_item_id": 3119,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 140,
+                "max": 208
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/salvation_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3119,
+        "name": "salvation blade+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 55,
+        "stats": {
+            "attack": {
+                "min": 151,
+                "max": 219
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/salvation_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3120,
+        "name": "lion slayer+0",
+        "plus": 0,
+        "next_item_id": 3121,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 102,
+                "max": 156
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/lion_slayer.png",
+        "size": 3
+    },
+    {
+        "id": 3121,
+        "name": "lion slayer+1",
+        "plus": 1,
+        "next_item_id": 3122,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 107,
+                "max": 161
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/lion_slayer.png",
+        "size": 3
+    },
+    {
+        "id": 3122,
+        "name": "lion slayer+2",
+        "plus": 2,
+        "next_item_id": 3123,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 112,
+                "max": 166
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/lion_slayer.png",
+        "size": 3
+    },
+    {
+        "id": 3123,
+        "name": "lion slayer+3",
+        "plus": 3,
+        "next_item_id": 3124,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 117,
+                "max": 171
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/lion_slayer.png",
+        "size": 3
+    },
+    {
+        "id": 3124,
+        "name": "lion slayer+4",
+        "plus": 4,
+        "next_item_id": 3125,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 122,
+                "max": 176
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/lion_slayer.png",
+        "size": 3
+    },
+    {
+        "id": 3125,
+        "name": "lion slayer+5",
+        "plus": 5,
+        "next_item_id": 3126,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 129,
+                "max": 183
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/lion_slayer.png",
+        "size": 3
+    },
+    {
+        "id": 3126,
+        "name": "lion slayer+6",
+        "plus": 6,
+        "next_item_id": 3127,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 137,
+                "max": 191
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/lion_slayer.png",
+        "size": 3
+    },
+    {
+        "id": 3127,
+        "name": "lion slayer+7",
+        "plus": 7,
+        "next_item_id": 3128,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 146,
+                "max": 200
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/lion_slayer.png",
+        "size": 3
+    },
+    {
+        "id": 3128,
+        "name": "lion slayer+8",
+        "plus": 8,
+        "next_item_id": 3129,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 156,
+                "max": 210
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/lion_slayer.png",
+        "size": 3
+    },
+    {
+        "id": 3129,
+        "name": "lion slayer+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 60,
+        "stats": {
+            "attack": {
+                "min": 167,
+                "max": 221
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-45-60",
+        "img": "items/two_handed/lion_slayer.png",
+        "size": 3
+    },
+    {
+        "id": 3130,
+        "name": "electromagnetic blade+0",
+        "plus": 0,
+        "next_item_id": 3131,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 126,
+                "max": 194
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/electromagnetic_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3131,
+        "name": "electromagnetic blade+1",
+        "plus": 1,
+        "next_item_id": 3132,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 132,
+                "max": 200
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/electromagnetic_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3132,
+        "name": "electromagnetic blade+2",
+        "plus": 2,
+        "next_item_id": 3133,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 139,
+                "max": 207
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/electromagnetic_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3133,
+        "name": "electromagnetic blade+3",
+        "plus": 3,
+        "next_item_id": 3134,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 147,
+                "max": 215
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/electromagnetic_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3134,
+        "name": "electromagnetic blade+4",
+        "plus": 4,
+        "next_item_id": 3135,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 156,
+                "max": 224
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/electromagnetic_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3135,
+        "name": "electromagnetic blade+5",
+        "plus": 5,
+        "next_item_id": 3136,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 166,
+                "max": 234
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/electromagnetic_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3136,
+        "name": "electromagnetic blade+6",
+        "plus": 6,
+        "next_item_id": 3137,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 177,
+                "max": 245
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/electromagnetic_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3137,
+        "name": "electromagnetic blade+7",
+        "plus": 7,
+        "next_item_id": 3138,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 189,
+                "max": 257
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/electromagnetic_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3138,
+        "name": "electromagnetic blade+8",
+        "plus": 8,
+        "next_item_id": 3139,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 202,
+                "max": 270
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/electromagnetic_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3139,
+        "name": "electromagnetic blade+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 216,
+                "max": 284
+            },
+            "attack_speed": 27
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/electromagnetic_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3140,
+        "name": "partisan+0",
+        "plus": 0,
+        "next_item_id": 3141,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 136,
+                "max": 184
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/partisan.png",
+        "size": 3
+    },
+    {
+        "id": 3141,
+        "name": "partisan+1",
+        "plus": 1,
+        "next_item_id": 3142,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 144,
+                "max": 192
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/partisan.png",
+        "size": 3
+    },
+    {
+        "id": 3142,
+        "name": "partisan+2",
+        "plus": 2,
+        "next_item_id": 3143,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 153,
+                "max": 201
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/partisan.png",
+        "size": 3
+    },
+    {
+        "id": 3143,
+        "name": "partisan+3",
+        "plus": 3,
+        "next_item_id": 3144,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 163,
+                "max": 211
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/partisan.png",
+        "size": 3
+    },
+    {
+        "id": 3144,
+        "name": "partisan+4",
+        "plus": 4,
+        "next_item_id": 3145,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 174,
+                "max": 222
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/partisan.png",
+        "size": 3
+    },
+    {
+        "id": 3145,
+        "name": "partisan+5",
+        "plus": 5,
+        "next_item_id": 3146,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 186,
+                "max": 234
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/partisan.png",
+        "size": 3
+    },
+    {
+        "id": 3146,
+        "name": "partisan+6",
+        "plus": 6,
+        "next_item_id": 3147,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 199,
+                "max": 247
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/partisan.png",
+        "size": 3
+    },
+    {
+        "id": 3147,
+        "name": "partisan+7",
+        "plus": 7,
+        "next_item_id": 3148,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 213,
+                "max": 261
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/partisan.png",
+        "size": 3
+    },
+    {
+        "id": 3148,
+        "name": "partisan+8",
+        "plus": 8,
+        "next_item_id": 3149,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 238,
+                "max": 286
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/partisan.png",
+        "size": 3
+    },
+    {
+        "id": 3149,
+        "name": "partisan+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 273,
+                "max": 321
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/partisan.png",
+        "size": 3
+    },
+    {
+        "id": 3150,
+        "name": "soul stealing blade+0",
+        "plus": 0,
+        "next_item_id": 3151,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 126,
+                "max": 194
+            },
+            "attack_speed": 15,
+            "strong_against_half_humans": 2
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/soul_stealing_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3151,
+        "name": "soul stealing blade+1",
+        "plus": 1,
+        "next_item_id": 3152,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 134,
+                "max": 202
+            },
+            "attack_speed": 15,
+            "strong_against_half_humans": 3
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/soul_stealing_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3152,
+        "name": "soul stealing blade+2",
+        "plus": 2,
+        "next_item_id": 3153,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 143,
+                "max": 211
+            },
+            "attack_speed": 15,
+            "strong_against_half_humans": 4
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/soul_stealing_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3153,
+        "name": "soul stealing blade+3",
+        "plus": 3,
+        "next_item_id": 3154,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 153,
+                "max": 221
+            },
+            "attack_speed": 15,
+            "strong_against_half_humans": 5
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/soul_stealing_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3154,
+        "name": "soul stealing blade+4",
+        "plus": 4,
+        "next_item_id": 3155,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 164,
+                "max": 232
+            },
+            "attack_speed": 15,
+            "strong_against_half_humans": 6
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/soul_stealing_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3155,
+        "name": "soul stealing blade+5",
+        "plus": 5,
+        "next_item_id": 3156,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 176,
+                "max": 244
+            },
+            "attack_speed": 15,
+            "strong_against_half_humans": 7
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/soul_stealing_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3156,
+        "name": "soul stealing blade+6",
+        "plus": 6,
+        "next_item_id": 3157,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 189,
+                "max": 257
+            },
+            "attack_speed": 15,
+            "strong_against_half_humans": 8
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/soul_stealing_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3157,
+        "name": "soul stealing blade+7",
+        "plus": 7,
+        "next_item_id": 3158,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 203,
+                "max": 271
+            },
+            "attack_speed": 15,
+            "strong_against_half_humans": 10
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/soul_stealing_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3158,
+        "name": "soul stealing blade+8",
+        "plus": 8,
+        "next_item_id": 3159,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 228,
+                "max": 296
+            },
+            "attack_speed": 15,
+            "strong_against_half_humans": 12
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/soul_stealing_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3159,
+        "name": "soul stealing blade+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 263,
+                "max": 331
+            },
+            "attack_speed": 15,
+            "strong_against_half_humans": 15
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/soul_stealing_blade.png",
+        "size": 3
+    },
+    {
+        "id": 3170,
+        "name": "grudge sword+0",
+        "plus": 0,
+        "next_item_id": 3171,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 136,
+                "max": 184
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/grudge_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3171,
+        "name": "grudge sword+1",
+        "plus": 1,
+        "next_item_id": 3172,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 142,
+                "max": 190
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/grudge_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3172,
+        "name": "grudge sword+2",
+        "plus": 2,
+        "next_item_id": 3173,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 149,
+                "max": 197
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/grudge_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3173,
+        "name": "grudge sword+3",
+        "plus": 3,
+        "next_item_id": 3174,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 157,
+                "max": 205
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/grudge_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3174,
+        "name": "grudge sword+4",
+        "plus": 4,
+        "next_item_id": 3175,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 166,
+                "max": 214
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/grudge_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3175,
+        "name": "grudge sword+5",
+        "plus": 5,
+        "next_item_id": 3176,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 176,
+                "max": 224
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/grudge_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3176,
+        "name": "grudge sword+6",
+        "plus": 6,
+        "next_item_id": 3177,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 187,
+                "max": 235
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/grudge_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3177,
+        "name": "grudge sword+7",
+        "plus": 7,
+        "next_item_id": 3178,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 199,
+                "max": 247
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/grudge_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3178,
+        "name": "grudge sword+8",
+        "plus": 8,
+        "next_item_id": 3179,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 212,
+                "max": 260
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/grudge_sword.png",
+        "size": 3
+    },
+    {
+        "id": 3179,
+        "name": "grudge sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "two_handed",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 226,
+                "max": 274
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "two-handed-65-75",
+        "img": "items/two_handed/grudge_sword.png",
+        "size": 3
+    }
+]
