@@ -558,5 +558,575 @@
         "upgrade-scheme": "armours-1-18",
         "img": "items/armours/warrior/tiger_plate_armour.png",
         "size": 2
+    },
+    {
+        "id": 11230,
+        "name": "lion plate armour+0",
+        "plus": 0,
+        "next_item_id": 11231,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 38,
+            "movement_speed": -5
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lion_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11231,
+        "name": "lion plate armour+1",
+        "plus": 1,
+        "next_item_id": 11232,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 44,
+            "movement_speed": -5
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lion_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11232,
+        "name": "lion plate armour+2",
+        "plus": 2,
+        "next_item_id": 11233,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 50,
+            "movement_speed": -5
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lion_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11233,
+        "name": "lion plate armour+3",
+        "plus": 3,
+        "next_item_id": 11234,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 56,
+            "movement_speed": -5
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lion_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11234,
+        "name": "lion plate armour+4",
+        "plus": 4,
+        "next_item_id": 11235,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 62,
+            "movement_speed": -5
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lion_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11235,
+        "name": "lion plate armour+5",
+        "plus": 5,
+        "next_item_id": 11236,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 68,
+            "movement_speed": -5
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lion_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11236,
+        "name": "lion plate armour+6",
+        "plus": 6,
+        "next_item_id": 11237,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 74,
+            "movement_speed": -5
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lion_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11237,
+        "name": "lion plate armour+7",
+        "plus": 7,
+        "next_item_id": 11238,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 80,
+            "movement_speed": -5
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lion_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11238,
+        "name": "lion plate armour+8",
+        "plus": 8,
+        "next_item_id": 11239,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 86,
+            "movement_speed": -5
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lion_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11239,
+        "name": "lion plate armour+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 26,
+        "stats": {
+            "defence": 92,
+            "movement_speed": -5
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lion_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11240,
+        "name": "lethal plate armour+0",
+        "plus": 0,
+        "next_item_id": 11241,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 47,
+            "movement_speed": -7
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lethal_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11241,
+        "name": "lethal plate armour+1",
+        "plus": 1,
+        "next_item_id": 11242,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 53,
+            "movement_speed": -7
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lethal_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11242,
+        "name": "lethal plate armour+2",
+        "plus": 2,
+        "next_item_id": 11243,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 59,
+            "movement_speed": -7
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lethal_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11243,
+        "name": "lethal plate armour+3",
+        "plus": 3,
+        "next_item_id": 11244,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 65,
+            "movement_speed": -7
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lethal_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11244,
+        "name": "lethal plate armour+4",
+        "plus": 4,
+        "next_item_id": 11245,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 71,
+            "movement_speed": -7
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lethal_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11245,
+        "name": "lethal plate armour+5",
+        "plus": 5,
+        "next_item_id": 11246,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 77,
+            "movement_speed": -7
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lethal_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11246,
+        "name": "lethal plate armour+6",
+        "plus": 6,
+        "next_item_id": 11247,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 83,
+            "movement_speed": -7
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lethal_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11247,
+        "name": "lethal plate armour+7",
+        "plus": 7,
+        "next_item_id": 11248,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 89,
+            "movement_speed": -7
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lethal_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11248,
+        "name": "lethal plate armour+8",
+        "plus": 8,
+        "next_item_id": 11249,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 95,
+            "movement_speed": -7
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lethal_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11249,
+        "name": "lethal plate armour+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 34,
+        "stats": {
+            "defence": 101,
+            "movement_speed": -7
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/lethal_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11250,
+        "name": "dragon plate armour+0",
+        "plus": 0,
+        "next_item_id": 11251,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 55,
+            "movement_speed": -8
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/dragon_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11251,
+        "name": "dragon plate armour+1",
+        "plus": 1,
+        "next_item_id": 11252,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 61,
+            "movement_speed": -8
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/dragon_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11252,
+        "name": "dragon plate armour+2",
+        "plus": 2,
+        "next_item_id": 11253,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 67,
+            "movement_speed": -8
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/dragon_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11253,
+        "name": "dragon plate armour+3",
+        "plus": 3,
+        "next_item_id": 11254,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 73,
+            "movement_speed": -8
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/dragon_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11254,
+        "name": "dragon plate armour+4",
+        "plus": 4,
+        "next_item_id": 11255,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 79,
+            "movement_speed": -8
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/dragon_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11255,
+        "name": "dragon plate armour+5",
+        "plus": 5,
+        "next_item_id": 11256,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 85,
+            "movement_speed": -8
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/dragon_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11256,
+        "name": "dragon plate armour+6",
+        "plus": 6,
+        "next_item_id": 11257,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 91,
+            "movement_speed": -8
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/dragon_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11257,
+        "name": "dragon plate armour+7",
+        "plus": 7,
+        "next_item_id": 11258,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 97,
+            "movement_speed": -8
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/dragon_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11258,
+        "name": "dragon plate armour+8",
+        "plus": 8,
+        "next_item_id": 11259,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 103,
+            "movement_speed": -8
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/dragon_plate_armour.png",
+        "size": 2
+    },
+    {
+        "id": 11259,
+        "name": "dragon plate armour+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "armour",
+        "subtype": null,
+        "required_level": 42,
+        "stats": {
+            "defence": 109,
+            "movement_speed": -8
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "armours-26-42",
+        "img": "items/armours/warrior/dragon_plate_armour.png",
+        "size": 2
     }
 ]
