@@ -37,6 +37,7 @@ const TooltipContent = ({ itemInstance }) => {
         defence_against_ninja: { label: translate('stats.defence_against_ninja') + ': ', unit: '%' },
         defence_against_sura: { label: translate('stats.defence_against_sura') + ': ', unit: '%' },
         defence_against_shaman: { label: translate('stats.defence_against_shaman') + ': ', unit: '%' },
+        chance_to_block_attack: { label: translate('stats.chance_to_block_attack') + ' ', unit: '%' }
     }
 
     const formatStatValue = (value) => {

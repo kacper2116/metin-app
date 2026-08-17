@@ -9,6 +9,7 @@ import ninjaArmours from './items/ninja_armours.json'
 import suraArmours from './items/sura_armours.json'
 import shamanArmours from './items/shaman_armours.json'
 import shields from './items/shields.json'
+import helmets from './items/helmets.json'
 
 export const itemsDB = [
     ...swords,
@@ -22,4 +23,5 @@ export const itemsDB = [
     ...suraArmours,
     ...shamanArmours,
     ...shields,
+    ...helmets,
 ]

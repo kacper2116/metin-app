@@ -15,5 +15,6 @@
     "defence_against_warrior": "Defence chance against warrior attacks",
     "defence_against_ninja": "Defence chance against ninja attacks",
     "defence_against_sura": "Defence chance against sura attacks",
-    "defence_against_shaman": "Defence chance against shaman attacks"
+    "defence_against_shaman": "Defence chance against shaman attacks",
+    "chance_to_block_attack": "Chance to block a close-combat attack"
 }

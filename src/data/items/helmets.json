@@ -1,0 +1,2762 @@
+[
+    {
+        "id": 12200,
+        "name": "traditional helmet+0",
+        "plus": 0,
+        "next_item_id": 12201,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 5
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/traditional_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12201,
+        "name": "traditional helmet+1",
+        "plus": 1,
+        "next_item_id": 12202,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 9
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/traditional_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12202,
+        "name": "traditional helmet+2",
+        "plus": 2,
+        "next_item_id": 12203,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 13
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/traditional_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12203,
+        "name": "traditional helmet+3",
+        "plus": 3,
+        "next_item_id": 12204,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 17
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/traditional_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12204,
+        "name": "traditional helmet+4",
+        "plus": 4,
+        "next_item_id": 12205,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 21
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/traditional_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12205,
+        "name": "traditional helmet+5",
+        "plus": 5,
+        "next_item_id": 12206,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 25
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/traditional_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12206,
+        "name": "traditional helmet+6",
+        "plus": 6,
+        "next_item_id": 12207,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 29
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/traditional_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12207,
+        "name": "traditional helmet+7",
+        "plus": 7,
+        "next_item_id": 12208,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 33
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/traditional_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12208,
+        "name": "traditional helmet+8",
+        "plus": 8,
+        "next_item_id": 12209,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 37
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/traditional_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12209,
+        "name": "traditional helmet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 41
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/traditional_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12220,
+        "name": "iron helmet+0",
+        "plus": 0,
+        "next_item_id": 12221,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 9
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/iron_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12221,
+        "name": "iron helmet+1",
+        "plus": 1,
+        "next_item_id": 12222,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 13
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/iron_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12222,
+        "name": "iron helmet+2",
+        "plus": 2,
+        "next_item_id": 12223,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 17
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/iron_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12223,
+        "name": "iron helmet+3",
+        "plus": 3,
+        "next_item_id": 12224,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 21
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/iron_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12224,
+        "name": "iron helmet+4",
+        "plus": 4,
+        "next_item_id": 12225,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 25
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/iron_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12225,
+        "name": "iron helmet+5",
+        "plus": 5,
+        "next_item_id": 12226,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 33
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/iron_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12226,
+        "name": "iron helmet+6",
+        "plus": 6,
+        "next_item_id": 12227,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 41
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/iron_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12227,
+        "name": "iron helmet+7",
+        "plus": 7,
+        "next_item_id": 12228,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 49
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/iron_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12228,
+        "name": "iron helmet+8",
+        "plus": 8,
+        "next_item_id": 12229,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 57
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/iron_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12229,
+        "name": "iron helmet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 65
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/iron_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12240,
+        "name": "ghost mask sallet+0",
+        "plus": 0,
+        "next_item_id": 12241,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 13
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/ghost_mask_sallet.png",
+        "size": 1
+    },
+    {
+        "id": 12241,
+        "name": "ghost mask sallet+1",
+        "plus": 1,
+        "next_item_id": 12242,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 17
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/ghost_mask_sallet.png",
+        "size": 1
+    },
+    {
+        "id": 12242,
+        "name": "ghost mask sallet+2",
+        "plus": 2,
+        "next_item_id": 12243,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 21
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/ghost_mask_sallet.png",
+        "size": 1
+    },
+    {
+        "id": 12243,
+        "name": "ghost mask sallet+3",
+        "plus": 3,
+        "next_item_id": 12244,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 25
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/ghost_mask_sallet.png",
+        "size": 1
+    },
+    {
+        "id": 12244,
+        "name": "ghost mask sallet+4",
+        "plus": 4,
+        "next_item_id": 12245,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 29
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/ghost_mask_sallet.png",
+        "size": 1
+    },
+    {
+        "id": 12245,
+        "name": "ghost mask sallet+5",
+        "plus": 5,
+        "next_item_id": 12246,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 39
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/ghost_mask_sallet.png",
+        "size": 1
+    },
+    {
+        "id": 12246,
+        "name": "ghost mask sallet+6",
+        "plus": 6,
+        "next_item_id": 12247,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 49
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/ghost_mask_sallet.png",
+        "size": 1
+    },
+    {
+        "id": 12247,
+        "name": "ghost mask sallet+7",
+        "plus": 7,
+        "next_item_id": 12248,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 59
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/ghost_mask_sallet.png",
+        "size": 1
+    },
+    {
+        "id": 12248,
+        "name": "ghost mask sallet+8",
+        "plus": 8,
+        "next_item_id": 12249,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 69
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/ghost_mask_sallet.png",
+        "size": 1
+    },
+    {
+        "id": 12249,
+        "name": "ghost mask sallet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 79
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/ghost_mask_sallet.png",
+        "size": 1
+    },
+    {
+        "id": 12260,
+        "name": "fear mask+0",
+        "plus": 0,
+        "next_item_id": 12261,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 17,
+            "chance_to_block_attack": 1
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/fear_mask.png",
+        "size": 1
+    },
+    {
+        "id": 12261,
+        "name": "fear mask+1",
+        "plus": 1,
+        "next_item_id": 12262,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 21,
+            "chance_to_block_attack": 2
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/fear_mask.png",
+        "size": 1
+    },
+    {
+        "id": 12262,
+        "name": "fear mask+2",
+        "plus": 2,
+        "next_item_id": 12263,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 25,
+            "chance_to_block_attack": 3
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/fear_mask.png",
+        "size": 1
+    },
+    {
+        "id": 12263,
+        "name": "fear mask+3",
+        "plus": 3,
+        "next_item_id": 12264,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 29,
+            "chance_to_block_attack": 4
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/fear_mask.png",
+        "size": 1
+    },
+    {
+        "id": 12264,
+        "name": "fear mask+4",
+        "plus": 4,
+        "next_item_id": 12265,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 39,
+            "chance_to_block_attack": 5
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/fear_mask.png",
+        "size": 1
+    },
+    {
+        "id": 12265,
+        "name": "fear mask+5",
+        "plus": 5,
+        "next_item_id": 12266,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 49,
+            "chance_to_block_attack": 6
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/fear_mask.png",
+        "size": 1
+    },
+    {
+        "id": 12266,
+        "name": "fear mask+6",
+        "plus": 6,
+        "next_item_id": 12267,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 59,
+            "chance_to_block_attack": 7
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/fear_mask.png",
+        "size": 1
+    },
+    {
+        "id": 12267,
+        "name": "fear mask+7",
+        "plus": 7,
+        "next_item_id": 12268,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 69,
+            "chance_to_block_attack": 8
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/fear_mask.png",
+        "size": 1
+    },
+    {
+        "id": 12268,
+        "name": "fear mask+8",
+        "plus": 8,
+        "next_item_id": 12269,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 79,
+            "chance_to_block_attack": 9
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/fear_mask.png",
+        "size": 1
+    },
+    {
+        "id": 12269,
+        "name": "fear mask+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 89,
+            "chance_to_block_attack": 10
+        },
+        "profession": [
+            "warrior"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/fear_mask.png",
+        "size": 1
+    },
+    {
+        "id": 12340,
+        "name": "leather hood+0",
+        "plus": 0,
+        "next_item_id": 12341,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 5
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/leather_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12341,
+        "name": "leather hood+1",
+        "plus": 1,
+        "next_item_id": 12342,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 9
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/leather_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12342,
+        "name": "leather hood+2",
+        "plus": 2,
+        "next_item_id": 12343,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 13
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/leather_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12343,
+        "name": "leather hood+3",
+        "plus": 3,
+        "next_item_id": 12344,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 17
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/leather_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12344,
+        "name": "leather hood+4",
+        "plus": 4,
+        "next_item_id": 12345,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 21
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/leather_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12345,
+        "name": "leather hood+5",
+        "plus": 5,
+        "next_item_id": 12346,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 25
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/leather_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12346,
+        "name": "leather hood+6",
+        "plus": 6,
+        "next_item_id": 12347,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/leather_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12347,
+        "name": "leather hood+7",
+        "plus": 7,
+        "next_item_id": 12348,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 33
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/leather_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12348,
+        "name": "leather hood+8",
+        "plus": 8,
+        "next_item_id": 12349,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 37
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/leather_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12349,
+        "name": "leather hood+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 41
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/leather_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12360,
+        "name": "chain hood+0",
+        "plus": 0,
+        "next_item_id": 12361,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 9
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/chain_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12361,
+        "name": "chain hood+1",
+        "plus": 1,
+        "next_item_id": 12362,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 13
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/chain_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12362,
+        "name": "chain hood+2",
+        "plus": 2,
+        "next_item_id": 12363,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 17
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/chain_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12363,
+        "name": "chain hood+3",
+        "plus": 3,
+        "next_item_id": 12364,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 21
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/chain_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12364,
+        "name": "chain hood+4",
+        "plus": 4,
+        "next_item_id": 12365,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 25
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/chain_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12365,
+        "name": "chain hood+5",
+        "plus": 5,
+        "next_item_id": 12366,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 33
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/chain_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12366,
+        "name": "chain hood+6",
+        "plus": 6,
+        "next_item_id": 12367,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 41
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/chain_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12367,
+        "name": "chain hood+7",
+        "plus": 7,
+        "next_item_id": 12368,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 49
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/chain_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12368,
+        "name": "chain hood+8",
+        "plus": 8,
+        "next_item_id": 12369,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 57
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/chain_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12369,
+        "name": "chain hood+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 65
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/chain_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12380,
+        "name": "steel hood+0",
+        "plus": 0,
+        "next_item_id": 12381,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 13
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/steel_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12381,
+        "name": "steel hood+1",
+        "plus": 1,
+        "next_item_id": 12382,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 17
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/steel_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12382,
+        "name": "steel hood+2",
+        "plus": 2,
+        "next_item_id": 12383,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 21
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/steel_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12383,
+        "name": "steel hood+3",
+        "plus": 3,
+        "next_item_id": 12384,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 25
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/steel_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12384,
+        "name": "steel hood+4",
+        "plus": 4,
+        "next_item_id": 12385,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 29
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/steel_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12385,
+        "name": "steel hood+5",
+        "plus": 5,
+        "next_item_id": 12386,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 39
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/steel_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12386,
+        "name": "steel hood+6",
+        "plus": 6,
+        "next_item_id": 12387,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 49
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/steel_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12387,
+        "name": "steel hood+7",
+        "plus": 7,
+        "next_item_id": 12388,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 59
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/steel_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12388,
+        "name": "steel hood+8",
+        "plus": 8,
+        "next_item_id": 12389,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 69
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/steel_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12389,
+        "name": "steel hood+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 79
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/steel_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12390,
+        "name": "orc hood+0",
+        "plus": 0,
+        "next_item_id": 12391,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 17,
+            "chance_to_block_attack": 1
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/orc_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12391,
+        "name": "orc hood+1",
+        "plus": 1,
+        "next_item_id": 12392,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 21,
+            "chance_to_block_attack": 2
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/orc_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12392,
+        "name": "orc hood+2",
+        "plus": 2,
+        "next_item_id": 12393,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 25,
+            "chance_to_block_attack": 3
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/orc_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12393,
+        "name": "orc hood+3",
+        "plus": 3,
+        "next_item_id": 12394,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 29,
+            "chance_to_block_attack": 4
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/orc_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12394,
+        "name": "orc hood+4",
+        "plus": 4,
+        "next_item_id": 12395,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 39,
+            "chance_to_block_attack": 5
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/orc_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12395,
+        "name": "orc hood+5",
+        "plus": 5,
+        "next_item_id": 12396,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 49,
+            "chance_to_block_attack": 6
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/orc_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12396,
+        "name": "orc hood+6",
+        "plus": 6,
+        "next_item_id": 12397,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 59,
+            "chance_to_block_attack": 7
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/orc_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12397,
+        "name": "orc hood+7",
+        "plus": 7,
+        "next_item_id": 12398,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 69,
+            "chance_to_block_attack": 8
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/orc_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12398,
+        "name": "orc hood+8",
+        "plus": 8,
+        "next_item_id": 12399,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 79,
+            "chance_to_block_attack": 9
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/orc_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12399,
+        "name": "orc hood+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 89,
+            "chance_to_block_attack": 10
+        },
+        "profession": [
+            "ninja"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/orc_hood.png",
+        "size": 1
+    },
+    {
+        "id": 12480,
+        "name": "bloody helmet+0",
+        "plus": 0,
+        "next_item_id": 12481,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 5
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/bloody_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12481,
+        "name": "bloody helmet+1",
+        "plus": 1,
+        "next_item_id": 12482,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 9
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/bloody_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12482,
+        "name": "bloody helmet+2",
+        "plus": 2,
+        "next_item_id": 12483,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 13
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/bloody_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12483,
+        "name": "bloody helmet+3",
+        "plus": 3,
+        "next_item_id": 12484,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 17
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/bloody_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12484,
+        "name": "bloody helmet+4",
+        "plus": 4,
+        "next_item_id": 12485,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 21
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/bloody_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12485,
+        "name": "bloody helmet+5",
+        "plus": 5,
+        "next_item_id": 12486,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 25
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/bloody_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12486,
+        "name": "bloody helmet+6",
+        "plus": 6,
+        "next_item_id": 12487,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 29
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/bloody_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12487,
+        "name": "bloody helmet+7",
+        "plus": 7,
+        "next_item_id": 12488,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 33
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/bloody_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12488,
+        "name": "bloody helmet+8",
+        "plus": 8,
+        "next_item_id": 12489,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 37
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/bloody_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12489,
+        "name": "bloody helmet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 41
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/bloody_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12500,
+        "name": "mocking helmet+0",
+        "plus": 0,
+        "next_item_id": 12501,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 9
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/mocking_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12501,
+        "name": "mocking helmet+1",
+        "plus": 1,
+        "next_item_id": 12502,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 13
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/mocking_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12502,
+        "name": "mocking helmet+2",
+        "plus": 2,
+        "next_item_id": 12503,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 17
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/mocking_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12503,
+        "name": "mocking helmet+3",
+        "plus": 3,
+        "next_item_id": 12504,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 21
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/mocking_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12504,
+        "name": "mocking helmet+4",
+        "plus": 4,
+        "next_item_id": 12505,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 25
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/mocking_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12505,
+        "name": "mocking helmet+5",
+        "plus": 5,
+        "next_item_id": 12506,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 33
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/mocking_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12506,
+        "name": "mocking helmet+6",
+        "plus": 6,
+        "next_item_id": 12507,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 41
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/mocking_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12507,
+        "name": "mocking helmet+7",
+        "plus": 7,
+        "next_item_id": 12508,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 49
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/mocking_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12508,
+        "name": "mocking helmet+8",
+        "plus": 8,
+        "next_item_id": 12509,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 57
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/mocking_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12509,
+        "name": "mocking helmet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 65
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/mocking_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12520,
+        "name": "castle helmet+0",
+        "plus": 0,
+        "next_item_id": 12521,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 13
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/castle_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12521,
+        "name": "castle helmet+1",
+        "plus": 1,
+        "next_item_id": 12522,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 17
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/castle_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12522,
+        "name": "castle helmet+2",
+        "plus": 2,
+        "next_item_id": 12523,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 21
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/castle_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12523,
+        "name": "castle helmet+3",
+        "plus": 3,
+        "next_item_id": 12524,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 25
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/castle_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12524,
+        "name": "castle helmet+4",
+        "plus": 4,
+        "next_item_id": 12525,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 29
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/castle_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12525,
+        "name": "castle helmet+5",
+        "plus": 5,
+        "next_item_id": 12526,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 39
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/castle_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12526,
+        "name": "castle helmet+6",
+        "plus": 6,
+        "next_item_id": 12527,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 49
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/castle_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12527,
+        "name": "castle helmet+7",
+        "plus": 7,
+        "next_item_id": 12528,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 59
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/castle_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12528,
+        "name": "castle helmet+8",
+        "plus": 8,
+        "next_item_id": 12529,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 69
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/castle_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12529,
+        "name": "castle helmet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 79
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/castle_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12530,
+        "name": "horned helmet+0",
+        "plus": 0,
+        "next_item_id": 12531,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 17,
+            "chance_to_block_attack": 1
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/horned_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12531,
+        "name": "horned helmet+1",
+        "plus": 1,
+        "next_item_id": 12532,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 21,
+            "chance_to_block_attack": 2
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/horned_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12532,
+        "name": "horned helmet+2",
+        "plus": 2,
+        "next_item_id": 12533,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 25,
+            "chance_to_block_attack": 3
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/horned_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12533,
+        "name": "horned helmet+3",
+        "plus": 3,
+        "next_item_id": 12534,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 29,
+            "chance_to_block_attack": 4
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/horned_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12534,
+        "name": "horned helmet+4",
+        "plus": 4,
+        "next_item_id": 12535,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 39,
+            "chance_to_block_attack": 5
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/horned_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12535,
+        "name": "horned helmet+5",
+        "plus": 5,
+        "next_item_id": 12536,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 49,
+            "chance_to_block_attack": 6
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/horned_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12536,
+        "name": "horned helmet+6",
+        "plus": 6,
+        "next_item_id": 12537,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 59,
+            "chance_to_block_attack": 7
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/horned_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12537,
+        "name": "horned helmet+7",
+        "plus": 7,
+        "next_item_id": 12538,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 69,
+            "chance_to_block_attack": 8
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/horned_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12538,
+        "name": "horned helmet+8",
+        "plus": 8,
+        "next_item_id": 12539,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 79,
+            "chance_to_block_attack": 9
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/horned_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12539,
+        "name": "horned helmet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 89,
+            "chance_to_block_attack": 10
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/horned_helmet.png",
+        "size": 1
+    },
+    {
+        "id": 12620,
+        "name": "monk hat+0",
+        "plus": 0,
+        "next_item_id": 12621,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 5
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/monk_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12621,
+        "name": "monk hat+1",
+        "plus": 1,
+        "next_item_id": 12622,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 9
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/monk_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12622,
+        "name": "monk hat+2",
+        "plus": 2,
+        "next_item_id": 12623,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 13
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/monk_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12623,
+        "name": "monk hat+3",
+        "plus": 3,
+        "next_item_id": 12624,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 17
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/monk_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12624,
+        "name": "monk hat+4",
+        "plus": 4,
+        "next_item_id": 12625,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 21
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/monk_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12625,
+        "name": "monk hat+5",
+        "plus": 5,
+        "next_item_id": 12626,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 25
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/monk_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12626,
+        "name": "monk hat+6",
+        "plus": 6,
+        "next_item_id": 12627,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 29
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/monk_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12627,
+        "name": "monk hat+7",
+        "plus": 7,
+        "next_item_id": 12628,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 33
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/monk_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12628,
+        "name": "monk hat+8",
+        "plus": 8,
+        "next_item_id": 12629,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 37
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/monk_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12629,
+        "name": "monk hat+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "helmet",
+        "required_level": 1,
+        "stats": {
+            "defence": 41
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-1",
+        "img": "items/helmets/monk_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12640,
+        "name": "phoenix hat+0",
+        "plus": 0,
+        "next_item_id": 12641,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 9
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/phoenix_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12641,
+        "name": "phoenix hat+1",
+        "plus": 1,
+        "next_item_id": 12642,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 13
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/phoenix_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12642,
+        "name": "phoenix hat+2",
+        "plus": 2,
+        "next_item_id": 12643,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 17
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/phoenix_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12643,
+        "name": "phoenix hat+3",
+        "plus": 3,
+        "next_item_id": 12644,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 21
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/phoenix_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12644,
+        "name": "phoenix hat+4",
+        "plus": 4,
+        "next_item_id": 12645,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 25
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/phoenix_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12645,
+        "name": "phoenix hat+5",
+        "plus": 5,
+        "next_item_id": 12646,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 33
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/phoenix_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12646,
+        "name": "phoenix hat+6",
+        "plus": 6,
+        "next_item_id": 12647,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 41
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/phoenix_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12647,
+        "name": "phoenix hat+7",
+        "plus": 7,
+        "next_item_id": 12648,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 49
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/phoenix_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12648,
+        "name": "phoenix hat+8",
+        "plus": 8,
+        "next_item_id": 12649,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 57
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/phoenix_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12649,
+        "name": "phoenix hat+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "helmet",
+        "required_level": 21,
+        "stats": {
+            "defence": 65
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-21",
+        "img": "items/helmets/phoenix_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12660,
+        "name": "sunlight hat+0",
+        "plus": 0,
+        "next_item_id": 12661,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 13
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/sunlight_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12661,
+        "name": "sunlight hat+1",
+        "plus": 1,
+        "next_item_id": 12662,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 17
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/sunlight_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12662,
+        "name": "sunlight hat+2",
+        "plus": 2,
+        "next_item_id": 12663,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 21
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/sunlight_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12663,
+        "name": "sunlight hat+3",
+        "plus": 3,
+        "next_item_id": 12664,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 25
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/sunlight_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12664,
+        "name": "sunlight hat+4",
+        "plus": 4,
+        "next_item_id": 12665,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 29
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/sunlight_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12665,
+        "name": "sunlight hat+5",
+        "plus": 5,
+        "next_item_id": 12666,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 39
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/sunlight_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12666,
+        "name": "sunlight hat+6",
+        "plus": 6,
+        "next_item_id": 12667,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 49
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/sunlight_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12667,
+        "name": "sunlight hat+7",
+        "plus": 7,
+        "next_item_id": 12668,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 59
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/sunlight_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12668,
+        "name": "sunlight hat+8",
+        "plus": 8,
+        "next_item_id": 12669,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 69
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/sunlight_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12669,
+        "name": "sunlight hat+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "helmet",
+        "required_level": 41,
+        "stats": {
+            "defence": 79
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-41",
+        "img": "items/helmets/sunlight_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12670,
+        "name": "cardinal's hat+0",
+        "plus": 0,
+        "next_item_id": 12671,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 17,
+            "chance_to_block_attack": 1
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/cardinals_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12671,
+        "name": "cardinal's hat+1",
+        "plus": 1,
+        "next_item_id": 12672,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 21,
+            "chance_to_block_attack": 2
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/cardinals_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12672,
+        "name": "cardinal's hat+2",
+        "plus": 2,
+        "next_item_id": 12673,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 25,
+            "chance_to_block_attack": 3
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/cardinals_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12673,
+        "name": "cardinal's hat+3",
+        "plus": 3,
+        "next_item_id": 12674,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 29,
+            "chance_to_block_attack": 4
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/cardinals_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12674,
+        "name": "cardinal's hat+4",
+        "plus": 4,
+        "next_item_id": 12675,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 39,
+            "chance_to_block_attack": 5
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/cardinals_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12675,
+        "name": "cardinal's hat+5",
+        "plus": 5,
+        "next_item_id": 12676,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 49,
+            "chance_to_block_attack": 6
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/cardinals_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12676,
+        "name": "cardinal's hat+6",
+        "plus": 6,
+        "next_item_id": 12677,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 59,
+            "chance_to_block_attack": 7
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/cardinals_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12677,
+        "name": "cardinal's hat+7",
+        "plus": 7,
+        "next_item_id": 12678,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 69,
+            "chance_to_block_attack": 8
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/cardinals_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12678,
+        "name": "cardinal's hat+8",
+        "plus": 8,
+        "next_item_id": 12679,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 79,
+            "chance_to_block_attack": 9
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/cardinals_hat.png",
+        "size": 1
+    },
+    {
+        "id": 12679,
+        "name": "cardinal's hat+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "helmet",
+        "required_level": 60,
+        "stats": {
+            "defence": 89,
+            "chance_to_block_attack": 10
+        },
+        "profession": [
+            "shaman"
+        ],
+        "upgrade-scheme": "helmets-60",
+        "img": "items/helmets/cardinals_hat.png",
+        "size": 1
+    }
+]

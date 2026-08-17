@@ -134,7 +134,7 @@
         }
     },
     {
-        "name": "helmets-41-60",
+        "name": "helmets-41",
         "upgrades": {
             "1": {
                 "cost": 1200,
@@ -206,6 +206,84 @@
                     {
                         "id": 30193,
                         "count": 1
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "name": "helmets-60",
+        "upgrades": {
+            "1": {
+                "cost": 1200,
+                "materials": []
+            },
+            "2": {
+                "cost": 2500,
+                "materials": []
+            },
+            "3": {
+                "cost": 5000,
+                "materials": []
+            },
+            "4": {
+                "cost": 10000,
+                "materials": []
+            },
+            "5": {
+                "cost": 20000,
+                "materials": [
+                    {
+                        "id": 30083,
+                        "count": 2
+                    }
+                ]
+            },
+            "6": {
+                "cost": 30000,
+                "materials": [
+                    {
+                        "id": 30060,
+                        "count": 2
+                    }
+                ]
+            },
+            "7": {
+                "cost": 45000,
+                "materials": [
+                    {
+                        "id": 30061,
+                        "count": 2
+                    },
+                    {
+                        "id": 30193,
+                        "count": 2
+                    }
+                ]
+            },
+            "8": {
+                "cost": 90000,
+                "materials": [
+                    {
+                        "id": 30088,
+                        "count": 2
+                    },
+                    {
+                        "id": 30193,
+                        "count": 4
+                    }
+                ]
+            },
+            "9": {
+                "cost": 150000,
+                "materials": [
+                    {
+                        "id": 30019,
+                        "count": 2
+                    },
+                    {
+                        "id": 30193,
+                        "count": 8
                     }
                 ]
             }
