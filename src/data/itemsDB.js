@@ -12,6 +12,7 @@ import shields from './items/shields.json'
 import helmets from './items/helmets.json'
 import earrings from './items/earrings.json'
 import bracelets from './items/bracelets.json'
+import necklaces from './items/necklaces.json'
 
 export const itemsDB = [
     ...swords,
@@ -28,4 +29,5 @@ export const itemsDB = [
     ...helmets,
     ...earrings,
     ...bracelets,
+    ...necklaces,
 ]

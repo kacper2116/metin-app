@@ -124,7 +124,9 @@ const TooltipContent = ({ itemInstance }) => {
         critical_hit_chance: {
             format: value => `${translate('stats.critical_hit_chance')} +${value}%`
         },
-
+        piercing_hit_chance: {
+            format: value => `${translate('stats.piercing_hit_chance')} +${value}%`
+        },
         max_endurance: {
             format: value => `${translate('stats.max_endurance')} +${value}`
         },
@@ -139,6 +141,15 @@ const TooltipContent = ({ itemInstance }) => {
 
         restore_hp: {
             format: value => `${value}% ${translate('stats.restore_hp')}`
+        },
+        fire_resistance: {
+            format: value => `${translate('stats.fire_resistance')} ${value}%`
+        }, lightning_resistance: {
+            format: value => `${translate('stats.lightning_resistance')} ${value}%`
+        }, wind_resistance: {
+            format: value => `${translate('stats.wind_resistance')} ${value}%`
+        }, arrow_defence: {
+            format: value => `${translate('stats.arrow_defence')} ${value}%`
         },
     };
 

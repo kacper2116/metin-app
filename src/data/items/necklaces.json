@@ -1,0 +1,2312 @@
+[
+    {
+        "id": 16000,
+        "name": "wooden necklace+0",
+        "plus": 0,
+        "next_item_id": 16001,
+        "type": "necklace",
+        "required_level": 1,
+        "stats": {
+            "casting_speed": 2,
+            "fire_resistance": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/wooden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16001,
+        "name": "wooden necklace+1",
+        "plus": 1,
+        "next_item_id": 16002,
+        "type": "necklace",
+        "required_level": 1,
+        "stats": {
+            "casting_speed": 4,
+            "fire_resistance": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/wooden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16002,
+        "name": "wooden necklace+2",
+        "plus": 2,
+        "next_item_id": 16003,
+        "type": "necklace",
+        "required_level": 1,
+        "stats": {
+            "casting_speed": 6,
+            "fire_resistance": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/wooden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16003,
+        "name": "wooden necklace+3",
+        "plus": 3,
+        "next_item_id": 16004,
+        "type": "necklace",
+        "required_level": 1,
+        "stats": {
+            "casting_speed": 8,
+            "fire_resistance": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/wooden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16004,
+        "name": "wooden necklace+4",
+        "plus": 4,
+        "next_item_id": 16005,
+        "type": "necklace",
+        "required_level": 1,
+        "stats": {
+            "casting_speed": 10,
+            "fire_resistance": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/wooden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16005,
+        "name": "wooden necklace+5",
+        "plus": 5,
+        "next_item_id": 16006,
+        "type": "necklace",
+        "required_level": 1,
+        "stats": {
+            "casting_speed": 12,
+            "fire_resistance": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/wooden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16006,
+        "name": "wooden necklace+6",
+        "plus": 6,
+        "next_item_id": 16007,
+        "type": "necklace",
+        "required_level": 1,
+        "stats": {
+            "casting_speed": 14,
+            "fire_resistance": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/wooden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16007,
+        "name": "wooden necklace+7",
+        "plus": 7,
+        "next_item_id": 16008,
+        "type": "necklace",
+        "required_level": 1,
+        "stats": {
+            "casting_speed": 16,
+            "fire_resistance": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/wooden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16008,
+        "name": "wooden necklace+8",
+        "plus": 8,
+        "next_item_id": 16009,
+        "type": "necklace",
+        "required_level": 1,
+        "stats": {
+            "casting_speed": 18,
+            "fire_resistance": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/wooden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16009,
+        "name": "wooden necklace+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "necklace",
+        "required_level": 1,
+        "stats": {
+            "casting_speed": 20,
+            "fire_resistance": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/wooden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16020,
+        "name": "copper necklace+0",
+        "plus": 0,
+        "next_item_id": 16021,
+        "type": "necklace",
+        "required_level": 8,
+        "stats": {
+            "casting_speed": 2,
+            "lightning_resistance": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/copper_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16021,
+        "name": "copper necklace+1",
+        "plus": 1,
+        "next_item_id": 16022,
+        "type": "necklace",
+        "required_level": 8,
+        "stats": {
+            "casting_speed": 4,
+            "lightning_resistance": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/copper_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16022,
+        "name": "copper necklace+2",
+        "plus": 2,
+        "next_item_id": 16023,
+        "type": "necklace",
+        "required_level": 8,
+        "stats": {
+            "casting_speed": 6,
+            "lightning_resistance": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/copper_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16023,
+        "name": "copper necklace+3",
+        "plus": 3,
+        "next_item_id": 16024,
+        "type": "necklace",
+        "required_level": 8,
+        "stats": {
+            "casting_speed": 8,
+            "lightning_resistance": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/copper_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16024,
+        "name": "copper necklace+4",
+        "plus": 4,
+        "next_item_id": 16025,
+        "type": "necklace",
+        "required_level": 8,
+        "stats": {
+            "casting_speed": 10,
+            "lightning_resistance": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/copper_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16025,
+        "name": "copper necklace+5",
+        "plus": 5,
+        "next_item_id": 16026,
+        "type": "necklace",
+        "required_level": 8,
+        "stats": {
+            "casting_speed": 12,
+            "lightning_resistance": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/copper_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16026,
+        "name": "copper necklace+6",
+        "plus": 6,
+        "next_item_id": 16027,
+        "type": "necklace",
+        "required_level": 8,
+        "stats": {
+            "casting_speed": 14,
+            "lightning_resistance": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/copper_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16027,
+        "name": "copper necklace+7",
+        "plus": 7,
+        "next_item_id": 16028,
+        "type": "necklace",
+        "required_level": 8,
+        "stats": {
+            "casting_speed": 16,
+            "lightning_resistance": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/copper_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16028,
+        "name": "copper necklace+8",
+        "plus": 8,
+        "next_item_id": 16029,
+        "type": "necklace",
+        "required_level": 8,
+        "stats": {
+            "casting_speed": 18,
+            "lightning_resistance": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/copper_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16029,
+        "name": "copper necklace+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "necklace",
+        "required_level": 8,
+        "stats": {
+            "casting_speed": 20,
+            "lightning_resistance": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/copper_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16040,
+        "name": "silver necklace+0",
+        "plus": 0,
+        "next_item_id": 16041,
+        "type": "necklace",
+        "required_level": 15,
+        "stats": {
+            "casting_speed": 2,
+            "wind_resistance": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/silver_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16041,
+        "name": "silver necklace+1",
+        "plus": 1,
+        "next_item_id": 16042,
+        "type": "necklace",
+        "required_level": 15,
+        "stats": {
+            "casting_speed": 4,
+            "wind_resistance": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/silver_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16042,
+        "name": "silver necklace+2",
+        "plus": 2,
+        "next_item_id": 16043,
+        "type": "necklace",
+        "required_level": 15,
+        "stats": {
+            "casting_speed": 6,
+            "wind_resistance": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/silver_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16043,
+        "name": "silver necklace+3",
+        "plus": 3,
+        "next_item_id": 16044,
+        "type": "necklace",
+        "required_level": 15,
+        "stats": {
+            "casting_speed": 8,
+            "wind_resistance": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/silver_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16044,
+        "name": "silver necklace+4",
+        "plus": 4,
+        "next_item_id": 16045,
+        "type": "necklace",
+        "required_level": 15,
+        "stats": {
+            "casting_speed": 10,
+            "wind_resistance": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/silver_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16045,
+        "name": "silver necklace+5",
+        "plus": 5,
+        "next_item_id": 16046,
+        "type": "necklace",
+        "required_level": 15,
+        "stats": {
+            "casting_speed": 12,
+            "wind_resistance": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/silver_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16046,
+        "name": "silver necklace+6",
+        "plus": 6,
+        "next_item_id": 16047,
+        "type": "necklace",
+        "required_level": 15,
+        "stats": {
+            "casting_speed": 14,
+            "wind_resistance": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/silver_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16047,
+        "name": "silver necklace+7",
+        "plus": 7,
+        "next_item_id": 16048,
+        "type": "necklace",
+        "required_level": 15,
+        "stats": {
+            "casting_speed": 16,
+            "wind_resistance": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/silver_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16048,
+        "name": "silver necklace+8",
+        "plus": 8,
+        "next_item_id": 16049,
+        "type": "necklace",
+        "required_level": 15,
+        "stats": {
+            "casting_speed": 18,
+            "wind_resistance": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/silver_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16049,
+        "name": "silver necklace+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "necklace",
+        "required_level": 15,
+        "stats": {
+            "casting_speed": 20,
+            "wind_resistance": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/silver_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16060,
+        "name": "golden necklace+0",
+        "plus": 0,
+        "next_item_id": 16061,
+        "type": "necklace",
+        "required_level": 22,
+        "stats": {
+            "casting_speed": 2,
+            "arrow_defence": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/golden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16061,
+        "name": "golden necklace+1",
+        "plus": 1,
+        "next_item_id": 16062,
+        "type": "necklace",
+        "required_level": 22,
+        "stats": {
+            "casting_speed": 4,
+            "arrow_defence": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/golden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16062,
+        "name": "golden necklace+2",
+        "plus": 2,
+        "next_item_id": 16063,
+        "type": "necklace",
+        "required_level": 22,
+        "stats": {
+            "casting_speed": 6,
+            "arrow_defence": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/golden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16063,
+        "name": "golden necklace+3",
+        "plus": 3,
+        "next_item_id": 16064,
+        "type": "necklace",
+        "required_level": 22,
+        "stats": {
+            "casting_speed": 8,
+            "arrow_defence": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/golden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16064,
+        "name": "golden necklace+4",
+        "plus": 4,
+        "next_item_id": 16065,
+        "type": "necklace",
+        "required_level": 22,
+        "stats": {
+            "casting_speed": 10,
+            "arrow_defence": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/golden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16065,
+        "name": "golden necklace+5",
+        "plus": 5,
+        "next_item_id": 16066,
+        "type": "necklace",
+        "required_level": 22,
+        "stats": {
+            "casting_speed": 12,
+            "arrow_defence": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/golden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16066,
+        "name": "golden necklace+6",
+        "plus": 6,
+        "next_item_id": 16067,
+        "type": "necklace",
+        "required_level": 22,
+        "stats": {
+            "casting_speed": 14,
+            "arrow_defence": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/golden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16067,
+        "name": "golden necklace+7",
+        "plus": 7,
+        "next_item_id": 16068,
+        "type": "necklace",
+        "required_level": 22,
+        "stats": {
+            "casting_speed": 16,
+            "arrow_defence": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/golden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16068,
+        "name": "golden necklace+8",
+        "plus": 8,
+        "next_item_id": 16069,
+        "type": "necklace",
+        "required_level": 22,
+        "stats": {
+            "casting_speed": 18,
+            "arrow_defence": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/golden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16069,
+        "name": "golden necklace+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "necklace",
+        "required_level": 22,
+        "stats": {
+            "casting_speed": 20,
+            "arrow_defence": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-1-22",
+        "img": "items/necklaces/golden_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16080,
+        "name": "jade necklace+0",
+        "plus": 0,
+        "next_item_id": 16081,
+        "type": "necklace",
+        "required_level": 28,
+        "stats": {
+            "casting_speed": 4,
+            "dexterity": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/jade_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16081,
+        "name": "jade necklace+1",
+        "plus": 1,
+        "next_item_id": 16082,
+        "type": "necklace",
+        "required_level": 28,
+        "stats": {
+            "casting_speed": 6,
+            "dexterity": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/jade_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16082,
+        "name": "jade necklace+2",
+        "plus": 2,
+        "next_item_id": 16083,
+        "type": "necklace",
+        "required_level": 28,
+        "stats": {
+            "casting_speed": 8,
+            "dexterity": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/jade_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16083,
+        "name": "jade necklace+3",
+        "plus": 3,
+        "next_item_id": 16084,
+        "type": "necklace",
+        "required_level": 28,
+        "stats": {
+            "casting_speed": 10,
+            "dexterity": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/jade_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16084,
+        "name": "jade necklace+4",
+        "plus": 4,
+        "next_item_id": 16085,
+        "type": "necklace",
+        "required_level": 28,
+        "stats": {
+            "casting_speed": 12,
+            "dexterity": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/jade_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16085,
+        "name": "jade necklace+5",
+        "plus": 5,
+        "next_item_id": 16086,
+        "type": "necklace",
+        "required_level": 28,
+        "stats": {
+            "casting_speed": 14,
+            "dexterity": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/jade_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16086,
+        "name": "jade necklace+6",
+        "plus": 6,
+        "next_item_id": 16087,
+        "type": "necklace",
+        "required_level": 28,
+        "stats": {
+            "casting_speed": 16,
+            "dexterity": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/jade_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16087,
+        "name": "jade necklace+7",
+        "plus": 7,
+        "next_item_id": 16088,
+        "type": "necklace",
+        "required_level": 28,
+        "stats": {
+            "casting_speed": 18,
+            "dexterity": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/jade_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16088,
+        "name": "jade necklace+8",
+        "plus": 8,
+        "next_item_id": 16089,
+        "type": "necklace",
+        "required_level": 28,
+        "stats": {
+            "casting_speed": 20,
+            "dexterity": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/jade_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16089,
+        "name": "jade necklace+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "necklace",
+        "required_level": 28,
+        "stats": {
+            "casting_speed": 22,
+            "dexterity": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/jade_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16100,
+        "name": "ebony necklace+0",
+        "plus": 0,
+        "next_item_id": 16101,
+        "type": "necklace",
+        "required_level": 33,
+        "stats": {
+            "casting_speed": 4,
+            "vitality": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/ebony_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16101,
+        "name": "ebony necklace+1",
+        "plus": 1,
+        "next_item_id": 16102,
+        "type": "necklace",
+        "required_level": 33,
+        "stats": {
+            "casting_speed": 6,
+            "vitality": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/ebony_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16102,
+        "name": "ebony necklace+2",
+        "plus": 2,
+        "next_item_id": 16103,
+        "type": "necklace",
+        "required_level": 33,
+        "stats": {
+            "casting_speed": 8,
+            "vitality": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/ebony_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16103,
+        "name": "ebony necklace+3",
+        "plus": 3,
+        "next_item_id": 16104,
+        "type": "necklace",
+        "required_level": 33,
+        "stats": {
+            "casting_speed": 10,
+            "vitality": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/ebony_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16104,
+        "name": "ebony necklace+4",
+        "plus": 4,
+        "next_item_id": 16105,
+        "type": "necklace",
+        "required_level": 33,
+        "stats": {
+            "casting_speed": 12,
+            "vitality": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/ebony_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16105,
+        "name": "ebony necklace+5",
+        "plus": 5,
+        "next_item_id": 16106,
+        "type": "necklace",
+        "required_level": 33,
+        "stats": {
+            "casting_speed": 14,
+            "vitality": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/ebony_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16106,
+        "name": "ebony necklace+6",
+        "plus": 6,
+        "next_item_id": 16107,
+        "type": "necklace",
+        "required_level": 33,
+        "stats": {
+            "casting_speed": 16,
+            "vitality": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/ebony_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16107,
+        "name": "ebony necklace+7",
+        "plus": 7,
+        "next_item_id": 16108,
+        "type": "necklace",
+        "required_level": 33,
+        "stats": {
+            "casting_speed": 18,
+            "vitality": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/ebony_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16108,
+        "name": "ebony necklace+8",
+        "plus": 8,
+        "next_item_id": 16109,
+        "type": "necklace",
+        "required_level": 33,
+        "stats": {
+            "casting_speed": 20,
+            "vitality": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/ebony_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16109,
+        "name": "ebony necklace+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "necklace",
+        "required_level": 33,
+        "stats": {
+            "casting_speed": 22,
+            "vitality": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/ebony_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16120,
+        "name": "pearl necklace+0",
+        "plus": 0,
+        "next_item_id": 16121,
+        "type": "necklace",
+        "required_level": 38,
+        "stats": {
+            "casting_speed": 4,
+            "intelligence": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/pearl_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16121,
+        "name": "pearl necklace+1",
+        "plus": 1,
+        "next_item_id": 16122,
+        "type": "necklace",
+        "required_level": 38,
+        "stats": {
+            "casting_speed": 6,
+            "intelligence": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/pearl_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16122,
+        "name": "pearl necklace+2",
+        "plus": 2,
+        "next_item_id": 16123,
+        "type": "necklace",
+        "required_level": 38,
+        "stats": {
+            "casting_speed": 8,
+            "intelligence": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/pearl_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16123,
+        "name": "pearl necklace+3",
+        "plus": 3,
+        "next_item_id": 16124,
+        "type": "necklace",
+        "required_level": 38,
+        "stats": {
+            "casting_speed": 10,
+            "intelligence": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/pearl_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16124,
+        "name": "pearl necklace+4",
+        "plus": 4,
+        "next_item_id": 16125,
+        "type": "necklace",
+        "required_level": 38,
+        "stats": {
+            "casting_speed": 12,
+            "intelligence": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/pearl_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16125,
+        "name": "pearl necklace+5",
+        "plus": 5,
+        "next_item_id": 16126,
+        "type": "necklace",
+        "required_level": 38,
+        "stats": {
+            "casting_speed": 14,
+            "intelligence": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/pearl_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16126,
+        "name": "pearl necklace+6",
+        "plus": 6,
+        "next_item_id": 16127,
+        "type": "necklace",
+        "required_level": 38,
+        "stats": {
+            "casting_speed": 16,
+            "intelligence": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/pearl_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16127,
+        "name": "pearl necklace+7",
+        "plus": 7,
+        "next_item_id": 16128,
+        "type": "necklace",
+        "required_level": 38,
+        "stats": {
+            "casting_speed": 18,
+            "intelligence": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/pearl_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16128,
+        "name": "pearl necklace+8",
+        "plus": 8,
+        "next_item_id": 16129,
+        "type": "necklace",
+        "required_level": 38,
+        "stats": {
+            "casting_speed": 20,
+            "intelligence": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/pearl_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16129,
+        "name": "pearl necklace+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "necklace",
+        "required_level": 38,
+        "stats": {
+            "casting_speed": 22,
+            "intelligence": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/pearl_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16140,
+        "name": "white gold necklace+0",
+        "plus": 0,
+        "next_item_id": 16141,
+        "type": "necklace",
+        "required_level": 42,
+        "stats": {
+            "casting_speed": 4,
+            "strength": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/white_gold_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16141,
+        "name": "white gold necklace+1",
+        "plus": 1,
+        "next_item_id": 16142,
+        "type": "necklace",
+        "required_level": 42,
+        "stats": {
+            "casting_speed": 6,
+            "strength": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/white_gold_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16142,
+        "name": "white gold necklace+2",
+        "plus": 2,
+        "next_item_id": 16143,
+        "type": "necklace",
+        "required_level": 42,
+        "stats": {
+            "casting_speed": 8,
+            "strength": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/white_gold_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16143,
+        "name": "white gold necklace+3",
+        "plus": 3,
+        "next_item_id": 16144,
+        "type": "necklace",
+        "required_level": 42,
+        "stats": {
+            "casting_speed": 10,
+            "strength": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/white_gold_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16144,
+        "name": "white gold necklace+4",
+        "plus": 4,
+        "next_item_id": 16145,
+        "type": "necklace",
+        "required_level": 42,
+        "stats": {
+            "casting_speed": 12,
+            "strength": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/white_gold_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16145,
+        "name": "white gold necklace+5",
+        "plus": 5,
+        "next_item_id": 16146,
+        "type": "necklace",
+        "required_level": 42,
+        "stats": {
+            "casting_speed": 14,
+            "strength": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/white_gold_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16146,
+        "name": "white gold necklace+6",
+        "plus": 6,
+        "next_item_id": 16147,
+        "type": "necklace",
+        "required_level": 42,
+        "stats": {
+            "casting_speed": 16,
+            "strength": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/white_gold_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16147,
+        "name": "white gold necklace+7",
+        "plus": 7,
+        "next_item_id": 16148,
+        "type": "necklace",
+        "required_level": 42,
+        "stats": {
+            "casting_speed": 18,
+            "strength": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/white_gold_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16148,
+        "name": "white gold necklace+8",
+        "plus": 8,
+        "next_item_id": 16149,
+        "type": "necklace",
+        "required_level": 42,
+        "stats": {
+            "casting_speed": 20,
+            "strength": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/white_gold_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16149,
+        "name": "white gold necklace+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "necklace",
+        "required_level": 42,
+        "stats": {
+            "casting_speed": 22,
+            "strength": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-28-42",
+        "img": "items/necklaces/white_gold_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16160,
+        "name": "crystal necklace+0",
+        "plus": 0,
+        "next_item_id": 16161,
+        "type": "necklace",
+        "required_level": 46,
+        "stats": {
+            "casting_speed": 6,
+            "sp_regeneration": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/crystal_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16161,
+        "name": "crystal necklace+1",
+        "plus": 1,
+        "next_item_id": 16162,
+        "type": "necklace",
+        "required_level": 46,
+        "stats": {
+            "casting_speed": 8,
+            "sp_regeneration": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/crystal_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16162,
+        "name": "crystal necklace+2",
+        "plus": 2,
+        "next_item_id": 16163,
+        "type": "necklace",
+        "required_level": 46,
+        "stats": {
+            "casting_speed": 10,
+            "sp_regeneration": 12
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/crystal_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16163,
+        "name": "crystal necklace+3",
+        "plus": 3,
+        "next_item_id": 16164,
+        "type": "necklace",
+        "required_level": 46,
+        "stats": {
+            "casting_speed": 12,
+            "sp_regeneration": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/crystal_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16164,
+        "name": "crystal necklace+4",
+        "plus": 4,
+        "next_item_id": 16165,
+        "type": "necklace",
+        "required_level": 46,
+        "stats": {
+            "casting_speed": 14,
+            "sp_regeneration": 19
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/crystal_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16165,
+        "name": "crystal necklace+5",
+        "plus": 5,
+        "next_item_id": 16166,
+        "type": "necklace",
+        "required_level": 46,
+        "stats": {
+            "casting_speed": 16,
+            "sp_regeneration": 24
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/crystal_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16166,
+        "name": "crystal necklace+6",
+        "plus": 6,
+        "next_item_id": 16167,
+        "type": "necklace",
+        "required_level": 46,
+        "stats": {
+            "casting_speed": 18,
+            "sp_regeneration": 30
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/crystal_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16167,
+        "name": "crystal necklace+7",
+        "plus": 7,
+        "next_item_id": 16168,
+        "type": "necklace",
+        "required_level": 46,
+        "stats": {
+            "casting_speed": 20,
+            "sp_regeneration": 36
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/crystal_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16168,
+        "name": "crystal necklace+8",
+        "plus": 8,
+        "next_item_id": 16169,
+        "type": "necklace",
+        "required_level": 46,
+        "stats": {
+            "casting_speed": 22,
+            "sp_regeneration": 45
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/crystal_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16169,
+        "name": "crystal necklace+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "necklace",
+        "required_level": 46,
+        "stats": {
+            "casting_speed": 24,
+            "sp_regeneration": 56
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/crystal_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16180,
+        "name": "amethyst necklace+0",
+        "plus": 0,
+        "next_item_id": 16181,
+        "type": "necklace",
+        "required_level": 50,
+        "stats": {
+            "casting_speed": 6,
+            "hp_regeneration": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/amethyst_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16181,
+        "name": "amethyst necklace+1",
+        "plus": 1,
+        "next_item_id": 16182,
+        "type": "necklace",
+        "required_level": 50,
+        "stats": {
+            "casting_speed": 8,
+            "hp_regeneration": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/amethyst_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16182,
+        "name": "amethyst necklace+2",
+        "plus": 2,
+        "next_item_id": 16183,
+        "type": "necklace",
+        "required_level": 50,
+        "stats": {
+            "casting_speed": 10,
+            "hp_regeneration": 12
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/amethyst_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16183,
+        "name": "amethyst necklace+3",
+        "plus": 3,
+        "next_item_id": 16184,
+        "type": "necklace",
+        "required_level": 50,
+        "stats": {
+            "casting_speed": 12,
+            "hp_regeneration": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/amethyst_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16184,
+        "name": "amethyst necklace+4",
+        "plus": 4,
+        "next_item_id": 16185,
+        "type": "necklace",
+        "required_level": 50,
+        "stats": {
+            "casting_speed": 14,
+            "hp_regeneration": 19
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/amethyst_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16185,
+        "name": "amethyst necklace+5",
+        "plus": 5,
+        "next_item_id": 16186,
+        "type": "necklace",
+        "required_level": 50,
+        "stats": {
+            "casting_speed": 16,
+            "hp_regeneration": 24
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/amethyst_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16186,
+        "name": "amethyst necklace+6",
+        "plus": 6,
+        "next_item_id": 16187,
+        "type": "necklace",
+        "required_level": 50,
+        "stats": {
+            "casting_speed": 18,
+            "hp_regeneration": 30
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/amethyst_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16187,
+        "name": "amethyst necklace+7",
+        "plus": 7,
+        "next_item_id": 16188,
+        "type": "necklace",
+        "required_level": 50,
+        "stats": {
+            "casting_speed": 20,
+            "hp_regeneration": 36
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/amethyst_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16188,
+        "name": "amethyst necklace+8",
+        "plus": 8,
+        "next_item_id": 16189,
+        "type": "necklace",
+        "required_level": 50,
+        "stats": {
+            "casting_speed": 22,
+            "hp_regeneration": 45
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/amethyst_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16189,
+        "name": "amethyst necklace+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "necklace",
+        "required_level": 50,
+        "stats": {
+            "casting_speed": 24,
+            "hp_regeneration": 56
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/amethyst_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16200,
+        "name": "heaven's tear necklace+0",
+        "plus": 0,
+        "next_item_id": 16201,
+        "type": "necklace",
+        "required_level": 54,
+        "stats": {
+            "casting_speed": 6,
+            "piercing_hit_chance": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/heavens_tear_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16201,
+        "name": "heaven's tear necklace+1",
+        "plus": 1,
+        "next_item_id": 16202,
+        "type": "necklace",
+        "required_level": 54,
+        "stats": {
+            "casting_speed": 8,
+            "piercing_hit_chance": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/heavens_tear_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16202,
+        "name": "heaven's tear necklace+2",
+        "plus": 2,
+        "next_item_id": 16203,
+        "type": "necklace",
+        "required_level": 54,
+        "stats": {
+            "casting_speed": 10,
+            "piercing_hit_chance": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/heavens_tear_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16203,
+        "name": "heaven's tear necklace+3",
+        "plus": 3,
+        "next_item_id": 16204,
+        "type": "necklace",
+        "required_level": 54,
+        "stats": {
+            "casting_speed": 12,
+            "piercing_hit_chance": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/heavens_tear_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16204,
+        "name": "heaven's tear necklace+4",
+        "plus": 4,
+        "next_item_id": 16205,
+        "type": "necklace",
+        "required_level": 54,
+        "stats": {
+            "casting_speed": 14,
+            "piercing_hit_chance": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/heavens_tear_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16205,
+        "name": "heaven's tear necklace+5",
+        "plus": 5,
+        "next_item_id": 16206,
+        "type": "necklace",
+        "required_level": 54,
+        "stats": {
+            "casting_speed": 16,
+            "piercing_hit_chance": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/heavens_tear_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16206,
+        "name": "heaven's tear necklace+6",
+        "plus": 6,
+        "next_item_id": 16207,
+        "type": "necklace",
+        "required_level": 54,
+        "stats": {
+            "casting_speed": 18,
+            "piercing_hit_chance": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/heavens_tear_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16207,
+        "name": "heaven's tear necklace+7",
+        "plus": 7,
+        "next_item_id": 16208,
+        "type": "necklace",
+        "required_level": 54,
+        "stats": {
+            "casting_speed": 20,
+            "piercing_hit_chance": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/heavens_tear_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16208,
+        "name": "heaven's tear necklace+8",
+        "plus": 8,
+        "next_item_id": 16209,
+        "type": "necklace",
+        "required_level": 54,
+        "stats": {
+            "casting_speed": 22,
+            "piercing_hit_chance": 13
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/heavens_tear_necklace.png",
+        "size": 1
+    },
+    {
+        "id": 16209,
+        "name": "heaven's tear necklace+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "necklace",
+        "required_level": 54,
+        "stats": {
+            "casting_speed": 24,
+            "piercing_hit_chance": 20
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "necklaces-46-54",
+        "img": "items/necklaces/heavens_tear_necklace.png",
+        "size": 1
+    }
+]

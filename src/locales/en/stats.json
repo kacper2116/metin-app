@@ -26,8 +26,13 @@
     "hp_regeneration": "HP Regeneration",
     "attack_value": "Attack Value",
     "critical_hit_chance": "Chance of critical hit",
+    "piercing_hit_chance": "Chance of a piercing hit",
     "max_endurance": "Max. Endurance",
     "poison_resistance": "Poison Resistance",
     "restore_sp": "Chance to restore SP",
-    "restore_hp": "Chance to restore HP"
+    "restore_hp": "Chance to restore HP",
+    "fire_resistance": "Fire Resistance",
+    "lightning_resistance": "Lightning Resistance",
+    "wind_resistance": "Wind Resistance",
+    "arrow_defence": "Arrow Defence"
 }
