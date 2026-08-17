@@ -21,38 +21,126 @@ const TooltipContent = ({ itemInstance }) => {
     ]
 
     const statsLabels = {
-        required_level: { label: translate('stats.required_level') + ': ', unit: null },
-        attack: { label: translate('stats.attack') + ': ', unit: null },
-        magical_attack: { label: translate('stats.magical_attack') + ': ', unit: null },
-        attack_speed: { label: translate('stats.attack_speed') + ' +', unit: '%' },
-        defence: { label: translate('stats.defence') + ' ', unit: null },
-        movement_speed: { label: translate('stats.movement_speed') + ' ', unit: '%' },
-        magic_resistance: { label: translate('stats.magic_resistance') + ': ', unit: '%' },
-        max_hp: { label: translate('stats.max_hp') + ' +', unit: null },
-        strong_against_half_humans: { label: translate('stats.strong_against_half_humans') + ' +', unit: '%' },
-        strong_against_monsters: { label: translate('stats.strong_against_monsters') + ' +', unit: '%' },
-        exp_bonus: { label: translate('stats.exp_bonus') + ': ', unit: '%' },
-        casting_speed: { label: translate('stats.casting_speed') + ' +', unit: '%' },
-        defence_against_warrior: { label: translate('stats.defence_against_warrior') + ': ', unit: '%' },
-        defence_against_ninja: { label: translate('stats.defence_against_ninja') + ': ', unit: '%' },
-        defence_against_sura: { label: translate('stats.defence_against_sura') + ': ', unit: '%' },
-        defence_against_shaman: { label: translate('stats.defence_against_shaman') + ': ', unit: '%' },
-        chance_to_block_attack: { label: translate('stats.chance_to_block_attack') + ' ', unit: '%' },
-        dexterity: { label: translate('stats.dexterity') + ' +', unit: null },
-        strength: { label: translate('stats.strength') + ' +', unit: null },
-        vitality: { label: translate('stats.vitality') + ' +', unit: null },
-        intelligence: { label: translate('stats.intelligence') + ' +', unit: null },
-        max_sp: { label: translate('stats.max_sp') + ' +', unit: null },
-        sp_regeneration: { label: translate('stats.sp_regeneration') + ' +', unit: '%' },
-        hp_regeneration: { label: translate('stats.hp_regeneration') + ' +', unit: '%' },
-        attack_value: { label: translate('stats.attack_value') + ' +', unit: null },
-        critical_hit_chance: { label: translate('stats.critical_hit_chance') + ' +', unit: '%' },
-        max_endurance: { label: translate('stats.max_endurance') + '+ ', unit: null },
-        poison_resistance: { label: translate('stats.poison_resistance') + ' ', unit: '%' },
-        restore_sp: { label: translate('stats.restore_sp') + ' ', unit: '%' },
-        restore_hp: { label: translate('stats.restore_hp') + ' ', unit: '%' },
-    }
+        required_level: {
+            format: value => `${translate('stats.required_level')}: ${value}`
+        },
 
+        attack: {
+            format: value => `${translate('stats.attack')}: ${value}`
+        },
+
+        magical_attack: {
+            format: value => `${translate('stats.magical_attack')}: ${value}`
+        },
+
+        attack_speed: {
+            format: value => `${translate('stats.attack_speed')} +${value}%`
+        },
+
+        defence: {
+            format: value => `${translate('stats.defence')} ${value}`
+        },
+
+        movement_speed: {
+            format: value => `${translate('stats.movement_speed')} ${value}%`
+        },
+
+        magic_resistance: {
+            format: value => `${translate('stats.magic_resistance')}: ${value}%`
+        },
+
+        max_hp: {
+            format: value => `${translate('stats.max_hp')} +${value}`
+        },
+
+        strong_against_half_humans: {
+            format: value => `${translate('stats.strong_against_half_humans')} +${value}%`
+        },
+
+        strong_against_monsters: {
+            format: value => `${translate('stats.strong_against_monsters')} +${value}%`
+        },
+
+        exp_bonus: {
+            format: value => `${translate('stats.exp_bonus')}: ${value}%`
+        },
+
+        casting_speed: {
+            format: value => `${translate('stats.casting_speed')} +${value}%`
+        },
+
+        defence_against_warrior: {
+            format: value => `${translate('stats.defence_against_warrior')}: ${value}%`
+        },
+
+        defence_against_ninja: {
+            format: value => `${translate('stats.defence_against_ninja')}: ${value}%`
+        },
+
+        defence_against_sura: {
+            format: value => `${translate('stats.defence_against_sura')}: ${value}%`
+        },
+
+        defence_against_shaman: {
+            format: value => `${translate('stats.defence_against_shaman')}: ${value}%`
+        },
+
+        chance_to_block_attack: {
+            format: value => `${translate('stats.chance_to_block_attack')} ${value}%`
+        },
+
+        dexterity: {
+            format: value => `${translate('stats.dexterity')} +${value}`
+        },
+
+        strength: {
+            format: value => `${translate('stats.strength')} +${value}`
+        },
+
+        vitality: {
+            format: value => `${translate('stats.vitality')} +${value}`
+        },
+
+        intelligence: {
+            format: value => `${translate('stats.intelligence')} +${value}`
+        },
+
+        max_sp: {
+            format: value => `${translate('stats.max_sp')} +${value}`
+        },
+
+        sp_regeneration: {
+            format: value => `${translate('stats.sp_regeneration')} +${value}%`
+        },
+
+        hp_regeneration: {
+            format: value => `${translate('stats.hp_regeneration')} +${value}%`
+        },
+
+        attack_value: {
+            format: value => `${translate('stats.attack_value')} +${value}`
+        },
+
+        critical_hit_chance: {
+            format: value => `${translate('stats.critical_hit_chance')} +${value}%`
+        },
+
+        max_endurance: {
+            format: value => `${translate('stats.max_endurance')} +${value}`
+        },
+
+        poison_resistance: {
+            format: value => `${translate('stats.poison_resistance')} ${value}%`
+        },
+
+        restore_sp: {
+            format: value => `${value}% ${translate('stats.restore_sp')}`
+        },
+
+        restore_hp: {
+            format: value => `${value}% ${translate('stats.restore_hp')}`
+        },
+    };
 
     const formatStatValue = (value) => {
 
@@ -68,7 +156,8 @@ const TooltipContent = ({ itemInstance }) => {
         if (!stat) return '';
         const statValue = formatStatValue(value);
 
-        return `${stat.label}${statValue}${stat.unit ?? ''}`;
+        return stat.format(statValue);
+
     }
 
     const itemDisplayName = translate(`items.${item.name.split('+')[0]}`) + '+' + item.plus;
