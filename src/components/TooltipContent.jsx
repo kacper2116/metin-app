@@ -46,7 +46,7 @@ const TooltipContent = ({ itemInstance }) => {
         },
 
         magic_resistance: {
-            format: value => `${translate('stats.magic_resistance')}: ${value}%`
+            format: value => `${translate('stats.magic_resistance')} ${value}%`
         },
 
         max_hp: {
@@ -62,7 +62,7 @@ const TooltipContent = ({ itemInstance }) => {
         },
 
         exp_bonus: {
-            format: value => `${translate('stats.exp_bonus')}: ${value}%`
+            format: value => `${translate('stats.exp_bonus')} ${value}%`
         },
 
         casting_speed: {
@@ -70,19 +70,19 @@ const TooltipContent = ({ itemInstance }) => {
         },
 
         defence_against_warrior: {
-            format: value => `${translate('stats.defence_against_warrior')}: ${value}%`
+            format: value => `${translate('stats.defence_against_warrior')} ${value}%`
         },
 
         defence_against_ninja: {
-            format: value => `${translate('stats.defence_against_ninja')}: ${value}%`
+            format: value => `${translate('stats.defence_against_ninja')} ${value}%`
         },
 
         defence_against_sura: {
-            format: value => `${translate('stats.defence_against_sura')}: ${value}%`
+            format: value => `${translate('stats.defence_against_sura')} ${value}%`
         },
 
         defence_against_shaman: {
-            format: value => `${translate('stats.defence_against_shaman')}: ${value}%`
+            format: value => `${translate('stats.defence_against_shaman')} ${value}%`
         },
 
         chance_to_block_attack: {
