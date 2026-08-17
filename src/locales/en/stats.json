@@ -16,5 +16,14 @@
     "defence_against_ninja": "Defence chance against ninja attacks",
     "defence_against_sura": "Defence chance against sura attacks",
     "defence_against_shaman": "Defence chance against shaman attacks",
-    "chance_to_block_attack": "Chance to block a close-combat attack"
+    "chance_to_block_attack": "Chance to block a close-combat attack",
+    "dexterity": "Dexterity",
+    "strength": "Strength",
+    "vitality": "Vitality",
+    "intelligence": "Intelligence",
+    "max_sp": "Max. SP",
+    "sp_regeneration": "SP Regeneration",
+    "hp_regeneration": "HP Regeneration",
+    "attack_value": "Attack Value",
+    "critical_hit_chance": "Chance of critical hit"
 }

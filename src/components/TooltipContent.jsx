@@ -37,8 +37,18 @@ const TooltipContent = ({ itemInstance }) => {
         defence_against_ninja: { label: translate('stats.defence_against_ninja') + ': ', unit: '%' },
         defence_against_sura: { label: translate('stats.defence_against_sura') + ': ', unit: '%' },
         defence_against_shaman: { label: translate('stats.defence_against_shaman') + ': ', unit: '%' },
-        chance_to_block_attack: { label: translate('stats.chance_to_block_attack') + ' ', unit: '%' }
+        chance_to_block_attack: { label: translate('stats.chance_to_block_attack') + ' ', unit: '%' },
+        dexterity: { label: translate('stats.dexterity') + ' +', unit: null },
+        strength: { label: translate('stats.strength') + ' +', unit: null },
+        vitality: { label: translate('stats.vitality') + ' +', unit: null },
+        intelligence: { label: translate('stats.intelligence') + ' +', unit: null },
+        max_sp: { label: translate('stats.max_sp') + ' +', unit: null },
+        sp_regeneration: { label: translate('stats.sp_regeneration') + ' +', unit: '%' },
+        hp_regeneration: { label: translate('stats.hp_regeneration') + ' +', unit: '%' },
+        attack_value: { label: translate('stats.attack_value') + ' +', unit: null },
+        critical_hit_chance: { label: translate('stats.critical_hit_chance') + ' +', unit: '%' },
     }
+
 
     const formatStatValue = (value) => {
 

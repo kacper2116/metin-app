@@ -1,0 +1,2272 @@
+[
+    {
+        "id": 17000,
+        "name": "wooden earrings+0",
+        "plus": 0,
+        "next_item_id": 17001,
+        "type": "earrings",
+        "required_level": 1,
+        "stats": {
+            "dexterity": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/wooden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17001,
+        "name": "wooden earrings+1",
+        "plus": 1,
+        "next_item_id": 17002,
+        "type": "earrings",
+        "required_level": 1,
+        "stats": {
+            "dexterity": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/wooden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17002,
+        "name": "wooden earrings+2",
+        "plus": 2,
+        "next_item_id": 17003,
+        "type": "earrings",
+        "required_level": 1,
+        "stats": {
+            "dexterity": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/wooden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17003,
+        "name": "wooden earrings+3",
+        "plus": 3,
+        "next_item_id": 17004,
+        "type": "earrings",
+        "required_level": 1,
+        "stats": {
+            "dexterity": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/wooden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17004,
+        "name": "wooden earrings+4",
+        "plus": 4,
+        "next_item_id": 17005,
+        "type": "earrings",
+        "required_level": 1,
+        "stats": {
+            "dexterity": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/wooden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17005,
+        "name": "wooden earrings+5",
+        "plus": 5,
+        "next_item_id": 17006,
+        "type": "earrings",
+        "required_level": 1,
+        "stats": {
+            "dexterity": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/wooden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17006,
+        "name": "wooden earrings+6",
+        "plus": 6,
+        "next_item_id": 17007,
+        "type": "earrings",
+        "required_level": 1,
+        "stats": {
+            "dexterity": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/wooden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17007,
+        "name": "wooden earrings+7",
+        "plus": 7,
+        "next_item_id": 17008,
+        "type": "earrings",
+        "required_level": 1,
+        "stats": {
+            "dexterity": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/wooden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17008,
+        "name": "wooden earrings+8",
+        "plus": 8,
+        "next_item_id": 17009,
+        "type": "earrings",
+        "required_level": 1,
+        "stats": {
+            "dexterity": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/wooden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17009,
+        "name": "wooden earrings+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "earrings",
+        "required_level": 1,
+        "stats": {
+            "dexterity": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/wooden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17020,
+        "name": "copper earrings+0",
+        "plus": 0,
+        "next_item_id": 17021,
+        "type": "earrings",
+        "required_level": 8,
+        "stats": {
+            "strength": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/copper_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17021,
+        "name": "copper earrings+1",
+        "plus": 1,
+        "next_item_id": 17022,
+        "type": "earrings",
+        "required_level": 8,
+        "stats": {
+            "strength": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/copper_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17022,
+        "name": "copper earrings+2",
+        "plus": 2,
+        "next_item_id": 17023,
+        "type": "earrings",
+        "required_level": 8,
+        "stats": {
+            "strength": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/copper_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17023,
+        "name": "copper earrings+3",
+        "plus": 3,
+        "next_item_id": 17024,
+        "type": "earrings",
+        "required_level": 8,
+        "stats": {
+            "strength": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/copper_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17024,
+        "name": "copper earrings+4",
+        "plus": 4,
+        "next_item_id": 17025,
+        "type": "earrings",
+        "required_level": 8,
+        "stats": {
+            "strength": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/copper_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17025,
+        "name": "copper earrings+5",
+        "plus": 5,
+        "next_item_id": 17026,
+        "type": "earrings",
+        "required_level": 8,
+        "stats": {
+            "strength": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/copper_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17026,
+        "name": "copper earrings+6",
+        "plus": 6,
+        "next_item_id": 17027,
+        "type": "earrings",
+        "required_level": 8,
+        "stats": {
+            "strength": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/copper_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17027,
+        "name": "copper earrings+7",
+        "plus": 7,
+        "next_item_id": 17028,
+        "type": "earrings",
+        "required_level": 8,
+        "stats": {
+            "strength": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/copper_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17028,
+        "name": "copper earrings+8",
+        "plus": 8,
+        "next_item_id": 17029,
+        "type": "earrings",
+        "required_level": 8,
+        "stats": {
+            "strength": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/copper_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17029,
+        "name": "copper earrings+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "earrings",
+        "required_level": 8,
+        "stats": {
+            "strength": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/copper_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17040,
+        "name": "silver earrings+0",
+        "plus": 0,
+        "next_item_id": 17041,
+        "type": "earrings",
+        "required_level": 15,
+        "stats": {
+            "vitality": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/silver_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17041,
+        "name": "silver earrings+1",
+        "plus": 1,
+        "next_item_id": 17042,
+        "type": "earrings",
+        "required_level": 15,
+        "stats": {
+            "vitality": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/silver_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17042,
+        "name": "silver earrings+2",
+        "plus": 2,
+        "next_item_id": 17043,
+        "type": "earrings",
+        "required_level": 15,
+        "stats": {
+            "vitality": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/silver_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17043,
+        "name": "silver earrings+3",
+        "plus": 3,
+        "next_item_id": 17044,
+        "type": "earrings",
+        "required_level": 15,
+        "stats": {
+            "vitality": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/silver_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17044,
+        "name": "silver earrings+4",
+        "plus": 4,
+        "next_item_id": 17045,
+        "type": "earrings",
+        "required_level": 15,
+        "stats": {
+            "vitality": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/silver_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17045,
+        "name": "silver earrings+5",
+        "plus": 5,
+        "next_item_id": 17046,
+        "type": "earrings",
+        "required_level": 15,
+        "stats": {
+            "vitality": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/silver_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17046,
+        "name": "silver earrings+6",
+        "plus": 6,
+        "next_item_id": 17047,
+        "type": "earrings",
+        "required_level": 15,
+        "stats": {
+            "vitality": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/silver_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17047,
+        "name": "silver earrings+7",
+        "plus": 7,
+        "next_item_id": 17048,
+        "type": "earrings",
+        "required_level": 15,
+        "stats": {
+            "vitality": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/silver_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17048,
+        "name": "silver earrings+8",
+        "plus": 8,
+        "next_item_id": 17049,
+        "type": "earrings",
+        "required_level": 15,
+        "stats": {
+            "vitality": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/silver_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17049,
+        "name": "silver earrings+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "earrings",
+        "required_level": 15,
+        "stats": {
+            "vitality": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/silver_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17060,
+        "name": "golden earrings+0",
+        "plus": 0,
+        "next_item_id": 17061,
+        "type": "earrings",
+        "required_level": 22,
+        "stats": {
+            "intelligence": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/golden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17061,
+        "name": "golden earrings+1",
+        "plus": 1,
+        "next_item_id": 17062,
+        "type": "earrings",
+        "required_level": 22,
+        "stats": {
+            "intelligence": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/golden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17062,
+        "name": "golden earrings+2",
+        "plus": 2,
+        "next_item_id": 17063,
+        "type": "earrings",
+        "required_level": 22,
+        "stats": {
+            "intelligence": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/golden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17063,
+        "name": "golden earrings+3",
+        "plus": 3,
+        "next_item_id": 17064,
+        "type": "earrings",
+        "required_level": 22,
+        "stats": {
+            "intelligence": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/golden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17064,
+        "name": "golden earrings+4",
+        "plus": 4,
+        "next_item_id": 17065,
+        "type": "earrings",
+        "required_level": 22,
+        "stats": {
+            "intelligence": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/golden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17065,
+        "name": "golden earrings+5",
+        "plus": 5,
+        "next_item_id": 17066,
+        "type": "earrings",
+        "required_level": 22,
+        "stats": {
+            "intelligence": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/golden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17066,
+        "name": "golden earrings+6",
+        "plus": 6,
+        "next_item_id": 17067,
+        "type": "earrings",
+        "required_level": 22,
+        "stats": {
+            "intelligence": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/golden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17067,
+        "name": "golden earrings+7",
+        "plus": 7,
+        "next_item_id": 17068,
+        "type": "earrings",
+        "required_level": 22,
+        "stats": {
+            "intelligence": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/golden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17068,
+        "name": "golden earrings+8",
+        "plus": 8,
+        "next_item_id": 17069,
+        "type": "earrings",
+        "required_level": 22,
+        "stats": {
+            "intelligence": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/golden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17069,
+        "name": "golden earrings+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "earrings",
+        "required_level": 22,
+        "stats": {
+            "intelligence": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-1-22",
+        "img": "items/earrings/golden_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17080,
+        "name": "jade earrings+0",
+        "plus": 0,
+        "next_item_id": 17081,
+        "type": "earrings",
+        "required_level": 28,
+        "stats": {
+            "dexterity": 3,
+            "max_sp": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/jade_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17081,
+        "name": "jade earrings+1",
+        "plus": 1,
+        "next_item_id": 17082,
+        "type": "earrings",
+        "required_level": 28,
+        "stats": {
+            "dexterity": 4,
+            "max_sp": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/jade_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17082,
+        "name": "jade earrings+2",
+        "plus": 2,
+        "next_item_id": 17083,
+        "type": "earrings",
+        "required_level": 28,
+        "stats": {
+            "dexterity": 5,
+            "max_sp": 20
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/jade_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17083,
+        "name": "jade earrings+3",
+        "plus": 3,
+        "next_item_id": 17084,
+        "type": "earrings",
+        "required_level": 28,
+        "stats": {
+            "dexterity": 6,
+            "max_sp": 35
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/jade_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17084,
+        "name": "jade earrings+4",
+        "plus": 4,
+        "next_item_id": 17085,
+        "type": "earrings",
+        "required_level": 28,
+        "stats": {
+            "dexterity": 7,
+            "max_sp": 50
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/jade_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17085,
+        "name": "jade earrings+5",
+        "plus": 5,
+        "next_item_id": 17086,
+        "type": "earrings",
+        "required_level": 28,
+        "stats": {
+            "dexterity": 8,
+            "max_sp": 70
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/jade_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17086,
+        "name": "jade earrings+6",
+        "plus": 6,
+        "next_item_id": 17087,
+        "type": "earrings",
+        "required_level": 28,
+        "stats": {
+            "dexterity": 9,
+            "max_sp": 110
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/jade_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17087,
+        "name": "jade earrings+7",
+        "plus": 7,
+        "next_item_id": 17088,
+        "type": "earrings",
+        "required_level": 28,
+        "stats": {
+            "dexterity": 10,
+            "max_sp": 160
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/jade_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17088,
+        "name": "jade earrings+8",
+        "plus": 8,
+        "next_item_id": 17089,
+        "type": "earrings",
+        "required_level": 28,
+        "stats": {
+            "dexterity": 11,
+            "max_sp": 230
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/jade_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17089,
+        "name": "jade earrings+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "earrings",
+        "required_level": 28,
+        "stats": {
+            "dexterity": 12,
+            "max_sp": 370
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/jade_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17100,
+        "name": "ebony earrings+0",
+        "plus": 0,
+        "next_item_id": 17101,
+        "type": "earrings",
+        "required_level": 33,
+        "stats": {
+            "strength": 3,
+            "max_hp": 25
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/ebony_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17101,
+        "name": "ebony earrings+1",
+        "plus": 1,
+        "next_item_id": 17102,
+        "type": "earrings",
+        "required_level": 33,
+        "stats": {
+            "strength": 4,
+            "max_hp": 40
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/ebony_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17102,
+        "name": "ebony earrings+2",
+        "plus": 2,
+        "next_item_id": 17103,
+        "type": "earrings",
+        "required_level": 33,
+        "stats": {
+            "strength": 5,
+            "max_hp": 60
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/ebony_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17103,
+        "name": "ebony earrings+3",
+        "plus": 3,
+        "next_item_id": 17104,
+        "type": "earrings",
+        "required_level": 33,
+        "stats": {
+            "strength": 6,
+            "max_hp": 100
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/ebony_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17104,
+        "name": "ebony earrings+4",
+        "plus": 4,
+        "next_item_id": 17105,
+        "type": "earrings",
+        "required_level": 33,
+        "stats": {
+            "strength": 7,
+            "max_hp": 150
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/ebony_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17105,
+        "name": "ebony earrings+5",
+        "plus": 5,
+        "next_item_id": 17106,
+        "type": "earrings",
+        "required_level": 33,
+        "stats": {
+            "strength": 8,
+            "max_hp": 250
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/ebony_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17106,
+        "name": "ebony earrings+6",
+        "plus": 6,
+        "next_item_id": 17107,
+        "type": "earrings",
+        "required_level": 33,
+        "stats": {
+            "strength": 9,
+            "max_hp": 400
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/ebony_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17107,
+        "name": "ebony earrings+7",
+        "plus": 7,
+        "next_item_id": 17108,
+        "type": "earrings",
+        "required_level": 33,
+        "stats": {
+            "strength": 10,
+            "max_hp": 650
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/ebony_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17108,
+        "name": "ebony earrings+8",
+        "plus": 8,
+        "next_item_id": 17109,
+        "type": "earrings",
+        "required_level": 33,
+        "stats": {
+            "strength": 11,
+            "max_hp": 1000
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/ebony_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17109,
+        "name": "ebony earrings+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "earrings",
+        "required_level": 33,
+        "stats": {
+            "strength": 12,
+            "max_hp": 1650
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/ebony_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17120,
+        "name": "pearl earrings+0",
+        "plus": 0,
+        "next_item_id": 17121,
+        "type": "earrings",
+        "required_level": 38,
+        "stats": {
+            "vitality": 3,
+            "sp_regeneration": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/pearl_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17121,
+        "name": "pearl earrings+1",
+        "plus": 1,
+        "next_item_id": 17122,
+        "type": "earrings",
+        "required_level": 38,
+        "stats": {
+            "vitality": 4,
+            "sp_regeneration": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/pearl_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17122,
+        "name": "pearl earrings+2",
+        "plus": 2,
+        "next_item_id": 17123,
+        "type": "earrings",
+        "required_level": 38,
+        "stats": {
+            "vitality": 5,
+            "sp_regeneration": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/pearl_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17123,
+        "name": "pearl earrings+3",
+        "plus": 3,
+        "next_item_id": 17124,
+        "type": "earrings",
+        "required_level": 38,
+        "stats": {
+            "vitality": 6,
+            "sp_regeneration": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/pearl_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17124,
+        "name": "pearl earrings+4",
+        "plus": 4,
+        "next_item_id": 17125,
+        "type": "earrings",
+        "required_level": 38,
+        "stats": {
+            "vitality": 7,
+            "sp_regeneration": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/pearl_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17125,
+        "name": "pearl earrings+5",
+        "plus": 5,
+        "next_item_id": 17126,
+        "type": "earrings",
+        "required_level": 38,
+        "stats": {
+            "vitality": 8,
+            "sp_regeneration": 12
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/pearl_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17126,
+        "name": "pearl earrings+6",
+        "plus": 6,
+        "next_item_id": 17127,
+        "type": "earrings",
+        "required_level": 38,
+        "stats": {
+            "vitality": 9,
+            "sp_regeneration": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/pearl_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17127,
+        "name": "pearl earrings+7",
+        "plus": 7,
+        "next_item_id": 17128,
+        "type": "earrings",
+        "required_level": 38,
+        "stats": {
+            "vitality": 10,
+            "sp_regeneration": 18
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/pearl_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17128,
+        "name": "pearl earrings+8",
+        "plus": 8,
+        "next_item_id": 17129,
+        "type": "earrings",
+        "required_level": 38,
+        "stats": {
+            "vitality": 11,
+            "sp_regeneration": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/pearl_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17129,
+        "name": "pearl earrings+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "earrings",
+        "required_level": 38,
+        "stats": {
+            "vitality": 12,
+            "sp_regeneration": 28
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/pearl_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17140,
+        "name": "white gold earrings+0",
+        "plus": 0,
+        "next_item_id": 17141,
+        "type": "earrings",
+        "required_level": 42,
+        "stats": {
+            "intelligence": 3,
+            "hp_regeneration": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/white_gold_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17141,
+        "name": "white gold earrings+1",
+        "plus": 1,
+        "next_item_id": 17142,
+        "type": "earrings",
+        "required_level": 42,
+        "stats": {
+            "intelligence": 4,
+            "hp_regeneration": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/white_gold_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17142,
+        "name": "white gold earrings+2",
+        "plus": 2,
+        "next_item_id": 17143,
+        "type": "earrings",
+        "required_level": 42,
+        "stats": {
+            "intelligence": 5,
+            "hp_regeneration": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/white_gold_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17143,
+        "name": "white gold earrings+3",
+        "plus": 3,
+        "next_item_id": 17144,
+        "type": "earrings",
+        "required_level": 42,
+        "stats": {
+            "intelligence": 6,
+            "hp_regeneration": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/white_gold_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17144,
+        "name": "white gold earrings+4",
+        "plus": 4,
+        "next_item_id": 17145,
+        "type": "earrings",
+        "required_level": 42,
+        "stats": {
+            "intelligence": 7,
+            "hp_regeneration": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/white_gold_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17145,
+        "name": "white gold earrings+5",
+        "plus": 5,
+        "next_item_id": 17146,
+        "type": "earrings",
+        "required_level": 42,
+        "stats": {
+            "intelligence": 8,
+            "hp_regeneration": 12
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/white_gold_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17146,
+        "name": "white gold earrings+6",
+        "plus": 6,
+        "next_item_id": 17147,
+        "type": "earrings",
+        "required_level": 42,
+        "stats": {
+            "intelligence": 9,
+            "hp_regeneration": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/white_gold_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17147,
+        "name": "white gold earrings+7",
+        "plus": 7,
+        "next_item_id": 17148,
+        "type": "earrings",
+        "required_level": 42,
+        "stats": {
+            "intelligence": 10,
+            "hp_regeneration": 18
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/white_gold_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17148,
+        "name": "white gold earrings+8",
+        "plus": 8,
+        "next_item_id": 17149,
+        "type": "earrings",
+        "required_level": 42,
+        "stats": {
+            "intelligence": 11,
+            "hp_regeneration": 22
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/white_gold_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17149,
+        "name": "white gold earrings+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "earrings",
+        "required_level": 42,
+        "stats": {
+            "intelligence": 12,
+            "hp_regeneration": 28
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-28-42",
+        "img": "items/earrings/white_gold_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17160,
+        "name": "crystal earrings+0",
+        "plus": 0,
+        "next_item_id": 17161,
+        "type": "earrings",
+        "required_level": 46,
+        "stats": {
+            "dexterity": 5,
+            "defence": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/crystal_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17161,
+        "name": "crystal earrings+1",
+        "plus": 1,
+        "next_item_id": 17162,
+        "type": "earrings",
+        "required_level": 46,
+        "stats": {
+            "dexterity": 6,
+            "defence": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/crystal_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17162,
+        "name": "crystal earrings+2",
+        "plus": 2,
+        "next_item_id": 17163,
+        "type": "earrings",
+        "required_level": 46,
+        "stats": {
+            "dexterity": 7,
+            "defence": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/crystal_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17163,
+        "name": "crystal earrings+3",
+        "plus": 3,
+        "next_item_id": 17164,
+        "type": "earrings",
+        "required_level": 46,
+        "stats": {
+            "dexterity": 8,
+            "defence": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/crystal_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17164,
+        "name": "crystal earrings+4",
+        "plus": 4,
+        "next_item_id": 17165,
+        "type": "earrings",
+        "required_level": 46,
+        "stats": {
+            "dexterity": 9,
+            "defence": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/crystal_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17165,
+        "name": "crystal earrings+5",
+        "plus": 5,
+        "next_item_id": 17166,
+        "type": "earrings",
+        "required_level": 46,
+        "stats": {
+            "dexterity": 10,
+            "defence": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/crystal_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17166,
+        "name": "crystal earrings+6",
+        "plus": 6,
+        "next_item_id": 17167,
+        "type": "earrings",
+        "required_level": 46,
+        "stats": {
+            "dexterity": 11,
+            "defence": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/crystal_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17167,
+        "name": "crystal earrings+7",
+        "plus": 7,
+        "next_item_id": 17168,
+        "type": "earrings",
+        "required_level": 46,
+        "stats": {
+            "dexterity": 12,
+            "defence": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/crystal_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17168,
+        "name": "crystal earrings+8",
+        "plus": 8,
+        "next_item_id": 17169,
+        "type": "earrings",
+        "required_level": 46,
+        "stats": {
+            "dexterity": 13,
+            "defence": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/crystal_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17169,
+        "name": "crystal earrings+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "earrings",
+        "required_level": 46,
+        "stats": {
+            "dexterity": 14,
+            "defence": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/crystal_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17180,
+        "name": "amethyst earrings+0",
+        "plus": 0,
+        "next_item_id": 17181,
+        "type": "earrings",
+        "required_level": 50,
+        "stats": {
+            "vitality": 5,
+            "attack_value": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/amethyst_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17181,
+        "name": "amethyst earrings+1",
+        "plus": 1,
+        "next_item_id": 17182,
+        "type": "earrings",
+        "required_level": 50,
+        "stats": {
+            "vitality": 6,
+            "attack_value": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/amethyst_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17182,
+        "name": "amethyst earrings+2",
+        "plus": 2,
+        "next_item_id": 17183,
+        "type": "earrings",
+        "required_level": 50,
+        "stats": {
+            "vitality": 7,
+            "attack_value": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/amethyst_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17183,
+        "name": "amethyst earrings+3",
+        "plus": 3,
+        "next_item_id": 17184,
+        "type": "earrings",
+        "required_level": 50,
+        "stats": {
+            "vitality": 8,
+            "attack_value": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/amethyst_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17184,
+        "name": "amethyst earrings+4",
+        "plus": 4,
+        "next_item_id": 17185,
+        "type": "earrings",
+        "required_level": 50,
+        "stats": {
+            "vitality": 9,
+            "attack_value": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/amethyst_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17185,
+        "name": "amethyst earrings+5",
+        "plus": 5,
+        "next_item_id": 17186,
+        "type": "earrings",
+        "required_level": 50,
+        "stats": {
+            "vitality": 10,
+            "attack_value": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/amethyst_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17186,
+        "name": "amethyst earrings+6",
+        "plus": 6,
+        "next_item_id": 17187,
+        "type": "earrings",
+        "required_level": 50,
+        "stats": {
+            "vitality": 11,
+            "attack_value": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/amethyst_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17187,
+        "name": "amethyst earrings+7",
+        "plus": 7,
+        "next_item_id": 17188,
+        "type": "earrings",
+        "required_level": 50,
+        "stats": {
+            "vitality": 12,
+            "attack_value": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/amethyst_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17188,
+        "name": "amethyst earrings+8",
+        "plus": 8,
+        "next_item_id": 17189,
+        "type": "earrings",
+        "required_level": 50,
+        "stats": {
+            "vitality": 13,
+            "attack_value": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/amethyst_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17189,
+        "name": "amethyst earrings+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "earrings",
+        "required_level": 50,
+        "stats": {
+            "vitality": 14,
+            "attack_value": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/amethyst_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17200,
+        "name": "heaven's tear earrings+0",
+        "plus": 0,
+        "next_item_id": 17201,
+        "type": "earrings",
+        "required_level": 54,
+        "stats": {
+            "intelligence": 5,
+            "critical_hit_chance": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/heavens_tear_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17201,
+        "name": "heaven's tear earrings+1",
+        "plus": 1,
+        "next_item_id": 17202,
+        "type": "earrings",
+        "required_level": 54,
+        "stats": {
+            "intelligence": 6,
+            "critical_hit_chance": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/heavens_tear_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17202,
+        "name": "heaven's tear earrings+2",
+        "plus": 2,
+        "next_item_id": 17203,
+        "type": "earrings",
+        "required_level": 54,
+        "stats": {
+            "intelligence": 7,
+            "critical_hit_chance": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/heavens_tear_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17203,
+        "name": "heaven's tear earrings+3",
+        "plus": 3,
+        "next_item_id": 17204,
+        "type": "earrings",
+        "required_level": 54,
+        "stats": {
+            "intelligence": 8,
+            "critical_hit_chance": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/heavens_tear_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17204,
+        "name": "heaven's tear earrings+4",
+        "plus": 4,
+        "next_item_id": 17205,
+        "type": "earrings",
+        "required_level": 54,
+        "stats": {
+            "intelligence": 9,
+            "critical_hit_chance": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/heavens_tear_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17205,
+        "name": "heaven's tear earrings+5",
+        "plus": 5,
+        "next_item_id": 17206,
+        "type": "earrings",
+        "required_level": 54,
+        "stats": {
+            "intelligence": 10,
+            "critical_hit_chance": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/heavens_tear_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17206,
+        "name": "heaven's tear earrings+6",
+        "plus": 6,
+        "next_item_id": 17207,
+        "type": "earrings",
+        "required_level": 54,
+        "stats": {
+            "intelligence": 11,
+            "critical_hit_chance": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/heavens_tear_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17207,
+        "name": "heaven's tear earrings+7",
+        "plus": 7,
+        "next_item_id": 17208,
+        "type": "earrings",
+        "required_level": 54,
+        "stats": {
+            "intelligence": 12,
+            "critical_hit_chance": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/heavens_tear_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17208,
+        "name": "heaven's tear earrings+8",
+        "plus": 8,
+        "next_item_id": 17209,
+        "type": "earrings",
+        "required_level": 54,
+        "stats": {
+            "intelligence": 13,
+            "critical_hit_chance": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/heavens_tear_earrings.png",
+        "size": 1
+    },
+    {
+        "id": 17209,
+        "name": "heaven's tear earrings+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "earrings",
+        "required_level": 54,
+        "stats": {
+            "intelligence": 14,
+            "critical_hit_chance": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "earrings-46-54",
+        "img": "items/earrings/heavens_tear_earrings.png",
+        "size": 1
+    }
+]
