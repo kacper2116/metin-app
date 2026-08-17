@@ -150,6 +150,10 @@ const TooltipContent = ({ itemInstance }) => {
             format: value => `${translate('stats.wind_resistance')} ${value}%`
         }, arrow_defence: {
             format: value => `${translate('stats.arrow_defence')} ${value}%`
+        }, chance_to_avoid_arrows: {
+            format: value => `${translate('stats.chance_to_avoid_arrows')} ${value}%`
+        }, defence_bonus: {
+            format: value => `${translate('stats.defence_bonus')} +${value}`
         },
     };
 

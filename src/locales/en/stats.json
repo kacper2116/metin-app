@@ -34,5 +34,7 @@
     "fire_resistance": "Fire Resistance",
     "lightning_resistance": "Lightning Resistance",
     "wind_resistance": "Wind Resistance",
-    "arrow_defence": "Arrow Defence"
+    "arrow_defence": "Arrow Defence",
+    "chance_to_avoid_arrows": "Chance to avoid Arrows",
+    "defence_bonus": "Defence"
 }

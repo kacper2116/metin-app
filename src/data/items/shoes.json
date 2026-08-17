@@ -1,0 +1,2632 @@
+[
+    {
+        "id": 15000,
+        "name": "leather shoes+0",
+        "plus": 0,
+        "next_item_id": 15001,
+        "type": "shoes",
+        "required_level": 1,
+        "stats": {
+            "defence": 1,
+            "movement_speed": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/leather_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15001,
+        "name": "leather shoes+1",
+        "plus": 1,
+        "next_item_id": 15002,
+        "type": "shoes",
+        "required_level": 1,
+        "stats": {
+            "defence": 1,
+            "movement_speed": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/leather_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15002,
+        "name": "leather shoes+2",
+        "plus": 2,
+        "next_item_id": 15003,
+        "type": "shoes",
+        "required_level": 1,
+        "stats": {
+            "defence": 1,
+            "movement_speed": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/leather_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15003,
+        "name": "leather shoes+3",
+        "plus": 3,
+        "next_item_id": 15004,
+        "type": "shoes",
+        "required_level": 1,
+        "stats": {
+            "defence": 1,
+            "movement_speed": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/leather_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15004,
+        "name": "leather shoes+4",
+        "plus": 4,
+        "next_item_id": 15005,
+        "type": "shoes",
+        "required_level": 1,
+        "stats": {
+            "defence": 1,
+            "movement_speed": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/leather_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15005,
+        "name": "leather shoes+5",
+        "plus": 5,
+        "next_item_id": 15006,
+        "type": "shoes",
+        "required_level": 1,
+        "stats": {
+            "defence": 1,
+            "movement_speed": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/leather_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15006,
+        "name": "leather shoes+6",
+        "plus": 6,
+        "next_item_id": 15007,
+        "type": "shoes",
+        "required_level": 1,
+        "stats": {
+            "defence": 1,
+            "movement_speed": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/leather_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15007,
+        "name": "leather shoes+7",
+        "plus": 7,
+        "next_item_id": 15008,
+        "type": "shoes",
+        "required_level": 1,
+        "stats": {
+            "defence": 1,
+            "movement_speed": 11
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/leather_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15008,
+        "name": "leather shoes+8",
+        "plus": 8,
+        "next_item_id": 15009,
+        "type": "shoes",
+        "required_level": 1,
+        "stats": {
+            "defence": 1,
+            "movement_speed": 13
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/leather_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15009,
+        "name": "leather shoes+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shoes",
+        "required_level": 1,
+        "stats": {
+            "defence": 1,
+            "movement_speed": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/leather_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15020,
+        "name": "bamboo skin shoes+0",
+        "plus": 0,
+        "next_item_id": 15021,
+        "type": "shoes",
+        "required_level": 9,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 2,
+            "fire_resistance": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/bamboo_skin_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15021,
+        "name": "bamboo skin shoes+1",
+        "plus": 1,
+        "next_item_id": 15022,
+        "type": "shoes",
+        "required_level": 9,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 3,
+            "fire_resistance": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/bamboo_skin_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15022,
+        "name": "bamboo skin shoes+2",
+        "plus": 2,
+        "next_item_id": 15023,
+        "type": "shoes",
+        "required_level": 9,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 4,
+            "fire_resistance": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/bamboo_skin_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15023,
+        "name": "bamboo skin shoes+3",
+        "plus": 3,
+        "next_item_id": 15024,
+        "type": "shoes",
+        "required_level": 9,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 5,
+            "fire_resistance": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/bamboo_skin_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15024,
+        "name": "bamboo skin shoes+4",
+        "plus": 4,
+        "next_item_id": 15025,
+        "type": "shoes",
+        "required_level": 9,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 6,
+            "fire_resistance": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/bamboo_skin_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15025,
+        "name": "bamboo skin shoes+5",
+        "plus": 5,
+        "next_item_id": 15026,
+        "type": "shoes",
+        "required_level": 9,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 7,
+            "fire_resistance": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/bamboo_skin_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15026,
+        "name": "bamboo skin shoes+6",
+        "plus": 6,
+        "next_item_id": 15027,
+        "type": "shoes",
+        "required_level": 9,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 9,
+            "fire_resistance": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/bamboo_skin_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15027,
+        "name": "bamboo skin shoes+7",
+        "plus": 7,
+        "next_item_id": 15028,
+        "type": "shoes",
+        "required_level": 9,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 11,
+            "fire_resistance": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/bamboo_skin_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15028,
+        "name": "bamboo skin shoes+8",
+        "plus": 8,
+        "next_item_id": 15029,
+        "type": "shoes",
+        "required_level": 9,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 13,
+            "fire_resistance": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/bamboo_skin_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15029,
+        "name": "bamboo skin shoes+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shoes",
+        "required_level": 9,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 15,
+            "fire_resistance": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/bamboo_skin_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15040,
+        "name": "wooden shoes+0",
+        "plus": 0,
+        "next_item_id": 15041,
+        "type": "shoes",
+        "required_level": 17,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 2,
+            "lightning_resistance": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/wooden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15041,
+        "name": "wooden shoes+1",
+        "plus": 1,
+        "next_item_id": 15042,
+        "type": "shoes",
+        "required_level": 17,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 3,
+            "lightning_resistance": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/wooden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15042,
+        "name": "wooden shoes+2",
+        "plus": 2,
+        "next_item_id": 15043,
+        "type": "shoes",
+        "required_level": 17,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 4,
+            "lightning_resistance": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/wooden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15043,
+        "name": "wooden shoes+3",
+        "plus": 3,
+        "next_item_id": 15044,
+        "type": "shoes",
+        "required_level": 17,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 5,
+            "lightning_resistance": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/wooden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15044,
+        "name": "wooden shoes+4",
+        "plus": 4,
+        "next_item_id": 15045,
+        "type": "shoes",
+        "required_level": 17,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 6,
+            "lightning_resistance": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/wooden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15045,
+        "name": "wooden shoes+5",
+        "plus": 5,
+        "next_item_id": 15046,
+        "type": "shoes",
+        "required_level": 17,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 7,
+            "lightning_resistance": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/wooden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15046,
+        "name": "wooden shoes+6",
+        "plus": 6,
+        "next_item_id": 15047,
+        "type": "shoes",
+        "required_level": 17,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 9,
+            "lightning_resistance": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/wooden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15047,
+        "name": "wooden shoes+7",
+        "plus": 7,
+        "next_item_id": 15048,
+        "type": "shoes",
+        "required_level": 17,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 11,
+            "lightning_resistance": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/wooden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15048,
+        "name": "wooden shoes+8",
+        "plus": 8,
+        "next_item_id": 15049,
+        "type": "shoes",
+        "required_level": 17,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 13,
+            "lightning_resistance": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/wooden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15049,
+        "name": "wooden shoes+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shoes",
+        "required_level": 17,
+        "stats": {
+            "defence": 2,
+            "movement_speed": 15,
+            "lightning_resistance": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/wooden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15060,
+        "name": "gold threaded shoes+0",
+        "plus": 0,
+        "next_item_id": 15061,
+        "type": "shoes",
+        "required_level": 23,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 2,
+            "wind_resistance": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/gold_threaded_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15061,
+        "name": "gold threaded shoes+1",
+        "plus": 1,
+        "next_item_id": 15062,
+        "type": "shoes",
+        "required_level": 23,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 3,
+            "wind_resistance": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/gold_threaded_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15062,
+        "name": "gold threaded shoes+2",
+        "plus": 2,
+        "next_item_id": 15063,
+        "type": "shoes",
+        "required_level": 23,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 4,
+            "wind_resistance": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/gold_threaded_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15063,
+        "name": "gold threaded shoes+3",
+        "plus": 3,
+        "next_item_id": 15064,
+        "type": "shoes",
+        "required_level": 23,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 5,
+            "wind_resistance": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/gold_threaded_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15064,
+        "name": "gold threaded shoes+4",
+        "plus": 4,
+        "next_item_id": 15065,
+        "type": "shoes",
+        "required_level": 23,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 6,
+            "wind_resistance": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/gold_threaded_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15065,
+        "name": "gold threaded shoes+5",
+        "plus": 5,
+        "next_item_id": 15066,
+        "type": "shoes",
+        "required_level": 23,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 7,
+            "wind_resistance": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/gold_threaded_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15066,
+        "name": "gold threaded shoes+6",
+        "plus": 6,
+        "next_item_id": 15067,
+        "type": "shoes",
+        "required_level": 23,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 9,
+            "wind_resistance": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/gold_threaded_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15067,
+        "name": "gold threaded shoes+7",
+        "plus": 7,
+        "next_item_id": 15068,
+        "type": "shoes",
+        "required_level": 23,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 11,
+            "wind_resistance": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/gold_threaded_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15068,
+        "name": "gold threaded shoes+8",
+        "plus": 8,
+        "next_item_id": 15069,
+        "type": "shoes",
+        "required_level": 23,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 13,
+            "wind_resistance": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/gold_threaded_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15069,
+        "name": "gold threaded shoes+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shoes",
+        "required_level": 23,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 15,
+            "wind_resistance": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-1-23",
+        "img": "items/shoes/gold_threaded_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15080,
+        "name": "leather boots+0",
+        "plus": 0,
+        "next_item_id": 15081,
+        "type": "shoes",
+        "required_level": 29,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 3,
+            "arrow_defence": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/leather_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15081,
+        "name": "leather boots+1",
+        "plus": 1,
+        "next_item_id": 15082,
+        "type": "shoes",
+        "required_level": 29,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 4,
+            "arrow_defence": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/leather_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15082,
+        "name": "leather boots+2",
+        "plus": 2,
+        "next_item_id": 15083,
+        "type": "shoes",
+        "required_level": 29,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 5,
+            "arrow_defence": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/leather_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15083,
+        "name": "leather boots+3",
+        "plus": 3,
+        "next_item_id": 15084,
+        "type": "shoes",
+        "required_level": 29,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 6,
+            "arrow_defence": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/leather_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15084,
+        "name": "leather boots+4",
+        "plus": 4,
+        "next_item_id": 15085,
+        "type": "shoes",
+        "required_level": 29,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 8,
+            "arrow_defence": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/leather_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15085,
+        "name": "leather boots+5",
+        "plus": 5,
+        "next_item_id": 15086,
+        "type": "shoes",
+        "required_level": 29,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 10,
+            "arrow_defence": 12
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/leather_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15086,
+        "name": "leather boots+6",
+        "plus": 6,
+        "next_item_id": 15087,
+        "type": "shoes",
+        "required_level": 29,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 12,
+            "arrow_defence": 14
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/leather_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15087,
+        "name": "leather boots+7",
+        "plus": 7,
+        "next_item_id": 15088,
+        "type": "shoes",
+        "required_level": 29,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 16,
+            "arrow_defence": 16
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/leather_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15088,
+        "name": "leather boots+8",
+        "plus": 8,
+        "next_item_id": 15089,
+        "type": "shoes",
+        "required_level": 29,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 18,
+            "arrow_defence": 18
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/leather_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15089,
+        "name": "leather boots+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shoes",
+        "required_level": 29,
+        "stats": {
+            "defence": 3,
+            "movement_speed": 20,
+            "arrow_defence": 20
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/leather_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15100,
+        "name": "golden shoes+0",
+        "plus": 0,
+        "next_item_id": 15101,
+        "type": "shoes",
+        "required_level": 34,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 3,
+            "max_endurance": 20
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/golden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15101,
+        "name": "golden shoes+1",
+        "plus": 1,
+        "next_item_id": 15102,
+        "type": "shoes",
+        "required_level": 34,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 4,
+            "max_endurance": 30
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/golden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15102,
+        "name": "golden shoes+2",
+        "plus": 2,
+        "next_item_id": 15103,
+        "type": "shoes",
+        "required_level": 34,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 5,
+            "max_endurance": 45
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/golden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15103,
+        "name": "golden shoes+3",
+        "plus": 3,
+        "next_item_id": 15104,
+        "type": "shoes",
+        "required_level": 34,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 6,
+            "max_endurance": 70
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/golden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15104,
+        "name": "golden shoes+4",
+        "plus": 4,
+        "next_item_id": 15105,
+        "type": "shoes",
+        "required_level": 34,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 8,
+            "max_endurance": 100
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/golden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15105,
+        "name": "golden shoes+5",
+        "plus": 5,
+        "next_item_id": 15106,
+        "type": "shoes",
+        "required_level": 34,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 10,
+            "max_endurance": 150
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/golden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15106,
+        "name": "golden shoes+6",
+        "plus": 6,
+        "next_item_id": 15107,
+        "type": "shoes",
+        "required_level": 34,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 12,
+            "max_endurance": 230
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/golden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15107,
+        "name": "golden shoes+7",
+        "plus": 7,
+        "next_item_id": 15108,
+        "type": "shoes",
+        "required_level": 34,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 14,
+            "max_endurance": 330
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/golden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15108,
+        "name": "golden shoes+8",
+        "plus": 8,
+        "next_item_id": 15109,
+        "type": "shoes",
+        "required_level": 34,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 18,
+            "max_endurance": 530
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/golden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15109,
+        "name": "golden shoes+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shoes",
+        "required_level": 34,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 20,
+            "max_endurance": 800
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/golden_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15120,
+        "name": "bronze boots+0",
+        "plus": 0,
+        "next_item_id": 15121,
+        "type": "shoes",
+        "required_level": 39,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 3,
+            "poison_resistance": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/bronze_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15121,
+        "name": "bronze boots+1",
+        "plus": 1,
+        "next_item_id": 15122,
+        "type": "shoes",
+        "required_level": 39,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 4,
+            "poison_resistance": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/bronze_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15122,
+        "name": "bronze boots+2",
+        "plus": 2,
+        "next_item_id": 15123,
+        "type": "shoes",
+        "required_level": 39,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 5,
+            "poison_resistance": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/bronze_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15123,
+        "name": "bronze boots+3",
+        "plus": 3,
+        "next_item_id": 15124,
+        "type": "shoes",
+        "required_level": 39,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 6,
+            "poison_resistance": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/bronze_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15124,
+        "name": "bronze boots+4",
+        "plus": 4,
+        "next_item_id": 15125,
+        "type": "shoes",
+        "required_level": 39,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 8,
+            "poison_resistance": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/bronze_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15125,
+        "name": "bronze boots+5",
+        "plus": 5,
+        "next_item_id": 15126,
+        "type": "shoes",
+        "required_level": 39,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 10,
+            "poison_resistance": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/bronze_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15126,
+        "name": "bronze boots+6",
+        "plus": 6,
+        "next_item_id": 15127,
+        "type": "shoes",
+        "required_level": 39,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 12,
+            "poison_resistance": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/bronze_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15127,
+        "name": "bronze boots+7",
+        "plus": 7,
+        "next_item_id": 15128,
+        "type": "shoes",
+        "required_level": 39,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 16,
+            "poison_resistance": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/bronze_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15128,
+        "name": "bronze boots+8",
+        "plus": 8,
+        "next_item_id": 15129,
+        "type": "shoes",
+        "required_level": 39,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 18,
+            "poison_resistance": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/bronze_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15129,
+        "name": "bronze boots+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shoes",
+        "required_level": 39,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 20,
+            "poison_resistance": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/bronze_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15140,
+        "name": "jade shoes+0",
+        "plus": 0,
+        "next_item_id": 15141,
+        "type": "shoes",
+        "required_level": 43,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 3,
+            "exp_bonus": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/jade_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15141,
+        "name": "jade shoes+1",
+        "plus": 1,
+        "next_item_id": 15142,
+        "type": "shoes",
+        "required_level": 43,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 4,
+            "exp_bonus": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/jade_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15142,
+        "name": "jade shoes+2",
+        "plus": 2,
+        "next_item_id": 15143,
+        "type": "shoes",
+        "required_level": 43,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 5,
+            "exp_bonus": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/jade_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15143,
+        "name": "jade shoes+3",
+        "plus": 3,
+        "next_item_id": 15144,
+        "type": "shoes",
+        "required_level": 43,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 6,
+            "exp_bonus": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/jade_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15144,
+        "name": "jade shoes+4",
+        "plus": 4,
+        "next_item_id": 15145,
+        "type": "shoes",
+        "required_level": 43,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 8,
+            "exp_bonus": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/jade_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15145,
+        "name": "jade shoes+5",
+        "plus": 5,
+        "next_item_id": 15146,
+        "type": "shoes",
+        "required_level": 43,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 10,
+            "exp_bonus": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/jade_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15146,
+        "name": "jade shoes+6",
+        "plus": 6,
+        "next_item_id": 15147,
+        "type": "shoes",
+        "required_level": 43,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 12,
+            "exp_bonus": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/jade_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15147,
+        "name": "jade shoes+7",
+        "plus": 7,
+        "next_item_id": 15148,
+        "type": "shoes",
+        "required_level": 43,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 16,
+            "exp_bonus": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/jade_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15148,
+        "name": "jade shoes+8",
+        "plus": 8,
+        "next_item_id": 15149,
+        "type": "shoes",
+        "required_level": 43,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 18,
+            "exp_bonus": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/jade_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15149,
+        "name": "jade shoes+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shoes",
+        "required_level": 43,
+        "stats": {
+            "defence": 4,
+            "movement_speed": 20,
+            "exp_bonus": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-29-43",
+        "img": "items/shoes/jade_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15160,
+        "name": "ecstasy shoes+0",
+        "plus": 0,
+        "next_item_id": 15161,
+        "type": "shoes",
+        "required_level": 47,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 5,
+            "casting_speed": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/ecstasy_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15161,
+        "name": "ecstasy shoes+1",
+        "plus": 1,
+        "next_item_id": 15162,
+        "type": "shoes",
+        "required_level": 47,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 6,
+            "casting_speed": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/ecstasy_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15162,
+        "name": "ecstasy shoes+2",
+        "plus": 2,
+        "next_item_id": 15163,
+        "type": "shoes",
+        "required_level": 47,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 7,
+            "casting_speed": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/ecstasy_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15163,
+        "name": "ecstasy shoes+3",
+        "plus": 3,
+        "next_item_id": 15164,
+        "type": "shoes",
+        "required_level": 47,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 8,
+            "casting_speed": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/ecstasy_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15164,
+        "name": "ecstasy shoes+4",
+        "plus": 4,
+        "next_item_id": 15165,
+        "type": "shoes",
+        "required_level": 47,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 9,
+            "casting_speed": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/ecstasy_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15165,
+        "name": "ecstasy shoes+5",
+        "plus": 5,
+        "next_item_id": 15166,
+        "type": "shoes",
+        "required_level": 47,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 12,
+            "casting_speed": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/ecstasy_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15166,
+        "name": "ecstasy shoes+6",
+        "plus": 6,
+        "next_item_id": 15167,
+        "type": "shoes",
+        "required_level": 47,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 15,
+            "casting_speed": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/ecstasy_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15167,
+        "name": "ecstasy shoes+7",
+        "plus": 7,
+        "next_item_id": 15168,
+        "type": "shoes",
+        "required_level": 47,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 18,
+            "casting_speed": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/ecstasy_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15168,
+        "name": "ecstasy shoes+8",
+        "plus": 8,
+        "next_item_id": 15169,
+        "type": "shoes",
+        "required_level": 47,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 20,
+            "casting_speed": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/ecstasy_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15169,
+        "name": "ecstasy shoes+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shoes",
+        "required_level": 47,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 25,
+            "casting_speed": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/ecstasy_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15180,
+        "name": "nimbus boots+0",
+        "plus": 0,
+        "next_item_id": 15181,
+        "type": "shoes",
+        "required_level": 51,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 5,
+            "chance_to_avoid_arrows": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/nimbus_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15181,
+        "name": "nimbus boots+1",
+        "plus": 1,
+        "next_item_id": 15182,
+        "type": "shoes",
+        "required_level": 51,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 6,
+            "chance_to_avoid_arrows": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/nimbus_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15182,
+        "name": "nimbus boots+2",
+        "plus": 2,
+        "next_item_id": 15183,
+        "type": "shoes",
+        "required_level": 51,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 7,
+            "chance_to_avoid_arrows": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/nimbus_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15183,
+        "name": "nimbus boots+3",
+        "plus": 3,
+        "next_item_id": 15184,
+        "type": "shoes",
+        "required_level": 51,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 8,
+            "chance_to_avoid_arrows": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/nimbus_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15184,
+        "name": "nimbus boots+4",
+        "plus": 4,
+        "next_item_id": 15185,
+        "type": "shoes",
+        "required_level": 51,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 9,
+            "chance_to_avoid_arrows": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/nimbus_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15185,
+        "name": "nimbus boots+5",
+        "plus": 5,
+        "next_item_id": 15186,
+        "type": "shoes",
+        "required_level": 51,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 12,
+            "chance_to_avoid_arrows": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/nimbus_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15186,
+        "name": "nimbus boots+6",
+        "plus": 6,
+        "next_item_id": 15187,
+        "type": "shoes",
+        "required_level": 51,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 15,
+            "chance_to_avoid_arrows": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/nimbus_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15187,
+        "name": "nimbus boots+7",
+        "plus": 7,
+        "next_item_id": 15188,
+        "type": "shoes",
+        "required_level": 51,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 18,
+            "chance_to_avoid_arrows": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/nimbus_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15188,
+        "name": "nimbus boots+8",
+        "plus": 8,
+        "next_item_id": 15189,
+        "type": "shoes",
+        "required_level": 51,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 20,
+            "chance_to_avoid_arrows": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/nimbus_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15189,
+        "name": "nimbus boots+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shoes",
+        "required_level": 51,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 25,
+            "chance_to_avoid_arrows": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/nimbus_boots.png",
+        "size": 1
+    },
+    {
+        "id": 15200,
+        "name": "phoenix shoes+0",
+        "plus": 0,
+        "next_item_id": 15201,
+        "type": "shoes",
+        "required_level": 55,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 5,
+            "chance_to_block_attack": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/phoenix_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15201,
+        "name": "phoenix shoes+1",
+        "plus": 1,
+        "next_item_id": 15202,
+        "type": "shoes",
+        "required_level": 55,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 6,
+            "chance_to_block_attack": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/phoenix_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15202,
+        "name": "phoenix shoes+2",
+        "plus": 2,
+        "next_item_id": 15203,
+        "type": "shoes",
+        "required_level": 55,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 7,
+            "chance_to_block_attack": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/phoenix_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15203,
+        "name": "phoenix shoes+3",
+        "plus": 3,
+        "next_item_id": 15204,
+        "type": "shoes",
+        "required_level": 55,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 8,
+            "chance_to_block_attack": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/phoenix_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15204,
+        "name": "phoenix shoes+4",
+        "plus": 4,
+        "next_item_id": 15205,
+        "type": "shoes",
+        "required_level": 55,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 9,
+            "chance_to_block_attack": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/phoenix_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15205,
+        "name": "phoenix shoes+5",
+        "plus": 5,
+        "next_item_id": 15206,
+        "type": "shoes",
+        "required_level": 55,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 12,
+            "chance_to_block_attack": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/phoenix_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15206,
+        "name": "phoenix shoes+6",
+        "plus": 6,
+        "next_item_id": 15207,
+        "type": "shoes",
+        "required_level": 55,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 15,
+            "chance_to_block_attack": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/phoenix_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15207,
+        "name": "phoenix shoes+7",
+        "plus": 7,
+        "next_item_id": 15208,
+        "type": "shoes",
+        "required_level": 55,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 18,
+            "chance_to_block_attack": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/phoenix_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15208,
+        "name": "phoenix shoes+8",
+        "plus": 8,
+        "next_item_id": 15209,
+        "type": "shoes",
+        "required_level": 55,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 20,
+            "chance_to_block_attack": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/phoenix_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15209,
+        "name": "phoenix shoes+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shoes",
+        "required_level": 55,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 25,
+            "chance_to_block_attack": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/phoenix_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15220,
+        "name": "fire bird shoes+0",
+        "plus": 0,
+        "next_item_id": 15221,
+        "type": "shoes",
+        "required_level": 59,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 5,
+            "defence_bonus": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/fire_bird_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15221,
+        "name": "fire bird shoes+1",
+        "plus": 1,
+        "next_item_id": 15222,
+        "type": "shoes",
+        "required_level": 59,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 6,
+            "defence_bonus": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/fire_bird_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15222,
+        "name": "fire bird shoes+2",
+        "plus": 2,
+        "next_item_id": 15223,
+        "type": "shoes",
+        "required_level": 59,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 7,
+            "defence_bonus": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/fire_bird_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15223,
+        "name": "fire bird shoes+3",
+        "plus": 3,
+        "next_item_id": 15224,
+        "type": "shoes",
+        "required_level": 59,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 8,
+            "defence_bonus": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/fire_bird_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15224,
+        "name": "fire bird shoes+4",
+        "plus": 4,
+        "next_item_id": 15225,
+        "type": "shoes",
+        "required_level": 59,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 9,
+            "defence_bonus": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/fire_bird_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15225,
+        "name": "fire bird shoes+5",
+        "plus": 5,
+        "next_item_id": 15226,
+        "type": "shoes",
+        "required_level": 59,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 12,
+            "defence_bonus": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/fire_bird_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15226,
+        "name": "fire bird shoes+6",
+        "plus": 6,
+        "next_item_id": 15227,
+        "type": "shoes",
+        "required_level": 59,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 15,
+            "defence_bonus": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/fire_bird_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15227,
+        "name": "fire bird shoes+7",
+        "plus": 7,
+        "next_item_id": 15228,
+        "type": "shoes",
+        "required_level": 59,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 18,
+            "defence_bonus": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/fire_bird_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15228,
+        "name": "fire bird shoes+8",
+        "plus": 8,
+        "next_item_id": 15229,
+        "type": "shoes",
+        "required_level": 59,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 20,
+            "defence_bonus": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/fire_bird_shoes.png",
+        "size": 1
+    },
+    {
+        "id": 15229,
+        "name": "fire bird shoes+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shoes",
+        "required_level": 59,
+        "stats": {
+            "defence": 5,
+            "movement_speed": 25,
+            "defence_bonus": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shoes-47-59",
+        "img": "items/shoes/fire_bird_shoes.png",
+        "size": 1
+    }
+]
