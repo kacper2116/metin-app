@@ -32,7 +32,11 @@ const TooltipContent = ({ itemInstance }) => {
         strong_against_half_humans: { label: translate('stats.strong_against_half_humans') + ' +', unit: '%' },
         strong_against_monsters: { label: translate('stats.strong_against_monsters') + ' +', unit: '%' },
         exp_bonus: { label: translate('stats.exp_bonus') + ': ', unit: '%' },
-        casting_speed: { label: translate('stats.casting_speed') + ' +', unit: '%' }
+        casting_speed: { label: translate('stats.casting_speed') + ' +', unit: '%' },
+        defence_against_warrior: { label: translate('stats.defence_against_warrior') + ': ', unit: '%' },
+        defence_against_ninja: { label: translate('stats.defence_against_ninja') + ': ', unit: '%' },
+        defence_against_sura: { label: translate('stats.defence_against_sura') + ': ', unit: '%' },
+        defence_against_shaman: { label: translate('stats.defence_against_shaman') + ': ', unit: '%' },
     }
 
     const formatStatValue = (value) => {

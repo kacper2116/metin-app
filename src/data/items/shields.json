@@ -1,0 +1,1512 @@
+[
+    {
+        "id": 13000,
+        "name": "battle shield+0",
+        "plus": 0,
+        "next_item_id": 13001,
+        "type": "shield",
+        "required_level": 1,
+        "stats": {
+            "defence": 3,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-1",
+        "img": "items/shields/battle_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13001,
+        "name": "battle shield+1",
+        "plus": 1,
+        "next_item_id": 13002,
+        "type": "shield",
+        "required_level": 1,
+        "stats": {
+            "defence": 9,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-1",
+        "img": "items/shields/battle_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13002,
+        "name": "battle shield+2",
+        "plus": 2,
+        "next_item_id": 13003,
+        "type": "shield",
+        "required_level": 1,
+        "stats": {
+            "defence": 15,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-1",
+        "img": "items/shields/battle_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13003,
+        "name": "battle shield+3",
+        "plus": 3,
+        "next_item_id": 13004,
+        "type": "shield",
+        "required_level": 1,
+        "stats": {
+            "defence": 21,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-1",
+        "img": "items/shields/battle_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13004,
+        "name": "battle shield+4",
+        "plus": 4,
+        "next_item_id": 13005,
+        "type": "shield",
+        "required_level": 1,
+        "stats": {
+            "defence": 27,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-1",
+        "img": "items/shields/battle_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13005,
+        "name": "battle shield+5",
+        "plus": 5,
+        "next_item_id": 13006,
+        "type": "shield",
+        "required_level": 1,
+        "stats": {
+            "defence": 33,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-1",
+        "img": "items/shields/battle_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13006,
+        "name": "battle shield+6",
+        "plus": 6,
+        "next_item_id": 13007,
+        "type": "shield",
+        "required_level": 1,
+        "stats": {
+            "defence": 39,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-1",
+        "img": "items/shields/battle_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13007,
+        "name": "battle shield+7",
+        "plus": 7,
+        "next_item_id": 13008,
+        "type": "shield",
+        "required_level": 1,
+        "stats": {
+            "defence": 45,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-1",
+        "img": "items/shields/battle_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13008,
+        "name": "battle shield+8",
+        "plus": 8,
+        "next_item_id": 13009,
+        "type": "shield",
+        "required_level": 1,
+        "stats": {
+            "defence": 51,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-1",
+        "img": "items/shields/battle_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13009,
+        "name": "battle shield+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shield",
+        "required_level": 1,
+        "stats": {
+            "defence": 57,
+            "movement_speed": -2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-1",
+        "img": "items/shields/battle_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13020,
+        "name": "pentagon shield+0",
+        "plus": 0,
+        "next_item_id": 13021,
+        "type": "shield",
+        "required_level": 21,
+        "stats": {
+            "defence": 5,
+            "movement_speed": -6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-21",
+        "img": "items/shields/pentagon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13021,
+        "name": "pentagon shield+1",
+        "plus": 1,
+        "next_item_id": 13022,
+        "type": "shield",
+        "required_level": 21,
+        "stats": {
+            "defence": 11,
+            "movement_speed": -6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-21",
+        "img": "items/shields/pentagon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13022,
+        "name": "pentagon shield+2",
+        "plus": 2,
+        "next_item_id": 13023,
+        "type": "shield",
+        "required_level": 21,
+        "stats": {
+            "defence": 18,
+            "movement_speed": -6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-21",
+        "img": "items/shields/pentagon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13023,
+        "name": "pentagon shield+3",
+        "plus": 3,
+        "next_item_id": 13024,
+        "type": "shield",
+        "required_level": 21,
+        "stats": {
+            "defence": 26,
+            "movement_speed": -6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-21",
+        "img": "items/shields/pentagon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13024,
+        "name": "pentagon shield+4",
+        "plus": 4,
+        "next_item_id": 13025,
+        "type": "shield",
+        "required_level": 21,
+        "stats": {
+            "defence": 34,
+            "movement_speed": -6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-21",
+        "img": "items/shields/pentagon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13025,
+        "name": "pentagon shield+5",
+        "plus": 5,
+        "next_item_id": 13026,
+        "type": "shield",
+        "required_level": 21,
+        "stats": {
+            "defence": 42,
+            "movement_speed": -6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-21",
+        "img": "items/shields/pentagon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13026,
+        "name": "pentagon shield+6",
+        "plus": 6,
+        "next_item_id": 13027,
+        "type": "shield",
+        "required_level": 21,
+        "stats": {
+            "defence": 50,
+            "movement_speed": -6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-21",
+        "img": "items/shields/pentagon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13027,
+        "name": "pentagon shield+7",
+        "plus": 7,
+        "next_item_id": 13028,
+        "type": "shield",
+        "required_level": 21,
+        "stats": {
+            "defence": 58,
+            "movement_speed": -6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-21",
+        "img": "items/shields/pentagon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13028,
+        "name": "pentagon shield+8",
+        "plus": 8,
+        "next_item_id": 13029,
+        "type": "shield",
+        "required_level": 21,
+        "stats": {
+            "defence": 66,
+            "movement_speed": -6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-21",
+        "img": "items/shields/pentagon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13029,
+        "name": "pentagon shield+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shield",
+        "required_level": 21,
+        "stats": {
+            "defence": 74,
+            "movement_speed": -6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-21",
+        "img": "items/shields/pentagon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13040,
+        "name": "black round shield+0",
+        "plus": 0,
+        "next_item_id": 13041,
+        "type": "shield",
+        "required_level": 41,
+        "stats": {
+            "defence": 7,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/black_round_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13041,
+        "name": "black round shield+1",
+        "plus": 1,
+        "next_item_id": 13042,
+        "type": "shield",
+        "required_level": 41,
+        "stats": {
+            "defence": 17,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/black_round_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13042,
+        "name": "black round shield+2",
+        "plus": 2,
+        "next_item_id": 13043,
+        "type": "shield",
+        "required_level": 41,
+        "stats": {
+            "defence": 27,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/black_round_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13043,
+        "name": "black round shield+3",
+        "plus": 3,
+        "next_item_id": 13044,
+        "type": "shield",
+        "required_level": 41,
+        "stats": {
+            "defence": 37,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/black_round_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13044,
+        "name": "black round shield+4",
+        "plus": 4,
+        "next_item_id": 13045,
+        "type": "shield",
+        "required_level": 41,
+        "stats": {
+            "defence": 47,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/black_round_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13045,
+        "name": "black round shield+5",
+        "plus": 5,
+        "next_item_id": 13046,
+        "type": "shield",
+        "required_level": 41,
+        "stats": {
+            "defence": 57,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/black_round_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13046,
+        "name": "black round shield+6",
+        "plus": 6,
+        "next_item_id": 13047,
+        "type": "shield",
+        "required_level": 41,
+        "stats": {
+            "defence": 67,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/black_round_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13047,
+        "name": "black round shield+7",
+        "plus": 7,
+        "next_item_id": 13048,
+        "type": "shield",
+        "required_level": 41,
+        "stats": {
+            "defence": 77,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/black_round_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13048,
+        "name": "black round shield+8",
+        "plus": 8,
+        "next_item_id": 13049,
+        "type": "shield",
+        "required_level": 41,
+        "stats": {
+            "defence": 87,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/black_round_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13049,
+        "name": "black round shield+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shield",
+        "required_level": 41,
+        "stats": {
+            "defence": 97,
+            "movement_speed": -10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/black_round_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13060,
+        "name": "falcon shield+0",
+        "plus": 0,
+        "next_item_id": 13061,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 7,
+            "movement_speed": -6,
+            "defence_against_warrior": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/falcon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13061,
+        "name": "falcon shield+1",
+        "plus": 1,
+        "next_item_id": 13062,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 11,
+            "movement_speed": -6,
+            "defence_against_warrior": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/falcon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13062,
+        "name": "falcon shield+2",
+        "plus": 2,
+        "next_item_id": 13063,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 17,
+            "movement_speed": -6,
+            "defence_against_warrior": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/falcon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13063,
+        "name": "falcon shield+3",
+        "plus": 3,
+        "next_item_id": 13064,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 25,
+            "movement_speed": -6,
+            "defence_against_warrior": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/falcon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13064,
+        "name": "falcon shield+4",
+        "plus": 4,
+        "next_item_id": 13065,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 35,
+            "movement_speed": -6,
+            "defence_against_warrior": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/falcon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13065,
+        "name": "falcon shield+5",
+        "plus": 5,
+        "next_item_id": 13066,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 47,
+            "movement_speed": -6,
+            "defence_against_warrior": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/falcon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13066,
+        "name": "falcon shield+6",
+        "plus": 6,
+        "next_item_id": 13067,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 65,
+            "movement_speed": -6,
+            "defence_against_warrior": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/falcon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13067,
+        "name": "falcon shield+7",
+        "plus": 7,
+        "next_item_id": 13068,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 87,
+            "movement_speed": -6,
+            "defence_against_warrior": 12
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/falcon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13068,
+        "name": "falcon shield+8",
+        "plus": 8,
+        "next_item_id": 13069,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 115,
+            "movement_speed": -6,
+            "defence_against_warrior": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/falcon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13069,
+        "name": "falcon shield+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 153,
+            "movement_speed": -6,
+            "defence_against_warrior": 20
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/falcon_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13080,
+        "name": "tiger shield+0",
+        "plus": 0,
+        "next_item_id": 13081,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 7,
+            "movement_speed": -6,
+            "defence_against_ninja": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/tiger_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13081,
+        "name": "tiger shield+1",
+        "plus": 1,
+        "next_item_id": 13082,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 11,
+            "movement_speed": -6,
+            "defence_against_ninja": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/tiger_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13082,
+        "name": "tiger shield+2",
+        "plus": 2,
+        "next_item_id": 13083,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 17,
+            "movement_speed": -6,
+            "defence_against_ninja": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/tiger_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13083,
+        "name": "tiger shield+3",
+        "plus": 3,
+        "next_item_id": 13084,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 25,
+            "movement_speed": -6,
+            "defence_against_ninja": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/tiger_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13084,
+        "name": "tiger shield+4",
+        "plus": 4,
+        "next_item_id": 13085,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 35,
+            "movement_speed": -6,
+            "defence_against_ninja": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/tiger_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13085,
+        "name": "tiger shield+5",
+        "plus": 5,
+        "next_item_id": 13086,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 47,
+            "movement_speed": -6,
+            "defence_against_ninja": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/tiger_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13086,
+        "name": "tiger shield+6",
+        "plus": 6,
+        "next_item_id": 13087,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 65,
+            "movement_speed": -6,
+            "defence_against_ninja": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/tiger_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13087,
+        "name": "tiger shield+7",
+        "plus": 7,
+        "next_item_id": 13088,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 87,
+            "movement_speed": -6,
+            "defence_against_ninja": 12
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/tiger_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13088,
+        "name": "tiger shield+8",
+        "plus": 8,
+        "next_item_id": 13089,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 115,
+            "movement_speed": -6,
+            "defence_against_ninja": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/tiger_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13089,
+        "name": "tiger shield+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 153,
+            "movement_speed": -6,
+            "defence_against_ninja": 20
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/tiger_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13100,
+        "name": "lion edge shield+0",
+        "plus": 0,
+        "next_item_id": 13101,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 7,
+            "movement_speed": -6,
+            "defence_against_sura": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/lion_edge_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13101,
+        "name": "lion edge shield+1",
+        "plus": 1,
+        "next_item_id": 13102,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 11,
+            "movement_speed": -6,
+            "defence_against_sura": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/lion_edge_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13102,
+        "name": "lion edge shield+2",
+        "plus": 2,
+        "next_item_id": 13103,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 17,
+            "movement_speed": -6,
+            "defence_against_sura": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/lion_edge_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13103,
+        "name": "lion edge shield+3",
+        "plus": 3,
+        "next_item_id": 13104,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 25,
+            "movement_speed": -6,
+            "defence_against_sura": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/lion_edge_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13104,
+        "name": "lion edge shield+4",
+        "plus": 4,
+        "next_item_id": 13105,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 35,
+            "movement_speed": -6,
+            "defence_against_sura": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/lion_edge_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13105,
+        "name": "lion edge shield+5",
+        "plus": 5,
+        "next_item_id": 13106,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 47,
+            "movement_speed": -6,
+            "defence_against_sura": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/lion_edge_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13106,
+        "name": "lion edge shield+6",
+        "plus": 6,
+        "next_item_id": 13107,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 65,
+            "movement_speed": -6,
+            "defence_against_sura": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/lion_edge_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13107,
+        "name": "lion edge shield+7",
+        "plus": 7,
+        "next_item_id": 13108,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 87,
+            "movement_speed": -6,
+            "defence_against_sura": 12
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/lion_edge_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13108,
+        "name": "lion edge shield+8",
+        "plus": 8,
+        "next_item_id": 13109,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 115,
+            "movement_speed": -6,
+            "defence_against_sura": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/lion_edge_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13109,
+        "name": "lion edge shield+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 153,
+            "movement_speed": -6,
+            "defence_against_sura": 20
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-61",
+        "img": "items/shields/lion_edge_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13120,
+        "name": "dragon scale shield+0",
+        "plus": 0,
+        "next_item_id": 13121,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 7,
+            "movement_speed": -6,
+            "defence_against_shaman": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/dragon_scale_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13121,
+        "name": "dragon scale shield+1",
+        "plus": 1,
+        "next_item_id": 13122,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 11,
+            "movement_speed": -6,
+            "defence_against_shaman": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/dragon_scale_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13122,
+        "name": "dragon scale shield+2",
+        "plus": 2,
+        "next_item_id": 13123,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 17,
+            "movement_speed": -6,
+            "defence_against_shaman": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/dragon_scale_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13123,
+        "name": "dragon scale shield+3",
+        "plus": 3,
+        "next_item_id": 13124,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 25,
+            "movement_speed": -6,
+            "defence_against_shaman": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/dragon_scale_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13124,
+        "name": "dragon scale shield+4",
+        "plus": 4,
+        "next_item_id": 13125,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 35,
+            "movement_speed": -6,
+            "defence_against_shaman": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/dragon_scale_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13125,
+        "name": "dragon scale shield+5",
+        "plus": 5,
+        "next_item_id": 13126,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 47,
+            "movement_speed": -6,
+            "defence_against_shaman": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/dragon_scale_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13126,
+        "name": "dragon scale shield+6",
+        "plus": 6,
+        "next_item_id": 13127,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 65,
+            "movement_speed": -6,
+            "defence_against_shaman": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/dragon_scale_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13127,
+        "name": "dragon scale shield+7",
+        "plus": 7,
+        "next_item_id": 13128,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 87,
+            "movement_speed": -6,
+            "defence_against_shaman": 12
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/dragon_scale_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13128,
+        "name": "dragon scale shield+8",
+        "plus": 8,
+        "next_item_id": 13129,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 115,
+            "movement_speed": -6,
+            "defence_against_shaman": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/dragon_scale_shield.png",
+        "size": 1
+    },
+    {
+        "id": 13129,
+        "name": "dragon scale shield+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "shield",
+        "required_level": 61,
+        "stats": {
+            "defence": 153,
+            "movement_speed": -6,
+            "defence_against_shaman": 20
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "shields-41-61",
+        "img": "items/shields/dragon_scale_shield.png",
+        "size": 1
+    }
+]

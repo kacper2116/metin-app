@@ -11,5 +11,9 @@
     "strong_against_half_humans": "Strong against Half Humans",
     "strong_against_monsters": "Strong against Monsters",
     "exp_bonus": "Chance for EXP Bonus",
-    "casting_speed": "Casting Speed"
+    "casting_speed": "Casting Speed",
+    "defence_against_warrior": "Defence chance against warrior attacks",
+    "defence_against_ninja": "Defence chance against ninja attacks",
+    "defence_against_sura": "Defence chance against sura attacks",
+    "defence_against_shaman": "Defence chance against shaman attacks"
 }

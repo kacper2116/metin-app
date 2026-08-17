@@ -8,6 +8,8 @@ import warriorArmours from './items/warrior_armours.json'
 import ninjaArmours from './items/ninja_armours.json'
 import suraArmours from './items/sura_armours.json'
 import shamanArmours from './items/shaman_armours.json'
+import shields from './items/shields.json'
+
 export const itemsDB = [
     ...swords,
     ...twoHanded,
@@ -19,4 +21,5 @@ export const itemsDB = [
     ...ninjaArmours,
     ...suraArmours,
     ...shamanArmours,
+    ...shields,
 ]
