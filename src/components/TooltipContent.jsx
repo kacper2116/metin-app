@@ -47,6 +47,10 @@ const TooltipContent = ({ itemInstance }) => {
         hp_regeneration: { label: translate('stats.hp_regeneration') + ' +', unit: '%' },
         attack_value: { label: translate('stats.attack_value') + ' +', unit: null },
         critical_hit_chance: { label: translate('stats.critical_hit_chance') + ' +', unit: '%' },
+        max_endurance: { label: translate('stats.max_endurance') + '+ ', unit: null },
+        poison_resistance: { label: translate('stats.poison_resistance') + ' ', unit: '%' },
+        restore_sp: { label: translate('stats.restore_sp') + ' ', unit: '%' },
+        restore_hp: { label: translate('stats.restore_hp') + ' ', unit: '%' },
     }
 
 

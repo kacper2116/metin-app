@@ -1,0 +1,2312 @@
+[
+    {
+        "id": 14000,
+        "name": "wooden bracelet+0",
+        "plus": 0,
+        "next_item_id": 14001,
+        "type": "bracelet",
+        "required_level": 1,
+        "stats": {
+            "attack_speed": 1,
+            "max_endurance": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/wooden_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14001,
+        "name": "wooden bracelet+1",
+        "plus": 1,
+        "next_item_id": 14002,
+        "type": "bracelet",
+        "required_level": 1,
+        "stats": {
+            "attack_speed": 1,
+            "max_endurance": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/wooden_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14002,
+        "name": "wooden bracelet+2",
+        "plus": 2,
+        "next_item_id": 14003,
+        "type": "bracelet",
+        "required_level": 1,
+        "stats": {
+            "attack_speed": 2,
+            "max_endurance": 25
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/wooden_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14003,
+        "name": "wooden bracelet+3",
+        "plus": 3,
+        "next_item_id": 14004,
+        "type": "bracelet",
+        "required_level": 1,
+        "stats": {
+            "attack_speed": 2,
+            "max_endurance": 40
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/wooden_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14004,
+        "name": "wooden bracelet+4",
+        "plus": 4,
+        "next_item_id": 14005,
+        "type": "bracelet",
+        "required_level": 1,
+        "stats": {
+            "attack_speed": 3,
+            "max_endurance": 60
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/wooden_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14005,
+        "name": "wooden bracelet+5",
+        "plus": 5,
+        "next_item_id": 14006,
+        "type": "bracelet",
+        "required_level": 1,
+        "stats": {
+            "attack_speed": 3,
+            "max_endurance": 90
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/wooden_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14006,
+        "name": "wooden bracelet+6",
+        "plus": 6,
+        "next_item_id": 14007,
+        "type": "bracelet",
+        "required_level": 1,
+        "stats": {
+            "attack_speed": 4,
+            "max_endurance": 140
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/wooden_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14007,
+        "name": "wooden bracelet+7",
+        "plus": 7,
+        "next_item_id": 14008,
+        "type": "bracelet",
+        "required_level": 1,
+        "stats": {
+            "attack_speed": 4,
+            "max_endurance": 210
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/wooden_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14008,
+        "name": "wooden bracelet+8",
+        "plus": 8,
+        "next_item_id": 14009,
+        "type": "bracelet",
+        "required_level": 1,
+        "stats": {
+            "attack_speed": 5,
+            "max_endurance": 280
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/wooden_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14009,
+        "name": "wooden bracelet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "bracelet",
+        "required_level": 1,
+        "stats": {
+            "attack_speed": 5,
+            "max_endurance": 350
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/wooden_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14020,
+        "name": "copper bracelet+0",
+        "plus": 0,
+        "next_item_id": 14021,
+        "type": "bracelet",
+        "required_level": 8,
+        "stats": {
+            "attack_speed": 1,
+            "max_sp": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/copper_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14021,
+        "name": "copper bracelet+1",
+        "plus": 1,
+        "next_item_id": 14022,
+        "type": "bracelet",
+        "required_level": 8,
+        "stats": {
+            "attack_speed": 1,
+            "max_sp": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/copper_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14022,
+        "name": "copper bracelet+2",
+        "plus": 2,
+        "next_item_id": 14023,
+        "type": "bracelet",
+        "required_level": 8,
+        "stats": {
+            "attack_speed": 2,
+            "max_sp": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/copper_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14023,
+        "name": "copper bracelet+3",
+        "plus": 3,
+        "next_item_id": 14024,
+        "type": "bracelet",
+        "required_level": 8,
+        "stats": {
+            "attack_speed": 2,
+            "max_sp": 20
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/copper_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14024,
+        "name": "copper bracelet+4",
+        "plus": 4,
+        "next_item_id": 14025,
+        "type": "bracelet",
+        "required_level": 8,
+        "stats": {
+            "attack_speed": 3,
+            "max_sp": 25
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/copper_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14025,
+        "name": "copper bracelet+5",
+        "plus": 5,
+        "next_item_id": 14026,
+        "type": "bracelet",
+        "required_level": 8,
+        "stats": {
+            "attack_speed": 3,
+            "max_sp": 35
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/copper_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14026,
+        "name": "copper bracelet+6",
+        "plus": 6,
+        "next_item_id": 14027,
+        "type": "bracelet",
+        "required_level": 8,
+        "stats": {
+            "attack_speed": 4,
+            "max_sp": 55
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/copper_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14027,
+        "name": "copper bracelet+7",
+        "plus": 7,
+        "next_item_id": 14028,
+        "type": "bracelet",
+        "required_level": 8,
+        "stats": {
+            "attack_speed": 4,
+            "max_sp": 80
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/copper_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14028,
+        "name": "copper bracelet+8",
+        "plus": 8,
+        "next_item_id": 14029,
+        "type": "bracelet",
+        "required_level": 8,
+        "stats": {
+            "attack_speed": 5,
+            "max_sp": 120
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/copper_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14029,
+        "name": "copper bracelet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "bracelet",
+        "required_level": 8,
+        "stats": {
+            "attack_speed": 5,
+            "max_sp": 180
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/copper_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14040,
+        "name": "silver bracelet+0",
+        "plus": 0,
+        "next_item_id": 14041,
+        "type": "bracelet",
+        "required_level": 15,
+        "stats": {
+            "attack_speed": 1,
+            "max_hp": 20
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/silver_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14041,
+        "name": "silver bracelet+1",
+        "plus": 1,
+        "next_item_id": 14042,
+        "type": "bracelet",
+        "required_level": 15,
+        "stats": {
+            "attack_speed": 1,
+            "max_hp": 40
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/silver_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14042,
+        "name": "silver bracelet+2",
+        "plus": 2,
+        "next_item_id": 14043,
+        "type": "bracelet",
+        "required_level": 15,
+        "stats": {
+            "attack_speed": 2,
+            "max_hp": 60
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/silver_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14043,
+        "name": "silver bracelet+3",
+        "plus": 3,
+        "next_item_id": 14044,
+        "type": "bracelet",
+        "required_level": 15,
+        "stats": {
+            "attack_speed": 2,
+            "max_hp": 90
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/silver_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14044,
+        "name": "silver bracelet+4",
+        "plus": 4,
+        "next_item_id": 14045,
+        "type": "bracelet",
+        "required_level": 15,
+        "stats": {
+            "attack_speed": 3,
+            "max_hp": 150
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/silver_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14045,
+        "name": "silver bracelet+5",
+        "plus": 5,
+        "next_item_id": 14046,
+        "type": "bracelet",
+        "required_level": 15,
+        "stats": {
+            "attack_speed": 3,
+            "max_hp": 250
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/silver_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14046,
+        "name": "silver bracelet+6",
+        "plus": 6,
+        "next_item_id": 14047,
+        "type": "bracelet",
+        "required_level": 15,
+        "stats": {
+            "attack_speed": 4,
+            "max_hp": 350
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/silver_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14047,
+        "name": "silver bracelet+7",
+        "plus": 7,
+        "next_item_id": 14048,
+        "type": "bracelet",
+        "required_level": 15,
+        "stats": {
+            "attack_speed": 4,
+            "max_hp": 500
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/silver_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14048,
+        "name": "silver bracelet+8",
+        "plus": 8,
+        "next_item_id": 14049,
+        "type": "bracelet",
+        "required_level": 15,
+        "stats": {
+            "attack_speed": 5,
+            "max_hp": 700
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/silver_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14049,
+        "name": "silver bracelet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "bracelet",
+        "required_level": 15,
+        "stats": {
+            "attack_speed": 5,
+            "max_hp": 1200
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/silver_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14060,
+        "name": "gold bracelet+0",
+        "plus": 0,
+        "next_item_id": 14061,
+        "type": "bracelet",
+        "required_level": 22,
+        "stats": {
+            "attack_speed": 1,
+            "poison_resistance": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14061,
+        "name": "gold bracelet+1",
+        "plus": 1,
+        "next_item_id": 14062,
+        "type": "bracelet",
+        "required_level": 22,
+        "stats": {
+            "attack_speed": 1,
+            "poison_resistance": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14062,
+        "name": "gold bracelet+2",
+        "plus": 2,
+        "next_item_id": 14063,
+        "type": "bracelet",
+        "required_level": 22,
+        "stats": {
+            "attack_speed": 2,
+            "poison_resistance": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14063,
+        "name": "gold bracelet+3",
+        "plus": 3,
+        "next_item_id": 14064,
+        "type": "bracelet",
+        "required_level": 22,
+        "stats": {
+            "attack_speed": 2,
+            "poison_resistance": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14064,
+        "name": "gold bracelet+4",
+        "plus": 4,
+        "next_item_id": 14065,
+        "type": "bracelet",
+        "required_level": 22,
+        "stats": {
+            "attack_speed": 3,
+            "poison_resistance": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14065,
+        "name": "gold bracelet+5",
+        "plus": 5,
+        "next_item_id": 14066,
+        "type": "bracelet",
+        "required_level": 22,
+        "stats": {
+            "attack_speed": 3,
+            "poison_resistance": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14066,
+        "name": "gold bracelet+6",
+        "plus": 6,
+        "next_item_id": 14067,
+        "type": "bracelet",
+        "required_level": 22,
+        "stats": {
+            "attack_speed": 4,
+            "poison_resistance": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14067,
+        "name": "gold bracelet+7",
+        "plus": 7,
+        "next_item_id": 14068,
+        "type": "bracelet",
+        "required_level": 22,
+        "stats": {
+            "attack_speed": 4,
+            "poison_resistance": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14068,
+        "name": "gold bracelet+8",
+        "plus": 8,
+        "next_item_id": 14069,
+        "type": "bracelet",
+        "required_level": 22,
+        "stats": {
+            "attack_speed": 5,
+            "poison_resistance": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14069,
+        "name": "gold bracelet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "bracelet",
+        "required_level": 22,
+        "stats": {
+            "attack_speed": 5,
+            "poison_resistance": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-1-22",
+        "img": "items/bracelets/gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14080,
+        "name": "jade bracelet+0",
+        "plus": 0,
+        "next_item_id": 14081,
+        "type": "bracelet",
+        "required_level": 28,
+        "stats": {
+            "attack_speed": 1,
+            "restore_sp": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/jade_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14081,
+        "name": "jade bracelet+1",
+        "plus": 1,
+        "next_item_id": 14082,
+        "type": "bracelet",
+        "required_level": 28,
+        "stats": {
+            "attack_speed": 1,
+            "restore_sp": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/jade_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14082,
+        "name": "jade bracelet+2",
+        "plus": 2,
+        "next_item_id": 14083,
+        "type": "bracelet",
+        "required_level": 28,
+        "stats": {
+            "attack_speed": 2,
+            "restore_sp": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/jade_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14083,
+        "name": "jade bracelet+3",
+        "plus": 3,
+        "next_item_id": 14084,
+        "type": "bracelet",
+        "required_level": 28,
+        "stats": {
+            "attack_speed": 2,
+            "restore_sp": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/jade_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14084,
+        "name": "jade bracelet+4",
+        "plus": 4,
+        "next_item_id": 14085,
+        "type": "bracelet",
+        "required_level": 28,
+        "stats": {
+            "attack_speed": 3,
+            "restore_sp": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/jade_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14085,
+        "name": "jade bracelet+5",
+        "plus": 5,
+        "next_item_id": 14086,
+        "type": "bracelet",
+        "required_level": 28,
+        "stats": {
+            "attack_speed": 3,
+            "restore_sp": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/jade_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14086,
+        "name": "jade bracelet+6",
+        "plus": 6,
+        "next_item_id": 14087,
+        "type": "bracelet",
+        "required_level": 28,
+        "stats": {
+            "attack_speed": 4,
+            "restore_sp": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/jade_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14087,
+        "name": "jade bracelet+7",
+        "plus": 7,
+        "next_item_id": 14088,
+        "type": "bracelet",
+        "required_level": 28,
+        "stats": {
+            "attack_speed": 5,
+            "restore_sp": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/jade_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14088,
+        "name": "jade bracelet+8",
+        "plus": 8,
+        "next_item_id": 14089,
+        "type": "bracelet",
+        "required_level": 28,
+        "stats": {
+            "attack_speed": 6,
+            "restore_sp": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/jade_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14089,
+        "name": "jade bracelet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "bracelet",
+        "required_level": 28,
+        "stats": {
+            "attack_speed": 7,
+            "restore_sp": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/jade_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14100,
+        "name": "ebony bracelet+0",
+        "plus": 0,
+        "next_item_id": 14101,
+        "type": "bracelet",
+        "required_level": 33,
+        "stats": {
+            "attack_speed": 1,
+            "restore_hp": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/ebony_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14101,
+        "name": "ebony bracelet+1",
+        "plus": 1,
+        "next_item_id": 14102,
+        "type": "bracelet",
+        "required_level": 33,
+        "stats": {
+            "attack_speed": 1,
+            "restore_hp": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/ebony_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14102,
+        "name": "ebony bracelet+2",
+        "plus": 2,
+        "next_item_id": 14103,
+        "type": "bracelet",
+        "required_level": 33,
+        "stats": {
+            "attack_speed": 2,
+            "restore_hp": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/ebony_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14103,
+        "name": "ebony bracelet+3",
+        "plus": 3,
+        "next_item_id": 14104,
+        "type": "bracelet",
+        "required_level": 33,
+        "stats": {
+            "attack_speed": 2,
+            "restore_hp": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/ebony_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14104,
+        "name": "ebony bracelet+4",
+        "plus": 4,
+        "next_item_id": 14105,
+        "type": "bracelet",
+        "required_level": 33,
+        "stats": {
+            "attack_speed": 3,
+            "restore_hp": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/ebony_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14105,
+        "name": "ebony bracelet+5",
+        "plus": 5,
+        "next_item_id": 14106,
+        "type": "bracelet",
+        "required_level": 33,
+        "stats": {
+            "attack_speed": 3,
+            "restore_hp": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/ebony_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14106,
+        "name": "ebony bracelet+6",
+        "plus": 6,
+        "next_item_id": 14107,
+        "type": "bracelet",
+        "required_level": 33,
+        "stats": {
+            "attack_speed": 4,
+            "restore_hp": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/ebony_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14107,
+        "name": "ebony bracelet+7",
+        "plus": 7,
+        "next_item_id": 14108,
+        "type": "bracelet",
+        "required_level": 33,
+        "stats": {
+            "attack_speed": 5,
+            "restore_hp": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/ebony_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14108,
+        "name": "ebony bracelet+8",
+        "plus": 8,
+        "next_item_id": 14109,
+        "type": "bracelet",
+        "required_level": 33,
+        "stats": {
+            "attack_speed": 6,
+            "restore_hp": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/ebony_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14109,
+        "name": "ebony bracelet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "bracelet",
+        "required_level": 33,
+        "stats": {
+            "attack_speed": 7,
+            "restore_hp": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/ebony_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14120,
+        "name": "pearl bracelet+0",
+        "plus": 0,
+        "next_item_id": 14121,
+        "type": "bracelet",
+        "required_level": 38,
+        "stats": {
+            "attack_speed": 1,
+            "max_sp": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/pearl_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14121,
+        "name": "pearl bracelet+1",
+        "plus": 1,
+        "next_item_id": 14122,
+        "type": "bracelet",
+        "required_level": 38,
+        "stats": {
+            "attack_speed": 1,
+            "max_sp": 20
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/pearl_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14122,
+        "name": "pearl bracelet+2",
+        "plus": 2,
+        "next_item_id": 14123,
+        "type": "bracelet",
+        "required_level": 38,
+        "stats": {
+            "attack_speed": 2,
+            "max_sp": 30
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/pearl_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14123,
+        "name": "pearl bracelet+3",
+        "plus": 3,
+        "next_item_id": 14124,
+        "type": "bracelet",
+        "required_level": 38,
+        "stats": {
+            "attack_speed": 2,
+            "max_sp": 50
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/pearl_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14124,
+        "name": "pearl bracelet+4",
+        "plus": 4,
+        "next_item_id": 14125,
+        "type": "bracelet",
+        "required_level": 38,
+        "stats": {
+            "attack_speed": 3,
+            "max_sp": 75
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/pearl_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14125,
+        "name": "pearl bracelet+5",
+        "plus": 5,
+        "next_item_id": 14126,
+        "type": "bracelet",
+        "required_level": 38,
+        "stats": {
+            "attack_speed": 3,
+            "max_sp": 105
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/pearl_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14126,
+        "name": "pearl bracelet+6",
+        "plus": 6,
+        "next_item_id": 14127,
+        "type": "bracelet",
+        "required_level": 38,
+        "stats": {
+            "attack_speed": 4,
+            "max_sp": 165
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/pearl_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14127,
+        "name": "pearl bracelet+7",
+        "plus": 7,
+        "next_item_id": 14128,
+        "type": "bracelet",
+        "required_level": 38,
+        "stats": {
+            "attack_speed": 5,
+            "max_sp": 240
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/pearl_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14128,
+        "name": "pearl bracelet+8",
+        "plus": 8,
+        "next_item_id": 14129,
+        "type": "bracelet",
+        "required_level": 38,
+        "stats": {
+            "attack_speed": 6,
+            "max_sp": 350
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/pearl_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14129,
+        "name": "pearl bracelet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "bracelet",
+        "required_level": 38,
+        "stats": {
+            "attack_speed": 7,
+            "max_sp": 500
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/pearl_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14140,
+        "name": "white gold bracelet+0",
+        "plus": 0,
+        "next_item_id": 14141,
+        "type": "bracelet",
+        "required_level": 42,
+        "stats": {
+            "attack_speed": 1,
+            "max_hp": 25
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/white_gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14141,
+        "name": "white gold bracelet+1",
+        "plus": 1,
+        "next_item_id": 14142,
+        "type": "bracelet",
+        "required_level": 42,
+        "stats": {
+            "attack_speed": 1,
+            "max_hp": 45
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/white_gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14142,
+        "name": "white gold bracelet+2",
+        "plus": 2,
+        "next_item_id": 14143,
+        "type": "bracelet",
+        "required_level": 42,
+        "stats": {
+            "attack_speed": 2,
+            "max_hp": 65
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/white_gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14143,
+        "name": "white gold bracelet+3",
+        "plus": 3,
+        "next_item_id": 14144,
+        "type": "bracelet",
+        "required_level": 42,
+        "stats": {
+            "attack_speed": 2,
+            "max_hp": 110
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/white_gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14144,
+        "name": "white gold bracelet+4",
+        "plus": 4,
+        "next_item_id": 14145,
+        "type": "bracelet",
+        "required_level": 42,
+        "stats": {
+            "attack_speed": 3,
+            "max_hp": 180
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/white_gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14145,
+        "name": "white gold bracelet+5",
+        "plus": 5,
+        "next_item_id": 14146,
+        "type": "bracelet",
+        "required_level": 42,
+        "stats": {
+            "attack_speed": 3,
+            "max_hp": 300
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/white_gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14146,
+        "name": "white gold bracelet+6",
+        "plus": 6,
+        "next_item_id": 14147,
+        "type": "bracelet",
+        "required_level": 42,
+        "stats": {
+            "attack_speed": 4,
+            "max_hp": 500
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/white_gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14147,
+        "name": "white gold bracelet+7",
+        "plus": 7,
+        "next_item_id": 14148,
+        "type": "bracelet",
+        "required_level": 42,
+        "stats": {
+            "attack_speed": 5,
+            "max_hp": 800
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/white_gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14148,
+        "name": "white gold bracelet+8",
+        "plus": 8,
+        "next_item_id": 14149,
+        "type": "bracelet",
+        "required_level": 42,
+        "stats": {
+            "attack_speed": 6,
+            "max_hp": 1200
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/white_gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14149,
+        "name": "white gold bracelet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "bracelet",
+        "required_level": 42,
+        "stats": {
+            "attack_speed": 7,
+            "max_hp": 1800
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-28-42",
+        "img": "items/bracelets/white_gold_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14160,
+        "name": "crystal bracelet+0",
+        "plus": 0,
+        "next_item_id": 14161,
+        "type": "bracelet",
+        "required_level": 46,
+        "stats": {
+            "attack_speed": 1,
+            "hp_regeneration": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/crystal_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14161,
+        "name": "crystal bracelet+1",
+        "plus": 1,
+        "next_item_id": 14162,
+        "type": "bracelet",
+        "required_level": 46,
+        "stats": {
+            "attack_speed": 2,
+            "hp_regeneration": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/crystal_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14162,
+        "name": "crystal bracelet+2",
+        "plus": 2,
+        "next_item_id": 14163,
+        "type": "bracelet",
+        "required_level": 46,
+        "stats": {
+            "attack_speed": 3,
+            "hp_regeneration": 12
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/crystal_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14163,
+        "name": "crystal bracelet+3",
+        "plus": 3,
+        "next_item_id": 14164,
+        "type": "bracelet",
+        "required_level": 46,
+        "stats": {
+            "attack_speed": 4,
+            "hp_regeneration": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/crystal_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14164,
+        "name": "crystal bracelet+4",
+        "plus": 4,
+        "next_item_id": 14165,
+        "type": "bracelet",
+        "required_level": 46,
+        "stats": {
+            "attack_speed": 5,
+            "hp_regeneration": 19
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/crystal_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14165,
+        "name": "crystal bracelet+5",
+        "plus": 5,
+        "next_item_id": 14166,
+        "type": "bracelet",
+        "required_level": 46,
+        "stats": {
+            "attack_speed": 6,
+            "hp_regeneration": 24
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/crystal_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14166,
+        "name": "crystal bracelet+6",
+        "plus": 6,
+        "next_item_id": 14167,
+        "type": "bracelet",
+        "required_level": 46,
+        "stats": {
+            "attack_speed": 7,
+            "hp_regeneration": 30
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/crystal_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14167,
+        "name": "crystal bracelet+7",
+        "plus": 7,
+        "next_item_id": 14168,
+        "type": "bracelet",
+        "required_level": 46,
+        "stats": {
+            "attack_speed": 8,
+            "hp_regeneration": 36
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/crystal_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14168,
+        "name": "crystal bracelet+8",
+        "plus": 8,
+        "next_item_id": 14169,
+        "type": "bracelet",
+        "required_level": 46,
+        "stats": {
+            "attack_speed": 9,
+            "hp_regeneration": 45
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/crystal_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14169,
+        "name": "crystal bracelet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "bracelet",
+        "required_level": 46,
+        "stats": {
+            "attack_speed": 10,
+            "hp_regeneration": 56
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/crystal_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14180,
+        "name": "amethyst bracelet+0",
+        "plus": 0,
+        "next_item_id": 14181,
+        "type": "bracelet",
+        "required_level": 50,
+        "stats": {
+            "attack_speed": 1,
+            "sp_regeneration": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/amethyst_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14181,
+        "name": "amethyst bracelet+1",
+        "plus": 1,
+        "next_item_id": 14182,
+        "type": "bracelet",
+        "required_level": 50,
+        "stats": {
+            "attack_speed": 2,
+            "sp_regeneration": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/amethyst_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14182,
+        "name": "amethyst bracelet+2",
+        "plus": 2,
+        "next_item_id": 14183,
+        "type": "bracelet",
+        "required_level": 50,
+        "stats": {
+            "attack_speed": 3,
+            "sp_regeneration": 12
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/amethyst_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14183,
+        "name": "amethyst bracelet+3",
+        "plus": 3,
+        "next_item_id": 14184,
+        "type": "bracelet",
+        "required_level": 50,
+        "stats": {
+            "attack_speed": 4,
+            "sp_regeneration": 15
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/amethyst_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14184,
+        "name": "amethyst bracelet+4",
+        "plus": 4,
+        "next_item_id": 14185,
+        "type": "bracelet",
+        "required_level": 50,
+        "stats": {
+            "attack_speed": 5,
+            "sp_regeneration": 19
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/amethyst_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14185,
+        "name": "amethyst bracelet+5",
+        "plus": 5,
+        "next_item_id": 14186,
+        "type": "bracelet",
+        "required_level": 50,
+        "stats": {
+            "attack_speed": 6,
+            "sp_regeneration": 24
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/amethyst_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14186,
+        "name": "amethyst bracelet+6",
+        "plus": 6,
+        "next_item_id": 14187,
+        "type": "bracelet",
+        "required_level": 50,
+        "stats": {
+            "attack_speed": 7,
+            "sp_regeneration": 30
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/amethyst_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14187,
+        "name": "amethyst bracelet+7",
+        "plus": 7,
+        "next_item_id": 14188,
+        "type": "bracelet",
+        "required_level": 50,
+        "stats": {
+            "attack_speed": 8,
+            "sp_regeneration": 36
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/amethyst_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14188,
+        "name": "amethyst bracelet+8",
+        "plus": 8,
+        "next_item_id": 14189,
+        "type": "bracelet",
+        "required_level": 50,
+        "stats": {
+            "attack_speed": 9,
+            "sp_regeneration": 45
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/amethyst_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14189,
+        "name": "amethyst bracelet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "bracelet",
+        "required_level": 50,
+        "stats": {
+            "attack_speed": 10,
+            "sp_regeneration": 56
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/amethyst_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14200,
+        "name": "heaven's tear bracelet+0",
+        "plus": 0,
+        "next_item_id": 14201,
+        "type": "bracelet",
+        "required_level": 54,
+        "stats": {
+            "attack_speed": 1,
+            "critical_hit_chance": 1
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/heavens_tear_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14201,
+        "name": "heaven's tear bracelet+1",
+        "plus": 1,
+        "next_item_id": 14202,
+        "type": "bracelet",
+        "required_level": 54,
+        "stats": {
+            "attack_speed": 2,
+            "critical_hit_chance": 2
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/heavens_tear_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14202,
+        "name": "heaven's tear bracelet+2",
+        "plus": 2,
+        "next_item_id": 14203,
+        "type": "bracelet",
+        "required_level": 54,
+        "stats": {
+            "attack_speed": 3,
+            "critical_hit_chance": 3
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/heavens_tear_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14203,
+        "name": "heaven's tear bracelet+3",
+        "plus": 3,
+        "next_item_id": 14204,
+        "type": "bracelet",
+        "required_level": 54,
+        "stats": {
+            "attack_speed": 4,
+            "critical_hit_chance": 4
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/heavens_tear_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14204,
+        "name": "heaven's tear bracelet+4",
+        "plus": 4,
+        "next_item_id": 14205,
+        "type": "bracelet",
+        "required_level": 54,
+        "stats": {
+            "attack_speed": 5,
+            "critical_hit_chance": 5
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/heavens_tear_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14205,
+        "name": "heaven's tear bracelet+5",
+        "plus": 5,
+        "next_item_id": 14206,
+        "type": "bracelet",
+        "required_level": 54,
+        "stats": {
+            "attack_speed": 6,
+            "critical_hit_chance": 6
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/heavens_tear_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14206,
+        "name": "heaven's tear bracelet+6",
+        "plus": 6,
+        "next_item_id": 14207,
+        "type": "bracelet",
+        "required_level": 54,
+        "stats": {
+            "attack_speed": 7,
+            "critical_hit_chance": 7
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/heavens_tear_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14207,
+        "name": "heaven's tear bracelet+7",
+        "plus": 7,
+        "next_item_id": 14208,
+        "type": "bracelet",
+        "required_level": 54,
+        "stats": {
+            "attack_speed": 8,
+            "critical_hit_chance": 8
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/heavens_tear_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14208,
+        "name": "heaven's tear bracelet+8",
+        "plus": 8,
+        "next_item_id": 14209,
+        "type": "bracelet",
+        "required_level": 54,
+        "stats": {
+            "attack_speed": 9,
+            "critical_hit_chance": 9
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/heavens_tear_bracelet.png",
+        "size": 1
+    },
+    {
+        "id": 14209,
+        "name": "heaven's tear bracelet+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "bracelet",
+        "required_level": 54,
+        "stats": {
+            "attack_speed": 10,
+            "critical_hit_chance": 10
+        },
+        "profession": [
+            "warrior",
+            "ninja",
+            "sura",
+            "shaman"
+        ],
+        "upgrade-scheme": "bracelets-46-54",
+        "img": "items/bracelets/heavens_tear_bracelet.png",
+        "size": 1
+    }
+]

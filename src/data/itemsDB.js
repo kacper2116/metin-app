@@ -11,6 +11,7 @@ import shamanArmours from './items/shaman_armours.json'
 import shields from './items/shields.json'
 import helmets from './items/helmets.json'
 import earrings from './items/earrings.json'
+import bracelets from './items/bracelets.json'
 
 export const itemsDB = [
     ...swords,
@@ -26,4 +27,5 @@ export const itemsDB = [
     ...shields,
     ...helmets,
     ...earrings,
+    ...bracelets,
 ]

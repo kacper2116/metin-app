@@ -25,5 +25,9 @@
     "sp_regeneration": "SP Regeneration",
     "hp_regeneration": "HP Regeneration",
     "attack_value": "Attack Value",
-    "critical_hit_chance": "Chance of critical hit"
+    "critical_hit_chance": "Chance of critical hit",
+    "max_endurance": "Max. Endurance",
+    "poison_resistance": "Poison Resistance",
+    "restore_sp": "Chance to restore SP",
+    "restore_hp": "Chance to restore HP"
 }
