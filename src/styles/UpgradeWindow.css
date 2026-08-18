@@ -5,5 +5,22 @@
     left: 30%;
     top: 40%;
     transform: translate(-50%, -50%);
-    border: 3px solid red;
+    background: url('../assets/background.png');
+    border: 1px solid beige;
+}
+
+.item-info {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.item-thumbnail {
+    width: 50px;
+
+    background: url("https://pl-wiki.metin2.gameforge.com/images/4/48/Czarne_T%C5%82o.png") repeat;
+    background-size: 50px;
+    flex: 0 0 auto;
 }

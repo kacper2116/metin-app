@@ -2,7 +2,7 @@ import { forwardRef, useContext, useLayoutEffect, useRef, useState } from 'react
 import '../styles/Tooltip.css'
 import MouseContext from '../contexts/MouseContext'
 
-const Tooltip = ({ children }) => {
+const Tooltip = ({ children, isStatic }) => {
 
     const tooltipRef = useRef(null)
     const [tooltipSize, setTooltipSize] = useState(null)
@@ -15,7 +15,8 @@ const Tooltip = ({ children }) => {
     }, [children])
 
     const offset = 50
-    const style = tooltipSize
+
+    const style = isStatic ? undefined : tooltipSize
         ? {
             left: Math.max(
                 0,
@@ -38,8 +39,11 @@ const Tooltip = ({ children }) => {
             top: mousePosition.y
         };
 
+
+
     return (
-        <div className='tooltip' ref={tooltipRef}
+
+        <div className={`tooltip ${isStatic && 'tooltip-static'}`} ref={tooltipRef}
             style={style}>
             <span className='top-bar'></span>
 
