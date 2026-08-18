@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'react';
 import { getSelectedSlots, getItemSlots, findItemBySlot, canPlaceItem } from '../utils/inventory';
 import MouseContext from '../contexts/MouseContext';
 
-const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHoverSlot }) => {
+const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHoverSlot, setItemToUpgrade }) => {
 
     const [draggedItem, setDraggedItem] = useState(null);
     const slotsPreview = useRef({ slots: [], canPlace: true });
@@ -37,22 +37,37 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
     }
 
-    const handleDropItem = (e) => {
-        if (!draggedItem) return;
-        console.log('droping item')
-        const slotIndex = slotsPreview.current.slots[0];
+    const resetDrag = () => {
+        slotsPreview.current = ({ slots: [], canPlace: true });
+        setDraggedItem(null);
+        moveMode.current = null;
+        itemOriginSlots.current = [];
+    }
 
+    const dropOnSlot = () => {
+        const slotIndex = slotsPreview.current.slots[0];
         if (canPlaceItem(items, activeTab, slotIndex, draggedItem.item, inventorySize)) {
 
             setItems(prev =>
                 prev.map(item => item.tab === draggedItem.tab && item.slot === draggedItem.slot ? { ...item, tab: activeTab, slot: slotIndex } : item)
             );
         }
+        resetDrag();
+    }
 
-        slotsPreview.current = ({ slots: [], canPlace: true });
-        setDraggedItem(null);
-        moveMode.current = null;
-        itemOriginSlots.current = [];
+    const dropOnBlacksmith = () => {
+        setItemToUpgrade(draggedItem);
+        resetDrag();
+    }
+
+    const handleDropItem = (e) => {
+        if (!draggedItem) return;
+        const dropTarget = e.target.closest('[drop-target]')?.getAttribute('drop-target');
+
+        if (dropTarget === 'inventory-slot') dropOnSlot()
+        if (dropTarget === 'blacksmith') dropOnBlacksmith();
+
+
     }
 
     const updateSlotsPreview = (index) => {
@@ -100,7 +115,9 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
             console.log('pointer up')
             if (!draggedItem) return;
             if (moveMode.current === 'click') {
+
                 console.log('click drop end');
+                handleDropItem(e);
 
                 return;
             } if (moveMode.current === 'drag') {

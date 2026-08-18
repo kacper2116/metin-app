@@ -7,7 +7,7 @@ const Blacksmith = () => {
     const { translate } = useContext(LocaleContext);
 
     return (
-        <div className='blacksmith'>
+        <div className='blacksmith' drop-target="blacksmith">
             <span className='blacksmith-nickname'>{translate('ui.blacksmith')}</span>
             <img className='blacksmith-img' src={blacksmithImg}></img>
         </div>

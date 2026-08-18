@@ -5,10 +5,12 @@ import Blacksmith from './components/Blacksmith'
 import ItemSpawner from './components/ItemSpawner'
 import useInventoryItems from './hooks/useInventoryItems'
 import { useState } from 'react'
+import UpgradeWindow from './components/UpgradeWindow'
 const App = () => {
 
   const inventorySize = { x: 5, y: 9 };
   const inventory = useInventoryItems({ inventorySize })
+  const [itemToUpgrade, setItemToUpgrade] = useState(null)
 
 
   return (
@@ -16,9 +18,11 @@ const App = () => {
       <Blacksmith />
       <div className='inventory-wrapper'>
         <ItemSpawner inventorySize={inventorySize} spawnItem={inventory.spawnItem} />
-        <Inventory inventorySize={inventorySize} inventory={inventory} />
-
+        <Inventory inventorySize={inventorySize} inventory={inventory} setItemToUpgrade={setItemToUpgrade} />
       </div>
+      {itemToUpgrade && <UpgradeWindow itemToUpgrade={itemToUpgrade} />}
+
+
     </div>
   )
 }

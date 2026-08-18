@@ -11,7 +11,7 @@ const InventoryGrid = (props) => {
                 const item = items?.find(item => item.slot === index);
 
                 return (
-                    <div key={index} id={`slot-${index}`} className='slot' onMouseDown={(e) => handleClickSlot?.(e)} onMouseEnter={(e) => handleHoverSlot?.(index)} onMouseLeave={handleLeaveSlot}>
+                    <div key={index} id={`slot-${index}`} className='slot' drop-target="inventory-slot" onMouseDown={(e) => handleClickSlot?.(e)} onMouseEnter={(e) => handleHoverSlot?.(index)} onMouseLeave={handleLeaveSlot}>
                         {slotOverlay?.(index)}
                         {item &&
                             <div className={`item ${item && 'item-selected'}`}>
