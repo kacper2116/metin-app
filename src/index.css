@@ -1,9 +1,15 @@
+@import url(https://db.onlinewebfonts.com/c/42f9562c8f7c7a67c631997066a9bff4?family=fs+Tahoma+8px);
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+html {
+  font-size: 16px;
 }
 
 body {
@@ -15,6 +21,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: Tahoma, sans-serif;
+  font-family: "fs Tahoma 8px", sans-serif;
 
 }

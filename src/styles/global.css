@@ -1,4 +1,4 @@
-button {
+button:not(.close-button) {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,7 +11,7 @@ button {
     font-weight: 300;
 }
 
-button:hover:not(.active) {
+button:hover:not(.active, .close-button) {
     background: hsl(53, 6%, 33%);
 }
 
@@ -21,7 +21,7 @@ button.active {
 }
 
 
-button::before {
+button:not(.close-button)::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -31,7 +31,9 @@ button::before {
     color: red;
 }
 
-button,
+button:not(.close-button),
 select {
     padding: 0.25rem;
+    font-family: inherit;
+    font-size: 1.2rem;
 }
