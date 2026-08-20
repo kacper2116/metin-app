@@ -13,7 +13,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/monk_plate_armour.png",
         "size": 2
     },
@@ -31,7 +31,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/monk_plate_armour.png",
         "size": 2
     },
@@ -49,7 +49,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/monk_plate_armour.png",
         "size": 2
     },
@@ -67,7 +67,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/monk_plate_armour.png",
         "size": 2
     },
@@ -85,7 +85,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/monk_plate_armour.png",
         "size": 2
     },
@@ -103,7 +103,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/monk_plate_armour.png",
         "size": 2
     },
@@ -121,7 +121,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/monk_plate_armour.png",
         "size": 2
     },
@@ -139,7 +139,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/monk_plate_armour.png",
         "size": 2
     },
@@ -157,7 +157,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/monk_plate_armour.png",
         "size": 2
     },
@@ -175,7 +175,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/monk_plate_armour.png",
         "size": 2
     },
@@ -194,7 +194,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/iron_plate_armour.png",
         "size": 2
     },
@@ -213,7 +213,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/iron_plate_armour.png",
         "size": 2
     },
@@ -232,7 +232,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/iron_plate_armour.png",
         "size": 2
     },
@@ -251,7 +251,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/iron_plate_armour.png",
         "size": 2
     },
@@ -270,7 +270,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/iron_plate_armour.png",
         "size": 2
     },
@@ -289,7 +289,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/iron_plate_armour.png",
         "size": 2
     },
@@ -308,7 +308,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/iron_plate_armour.png",
         "size": 2
     },
@@ -327,7 +327,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/iron_plate_armour.png",
         "size": 2
     },
@@ -346,7 +346,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/iron_plate_armour.png",
         "size": 2
     },
@@ -365,7 +365,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/iron_plate_armour.png",
         "size": 2
     },
@@ -384,7 +384,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/tiger_plate_armour.png",
         "size": 2
     },
@@ -403,7 +403,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/tiger_plate_armour.png",
         "size": 2
     },
@@ -422,7 +422,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/tiger_plate_armour.png",
         "size": 2
     },
@@ -441,7 +441,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/tiger_plate_armour.png",
         "size": 2
     },
@@ -460,7 +460,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/tiger_plate_armour.png",
         "size": 2
     },
@@ -479,7 +479,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/tiger_plate_armour.png",
         "size": 2
     },
@@ -498,7 +498,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/tiger_plate_armour.png",
         "size": 2
     },
@@ -517,7 +517,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/tiger_plate_armour.png",
         "size": 2
     },
@@ -536,7 +536,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/tiger_plate_armour.png",
         "size": 2
     },
@@ -555,7 +555,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/warrior/tiger_plate_armour.png",
         "size": 2
     },
@@ -574,7 +574,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lion_plate_armour.png",
         "size": 2
     },
@@ -593,7 +593,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lion_plate_armour.png",
         "size": 2
     },
@@ -612,7 +612,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lion_plate_armour.png",
         "size": 2
     },
@@ -631,7 +631,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lion_plate_armour.png",
         "size": 2
     },
@@ -650,7 +650,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lion_plate_armour.png",
         "size": 2
     },
@@ -669,7 +669,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lion_plate_armour.png",
         "size": 2
     },
@@ -688,7 +688,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lion_plate_armour.png",
         "size": 2
     },
@@ -707,7 +707,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lion_plate_armour.png",
         "size": 2
     },
@@ -726,7 +726,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lion_plate_armour.png",
         "size": 2
     },
@@ -745,7 +745,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lion_plate_armour.png",
         "size": 2
     },
@@ -764,7 +764,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lethal_plate_armour.png",
         "size": 2
     },
@@ -783,7 +783,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lethal_plate_armour.png",
         "size": 2
     },
@@ -802,7 +802,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lethal_plate_armour.png",
         "size": 2
     },
@@ -821,7 +821,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lethal_plate_armour.png",
         "size": 2
     },
@@ -840,7 +840,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lethal_plate_armour.png",
         "size": 2
     },
@@ -859,7 +859,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lethal_plate_armour.png",
         "size": 2
     },
@@ -878,7 +878,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lethal_plate_armour.png",
         "size": 2
     },
@@ -897,7 +897,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lethal_plate_armour.png",
         "size": 2
     },
@@ -916,7 +916,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lethal_plate_armour.png",
         "size": 2
     },
@@ -935,7 +935,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/lethal_plate_armour.png",
         "size": 2
     },
@@ -954,7 +954,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/dragon_plate_armour.png",
         "size": 2
     },
@@ -973,7 +973,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/dragon_plate_armour.png",
         "size": 2
     },
@@ -992,7 +992,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/dragon_plate_armour.png",
         "size": 2
     },
@@ -1011,7 +1011,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/dragon_plate_armour.png",
         "size": 2
     },
@@ -1030,7 +1030,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/dragon_plate_armour.png",
         "size": 2
     },
@@ -1049,7 +1049,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/dragon_plate_armour.png",
         "size": 2
     },
@@ -1068,7 +1068,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/dragon_plate_armour.png",
         "size": 2
     },
@@ -1087,7 +1087,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/dragon_plate_armour.png",
         "size": 2
     },
@@ -1106,7 +1106,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/dragon_plate_armour.png",
         "size": 2
     },
@@ -1125,7 +1125,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/warrior/dragon_plate_armour.png",
         "size": 2
     },
@@ -1144,7 +1144,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/scale_plate_armour.png",
         "size": 2
     },
@@ -1163,7 +1163,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/scale_plate_armour.png",
         "size": 2
     },
@@ -1182,7 +1182,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/scale_plate_armour.png",
         "size": 2
     },
@@ -1201,7 +1201,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/scale_plate_armour.png",
         "size": 2
     },
@@ -1220,7 +1220,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/scale_plate_armour.png",
         "size": 2
     },
@@ -1239,7 +1239,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/scale_plate_armour.png",
         "size": 2
     },
@@ -1258,7 +1258,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/scale_plate_armour.png",
         "size": 2
     },
@@ -1277,7 +1277,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/scale_plate_armour.png",
         "size": 2
     },
@@ -1296,7 +1296,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/scale_plate_armour.png",
         "size": 2
     },
@@ -1315,7 +1315,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/scale_plate_armour.png",
         "size": 2
     },
@@ -1334,7 +1334,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/gold_plate_armour.png",
         "size": 2
     },
@@ -1353,7 +1353,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/gold_plate_armour.png",
         "size": 2
     },
@@ -1372,7 +1372,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/gold_plate_armour.png",
         "size": 2
     },
@@ -1391,7 +1391,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/gold_plate_armour.png",
         "size": 2
     },
@@ -1410,7 +1410,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/gold_plate_armour.png",
         "size": 2
     },
@@ -1429,7 +1429,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/gold_plate_armour.png",
         "size": 2
     },
@@ -1448,7 +1448,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/gold_plate_armour.png",
         "size": 2
     },
@@ -1467,7 +1467,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/gold_plate_armour.png",
         "size": 2
     },
@@ -1486,7 +1486,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/gold_plate_armour.png",
         "size": 2
     },
@@ -1505,7 +1505,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/gold_plate_armour.png",
         "size": 2
     },
@@ -1524,7 +1524,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/dragon_god_armour.png",
         "size": 2
     },
@@ -1543,7 +1543,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/dragon_god_armour.png",
         "size": 2
     },
@@ -1562,7 +1562,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/dragon_god_armour.png",
         "size": 2
     },
@@ -1581,7 +1581,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/dragon_god_armour.png",
         "size": 2
     },
@@ -1600,7 +1600,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/dragon_god_armour.png",
         "size": 2
     },
@@ -1619,7 +1619,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/dragon_god_armour.png",
         "size": 2
     },
@@ -1638,7 +1638,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/dragon_god_armour.png",
         "size": 2
     },
@@ -1657,7 +1657,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/dragon_god_armour.png",
         "size": 2
     },
@@ -1676,7 +1676,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/dragon_god_armour.png",
         "size": 2
     },
@@ -1695,7 +1695,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/warrior/dragon_god_armour.png",
         "size": 2
     },
@@ -1715,7 +1715,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/warrior/black_steel_armour.png",
         "size": 2
     },
@@ -1735,7 +1735,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/warrior/black_steel_armour.png",
         "size": 2
     },
@@ -1755,7 +1755,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/warrior/black_steel_armour.png",
         "size": 2
     },
@@ -1775,7 +1775,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/warrior/black_steel_armour.png",
         "size": 2
     },
@@ -1795,7 +1795,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/warrior/black_steel_armour.png",
         "size": 2
     },
@@ -1815,7 +1815,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/warrior/black_steel_armour.png",
         "size": 2
     },
@@ -1835,7 +1835,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/warrior/black_steel_armour.png",
         "size": 2
     },
@@ -1855,7 +1855,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/warrior/black_steel_armour.png",
         "size": 2
     },
@@ -1875,7 +1875,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/warrior/black_steel_armour.png",
         "size": 2
     },
@@ -1895,7 +1895,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/warrior/black_steel_armour.png",
         "size": 2
     }

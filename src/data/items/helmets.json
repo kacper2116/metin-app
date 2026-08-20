@@ -12,7 +12,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/traditional_helmet.png",
         "size": 1
     },
@@ -29,7 +29,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/traditional_helmet.png",
         "size": 1
     },
@@ -46,7 +46,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/traditional_helmet.png",
         "size": 1
     },
@@ -63,7 +63,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/traditional_helmet.png",
         "size": 1
     },
@@ -80,7 +80,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/traditional_helmet.png",
         "size": 1
     },
@@ -97,7 +97,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/traditional_helmet.png",
         "size": 1
     },
@@ -114,7 +114,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/traditional_helmet.png",
         "size": 1
     },
@@ -131,7 +131,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/traditional_helmet.png",
         "size": 1
     },
@@ -148,7 +148,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/traditional_helmet.png",
         "size": 1
     },
@@ -165,7 +165,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/traditional_helmet.png",
         "size": 1
     },
@@ -182,7 +182,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/iron_helmet.png",
         "size": 1
     },
@@ -199,7 +199,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/iron_helmet.png",
         "size": 1
     },
@@ -216,7 +216,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/iron_helmet.png",
         "size": 1
     },
@@ -233,7 +233,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/iron_helmet.png",
         "size": 1
     },
@@ -250,7 +250,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/iron_helmet.png",
         "size": 1
     },
@@ -267,7 +267,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/iron_helmet.png",
         "size": 1
     },
@@ -284,7 +284,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/iron_helmet.png",
         "size": 1
     },
@@ -301,7 +301,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/iron_helmet.png",
         "size": 1
     },
@@ -318,7 +318,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/iron_helmet.png",
         "size": 1
     },
@@ -335,7 +335,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/iron_helmet.png",
         "size": 1
     },
@@ -352,7 +352,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/ghost_mask_sallet.png",
         "size": 1
     },
@@ -369,7 +369,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/ghost_mask_sallet.png",
         "size": 1
     },
@@ -386,7 +386,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/ghost_mask_sallet.png",
         "size": 1
     },
@@ -403,7 +403,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/ghost_mask_sallet.png",
         "size": 1
     },
@@ -420,7 +420,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/ghost_mask_sallet.png",
         "size": 1
     },
@@ -437,7 +437,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/ghost_mask_sallet.png",
         "size": 1
     },
@@ -454,7 +454,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/ghost_mask_sallet.png",
         "size": 1
     },
@@ -471,7 +471,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/ghost_mask_sallet.png",
         "size": 1
     },
@@ -488,7 +488,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/ghost_mask_sallet.png",
         "size": 1
     },
@@ -505,7 +505,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/ghost_mask_sallet.png",
         "size": 1
     },
@@ -523,7 +523,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/fear_mask.png",
         "size": 1
     },
@@ -541,7 +541,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/fear_mask.png",
         "size": 1
     },
@@ -559,7 +559,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/fear_mask.png",
         "size": 1
     },
@@ -577,7 +577,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/fear_mask.png",
         "size": 1
     },
@@ -595,7 +595,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/fear_mask.png",
         "size": 1
     },
@@ -613,7 +613,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/fear_mask.png",
         "size": 1
     },
@@ -631,7 +631,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/fear_mask.png",
         "size": 1
     },
@@ -649,7 +649,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/fear_mask.png",
         "size": 1
     },
@@ -667,7 +667,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/fear_mask.png",
         "size": 1
     },
@@ -685,7 +685,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/fear_mask.png",
         "size": 1
     },
@@ -702,7 +702,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/leather_hood.png",
         "size": 1
     },
@@ -719,7 +719,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/leather_hood.png",
         "size": 1
     },
@@ -736,7 +736,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/leather_hood.png",
         "size": 1
     },
@@ -753,7 +753,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/leather_hood.png",
         "size": 1
     },
@@ -770,7 +770,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/leather_hood.png",
         "size": 1
     },
@@ -787,7 +787,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/leather_hood.png",
         "size": 1
     },
@@ -804,7 +804,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/leather_hood.png",
         "size": 1
     },
@@ -821,7 +821,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/leather_hood.png",
         "size": 1
     },
@@ -838,7 +838,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/leather_hood.png",
         "size": 1
     },
@@ -855,7 +855,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/leather_hood.png",
         "size": 1
     },
@@ -872,7 +872,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/chain_hood.png",
         "size": 1
     },
@@ -889,7 +889,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/chain_hood.png",
         "size": 1
     },
@@ -906,7 +906,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/chain_hood.png",
         "size": 1
     },
@@ -923,7 +923,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/chain_hood.png",
         "size": 1
     },
@@ -940,7 +940,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/chain_hood.png",
         "size": 1
     },
@@ -957,7 +957,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/chain_hood.png",
         "size": 1
     },
@@ -974,7 +974,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/chain_hood.png",
         "size": 1
     },
@@ -991,7 +991,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/chain_hood.png",
         "size": 1
     },
@@ -1008,7 +1008,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/chain_hood.png",
         "size": 1
     },
@@ -1025,7 +1025,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/chain_hood.png",
         "size": 1
     },
@@ -1042,7 +1042,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/steel_hood.png",
         "size": 1
     },
@@ -1059,7 +1059,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/steel_hood.png",
         "size": 1
     },
@@ -1076,7 +1076,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/steel_hood.png",
         "size": 1
     },
@@ -1093,7 +1093,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/steel_hood.png",
         "size": 1
     },
@@ -1110,7 +1110,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/steel_hood.png",
         "size": 1
     },
@@ -1127,7 +1127,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/steel_hood.png",
         "size": 1
     },
@@ -1144,7 +1144,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/steel_hood.png",
         "size": 1
     },
@@ -1161,7 +1161,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/steel_hood.png",
         "size": 1
     },
@@ -1178,7 +1178,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/steel_hood.png",
         "size": 1
     },
@@ -1195,7 +1195,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/steel_hood.png",
         "size": 1
     },
@@ -1213,7 +1213,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/orc_hood.png",
         "size": 1
     },
@@ -1231,7 +1231,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/orc_hood.png",
         "size": 1
     },
@@ -1249,7 +1249,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/orc_hood.png",
         "size": 1
     },
@@ -1267,7 +1267,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/orc_hood.png",
         "size": 1
     },
@@ -1285,7 +1285,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/orc_hood.png",
         "size": 1
     },
@@ -1303,7 +1303,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/orc_hood.png",
         "size": 1
     },
@@ -1321,7 +1321,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/orc_hood.png",
         "size": 1
     },
@@ -1339,7 +1339,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/orc_hood.png",
         "size": 1
     },
@@ -1357,7 +1357,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/orc_hood.png",
         "size": 1
     },
@@ -1375,7 +1375,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/orc_hood.png",
         "size": 1
     },
@@ -1392,7 +1392,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/bloody_helmet.png",
         "size": 1
     },
@@ -1409,7 +1409,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/bloody_helmet.png",
         "size": 1
     },
@@ -1426,7 +1426,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/bloody_helmet.png",
         "size": 1
     },
@@ -1443,7 +1443,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/bloody_helmet.png",
         "size": 1
     },
@@ -1460,7 +1460,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/bloody_helmet.png",
         "size": 1
     },
@@ -1477,7 +1477,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/bloody_helmet.png",
         "size": 1
     },
@@ -1494,7 +1494,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/bloody_helmet.png",
         "size": 1
     },
@@ -1511,7 +1511,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/bloody_helmet.png",
         "size": 1
     },
@@ -1528,7 +1528,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/bloody_helmet.png",
         "size": 1
     },
@@ -1545,7 +1545,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/bloody_helmet.png",
         "size": 1
     },
@@ -1562,7 +1562,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/mocking_helmet.png",
         "size": 1
     },
@@ -1579,7 +1579,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/mocking_helmet.png",
         "size": 1
     },
@@ -1596,7 +1596,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/mocking_helmet.png",
         "size": 1
     },
@@ -1613,7 +1613,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/mocking_helmet.png",
         "size": 1
     },
@@ -1630,7 +1630,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/mocking_helmet.png",
         "size": 1
     },
@@ -1647,7 +1647,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/mocking_helmet.png",
         "size": 1
     },
@@ -1664,7 +1664,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/mocking_helmet.png",
         "size": 1
     },
@@ -1681,7 +1681,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/mocking_helmet.png",
         "size": 1
     },
@@ -1698,7 +1698,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/mocking_helmet.png",
         "size": 1
     },
@@ -1715,7 +1715,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/mocking_helmet.png",
         "size": 1
     },
@@ -1732,7 +1732,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/castle_helmet.png",
         "size": 1
     },
@@ -1749,7 +1749,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/castle_helmet.png",
         "size": 1
     },
@@ -1766,7 +1766,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/castle_helmet.png",
         "size": 1
     },
@@ -1783,7 +1783,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/castle_helmet.png",
         "size": 1
     },
@@ -1800,7 +1800,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/castle_helmet.png",
         "size": 1
     },
@@ -1817,7 +1817,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/castle_helmet.png",
         "size": 1
     },
@@ -1834,7 +1834,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/castle_helmet.png",
         "size": 1
     },
@@ -1851,7 +1851,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/castle_helmet.png",
         "size": 1
     },
@@ -1868,7 +1868,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/castle_helmet.png",
         "size": 1
     },
@@ -1885,7 +1885,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/castle_helmet.png",
         "size": 1
     },
@@ -1903,7 +1903,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/horned_helmet.png",
         "size": 1
     },
@@ -1921,7 +1921,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/horned_helmet.png",
         "size": 1
     },
@@ -1939,7 +1939,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/horned_helmet.png",
         "size": 1
     },
@@ -1957,7 +1957,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/horned_helmet.png",
         "size": 1
     },
@@ -1975,7 +1975,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/horned_helmet.png",
         "size": 1
     },
@@ -1993,7 +1993,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/horned_helmet.png",
         "size": 1
     },
@@ -2011,7 +2011,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/horned_helmet.png",
         "size": 1
     },
@@ -2029,7 +2029,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/horned_helmet.png",
         "size": 1
     },
@@ -2047,7 +2047,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/horned_helmet.png",
         "size": 1
     },
@@ -2065,7 +2065,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/horned_helmet.png",
         "size": 1
     },
@@ -2082,7 +2082,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/monk_hat.png",
         "size": 1
     },
@@ -2099,7 +2099,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/monk_hat.png",
         "size": 1
     },
@@ -2116,7 +2116,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/monk_hat.png",
         "size": 1
     },
@@ -2133,7 +2133,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/monk_hat.png",
         "size": 1
     },
@@ -2150,7 +2150,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/monk_hat.png",
         "size": 1
     },
@@ -2167,7 +2167,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/monk_hat.png",
         "size": 1
     },
@@ -2184,7 +2184,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/monk_hat.png",
         "size": 1
     },
@@ -2201,7 +2201,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/monk_hat.png",
         "size": 1
     },
@@ -2218,7 +2218,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/monk_hat.png",
         "size": 1
     },
@@ -2235,7 +2235,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-1",
+        "upgrade_scheme": "helmets-1",
         "img": "items/helmets/monk_hat.png",
         "size": 1
     },
@@ -2252,7 +2252,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/phoenix_hat.png",
         "size": 1
     },
@@ -2269,7 +2269,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/phoenix_hat.png",
         "size": 1
     },
@@ -2286,7 +2286,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/phoenix_hat.png",
         "size": 1
     },
@@ -2303,7 +2303,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/phoenix_hat.png",
         "size": 1
     },
@@ -2320,7 +2320,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/phoenix_hat.png",
         "size": 1
     },
@@ -2337,7 +2337,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/phoenix_hat.png",
         "size": 1
     },
@@ -2354,7 +2354,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/phoenix_hat.png",
         "size": 1
     },
@@ -2371,7 +2371,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/phoenix_hat.png",
         "size": 1
     },
@@ -2388,7 +2388,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/phoenix_hat.png",
         "size": 1
     },
@@ -2405,7 +2405,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-21",
+        "upgrade_scheme": "helmets-21",
         "img": "items/helmets/phoenix_hat.png",
         "size": 1
     },
@@ -2422,7 +2422,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/sunlight_hat.png",
         "size": 1
     },
@@ -2439,7 +2439,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/sunlight_hat.png",
         "size": 1
     },
@@ -2456,7 +2456,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/sunlight_hat.png",
         "size": 1
     },
@@ -2473,7 +2473,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/sunlight_hat.png",
         "size": 1
     },
@@ -2490,7 +2490,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/sunlight_hat.png",
         "size": 1
     },
@@ -2507,7 +2507,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/sunlight_hat.png",
         "size": 1
     },
@@ -2524,7 +2524,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/sunlight_hat.png",
         "size": 1
     },
@@ -2541,7 +2541,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/sunlight_hat.png",
         "size": 1
     },
@@ -2558,7 +2558,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/sunlight_hat.png",
         "size": 1
     },
@@ -2575,7 +2575,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-41",
+        "upgrade_scheme": "helmets-41",
         "img": "items/helmets/sunlight_hat.png",
         "size": 1
     },
@@ -2593,7 +2593,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/cardinals_hat.png",
         "size": 1
     },
@@ -2611,7 +2611,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/cardinals_hat.png",
         "size": 1
     },
@@ -2629,7 +2629,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/cardinals_hat.png",
         "size": 1
     },
@@ -2647,7 +2647,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/cardinals_hat.png",
         "size": 1
     },
@@ -2665,7 +2665,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/cardinals_hat.png",
         "size": 1
     },
@@ -2683,7 +2683,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/cardinals_hat.png",
         "size": 1
     },
@@ -2701,7 +2701,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/cardinals_hat.png",
         "size": 1
     },
@@ -2719,7 +2719,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/cardinals_hat.png",
         "size": 1
     },
@@ -2737,7 +2737,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/cardinals_hat.png",
         "size": 1
     },
@@ -2755,7 +2755,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade-scheme": "helmets-60",
+        "upgrade_scheme": "helmets-60",
         "img": "items/helmets/cardinals_hat.png",
         "size": 1
     }

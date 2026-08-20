@@ -14,7 +14,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/requiem_plate_armour.png",
         "size": 2
     },
@@ -33,7 +33,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/requiem_plate_armour.png",
         "size": 2
     },
@@ -52,7 +52,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/requiem_plate_armour.png",
         "size": 2
     },
@@ -71,7 +71,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/requiem_plate_armour.png",
         "size": 2
     },
@@ -90,7 +90,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/requiem_plate_armour.png",
         "size": 2
     },
@@ -109,7 +109,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/requiem_plate_armour.png",
         "size": 2
     },
@@ -128,7 +128,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/requiem_plate_armour.png",
         "size": 2
     },
@@ -147,7 +147,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/requiem_plate_armour.png",
         "size": 2
     },
@@ -166,7 +166,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/requiem_plate_armour.png",
         "size": 2
     },
@@ -185,7 +185,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/requiem_plate_armour.png",
         "size": 2
     },
@@ -204,7 +204,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/storm_plate_armour.png",
         "size": 2
     },
@@ -223,7 +223,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/storm_plate_armour.png",
         "size": 2
     },
@@ -242,7 +242,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/storm_plate_armour.png",
         "size": 2
     },
@@ -261,7 +261,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/storm_plate_armour.png",
         "size": 2
     },
@@ -280,7 +280,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/storm_plate_armour.png",
         "size": 2
     },
@@ -299,7 +299,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/storm_plate_armour.png",
         "size": 2
     },
@@ -318,7 +318,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/storm_plate_armour.png",
         "size": 2
     },
@@ -337,7 +337,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/storm_plate_armour.png",
         "size": 2
     },
@@ -356,7 +356,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/storm_plate_armour.png",
         "size": 2
     },
@@ -375,7 +375,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/storm_plate_armour.png",
         "size": 2
     },
@@ -394,7 +394,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/misfortune_armour.png",
         "size": 2
     },
@@ -413,7 +413,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/misfortune_armour.png",
         "size": 2
     },
@@ -432,7 +432,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/misfortune_armour.png",
         "size": 2
     },
@@ -451,7 +451,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/misfortune_armour.png",
         "size": 2
     },
@@ -470,7 +470,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/misfortune_armour.png",
         "size": 2
     },
@@ -489,7 +489,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/misfortune_armour.png",
         "size": 2
     },
@@ -508,7 +508,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/misfortune_armour.png",
         "size": 2
     },
@@ -527,7 +527,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/misfortune_armour.png",
         "size": 2
     },
@@ -546,7 +546,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/misfortune_armour.png",
         "size": 2
     },
@@ -565,7 +565,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-1-18",
+        "upgrade_scheme": "armours-1-18",
         "img": "items/armours/sura/misfortune_armour.png",
         "size": 2
     },
@@ -584,7 +584,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/ghost_plate_armour.png",
         "size": 2
     },
@@ -603,7 +603,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/ghost_plate_armour.png",
         "size": 2
     },
@@ -622,7 +622,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/ghost_plate_armour.png",
         "size": 2
     },
@@ -641,7 +641,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/ghost_plate_armour.png",
         "size": 2
     },
@@ -660,7 +660,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/ghost_plate_armour.png",
         "size": 2
     },
@@ -679,7 +679,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/ghost_plate_armour.png",
         "size": 2
     },
@@ -698,7 +698,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/ghost_plate_armour.png",
         "size": 2
     },
@@ -717,7 +717,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/ghost_plate_armour.png",
         "size": 2
     },
@@ -736,7 +736,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/ghost_plate_armour.png",
         "size": 2
     },
@@ -755,7 +755,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/ghost_plate_armour.png",
         "size": 2
     },
@@ -774,7 +774,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/yin_and_yang_armour.png",
         "size": 2
     },
@@ -793,7 +793,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/yin_and_yang_armour.png",
         "size": 2
     },
@@ -812,7 +812,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/yin_and_yang_armour.png",
         "size": 2
     },
@@ -831,7 +831,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/yin_and_yang_armour.png",
         "size": 2
     },
@@ -850,7 +850,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/yin_and_yang_armour.png",
         "size": 2
     },
@@ -869,7 +869,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/yin_and_yang_armour.png",
         "size": 2
     },
@@ -888,7 +888,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/yin_and_yang_armour.png",
         "size": 2
     },
@@ -907,7 +907,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/yin_and_yang_armour.png",
         "size": 2
     },
@@ -926,7 +926,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/yin_and_yang_armour.png",
         "size": 2
     },
@@ -945,7 +945,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/yin_and_yang_armour.png",
         "size": 2
     },
@@ -964,7 +964,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/mystic_plate_armour.png",
         "size": 2
     },
@@ -983,7 +983,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/mystic_plate_armour.png",
         "size": 2
     },
@@ -1002,7 +1002,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/mystic_plate_armour.png",
         "size": 2
     },
@@ -1021,7 +1021,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/mystic_plate_armour.png",
         "size": 2
     },
@@ -1040,7 +1040,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/mystic_plate_armour.png",
         "size": 2
     },
@@ -1059,7 +1059,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/mystic_plate_armour.png",
         "size": 2
     },
@@ -1078,7 +1078,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/mystic_plate_armour.png",
         "size": 2
     },
@@ -1097,7 +1097,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/mystic_plate_armour.png",
         "size": 2
     },
@@ -1116,7 +1116,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/mystic_plate_armour.png",
         "size": 2
     },
@@ -1135,7 +1135,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-26-42",
+        "upgrade_scheme": "armours-26-42",
         "img": "items/armours/sura/mystic_plate_armour.png",
         "size": 2
     },
@@ -1154,7 +1154,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/fog_plate_armour.png",
         "size": 2
     },
@@ -1173,7 +1173,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/fog_plate_armour.png",
         "size": 2
     },
@@ -1192,7 +1192,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/fog_plate_armour.png",
         "size": 2
     },
@@ -1211,7 +1211,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/fog_plate_armour.png",
         "size": 2
     },
@@ -1230,7 +1230,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/fog_plate_armour.png",
         "size": 2
     },
@@ -1249,7 +1249,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/fog_plate_armour.png",
         "size": 2
     },
@@ -1268,7 +1268,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/fog_plate_armour.png",
         "size": 2
     },
@@ -1287,7 +1287,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/fog_plate_armour.png",
         "size": 2
     },
@@ -1306,7 +1306,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/fog_plate_armour.png",
         "size": 2
     },
@@ -1325,7 +1325,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/fog_plate_armour.png",
         "size": 2
     },
@@ -1344,7 +1344,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/ghost_mask_armour.png",
         "size": 2
     },
@@ -1363,7 +1363,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/ghost_mask_armour.png",
         "size": 2
     },
@@ -1382,7 +1382,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/ghost_mask_armour.png",
         "size": 2
     },
@@ -1401,7 +1401,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/ghost_mask_armour.png",
         "size": 2
     },
@@ -1420,7 +1420,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/ghost_mask_armour.png",
         "size": 2
     },
@@ -1439,7 +1439,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/ghost_mask_armour.png",
         "size": 2
     },
@@ -1458,7 +1458,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/ghost_mask_armour.png",
         "size": 2
     },
@@ -1477,7 +1477,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/ghost_mask_armour.png",
         "size": 2
     },
@@ -1496,7 +1496,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/ghost_mask_armour.png",
         "size": 2
     },
@@ -1515,7 +1515,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/ghost_mask_armour.png",
         "size": 2
     },
@@ -1534,7 +1534,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/spirit_plate_armour.png",
         "size": 2
     },
@@ -1553,7 +1553,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/spirit_plate_armour.png",
         "size": 2
     },
@@ -1572,7 +1572,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/spirit_plate_armour.png",
         "size": 2
     },
@@ -1591,7 +1591,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/spirit_plate_armour.png",
         "size": 2
     },
@@ -1610,7 +1610,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/spirit_plate_armour.png",
         "size": 2
     },
@@ -1629,7 +1629,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/spirit_plate_armour.png",
         "size": 2
     },
@@ -1648,7 +1648,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/spirit_plate_armour.png",
         "size": 2
     },
@@ -1667,7 +1667,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/spirit_plate_armour.png",
         "size": 2
     },
@@ -1686,7 +1686,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/spirit_plate_armour.png",
         "size": 2
     },
@@ -1705,7 +1705,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-61",
+        "upgrade_scheme": "armours-48-61",
         "img": "items/armours/sura/spirit_plate_armour.png",
         "size": 2
     },
@@ -1725,7 +1725,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/sura/magic_plate_armour.png",
         "size": 2
     },
@@ -1745,7 +1745,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/sura/magic_plate_armour.png",
         "size": 2
     },
@@ -1765,7 +1765,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/sura/magic_plate_armour.png",
         "size": 2
     },
@@ -1785,7 +1785,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/sura/magic_plate_armour.png",
         "size": 2
     },
@@ -1805,7 +1805,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/sura/magic_plate_armour.png",
         "size": 2
     },
@@ -1825,7 +1825,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/sura/magic_plate_armour.png",
         "size": 2
     },
@@ -1845,7 +1845,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/sura/magic_plate_armour.png",
         "size": 2
     },
@@ -1865,7 +1865,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/sura/magic_plate_armour.png",
         "size": 2
     },
@@ -1885,7 +1885,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/sura/magic_plate_armour.png",
         "size": 2
     },
@@ -1905,7 +1905,7 @@
         "profession": [
             "sura"
         ],
-        "upgrade-scheme": "armours-48-70",
+        "upgrade_scheme": "armours-48-70",
         "img": "items/armours/sura/magic_plate_armour.png",
         "size": 2
     }

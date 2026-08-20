@@ -2,6 +2,8 @@ import React from 'react'
 import '../styles/Window.css'
 import closeButton from '../assets/close-button.png'
 const Window = ({ children }) => {
+
+
     return (
         <div className='window'>
             <div className='ui-container'>

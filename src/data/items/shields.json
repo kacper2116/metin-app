@@ -16,7 +16,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-1",
+        "upgrade_scheme": "shields-1",
         "img": "items/shields/battle_shield.png",
         "size": 1
     },
@@ -37,7 +37,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-1",
+        "upgrade_scheme": "shields-1",
         "img": "items/shields/battle_shield.png",
         "size": 1
     },
@@ -58,7 +58,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-1",
+        "upgrade_scheme": "shields-1",
         "img": "items/shields/battle_shield.png",
         "size": 1
     },
@@ -79,7 +79,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-1",
+        "upgrade_scheme": "shields-1",
         "img": "items/shields/battle_shield.png",
         "size": 1
     },
@@ -100,7 +100,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-1",
+        "upgrade_scheme": "shields-1",
         "img": "items/shields/battle_shield.png",
         "size": 1
     },
@@ -121,7 +121,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-1",
+        "upgrade_scheme": "shields-1",
         "img": "items/shields/battle_shield.png",
         "size": 1
     },
@@ -142,7 +142,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-1",
+        "upgrade_scheme": "shields-1",
         "img": "items/shields/battle_shield.png",
         "size": 1
     },
@@ -163,7 +163,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-1",
+        "upgrade_scheme": "shields-1",
         "img": "items/shields/battle_shield.png",
         "size": 1
     },
@@ -184,7 +184,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-1",
+        "upgrade_scheme": "shields-1",
         "img": "items/shields/battle_shield.png",
         "size": 1
     },
@@ -205,7 +205,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-1",
+        "upgrade_scheme": "shields-1",
         "img": "items/shields/battle_shield.png",
         "size": 1
     },
@@ -226,7 +226,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-21",
+        "upgrade_scheme": "shields-21",
         "img": "items/shields/pentagon_shield.png",
         "size": 1
     },
@@ -247,7 +247,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-21",
+        "upgrade_scheme": "shields-21",
         "img": "items/shields/pentagon_shield.png",
         "size": 1
     },
@@ -268,7 +268,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-21",
+        "upgrade_scheme": "shields-21",
         "img": "items/shields/pentagon_shield.png",
         "size": 1
     },
@@ -289,7 +289,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-21",
+        "upgrade_scheme": "shields-21",
         "img": "items/shields/pentagon_shield.png",
         "size": 1
     },
@@ -310,7 +310,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-21",
+        "upgrade_scheme": "shields-21",
         "img": "items/shields/pentagon_shield.png",
         "size": 1
     },
@@ -331,7 +331,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-21",
+        "upgrade_scheme": "shields-21",
         "img": "items/shields/pentagon_shield.png",
         "size": 1
     },
@@ -352,7 +352,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-21",
+        "upgrade_scheme": "shields-21",
         "img": "items/shields/pentagon_shield.png",
         "size": 1
     },
@@ -373,7 +373,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-21",
+        "upgrade_scheme": "shields-21",
         "img": "items/shields/pentagon_shield.png",
         "size": 1
     },
@@ -394,7 +394,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-21",
+        "upgrade_scheme": "shields-21",
         "img": "items/shields/pentagon_shield.png",
         "size": 1
     },
@@ -415,7 +415,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-21",
+        "upgrade_scheme": "shields-21",
         "img": "items/shields/pentagon_shield.png",
         "size": 1
     },
@@ -436,7 +436,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/black_round_shield.png",
         "size": 1
     },
@@ -457,7 +457,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/black_round_shield.png",
         "size": 1
     },
@@ -478,7 +478,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/black_round_shield.png",
         "size": 1
     },
@@ -499,7 +499,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/black_round_shield.png",
         "size": 1
     },
@@ -520,7 +520,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/black_round_shield.png",
         "size": 1
     },
@@ -541,7 +541,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/black_round_shield.png",
         "size": 1
     },
@@ -562,7 +562,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/black_round_shield.png",
         "size": 1
     },
@@ -583,7 +583,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/black_round_shield.png",
         "size": 1
     },
@@ -604,7 +604,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/black_round_shield.png",
         "size": 1
     },
@@ -625,7 +625,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/black_round_shield.png",
         "size": 1
     },
@@ -647,7 +647,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/falcon_shield.png",
         "size": 1
     },
@@ -669,7 +669,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/falcon_shield.png",
         "size": 1
     },
@@ -691,7 +691,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/falcon_shield.png",
         "size": 1
     },
@@ -713,7 +713,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/falcon_shield.png",
         "size": 1
     },
@@ -735,7 +735,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/falcon_shield.png",
         "size": 1
     },
@@ -757,7 +757,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/falcon_shield.png",
         "size": 1
     },
@@ -779,7 +779,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/falcon_shield.png",
         "size": 1
     },
@@ -801,7 +801,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/falcon_shield.png",
         "size": 1
     },
@@ -823,7 +823,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/falcon_shield.png",
         "size": 1
     },
@@ -845,7 +845,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/falcon_shield.png",
         "size": 1
     },
@@ -867,7 +867,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/tiger_shield.png",
         "size": 1
     },
@@ -889,7 +889,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/tiger_shield.png",
         "size": 1
     },
@@ -911,7 +911,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/tiger_shield.png",
         "size": 1
     },
@@ -933,7 +933,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/tiger_shield.png",
         "size": 1
     },
@@ -955,7 +955,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/tiger_shield.png",
         "size": 1
     },
@@ -977,7 +977,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/tiger_shield.png",
         "size": 1
     },
@@ -999,7 +999,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/tiger_shield.png",
         "size": 1
     },
@@ -1021,7 +1021,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/tiger_shield.png",
         "size": 1
     },
@@ -1043,7 +1043,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/tiger_shield.png",
         "size": 1
     },
@@ -1065,7 +1065,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/tiger_shield.png",
         "size": 1
     },
@@ -1087,7 +1087,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/lion_edge_shield.png",
         "size": 1
     },
@@ -1109,7 +1109,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/lion_edge_shield.png",
         "size": 1
     },
@@ -1131,7 +1131,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/lion_edge_shield.png",
         "size": 1
     },
@@ -1153,7 +1153,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/lion_edge_shield.png",
         "size": 1
     },
@@ -1175,7 +1175,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/lion_edge_shield.png",
         "size": 1
     },
@@ -1197,7 +1197,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/lion_edge_shield.png",
         "size": 1
     },
@@ -1219,7 +1219,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/lion_edge_shield.png",
         "size": 1
     },
@@ -1241,7 +1241,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/lion_edge_shield.png",
         "size": 1
     },
@@ -1263,7 +1263,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/lion_edge_shield.png",
         "size": 1
     },
@@ -1285,7 +1285,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-61",
+        "upgrade_scheme": "shields-61",
         "img": "items/shields/lion_edge_shield.png",
         "size": 1
     },
@@ -1307,7 +1307,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/dragon_scale_shield.png",
         "size": 1
     },
@@ -1329,7 +1329,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/dragon_scale_shield.png",
         "size": 1
     },
@@ -1351,7 +1351,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/dragon_scale_shield.png",
         "size": 1
     },
@@ -1373,7 +1373,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/dragon_scale_shield.png",
         "size": 1
     },
@@ -1395,7 +1395,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/dragon_scale_shield.png",
         "size": 1
     },
@@ -1417,7 +1417,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/dragon_scale_shield.png",
         "size": 1
     },
@@ -1439,7 +1439,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/dragon_scale_shield.png",
         "size": 1
     },
@@ -1461,7 +1461,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/dragon_scale_shield.png",
         "size": 1
     },
@@ -1483,7 +1483,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/dragon_scale_shield.png",
         "size": 1
     },
@@ -1505,7 +1505,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shields-41-61",
+        "upgrade_scheme": "shields-41-61",
         "img": "items/shields/dragon_scale_shield.png",
         "size": 1
     }

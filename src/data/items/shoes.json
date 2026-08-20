@@ -16,7 +16,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/leather_shoes.png",
         "size": 1
     },
@@ -37,7 +37,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/leather_shoes.png",
         "size": 1
     },
@@ -58,7 +58,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/leather_shoes.png",
         "size": 1
     },
@@ -79,7 +79,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/leather_shoes.png",
         "size": 1
     },
@@ -100,7 +100,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/leather_shoes.png",
         "size": 1
     },
@@ -121,7 +121,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/leather_shoes.png",
         "size": 1
     },
@@ -142,7 +142,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/leather_shoes.png",
         "size": 1
     },
@@ -163,7 +163,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/leather_shoes.png",
         "size": 1
     },
@@ -184,7 +184,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/leather_shoes.png",
         "size": 1
     },
@@ -205,7 +205,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/leather_shoes.png",
         "size": 1
     },
@@ -227,7 +227,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/bamboo_skin_shoes.png",
         "size": 1
     },
@@ -249,7 +249,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/bamboo_skin_shoes.png",
         "size": 1
     },
@@ -271,7 +271,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/bamboo_skin_shoes.png",
         "size": 1
     },
@@ -293,7 +293,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/bamboo_skin_shoes.png",
         "size": 1
     },
@@ -315,7 +315,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/bamboo_skin_shoes.png",
         "size": 1
     },
@@ -337,7 +337,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/bamboo_skin_shoes.png",
         "size": 1
     },
@@ -359,7 +359,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/bamboo_skin_shoes.png",
         "size": 1
     },
@@ -381,7 +381,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/bamboo_skin_shoes.png",
         "size": 1
     },
@@ -403,7 +403,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/bamboo_skin_shoes.png",
         "size": 1
     },
@@ -425,7 +425,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/bamboo_skin_shoes.png",
         "size": 1
     },
@@ -447,7 +447,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/wooden_shoes.png",
         "size": 1
     },
@@ -469,7 +469,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/wooden_shoes.png",
         "size": 1
     },
@@ -491,7 +491,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/wooden_shoes.png",
         "size": 1
     },
@@ -513,7 +513,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/wooden_shoes.png",
         "size": 1
     },
@@ -535,7 +535,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/wooden_shoes.png",
         "size": 1
     },
@@ -557,7 +557,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/wooden_shoes.png",
         "size": 1
     },
@@ -579,7 +579,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/wooden_shoes.png",
         "size": 1
     },
@@ -601,7 +601,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/wooden_shoes.png",
         "size": 1
     },
@@ -623,7 +623,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/wooden_shoes.png",
         "size": 1
     },
@@ -645,7 +645,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/wooden_shoes.png",
         "size": 1
     },
@@ -667,7 +667,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/gold_threaded_shoes.png",
         "size": 1
     },
@@ -689,7 +689,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/gold_threaded_shoes.png",
         "size": 1
     },
@@ -711,7 +711,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/gold_threaded_shoes.png",
         "size": 1
     },
@@ -733,7 +733,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/gold_threaded_shoes.png",
         "size": 1
     },
@@ -755,7 +755,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/gold_threaded_shoes.png",
         "size": 1
     },
@@ -777,7 +777,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/gold_threaded_shoes.png",
         "size": 1
     },
@@ -799,7 +799,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/gold_threaded_shoes.png",
         "size": 1
     },
@@ -821,7 +821,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/gold_threaded_shoes.png",
         "size": 1
     },
@@ -843,7 +843,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/gold_threaded_shoes.png",
         "size": 1
     },
@@ -865,7 +865,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-1-23",
+        "upgrade_scheme": "shoes-1-23",
         "img": "items/shoes/gold_threaded_shoes.png",
         "size": 1
     },
@@ -887,7 +887,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/leather_boots.png",
         "size": 1
     },
@@ -909,7 +909,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/leather_boots.png",
         "size": 1
     },
@@ -931,7 +931,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/leather_boots.png",
         "size": 1
     },
@@ -953,7 +953,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/leather_boots.png",
         "size": 1
     },
@@ -975,7 +975,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/leather_boots.png",
         "size": 1
     },
@@ -997,7 +997,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/leather_boots.png",
         "size": 1
     },
@@ -1019,7 +1019,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/leather_boots.png",
         "size": 1
     },
@@ -1041,7 +1041,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/leather_boots.png",
         "size": 1
     },
@@ -1063,7 +1063,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/leather_boots.png",
         "size": 1
     },
@@ -1085,7 +1085,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/leather_boots.png",
         "size": 1
     },
@@ -1107,7 +1107,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/golden_shoes.png",
         "size": 1
     },
@@ -1129,7 +1129,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/golden_shoes.png",
         "size": 1
     },
@@ -1151,7 +1151,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/golden_shoes.png",
         "size": 1
     },
@@ -1173,7 +1173,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/golden_shoes.png",
         "size": 1
     },
@@ -1195,7 +1195,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/golden_shoes.png",
         "size": 1
     },
@@ -1217,7 +1217,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/golden_shoes.png",
         "size": 1
     },
@@ -1239,7 +1239,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/golden_shoes.png",
         "size": 1
     },
@@ -1261,7 +1261,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/golden_shoes.png",
         "size": 1
     },
@@ -1283,7 +1283,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/golden_shoes.png",
         "size": 1
     },
@@ -1305,7 +1305,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/golden_shoes.png",
         "size": 1
     },
@@ -1327,7 +1327,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/bronze_boots.png",
         "size": 1
     },
@@ -1349,7 +1349,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/bronze_boots.png",
         "size": 1
     },
@@ -1371,7 +1371,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/bronze_boots.png",
         "size": 1
     },
@@ -1393,7 +1393,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/bronze_boots.png",
         "size": 1
     },
@@ -1415,7 +1415,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/bronze_boots.png",
         "size": 1
     },
@@ -1437,7 +1437,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/bronze_boots.png",
         "size": 1
     },
@@ -1459,7 +1459,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/bronze_boots.png",
         "size": 1
     },
@@ -1481,7 +1481,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/bronze_boots.png",
         "size": 1
     },
@@ -1503,7 +1503,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/bronze_boots.png",
         "size": 1
     },
@@ -1525,7 +1525,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/bronze_boots.png",
         "size": 1
     },
@@ -1547,7 +1547,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/jade_shoes.png",
         "size": 1
     },
@@ -1569,7 +1569,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/jade_shoes.png",
         "size": 1
     },
@@ -1591,7 +1591,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/jade_shoes.png",
         "size": 1
     },
@@ -1613,7 +1613,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/jade_shoes.png",
         "size": 1
     },
@@ -1635,7 +1635,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/jade_shoes.png",
         "size": 1
     },
@@ -1657,7 +1657,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/jade_shoes.png",
         "size": 1
     },
@@ -1679,7 +1679,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/jade_shoes.png",
         "size": 1
     },
@@ -1701,7 +1701,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/jade_shoes.png",
         "size": 1
     },
@@ -1723,7 +1723,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/jade_shoes.png",
         "size": 1
     },
@@ -1745,7 +1745,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-29-43",
+        "upgrade_scheme": "shoes-29-43",
         "img": "items/shoes/jade_shoes.png",
         "size": 1
     },
@@ -1767,7 +1767,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/ecstasy_shoes.png",
         "size": 1
     },
@@ -1789,7 +1789,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/ecstasy_shoes.png",
         "size": 1
     },
@@ -1811,7 +1811,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/ecstasy_shoes.png",
         "size": 1
     },
@@ -1833,7 +1833,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/ecstasy_shoes.png",
         "size": 1
     },
@@ -1855,7 +1855,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/ecstasy_shoes.png",
         "size": 1
     },
@@ -1877,7 +1877,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/ecstasy_shoes.png",
         "size": 1
     },
@@ -1899,7 +1899,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/ecstasy_shoes.png",
         "size": 1
     },
@@ -1921,7 +1921,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/ecstasy_shoes.png",
         "size": 1
     },
@@ -1943,7 +1943,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/ecstasy_shoes.png",
         "size": 1
     },
@@ -1965,7 +1965,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/ecstasy_shoes.png",
         "size": 1
     },
@@ -1987,7 +1987,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/nimbus_boots.png",
         "size": 1
     },
@@ -2009,7 +2009,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/nimbus_boots.png",
         "size": 1
     },
@@ -2031,7 +2031,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/nimbus_boots.png",
         "size": 1
     },
@@ -2053,7 +2053,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/nimbus_boots.png",
         "size": 1
     },
@@ -2075,7 +2075,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/nimbus_boots.png",
         "size": 1
     },
@@ -2097,7 +2097,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/nimbus_boots.png",
         "size": 1
     },
@@ -2119,7 +2119,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/nimbus_boots.png",
         "size": 1
     },
@@ -2141,7 +2141,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/nimbus_boots.png",
         "size": 1
     },
@@ -2163,7 +2163,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/nimbus_boots.png",
         "size": 1
     },
@@ -2185,7 +2185,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/nimbus_boots.png",
         "size": 1
     },
@@ -2207,7 +2207,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/phoenix_shoes.png",
         "size": 1
     },
@@ -2229,7 +2229,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/phoenix_shoes.png",
         "size": 1
     },
@@ -2251,7 +2251,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/phoenix_shoes.png",
         "size": 1
     },
@@ -2273,7 +2273,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/phoenix_shoes.png",
         "size": 1
     },
@@ -2295,7 +2295,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/phoenix_shoes.png",
         "size": 1
     },
@@ -2317,7 +2317,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/phoenix_shoes.png",
         "size": 1
     },
@@ -2339,7 +2339,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/phoenix_shoes.png",
         "size": 1
     },
@@ -2361,7 +2361,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/phoenix_shoes.png",
         "size": 1
     },
@@ -2383,7 +2383,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/phoenix_shoes.png",
         "size": 1
     },
@@ -2405,7 +2405,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/phoenix_shoes.png",
         "size": 1
     },
@@ -2427,7 +2427,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/fire_bird_shoes.png",
         "size": 1
     },
@@ -2449,7 +2449,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/fire_bird_shoes.png",
         "size": 1
     },
@@ -2471,7 +2471,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/fire_bird_shoes.png",
         "size": 1
     },
@@ -2493,7 +2493,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/fire_bird_shoes.png",
         "size": 1
     },
@@ -2515,7 +2515,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/fire_bird_shoes.png",
         "size": 1
     },
@@ -2537,7 +2537,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/fire_bird_shoes.png",
         "size": 1
     },
@@ -2559,7 +2559,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/fire_bird_shoes.png",
         "size": 1
     },
@@ -2581,7 +2581,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/fire_bird_shoes.png",
         "size": 1
     },
@@ -2603,7 +2603,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/fire_bird_shoes.png",
         "size": 1
     },
@@ -2625,7 +2625,7 @@
             "sura",
             "shaman"
         ],
-        "upgrade-scheme": "shoes-47-59",
+        "upgrade_scheme": "shoes-47-59",
         "img": "items/shoes/fire_bird_shoes.png",
         "size": 1
     }
