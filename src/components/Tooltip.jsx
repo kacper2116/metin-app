@@ -45,23 +45,35 @@ const Tooltip = ({ children, isStatic }) => {
 
         <div className={`tooltip ${isStatic && 'tooltip-static'}`} ref={tooltipRef}
             style={style}>
-            <span className='top-bar'></span>
-
-            <span className='corner lt'></span>
-            <span className='line lt'></span>
-
-            <span className='corner rt'></span>
-            <span className='line rt'></span>
-
-            <span className='corner lb'></span>
-            <span className='line lb'></span>
-
-            <span className='corner rb'></span>
-            <span className='line rb'></span>
-
-            <span className='bottom-bar'></span>
-
-            <div className='tooltip-content'>{children}</div>
+            <div className='bar top'>
+                <div className='line'>
+                    <div className='corner'></div>
+                    <div className='empty lt1 border-right border-bottom '></div>
+                    <div className='long border-top'></div>
+                    <div className='empty rt1 border-left border-bottom'></div>
+                    <div className='corner'></div>
+                </div>
+                <div className='line'>
+                    <div className='empty lt2 border-bottom border-right '></div>
+                    <div className='long'></div>
+                    <div className='empty rt2 border-left border-bottom'></div>
+                </div>
+            </div>
+            {children}
+            <div className='bar bottom'>
+                <div className='line'>
+                    <div className='corner'></div>
+                    <div className='empty lt1 border-right border-bottom '></div>
+                    <div className='long border-top'></div>
+                    <div className='empty rt1 border-left border-bottom'></div>
+                    <div className='corner'></div>
+                </div>
+                <div className='line'>
+                    <div className='empty lt2 border-bottom border-right '></div>
+                    <div className='long'></div>
+                    <div className='empty rt2 border-left border-bottom'></div>
+                </div>
+            </div>
         </div>
     )
 }

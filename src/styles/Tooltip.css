@@ -1,167 +1,61 @@
 .tooltip {
-    position: fixed;
-    color: white;
-    background: rgba(0, 0, 0, 0.2);
-    border-left: 2px solid #3d3d3d;
-    border-right: 2px solid #3d3d3d;
-    color: #e3e3e3;
-    text-align: center;
-    min-width: 240px;
-    pointer-events: none;
+    position: absolute;
+    --tooltip-border-color: #43413e;
+    --tooltip-background-color: rgba(0, 0, 0, 0.5);
 }
 
 .tooltip-static {
     position: relative;
 }
 
-.top-bar {
-    position: absolute;
-    width: calc(100% - 32px);
-    height: 18px;
-    background: rgba(0, 0, 0, 0.2);
-    top: -18px;
-    left: 50%;
-    transform: translateX(-50%);
-    border-top: 2px solid #3d3d3d;
-}
-
-.bottom-bar {
-    position: absolute;
-    width: calc(100% - 32px);
-    height: 18px;
-    background: rgba(0, 0, 0, 0.2);
-    bottom: -18px;
-    left: 50%;
-    transform: translateX(-50%);
-    border-bottom: 2px solid #3d3d3d;
-}
-
 .corner,
-.corner::before {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: rgba(0, 0, 0, 0.2);
+.long {
+    background-color: var(--tooltip-background-color);
 }
 
-.line,
-.line::before {
-    position: absolute;
-    background: #3d3d3d;
+.bar.bottom {
+    transform: rotate(180deg);
 }
 
-.corner.lt {
-    top: -18px;
-    left: -2px;
-    border: 2px solid #3d3d3d;
+.line {
+    display: flex;
 }
 
-.corner.lt::before {
-    content: "";
-    top: 6px;
-    left: 6px;
-    border-left: 2px solid #3d3d3d;
-    border-top: 2px solid #3d3d3d;
+.corner {
+    width: 6px;
+    height: 6px;
+    border: 2px solid var(--tooltip-border-color);
 }
 
-.line.lt {
-    top: -2px;
-    left: -2px;
-    height: 2px;
-    width: 8px;
+
+.empty.lt1,
+.empty.rt1 {
+    width: 4px;
+    height: 6px;
 }
 
-.line.lt::before {
-    content: "";
-    width: 2px;
-    height: 8px;
-    top: -16px;
-    left: 16px;
+.long {
+    flex: 1;
 }
 
-.corner.rt {
-    top: -18px;
-    right: -2px;
-    border: 2px solid #3d3d3d;
+.empty.lt2,
+.empty.rt2 {
+    width: 6px;
+    height: 4px;
 }
 
-.corner.rt::before {
-    content: "";
-    top: 6px;
-    right: 6px;
-    border-right: 2px solid #3d3d3d;
-    border-top: 2px solid #3d3d3d;
+.border-top {
+    border-top: 2px solid var(--tooltip-border-color);
 }
 
-.line.rt {
-    top: -2px;
-    right: -2px;
-    height: 2px;
-    width: 8px;
+.border-left {
+    border-left: 2px solid var(--tooltip-border-color);
 }
 
-.line.rt::before {
-    content: "";
-    width: 2px;
-    height: 8px;
-    top: -16px;
-    right: 16px;
+.border-right {
+    border-right: 2px solid var(--tooltip-border-color);
 }
 
-.corner.lb {
-    bottom: -18px;
-    left: -2px;
-    border: 2px solid #3d3d3d;
-}
-
-.corner.lb::before {
-    content: "";
-    bottom: 6px;
-    left: 6px;
-    border-left: 2px solid #3d3d3d;
-    border-bottom: 2px solid #3d3d3d;
-}
-
-.line.lb {
-    bottom: 0;
-    left: 0;
-    height: 2px;
-    width: 8px;
-}
-
-.line.lb::before {
-    content: "";
-    width: 2px;
-    height: 8px;
-    bottom: -16px;
-    left: 16px;
-}
-
-.corner.rb {
-    bottom: -18px;
-    right: -2px;
-    border: 2px solid #3d3d3d;
-}
-
-.corner.rb::before {
-    content: "";
-    bottom: 6px;
-    right: 6px;
-    border-right: 2px solid #3d3d3d;
-    border-bottom: 2px solid #3d3d3d;
-}
-
-.line.rb {
-    bottom: 0;
-    right: 0;
-    height: 2px;
-    width: 8px;
-}
-
-.line.rb::before {
-    content: "";
-    width: 2px;
-    height: 8px;
-    bottom: -16px;
-    right: 16px;
+.border-bottom {
+    border-bottom: 2px solid var(--tooltip-border-color);
 }
