@@ -16,7 +16,7 @@
 }
 
 .window-content-container {
-    padding: 0.5rem;
+    padding: 10px;
 }
 
 .window-title {
@@ -30,8 +30,6 @@
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
-
-
 }
 
 .close-button {

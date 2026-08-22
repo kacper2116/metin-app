@@ -180,7 +180,7 @@ const TooltipContent = ({ itemInstance }) => {
     return (
 
 
-        <div className='tooltip-content'>
+        <div>
             <div className='tooltip-name'>{itemDisplayName}</div>
             {item.required_level && <div className='tooltip-level'>{formatStat("required_level", item.required_level)}</div>}
             {item.stats &&

@@ -21,8 +21,6 @@ const App = () => {
         <Inventory inventorySize={inventorySize} inventory={inventory} setItemToUpgrade={setItemToUpgrade} />
       </div>
       {itemToUpgrade && <UpgradeWindow itemToUpgrade={itemToUpgrade} onClose={() => setItemToUpgrade(null)} />}
-
-
     </div>
   )
 }

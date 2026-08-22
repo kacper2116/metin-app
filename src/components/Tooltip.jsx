@@ -59,7 +59,7 @@ const Tooltip = ({ children, isStatic }) => {
                     <div className='empty rt2 border-left border-bottom'></div>
                 </div>
             </div>
-            {children}
+            <div className='tooltip-content'>{children}</div>
             <div className='bar bottom'>
                 <div className='line'>
                     <div className='corner'></div>
