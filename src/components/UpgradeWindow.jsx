@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import '../styles/UpgradeWindow.css'
 import Tooltip from './Tooltip'
 import TooltipContent from './TooltipContent'
 import Window from './Window'
+import LocaleContext from '../contexts/LocaleContext';
 import { itemsDB } from '../data/itemsDB'
 import { getUpgradeRequirements } from '../utils/upgrade'
-const UpgradeWindow = ({ itemToUpgrade }) => {
 
+const UpgradeWindow = ({ itemToUpgrade, onClose }) => {
 
+    const { translate } = useContext(LocaleContext);
     const nextItemId = itemToUpgrade.item['next_item_id']
     const nextItem = itemsDB.find(item => item.id === nextItemId)
     const nextItemInstance = { ...itemToUpgrade, item: nextItem }
@@ -20,7 +22,7 @@ const UpgradeWindow = ({ itemToUpgrade }) => {
     return (
 
         <div className='upgrade-window'>
-            <Window>
+            <Window title={translate('ui.upgrades')} onClose={onClose}>
 
                 <div className='item-info'>
                     <div>

@@ -20,7 +20,7 @@ const App = () => {
         <ItemSpawner inventorySize={inventorySize} spawnItem={inventory.spawnItem} />
         <Inventory inventorySize={inventorySize} inventory={inventory} setItemToUpgrade={setItemToUpgrade} />
       </div>
-      {itemToUpgrade && <UpgradeWindow itemToUpgrade={itemToUpgrade} />}
+      {itemToUpgrade && <UpgradeWindow itemToUpgrade={itemToUpgrade} onClose={() => setItemToUpgrade(null)} />}
 
 
     </div>
