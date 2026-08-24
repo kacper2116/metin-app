@@ -17,14 +17,17 @@ export const getUpgradeRequirements = (item) => {
         scheme => scheme.name === item['upgrade_scheme']
     )
 
+    console.log(upgradeScheme)
+
     const requirements = upgradeScheme?.upgrades[item.plus] ?? null
-    const materialsData = requirements.materials.map(material => ({
+    console.log(requirements)
+    const materialsData = requirements?.materials.map(material => ({
         ...upgradeMaterials.find(item => item.id === material.id),
         count: material.count
 
-    }))
+    })) ?? [];
 
-    return { cost: requirements.cost, materials: materialsData }
+    return { cost: requirements?.cost ?? null, materials: materialsData }
 }
 
 
