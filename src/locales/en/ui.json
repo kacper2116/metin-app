@@ -3,5 +3,6 @@
     "select_item": "Select item",
     "close": "Close",
     "upgrades": "Upgrades",
-    "upgrade_cost": "Costs for Advancement"
+    "upgrade_cost": "Costs for Advancement",
+    "cancel": "Cancel"
 }

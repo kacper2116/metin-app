@@ -33,17 +33,22 @@ const UpgradeWindow = ({ itemToUpgrade, onClose }) => {
                     </Tooltip>
                 </div>
                 <div className='requirements'>
-                    <div className='materials'>
-                        {upgradeRequirements.materials.map(material => (
-                            <div className='material'>
-                                <img className='material-icon' src={`/items/materials/${material.id}.png`} />
-                                <Tooltip isStatic={true}>{`${material.name} x ${String(material.count).padStart(2, '0')}`}</Tooltip>
-                            </div>
-                        ))}
-                    </div>
+                    {upgradeRequirements?.materials.length > 0 &&
+                        <div className='materials'>
+                            {upgradeRequirements.materials.map(material => (
+                                <div className='material'>
+                                    <img className='material-icon' src={`/items/materials/${material.id}.png`} />
+                                    <Tooltip isStatic={true}>{`${material.name} x ${String(material.count).padStart(2, '0')}`}</Tooltip>
+                                </div>
+                            ))}
+                        </div>
+                    }
 
-                    <div className='cost'>{`${translate('ui.upgrade_cost')} ${(upgradeRequirements?.cost ?? 0).toLocaleString('de-DE')}`} Yang</div>
-
+                    <div className='cost'>{`${translate('ui.upgrade_cost')}: ${(upgradeRequirements?.cost ?? 0).toLocaleString('de-DE')}`} Yang</div>
+                </div>
+                <div className='buttons'>
+                    <button>OK</button>
+                    <button onClick={onClose}>{translate('ui.cancel')}</button>
                 </div>
             </Window>
         </div >

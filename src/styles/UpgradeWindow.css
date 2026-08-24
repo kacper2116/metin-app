@@ -14,36 +14,46 @@
     display: flex;
     gap: 3px;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 .item-thumbnail {
-    width: 50px;
+    width: 40px;
 
     background: url("https://pl-wiki.metin2.gameforge.com/images/4/48/Czarne_T%C5%82o.png");
-    background-size: 50px;
+    background-size: 40px;
     flex: 0 0 auto;
 }
+
 
 .materials {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-
+    gap: 4px;
+    margin-top: 10px;
 }
 
 .material {
     display: flex;
-    gap: 5px;
+    gap: 4px;
 }
 
 .material-icon {
-    width: 50px;
+    width: 40px;
     background: url("https://pl-wiki.metin2.gameforge.com/images/4/48/Czarne_T%C5%82o.png");
-    background-size: 50px;
+    background-size: 40px;
 }
 
 .cost {
-    margin-top: 16px;
+    margin-top: 15px;
+}
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 8px;
+}
+
+.buttons>button {
+    min-width: 80px;
 }
