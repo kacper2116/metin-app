@@ -37,7 +37,7 @@ const UpgradeWindow = ({ itemToUpgrade, onClose }) => {
                         {upgradeRequirements.materials.map(material => (
                             <div className='material'>
                                 <img className='material-icon' src={`/items/materials/${material.id}.png`} />
-                                <Tooltip isStatic={true}>Ogon Węża+ x 01</Tooltip>
+                                <Tooltip isStatic={true}>{`${material.name} x ${String(material.count).padStart(2, '0')}`}</Tooltip>
                             </div>
                         ))}
                     </div>

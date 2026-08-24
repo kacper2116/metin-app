@@ -8,25 +8,28 @@ const upgradeFiles = import.meta.glob(
     }
 );
 
-const getMaterialData = (materialId) => {
-
-    const materialData = upgradeMaterials.find(material => material.id === materialId)
-
-    return materialData;
-}
-
 export const getUpgradeRequirements = (item) => {
 
     const upgradeSchemeName = item['upgrade_scheme'];
 
     const category = upgradeSchemeName.split('-')[0];
+    console.log(category)
     const upgradeFile = upgradeFiles[`../data/upgrades/${category}-upgrades.json`];
-
+    console.log(upgradeFile)
     const upgradeScheme = upgradeFile.find(scheme => scheme.name === upgradeSchemeName)
 
     const requirements = upgradeScheme?.upgrades[item.plus] ?? null
-    return requirements
+    const materialsData = requirements.materials.map(material => ({
+        ...upgradeMaterials.find(item => item.id === material.id),
+        count: material.count
+
+    }))
+
+
+    return { cost: requirements.cost, materials: materialsData }
 }
+
+
 
 
 
