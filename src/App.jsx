@@ -6,6 +6,7 @@ import ItemSpawner from './components/ItemSpawner'
 import useInventoryItems from './hooks/useInventoryItems'
 import { useState } from 'react'
 import UpgradeWindow from './components/UpgradeWindow'
+import { upgrade } from './utils/upgrade'
 const App = () => {
 
   const inventorySize = { x: 5, y: 9 };
@@ -19,8 +20,9 @@ const App = () => {
       <div className='inventory-wrapper'>
         <ItemSpawner inventorySize={inventorySize} spawnItem={inventory.spawnItem} />
         <Inventory inventorySize={inventorySize} inventory={inventory} setItemToUpgrade={setItemToUpgrade} />
+        {itemToUpgrade && <UpgradeWindow itemToUpgrade={itemToUpgrade} onClose={() => setItemToUpgrade(null)} onSubmit={upgrade} />}
+
       </div>
-      {itemToUpgrade && <UpgradeWindow itemToUpgrade={itemToUpgrade} onClose={() => setItemToUpgrade(null)} />}
     </div>
   )
 }

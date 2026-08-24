@@ -1,11 +1,11 @@
 .upgrade-window {
 
     position: absolute;
-    left: 30%;
-    top: 40%;
-    transform: translate(-50%, -50%);
+    left: 140px;
+    top: 30px;
+
     color: #d3d3d3;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
 
 }
@@ -18,7 +18,6 @@
 
 .item-thumbnail {
     width: 40px;
-
     background: url("https://pl-wiki.metin2.gameforge.com/images/4/48/Czarne_T%C5%82o.png");
     background-size: 40px;
     flex: 0 0 auto;
@@ -56,4 +55,17 @@
 
 .buttons>button {
     min-width: 80px;
+}
+
+.confirm-upgrade-modal {
+    position: absolute;
+    left: 50%;
+    margin-top: 5px;
+    transform: translate(-50%);
+}
+
+.confirm-upgrade-modal span {
+    display: block;
+    text-wrap: nowrap;
+    line-height: 1.5rem;
 }

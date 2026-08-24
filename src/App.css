@@ -1,7 +1,6 @@
 .app-container {
-
+    position: relative;
     width: 100%;
-
     max-width: 1200px;
     gap: 50px;
     border: 2px solid rgb(53, 53, 53);

@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 import '../styles/UpgradeWindow.css'
 import Tooltip from './Tooltip'
 import TooltipContent from './TooltipContent'
@@ -17,10 +17,24 @@ const UpgradeWindow = ({ itemToUpgrade, onClose, onSubmit }) => {
 
     const upgradeRequirements = getUpgradeRequirements(nextItem)
 
+    const [startUpgrade, setStartUpgrade] = useState(null);
+    const handleStartUpgrade = () => {
+        setStartUpgrade(true);
+    }
+    const handleClose = () => {
+        setStartUpgrade(false)
+        onClose();
+    }
+
+    const handleUprade = () => {
+        onSubmit();
+        onClose();
+    }
 
     return (
 
         <div className='upgrade-window'>
+
             <Window title={translate('ui.upgrades')} onClose={onClose}>
 
                 <div className='item-info'>
@@ -46,10 +60,25 @@ const UpgradeWindow = ({ itemToUpgrade, onClose, onSubmit }) => {
                     <div className='cost'>{`${translate('ui.upgrade_cost')}: ${(upgradeRequirements?.cost ?? 0).toLocaleString('de-DE')}`} Yang</div>
                 </div>
                 <div className='buttons'>
-                    <button onClick={onSubmit}>OK</button>
-                    <button onClick={onClose}>{translate('ui.cancel')}</button>
+                    <button onClick={handleStartUpgrade}>OK</button>
+                    <button onClick={handleClose}>{translate('ui.cancel')}</button>
                 </div>
             </Window>
+
+            {startUpgrade &&
+                <div className='confirm-upgrade-modal'>
+                    <Window >
+
+                        <span>{translate('ui.upgrade_warning')}</span>
+                        <span>{translate('ui.upgrade_continue')}</span>
+                        <div className='buttons'>
+                            <button onClick={handleUprade}>{translate('ui.yes')}</button>
+                            <button onClick={handleClose}>{translate('ui.no')}</button>
+                        </div>
+
+                    </Window>
+                </div>
+            }
         </div >
 
     )

@@ -4,5 +4,9 @@
     "close": "Close",
     "upgrades": "Upgrades",
     "upgrade_cost": "Costs for Advancement",
-    "cancel": "Cancel"
+    "cancel": "Cancel",
+    "upgrade_warning": "This item may be destroyed in the process.",
+    "upgrade_continue": "Would you still like to continue?",
+    "yes": "Yes",
+    "no": "No"
 }

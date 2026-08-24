@@ -32,6 +32,10 @@ export const getUpgradeRequirements = (item) => {
 
 
 
+export const upgrade = () => {
+    console.log('upgraded')
+}
+
 
 
 
