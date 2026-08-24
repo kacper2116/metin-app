@@ -10,7 +10,6 @@ const useInventoryItems = ({ inventorySize }) => {
         setItems((prev) => {
             let updated = structuredClone(prev)
             updated = [...updated, item];
-            console.log(updated)
             return updated;
         })
     }
@@ -26,12 +25,10 @@ const useInventoryItems = ({ inventorySize }) => {
                     const itemInstance = { instanceId: crypto.randomUUID(), item: itemToSpawn, bonuses: [], stones: [], slot: slot, tab: tab }
 
                     addItem(itemInstance);
-                    console.log("Dodano item");
                     return;
                 }
             }
         }
-        console.log("Nie można dodać itemu")
     }
     return { items, setItems, spawnItem }
 };

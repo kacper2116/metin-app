@@ -36,7 +36,6 @@ export const LocaleProvider = ({ children }) => {
     const translate = (path) => {
         const keys = path.split('.');
         let value = locales[locale];
-        console.log(locales[locale])
 
         for (const key of keys) {
             value = value?.[key];

@@ -112,20 +112,19 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
         const handleMouseUp = (e) => {
 
-            console.log('pointer up')
+
             if (!draggedItem) return;
             if (moveMode.current === 'click') {
 
-                console.log('click drop end');
                 handleDropItem(e);
 
                 return;
             } if (moveMode.current === 'drag') {
-                console.log('drag end');
+
                 handleDropItem(e);
             } else {
                 moveMode.current = 'click';
-                console.log('click drop start');
+
             }
         }
 
@@ -138,7 +137,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
             if (moveX > 5 || moveY > 5) {
                 moveMode.current = "drag"
-                console.log("drag start")
+
             }
         }
         window.addEventListener('mousemove', handleMouseMove);
