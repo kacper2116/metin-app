@@ -4,6 +4,9 @@
     left: 30%;
     top: 40%;
     transform: translate(-50%, -50%);
+    color: #d3d3d3;
+    font-size: 1.3rem;
+    text-align: center;
 
 }
 
@@ -38,4 +41,9 @@
     width: 50px;
     background: url("https://pl-wiki.metin2.gameforge.com/images/4/48/Czarne_T%C5%82o.png");
     background-size: 50px;
+}
+
+.cost {
+    margin-top: 16px;
+
 }

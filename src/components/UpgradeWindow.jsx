@@ -41,6 +41,9 @@ const UpgradeWindow = ({ itemToUpgrade, onClose }) => {
                             </div>
                         ))}
                     </div>
+
+                    <div className='cost'>{`${translate('ui.upgrade_cost')} ${(upgradeRequirements?.cost ?? 0).toLocaleString('de-DE')}`} Yang</div>
+
                 </div>
             </Window>
         </div >

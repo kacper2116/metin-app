@@ -2,5 +2,6 @@
     "blacksmith": "Blacksmith",
     "select_item": "Select item",
     "close": "Close",
-    "upgrades": "Upgrades"
+    "upgrades": "Upgrades",
+    "upgrade_cost": "Costs for Advancement"
 }
