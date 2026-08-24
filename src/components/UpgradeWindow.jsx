@@ -7,16 +7,15 @@ import LocaleContext from '../contexts/LocaleContext';
 import { itemsDB } from '../data/itemsDB'
 import { getUpgradeRequirements } from '../utils/upgrade'
 
-const UpgradeWindow = ({ itemToUpgrade, onClose }) => {
+const UpgradeWindow = ({ itemToUpgrade, onClose, onSubmit }) => {
 
     const { translate } = useContext(LocaleContext);
     const nextItemId = itemToUpgrade.item['next_item_id']
+    if (nextItemId == null) return;
     const nextItem = itemsDB.find(item => item.id === nextItemId)
     const nextItemInstance = { ...itemToUpgrade, item: nextItem }
 
     const upgradeRequirements = getUpgradeRequirements(nextItem)
-    console.log(upgradeRequirements)
-
 
 
     return (
@@ -47,7 +46,7 @@ const UpgradeWindow = ({ itemToUpgrade, onClose }) => {
                     <div className='cost'>{`${translate('ui.upgrade_cost')}: ${(upgradeRequirements?.cost ?? 0).toLocaleString('de-DE')}`} Yang</div>
                 </div>
                 <div className='buttons'>
-                    <button>OK</button>
+                    <button onClick={onSubmit}>OK</button>
                     <button onClick={onClose}>{translate('ui.cancel')}</button>
                 </div>
             </Window>
