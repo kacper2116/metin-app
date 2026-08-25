@@ -73,7 +73,7 @@ const UpgradeWindow = ({ itemToUpgrade, onClose, onSubmit }) => {
                         <span>{translate('ui.upgrade_continue')}</span>
                         <div className='buttons'>
                             <button onClick={handleUprade}>{translate('ui.yes')}</button>
-                            <button onClick={handleClose}>{translate('ui.no')}</button>
+                            <button onClick={() => setStartUpgrade(false)}>{translate('ui.no')}</button>
                         </div>
 
                     </Window>
