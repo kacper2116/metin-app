@@ -8,5 +8,7 @@
     "upgrade_warning": "This item may be destroyed in the process.",
     "upgrade_continue": "Would you still like to continue?",
     "yes": "Yes",
-    "no": "No"
+    "no": "No",
+    "upgrade_success": "The item upgrade was successful.",
+    "upgrade_failure": "It didn't work. We failed."
 }

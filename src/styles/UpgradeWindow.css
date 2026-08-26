@@ -69,3 +69,20 @@
     text-wrap: nowrap;
     line-height: 1.5rem;
 }
+
+.upgrade-result-window {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #d3d3d3;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.upgrade-result-window button {
+    min-width: 50px;
+    margin: auto;
+}

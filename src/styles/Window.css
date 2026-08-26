@@ -7,6 +7,7 @@
     border: 2px solid grey;
     border-radius: 5px;
     background: url('../assets/background.png');
+    color: #d3d3d3;
 }
 
 .ui-container {

@@ -17,10 +17,7 @@ export const getUpgradeRequirements = (item) => {
         scheme => scheme.name === item['upgrade_scheme']
     )
 
-    console.log(upgradeScheme)
-
     const requirements = upgradeScheme?.upgrades[item.plus] ?? null
-    console.log(requirements)
     const materialsData = requirements?.materials.map(material => ({
         ...upgradeMaterials.find(item => item.id === material.id),
         count: material.count
@@ -32,8 +29,10 @@ export const getUpgradeRequirements = (item) => {
 
 
 
-export const upgrade = () => {
-    console.log('upgraded')
+export const isUpgradeSuccess = (chance) => {
+
+    const random = Math.floor(Math.random() * 100) + 1
+    return random <= chance;
 }
 
 

@@ -2,16 +2,19 @@ import { act, useContext } from 'react'
 import { useState, useEffect, useRef } from 'react';
 import { getSelectedSlots, getItemSlots, findItemBySlot, canPlaceItem } from '../utils/inventory';
 import MouseContext from '../contexts/MouseContext';
-
-const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHoverSlot, setItemToUpgrade }) => {
+import useUpgrade from './useUpgrade';
+import UpgradeContext from '../contexts/UpgradeContext';
+const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHoverSlot }) => {
 
     const [draggedItem, setDraggedItem] = useState(null);
     const slotsPreview = useRef({ slots: [], canPlace: true });
     const startPos = useRef({ x: 0, y: 0 });
     const moveMode = useRef(null);
     const itemOriginSlots = useRef([]);
+    const { handleStartUpgrade, itemToUpgrade } = useContext(UpgradeContext);
 
     const mousePosition = useContext(MouseContext);
+
 
     const handleClickSlot = (e) => {
 
@@ -56,7 +59,8 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
     }
 
     const dropOnBlacksmith = () => {
-        setItemToUpgrade(draggedItem);
+        if (itemToUpgrade) return;
+        handleStartUpgrade(draggedItem);
         resetDrag();
     }
 

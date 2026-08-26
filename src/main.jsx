@@ -5,13 +5,16 @@ import App from './App.jsx'
 import { MouseProvider } from './contexts/MouseContext.jsx'
 import { TooltipProvider } from './contexts/TooltipContext.jsx'
 import { LocaleProvider } from './contexts/LocaleContext.jsx'
+import { UpgradeProvider } from './contexts/UpgradeContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <MouseProvider>
       <LocaleProvider>
         <TooltipProvider>
-          <App />
+          <UpgradeProvider>
+            <App />
+          </UpgradeProvider>
         </TooltipProvider>
       </LocaleProvider>
     </MouseProvider>

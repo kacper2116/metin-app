@@ -11,7 +11,7 @@ import useSlotHover from "../hooks/useSlotHover"
 import MouseContext from "../contexts/MouseContext"
 import TooltipContext from "../contexts/TooltipContext"
 
-const Inventory = ({ inventorySize, inventory, setItemToUpgrade }) => {
+const Inventory = ({ inventorySize, inventory }) => {
 
     const [activeTab, setActiveTab] = useState(0)
     const tooltipRef = useRef(null);
@@ -23,7 +23,7 @@ const Inventory = ({ inventorySize, inventory, setItemToUpgrade }) => {
     const { hoveredItem, setHoveredItem, handleHoverSlot, clearHover } = useSlotHover({ items, activeTab, inventorySize });
 
     const { draggedItem, slotsPreview, handleClickSlot, handleUpdateSlotsPreview, clearSlotsPreview } = useInventoryDrag({
-        items, setItems, activeTab, canPlaceItem, inventorySize, handleHoverSlot, setItemToUpgrade
+        items, setItems, activeTab, canPlaceItem, inventorySize, handleHoverSlot
     });
 
     const mousePosition = useContext(MouseContext)
