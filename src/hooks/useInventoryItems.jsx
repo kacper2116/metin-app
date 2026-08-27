@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import { isSlotEmpty, canPlaceItem } from '../utils/inventory'
+import { useState } from "react";
+import { canPlaceItem } from '../utils/inventory'
 import { itemsDB } from '../data/itemsDB'
 
 const useInventoryItems = ({ inventorySize }) => {
@@ -30,7 +30,24 @@ const useInventoryItems = ({ inventorySize }) => {
             }
         }
     }
-    return { items, setItems, spawnItem }
+    return { items, setItems, spawnItem, inventorySize }
 };
+
+/* const replaceItem = (instanceId, newItem) => {
+    setItems(prev => {
+        let updated = structuredClone(prev);
+      
+    })
+} */
+
+/* const destroyItem = (instanceId) => {
+    setItems(prev => {
+        let updated = structuredClone(prev);
+        updated.filter(instance => instance.instanceId !== instanceId);
+        return updated;
+    })
+}
+ */
+
 
 export default useInventoryItems;

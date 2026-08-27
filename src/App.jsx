@@ -19,7 +19,7 @@ const App = () => {
       <Blacksmith />
       <div className='inventory-wrapper'>
         <ItemSpawner inventorySize={inventorySize} spawnItem={inventory.spawnItem} />
-        <Inventory inventorySize={inventorySize} inventory={inventory} />
+        <Inventory inventory={inventory} />
         {itemToUpgrade && <UpgradeWindow itemInstance={itemToUpgrade} />}
       </div>
     </div>

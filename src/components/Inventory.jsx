@@ -1,40 +1,28 @@
-import { useEffect, useState, useRef, useContext } from "react"
+import { useState, useRef } from "react"
 import '../styles/Inventory.css'
-import Tooltip from "./Tooltip"
+
 import InventoryTabs from "./InventoryTabs"
 import InventoryGrid from "./InventoryGrid"
 import Ghost from "./Ghost"
-import TooltipContent from "./TooltipContent"
-import useInventoryItems from "../hooks/useInventoryItems"
+
 import useInventoryDrag from "../hooks/useInventoryDrag"
 import useSlotHover from "../hooks/useSlotHover"
-import MouseContext from "../contexts/MouseContext"
-import TooltipContext from "../contexts/TooltipContext"
 
-const Inventory = ({ inventorySize, inventory }) => {
+const Inventory = ({ inventory }) => {
 
     const [activeTab, setActiveTab] = useState(0)
-    const tooltipRef = useRef(null);
-    const inventoryRef = useRef(null);
     const tabCount = 2;
 
-    const { items, setItems, spawnItem, findItemBySlot, canPlaceItem } = inventory;
+    const { items, setItems, inventorySize, canPlaceItem } = inventory;
 
-    const { hoveredItem, setHoveredItem, handleHoverSlot, clearHover } = useSlotHover({ items, activeTab, inventorySize });
+    const { handleHoverSlot, clearHover } = useSlotHover({ items, activeTab, inventorySize });
 
     const { draggedItem, slotsPreview, handleClickSlot, handleUpdateSlotsPreview, clearSlotsPreview } = useInventoryDrag({
         items, setItems, activeTab, canPlaceItem, inventorySize, handleHoverSlot
     });
 
-    const mousePosition = useContext(MouseContext)
-
     const activeTabItems = items?.filter(item => item.tab === activeTab);
 
-    const tabsProps = {
-        activeTab,
-        setActiveTab,
-        tabCount
-    }
 
     const slotOverlay = (index) => {
         if (!slotsPreview.current.slots?.includes(index)) return null;
@@ -42,6 +30,13 @@ const Inventory = ({ inventorySize, inventory }) => {
             <div className={`slot-overlay ${!slotsPreview.current.canPlace && 'slot-overlay-red'}`}></div>
         )
     }
+
+    const tabsProps = {
+        activeTab,
+        setActiveTab,
+        tabCount
+    }
+
 
     const gridProps = {
         items: activeTabItems,
@@ -54,7 +49,7 @@ const Inventory = ({ inventorySize, inventory }) => {
     }
 
     return (
-        <div className="inventory" ref={inventoryRef}>
+        <div className="inventory" >
             <InventoryTabs {...tabsProps} />
             <InventoryGrid {...gridProps} />
 

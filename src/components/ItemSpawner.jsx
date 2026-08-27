@@ -2,12 +2,11 @@ import { useContext, useEffect, useState } from 'react'
 import '../styles/ItemSpawner.css'
 import ItemPicker from './ItemPicker';
 import ItemFilter from './ItemFilter';
-import useInventoryItems from '../hooks/useInventoryItems';
 import { findItemBySlot, placeItemsInGrid } from '../utils/inventory';
 import { itemsDB } from "../data/itemsDB";
 import LocaleContext from '../contexts/LocaleContext';
 
-const ItemSpawner = ({ inventorySize, spawnItem }) => {
+const ItemSpawner = ({ spawnItem }) => {
 
     const [itemToSpawn, setItemToSpawn] = useState(null);
     const [showModal, setShowModal] = useState(false)
