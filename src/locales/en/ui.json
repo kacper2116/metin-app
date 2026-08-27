@@ -10,5 +10,6 @@
     "yes": "Yes",
     "no": "No",
     "upgrade_success": "The item upgrade was successful.",
-    "upgrade_failure": "It didn't work. We failed."
+    "upgrade_failure": "It didn't work. We failed.",
+    "upgrade_chance": "Chance for Advancement"
 }

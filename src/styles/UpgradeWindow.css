@@ -42,15 +42,19 @@
     background-size: 40px;
 }
 
-.cost {
+.upgrade-chance {
     margin-top: 15px;
+}
+
+.upgrade-cost {
+    margin-top: 5px;
 }
 
 .buttons {
     display: flex;
     justify-content: center;
     gap: 14px;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 
 .buttons>button {
@@ -69,6 +73,7 @@
     text-wrap: nowrap;
     line-height: 1.5rem;
 }
+
 
 .upgrade-result-window {
 

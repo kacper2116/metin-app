@@ -59,6 +59,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
     }
 
     const dropOnBlacksmith = () => {
+
         if (itemToUpgrade) return;
         handleStartUpgrade(draggedItem);
         resetDrag();

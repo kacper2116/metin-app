@@ -1,5 +1,5 @@
 import upgradeMaterials from '../data/items/materials.json'
-
+import upgradeChances from '../data/upgrades/upgrade-chances.json'
 const upgradeFiles = import.meta.glob(
     '../data/upgrades/*-upgrades.json',
     {
@@ -27,7 +27,19 @@ export const getUpgradeRequirements = (item) => {
     return { cost: requirements?.cost ?? null, materials: materialsData }
 }
 
+export const getUpgradeChance = (item, method) => {
 
+    const { required_level, plus } = item;
+
+
+    if (method === 'base') {
+
+        const chances = upgradeChances.base.find(tier => required_level <= tier.max_lv)?.chances ?? null;
+        return chances[plus]
+    }
+
+    return upgradeFiles[method]?.[plus] ?? null;
+}
 
 export const isUpgradeSuccess = (chance) => {
 
