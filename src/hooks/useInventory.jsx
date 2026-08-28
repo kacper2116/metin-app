@@ -32,24 +32,30 @@ const useInventory = () => {
             }
         }
     }
-    return { items, setItems, spawnItem, inventorySize, tabCount }
+
+    const replaceItem = (instanceId, newItemId) => {
+
+        const newItem = itemsDB.find(item => item.id === newItemId);
+        if (!newItem) return;
+
+        setItems(prev => {
+            let updated = structuredClone(prev);
+            const instance = updated.find(instance => instance.instanceId === instanceId)
+            if (!instance) return;
+            instance.item = newItem
+            return updated;
+        })
+    }
+
+
+    const removeItem = (instanceId) => {
+        setItems(prev =>
+            prev.filter(instance => instance.instanceId !== instanceId)
+        )
+    }
+
+
+    return { items, setItems, spawnItem, inventorySize, tabCount, replaceItem, removeItem }
 };
-
-/* const replaceItem = (instanceId, newItem) => {
-    setItems(prev => {
-        let updated = structuredClone(prev);
-      
-    })
-} */
-
-/* const destroyItem = (instanceId) => {
-    setItems(prev => {
-        let updated = structuredClone(prev);
-        updated.filter(instance => instance.instanceId !== instanceId);
-        return updated;
-    })
-}
- */
-
 
 export default useInventory;
