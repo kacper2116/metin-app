@@ -1,11 +1,12 @@
-import { useContext, useEffect, useState } from 'react'
+import { useContext, useState } from 'react'
 import '../styles/ItemSpawner.css'
 import ItemPicker from './ItemPicker';
 import ItemFilter from './ItemFilter';
-import { findItemBySlot, placeItemsInGrid } from '../utils/inventory';
+import { placeItemsInGrid } from '../utils/inventory';
 import { itemsDB } from "../data/itemsDB";
 import LocaleContext from '../contexts/LocaleContext';
 import InventoryContext from '../contexts/InventoryContext';
+import Window from './Window';
 
 const ItemSpawner = () => {
 
@@ -31,10 +32,11 @@ const ItemSpawner = () => {
 
             {showModal &&
                 <div className='modal'>
-                    <button className='close-modal-button' onClick={() => setShowModal(false)} title={translate('ui.close')}>&times;</button>
+                    <Window title="Spawner" onClose={() => setShowModal(false)}>
 
-                    <ItemFilter setFilteredItems={setFilteredItems} />
-                    <ItemPicker items={placedItems} inventorySize={gridSize} setItemToSpawn={setItemToSpawn} />
+                        <ItemFilter setFilteredItems={setFilteredItems} />
+                        <ItemPicker items={placedItems} inventorySize={gridSize} setItemToSpawn={setItemToSpawn} />
+                    </Window>
                 </div>
             }
 
