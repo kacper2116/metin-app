@@ -1,4 +1,4 @@
-import { useState, useRef } from "react"
+import { useState, useRef, useContext } from "react"
 import '../styles/Inventory.css'
 
 import InventoryTabs from "./InventoryTabs"
@@ -7,13 +7,13 @@ import Ghost from "./Ghost"
 
 import useInventoryDrag from "../hooks/useInventoryDrag"
 import useSlotHover from "../hooks/useSlotHover"
+import InventoryContext from "../contexts/InventoryContext"
 
-const Inventory = ({ inventory }) => {
+const Inventory = () => {
 
     const [activeTab, setActiveTab] = useState(0)
-    const tabCount = 2;
 
-    const { items, setItems, inventorySize, canPlaceItem } = inventory;
+    const { items, setItems, inventorySize, tabCount, canPlaceItem } = useContext(InventoryContext);
 
     const { handleHoverSlot, clearHover } = useSlotHover({ items, activeTab, inventorySize });
 
@@ -22,7 +22,6 @@ const Inventory = ({ inventory }) => {
     });
 
     const activeTabItems = items?.filter(item => item.tab === activeTab);
-
 
     const slotOverlay = (index) => {
         if (!slotsPreview.current.slots?.includes(index)) return null;

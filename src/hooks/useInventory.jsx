@@ -2,8 +2,10 @@ import { useState } from "react";
 import { canPlaceItem } from '../utils/inventory'
 import { itemsDB } from '../data/itemsDB'
 
-const useInventoryItems = ({ inventorySize }) => {
+const useInventory = () => {
 
+    const inventorySize = { x: 5, y: 9 };
+    const tabCount = 2;
     const [items, setItems] = useState([])
 
     const addItem = (item) => {
@@ -30,7 +32,7 @@ const useInventoryItems = ({ inventorySize }) => {
             }
         }
     }
-    return { items, setItems, spawnItem, inventorySize }
+    return { items, setItems, spawnItem, inventorySize, tabCount }
 };
 
 /* const replaceItem = (instanceId, newItem) => {
@@ -50,4 +52,4 @@ const useInventoryItems = ({ inventorySize }) => {
  */
 
 
-export default useInventoryItems;
+export default useInventory;

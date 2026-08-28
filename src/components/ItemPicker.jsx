@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import InventoryGrid from './InventoryGrid'
 import Tooltip from "./Tooltip"
 import InventoryTabs from './InventoryTabs'
-import useInventoryItems from '../hooks/useInventoryItems'
+import useInventory from '../hooks/useInventory'
 import useSlotHover from "../hooks/useSlotHover"
 import { canPlaceItem, findItemBySlot } from '../utils/inventory'
 

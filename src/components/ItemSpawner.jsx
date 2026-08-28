@@ -5,9 +5,11 @@ import ItemFilter from './ItemFilter';
 import { findItemBySlot, placeItemsInGrid } from '../utils/inventory';
 import { itemsDB } from "../data/itemsDB";
 import LocaleContext from '../contexts/LocaleContext';
+import InventoryContext from '../contexts/InventoryContext';
 
-const ItemSpawner = ({ spawnItem }) => {
+const ItemSpawner = () => {
 
+    const { spawnItem } = useContext(InventoryContext);
     const [itemToSpawn, setItemToSpawn] = useState(null);
     const [showModal, setShowModal] = useState(false)
     const [filteredItems, setFilteredItems] = useState(itemsDB)
