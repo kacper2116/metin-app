@@ -78,7 +78,7 @@ const ItemFilter = ({ setFilteredItems }) => {
                         key={profession}
                         name="profession"
                         value={profession}
-                        className={`filter-button ${filter.profession === profession ? 'active' : ''}`}
+                        className={`filter-button button-basic ${filter.profession === profession ? 'active' : ''}`}
                         onClick={(e) => filter.profession !== profession && handleSetFilter(e)}
                     >{translate(`common.professions.${profession}`)}</button>
                 )}
@@ -102,7 +102,7 @@ const ItemFilter = ({ setFilteredItems }) => {
                             key={subtype}
                             name='subtype'
                             value={subtype}
-                            className={`filter-button ${filter.subtype === subtype ? 'active' : ''}`}
+                            className={`filter-button button-basic ${filter.subtype === subtype ? 'active' : ''}`}
                             onClick={handleSetFilter}
                         >{translate(`filters.weapon_type.${subtype}`)}</button>
                     )}

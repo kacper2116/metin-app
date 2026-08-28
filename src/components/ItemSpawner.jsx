@@ -28,7 +28,7 @@ const ItemSpawner = () => {
         <div className='item-spawner'>
             <div className='select-item' onClick={() => setShowModal(true)}><span>{itemToSpawn?.item.name ?? translate('ui.select_item')}</span></div>
             {itemToSpawn &&
-                <button className='spawn-button' onClick={() => handleSpawnItem(itemToSpawn)}>Spawn</button>}
+                <button className='spawn-button button-basic' onClick={() => handleSpawnItem(itemToSpawn)}>Spawn</button>}
 
             {showModal &&
                 <div className='modal'>

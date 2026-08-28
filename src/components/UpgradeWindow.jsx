@@ -61,8 +61,8 @@ const UpgradeWindow = ({ itemInstance }) => {
                             <div className='upgrade-cost'>{`${translate('ui.upgrade_cost')}: ${(upgradeRequirements?.cost ?? 0).toLocaleString('de-DE')}`} Yang</div>
                         </div>
                         <div className='buttons'>
-                            <button onClick={() => setShowConfirmWindow(true)} >OK</button>
-                            <button onClick={handleEndUpgrade} >{translate('ui.cancel')}</button>
+                            <button className='button-basic' onClick={() => setShowConfirmWindow(true)} >OK</button>
+                            <button className='button-basic' onClick={handleEndUpgrade} >{translate('ui.cancel')}</button>
                         </div>
                     </Window>
 
@@ -73,8 +73,8 @@ const UpgradeWindow = ({ itemInstance }) => {
                                 <span>{translate('ui.upgrade_warning')}</span>
                                 <span>{translate('ui.upgrade_continue')}</span>
                                 <div className='buttons'>
-                                    <button onClick={handleConfirmUpgrade} >{translate('ui.yes')}</button>
-                                    <button onClick={() => setShowConfirmWindow(false)}>{translate('ui.no')}</button>
+                                    <button className='button-basic' onClick={handleConfirmUpgrade} >{translate('ui.yes')}</button>
+                                    <button className='button-basic' onClick={() => setShowConfirmWindow(false)}>{translate('ui.no')}</button>
                                 </div>
 
                             </Window>
@@ -85,7 +85,7 @@ const UpgradeWindow = ({ itemInstance }) => {
                 <div className='upgrade-result-window'>
                     <Window>
                         <div className='upgrade-result'>{result === 'success' ? translate('ui.upgrade_success') : translate('ui.upgrade_failure')}</div>
-                        <button onClick={handleEndUpgrade}>Ok</button>
+                        <button className='button-basic' onClick={handleEndUpgrade}>Ok</button>
                     </Window>
                 </div>
             }
