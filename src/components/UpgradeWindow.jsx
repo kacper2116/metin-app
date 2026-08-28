@@ -10,6 +10,8 @@ import UpgradeContext from '../contexts/UpgradeContext'
 
 const UpgradeWindow = ({ itemInstance }) => {
 
+
+    console.log(itemInstance)
     const nextItemId = itemInstance?.item['next_item_id']
     if (nextItemId == null) return;
     const { translate } = useContext(LocaleContext);

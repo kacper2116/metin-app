@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext, useRef, useState } from 'react'
 import { getUpgradeChance, isUpgradeSuccess } from '../utils/upgrade';
 import InventoryContext from '../contexts/InventoryContext';
 
@@ -9,6 +9,7 @@ const useUpgrade = () => {
     const [upgradeMethod, setUpgradeMethod] = useState('blacksmith')
     const [result, setResult] = useState(null);
     const { replaceItem, removeItem } = useContext(InventoryContext);
+    const upgradeRef = useRef(false);
 
     const baseChanceMethods = ['blacksmith', 'blessing_scroll', 'magic_stone'];
     const chanceScheme = baseChanceMethods.includes(upgradeMethod) ? 'base' : upgradeMethod;
@@ -24,15 +25,23 @@ const useUpgrade = () => {
     }
 
     const handleStartUpgrade = (itemInstance, method = 'blacksmith') => {
+
+        if (itemInstance.item.next_item_id == null) return;
+        if (upgradeRef.current) return;
+
         setItemToUpgrade(itemInstance);
         setUpgradeMethod(method);
         console.log(itemInstance)
+        upgradeRef.current = true;
+
     }
 
     const handleEndUpgrade = () => {
         setItemToUpgrade(null);
         setUpgradeMethod('blacksmith');
         setResult(null);
+        upgradeRef.current = false;
+
     }
     console.log(chance)
 
@@ -59,9 +68,10 @@ const useUpgrade = () => {
     const upgradeFailure = () => {
         console.log('upgrade failure')
         onFailure[upgradeMethod]?.(itemToUpgrade.instanceId);
+
     }
 
-    return { itemToUpgrade, handleStartUpgrade, handleEndUpgrade, handleUpgrade, upgradeSucces, upgradeFailure, chance, result }
+    return { itemToUpgrade, handleStartUpgrade, handleEndUpgrade, handleUpgrade, upgradeSucces, upgradeFailure, chance, result, isUpgrading: upgradeRef }
 }
 
 export default useUpgrade

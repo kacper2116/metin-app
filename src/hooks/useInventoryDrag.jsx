@@ -6,17 +6,23 @@ import useUpgrade from './useUpgrade';
 import UpgradeContext from '../contexts/UpgradeContext';
 const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHoverSlot }) => {
 
-    const [draggedItem, setDraggedItem] = useState(null);
+    const [draggedItemId, setDraggedItemId] = useState(null);
+    const draggedItem = items.find(
+        item => item.instanceId === draggedItemId
+    ) ?? null;
+
+    /* const [draggedItem, setDraggedItem] = useState(null); */
     const slotsPreview = useRef({ slots: [], canPlace: true });
     const startPos = useRef({ x: 0, y: 0 });
     const moveMode = useRef(null);
     const itemOriginSlots = useRef([]);
-    const { handleStartUpgrade, itemToUpgrade } = useContext(UpgradeContext);
+    const { handleStartUpgrade, itemToUpgrade, isUpgrading } = useContext(UpgradeContext);
 
     const mousePosition = useContext(MouseContext);
 
-
     const handleClickSlot = (e) => {
+
+
 
         if (draggedItem) {
             handleDropItem(e);
@@ -27,7 +33,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
 
         if (itemInSlot) {
-            setDraggedItem(itemInSlot)
+            setDraggedItemId(itemInSlot.instanceId)
             startPos.current = { x: e.clientX, y: e.clientY };
             itemOriginSlots.current = getItemSlots(itemInSlot, inventorySize);
 
@@ -42,12 +48,18 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
     const resetDrag = () => {
         slotsPreview.current = ({ slots: [], canPlace: true });
-        setDraggedItem(null);
+        setDraggedItemId(null);
         moveMode.current = null;
         itemOriginSlots.current = [];
     }
 
     const dropOnSlot = () => {
+
+        if (itemToUpgrade) {
+            resetDrag();
+            return;
+        }
+
         const slotIndex = slotsPreview.current.slots[0];
         if (canPlaceItem(items, activeTab, slotIndex, draggedItem.item, inventorySize)) {
 
@@ -60,13 +72,13 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
     const dropOnBlacksmith = () => {
 
-        if (itemToUpgrade) return;
         handleStartUpgrade(draggedItem);
         resetDrag();
     }
 
     const handleDropItem = (e) => {
         if (!draggedItem) return;
+
         const dropTarget = e.target.closest('[drop-target]')?.getAttribute('drop-target');
 
         if (dropTarget === 'inventory-slot') dropOnSlot()
