@@ -8,14 +8,13 @@ import { canPlaceItem, findItemBySlot } from '../utils/inventory'
 
 
 
-const ItemPicker = ({ items, inventorySize, setItemToSpawn }) => {
+const ItemPicker = ({ items, activeTab, setActiveTab, inventorySize, setItemToSpawn }) => {
 
-    const [activeTab, setActiveTab] = useState(0);
+
     const [tabCount, setTabCount] = useState(1);
     const [placedItems, setPlacedItems] = useState([]);
-    const tooltipRef = useRef(null);
 
-    const { hoveredItem, setHoveredItem, handleHoverSlot, clearHover } = useSlotHover({ items, activeTab, inventorySize });
+    const { hoveredItem, handleHoverSlot, clearHover } = useSlotHover({ items, activeTab, inventorySize });
 
     const handlePickItem = (e) => {
 

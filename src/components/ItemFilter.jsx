@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from 'react'
 import '../styles/ItemFilter.css';
 import { itemsDB } from '../data/itemsDB';
 import LocaleContext from '../contexts/LocaleContext'
-const ItemFilter = ({ setFilteredItems }) => {
+const ItemFilter = ({ setFilteredItems, setActiveTab }) => {
 
     const { translate } = useContext(LocaleContext)
 
@@ -54,8 +54,9 @@ const ItemFilter = ({ setFilteredItems }) => {
             ...prev,
             subtype: null
         }))
-
     }, [filter.profession, filter.type])
+
+
 
     useEffect(() => {
 
@@ -67,6 +68,7 @@ const ItemFilter = ({ setFilteredItems }) => {
         )
 
         setFilteredItems(filtered);
+        setActiveTab(0);
 
     }, [filter])
 
