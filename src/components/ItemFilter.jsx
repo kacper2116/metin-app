@@ -2,16 +2,10 @@ import { useContext, useEffect, useState } from 'react'
 import '../styles/ItemFilter.css';
 import { itemsDB } from '../data/itemsDB';
 import LocaleContext from '../contexts/LocaleContext'
-const ItemFilter = ({ setFilteredItems, setActiveTab }) => {
+const ItemFilter = ({ filter, setFilter, setFilteredItems, setActiveTab }) => {
 
     const { translate } = useContext(LocaleContext)
 
-    const [filter, setFilter] = useState({
-        type: 'weapon',
-        subtype: null,
-        profession: 'warrior',
-        plus: 0
-    });
 
     const filterOptions = {
         type: [

@@ -12,11 +12,20 @@ const ItemSpawner = () => {
 
     const { spawnItem } = useContext(InventoryContext);
     const [itemToSpawn, setItemToSpawn] = useState(null);
+
     const [showModal, setShowModal] = useState(false)
     const [filteredItems, setFilteredItems] = useState(itemsDB)
     const [activeTab, setActiveTab] = useState(0);
     const gridSize = { x: 5, y: 6 };
     const { translate } = useContext(LocaleContext);
+
+    const [filter, setFilter] = useState({
+        type: 'weapon',
+        subtype: null,
+        profession: 'warrior',
+        plus: 0
+    });
+
 
     const placedItems = placeItemsInGrid(filteredItems, gridSize);
 
@@ -35,7 +44,7 @@ const ItemSpawner = () => {
                 <div className='modal'>
                     <Window title="Spawner" onClose={() => setShowModal(false)}>
 
-                        <ItemFilter setFilteredItems={setFilteredItems} setActiveTab={setActiveTab} />
+                        <ItemFilter filter={filter} setFilter={setFilter} setFilteredItems={setFilteredItems} setActiveTab={setActiveTab} />
                         <ItemPicker items={placedItems} activeTab={activeTab} setActiveTab={setActiveTab} inventorySize={gridSize} setItemToSpawn={setItemToSpawn} />
                     </Window>
                 </div>
