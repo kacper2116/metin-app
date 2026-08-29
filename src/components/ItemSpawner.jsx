@@ -34,9 +34,17 @@ const ItemSpawner = () => {
         spawnItem(itemId);
     }
 
+
+
+    const itemDisplayName = itemToSpawn
+        ? `${translate(`items.${itemToSpawn.item.name.split('+')[0]}`)}+${itemToSpawn.item.plus}`
+        : null;
+
+
     return (
+
         <div className='item-spawner'>
-            <div className='select-item' onClick={() => setShowModal(true)}><span>{itemToSpawn?.item.name ?? translate('ui.select_item')}</span></div>
+            <div className='select-item' onClick={() => setShowModal(true)}><span>{itemDisplayName ?? translate('ui.select_item')}</span></div>
             {itemToSpawn &&
                 <button className='spawn-button button-basic' onClick={() => handleSpawnItem(itemToSpawn)}>Spawn</button>}
 
