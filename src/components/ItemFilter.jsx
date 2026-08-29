@@ -72,6 +72,22 @@ const ItemFilter = ({ setFilteredItems, setActiveTab }) => {
 
     }, [filter])
 
+
+    useEffect(() => {
+        if (filter.type !== 'weapon') return;
+
+        const defaultSubtype = weaponTypes[filter.profession]?.[0]
+        if (!defaultSubtype) return;
+
+        setFilter(prev => (
+            {
+                ...prev,
+                subtype: defaultSubtype
+            })
+        )
+
+    }, [filter.profession, filter.type])
+
     return (
         <div className='filter-options'>
             <div className='filter-profession' >
