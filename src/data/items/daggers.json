@@ -12,10 +12,6 @@
                 "min": 8,
                 "max": 11
             },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
-            },
             "attack_speed": 28
         },
         "profession": [
@@ -37,10 +33,6 @@
             "attack": {
                 "min": 12,
                 "max": 15
-            },
-            "magical_attack": {
-                "min": 4,
-                "max": 4
             },
             "attack_speed": 28
         },
@@ -64,10 +56,6 @@
                 "min": 16,
                 "max": 19
             },
-            "magical_attack": {
-                "min": 8,
-                "max": 8
-            },
             "attack_speed": 28
         },
         "profession": [
@@ -89,10 +77,6 @@
             "attack": {
                 "min": 20,
                 "max": 23
-            },
-            "magical_attack": {
-                "min": 12,
-                "max": 12
             },
             "attack_speed": 28
         },
@@ -116,10 +100,6 @@
                 "min": 24,
                 "max": 27
             },
-            "magical_attack": {
-                "min": 16,
-                "max": 16
-            },
             "attack_speed": 28
         },
         "profession": [
@@ -141,10 +121,6 @@
             "attack": {
                 "min": 28,
                 "max": 31
-            },
-            "magical_attack": {
-                "min": 20,
-                "max": 20
             },
             "attack_speed": 28
         },
@@ -168,10 +144,6 @@
                 "min": 32,
                 "max": 35
             },
-            "magical_attack": {
-                "min": 24,
-                "max": 24
-            },
             "attack_speed": 28
         },
         "profession": [
@@ -193,10 +165,6 @@
             "attack": {
                 "min": 36,
                 "max": 39
-            },
-            "magical_attack": {
-                "min": 28,
-                "max": 28
             },
             "attack_speed": 28
         },
@@ -220,10 +188,6 @@
                 "min": 40,
                 "max": 43
             },
-            "magical_attack": {
-                "min": 32,
-                "max": 32
-            },
             "attack_speed": 28
         },
         "profession": [
@@ -245,10 +209,6 @@
             "attack": {
                 "min": 44,
                 "max": 47
-            },
-            "magical_attack": {
-                "min": 36,
-                "max": 36
             },
             "attack_speed": 28
         },
@@ -272,10 +232,6 @@
                 "min": 12,
                 "max": 14
             },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
-            },
             "attack_speed": 28
         },
         "profession": [
@@ -297,10 +253,6 @@
             "attack": {
                 "min": 16,
                 "max": 18
-            },
-            "magical_attack": {
-                "min": 4,
-                "max": 4
             },
             "attack_speed": 28
         },
@@ -324,10 +276,6 @@
                 "min": 20,
                 "max": 22
             },
-            "magical_attack": {
-                "min": 8,
-                "max": 8
-            },
             "attack_speed": 28
         },
         "profession": [
@@ -349,10 +297,6 @@
             "attack": {
                 "min": 24,
                 "max": 26
-            },
-            "magical_attack": {
-                "min": 12,
-                "max": 12
             },
             "attack_speed": 28
         },
@@ -376,10 +320,6 @@
                 "min": 28,
                 "max": 30
             },
-            "magical_attack": {
-                "min": 16,
-                "max": 16
-            },
             "attack_speed": 28
         },
         "profession": [
@@ -401,10 +341,6 @@
             "attack": {
                 "min": 32,
                 "max": 34
-            },
-            "magical_attack": {
-                "min": 20,
-                "max": 20
             },
             "attack_speed": 28
         },
@@ -428,10 +364,6 @@
                 "min": 36,
                 "max": 38
             },
-            "magical_attack": {
-                "min": 24,
-                "max": 24
-            },
             "attack_speed": 28
         },
         "profession": [
@@ -453,10 +385,6 @@
             "attack": {
                 "min": 40,
                 "max": 42
-            },
-            "magical_attack": {
-                "min": 28,
-                "max": 28
             },
             "attack_speed": 28
         },
@@ -480,10 +408,6 @@
                 "min": 44,
                 "max": 46
             },
-            "magical_attack": {
-                "min": 32,
-                "max": 32
-            },
             "attack_speed": 28
         },
         "profession": [
@@ -505,10 +429,6 @@
             "attack": {
                 "min": 48,
                 "max": 52
-            },
-            "magical_attack": {
-                "min": 36,
-                "max": 36
             },
             "attack_speed": 28
         },
@@ -532,10 +452,6 @@
                 "min": 13,
                 "max": 15
             },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
-            },
             "attack_speed": 23
         },
         "profession": [
@@ -557,10 +473,6 @@
             "attack": {
                 "min": 17,
                 "max": 19
-            },
-            "magical_attack": {
-                "min": 4,
-                "max": 4
             },
             "attack_speed": 23
         },
@@ -584,10 +496,6 @@
                 "min": 21,
                 "max": 23
             },
-            "magical_attack": {
-                "min": 8,
-                "max": 8
-            },
             "attack_speed": 23
         },
         "profession": [
@@ -609,10 +517,6 @@
             "attack": {
                 "min": 25,
                 "max": 27
-            },
-            "magical_attack": {
-                "min": 12,
-                "max": 12
             },
             "attack_speed": 23
         },
@@ -636,10 +540,6 @@
                 "min": 29,
                 "max": 31
             },
-            "magical_attack": {
-                "min": 16,
-                "max": 16
-            },
             "attack_speed": 23
         },
         "profession": [
@@ -661,10 +561,6 @@
             "attack": {
                 "min": 33,
                 "max": 35
-            },
-            "magical_attack": {
-                "min": 20,
-                "max": 20
             },
             "attack_speed": 23
         },
@@ -688,10 +584,6 @@
                 "min": 37,
                 "max": 39
             },
-            "magical_attack": {
-                "min": 24,
-                "max": 24
-            },
             "attack_speed": 23
         },
         "profession": [
@@ -713,10 +605,6 @@
             "attack": {
                 "min": 41,
                 "max": 43
-            },
-            "magical_attack": {
-                "min": 28,
-                "max": 28
             },
             "attack_speed": 23
         },
@@ -740,10 +628,6 @@
                 "min": 45,
                 "max": 47
             },
-            "magical_attack": {
-                "min": 32,
-                "max": 32
-            },
             "attack_speed": 23
         },
         "profession": [
@@ -765,10 +649,6 @@
             "attack": {
                 "min": 49,
                 "max": 53
-            },
-            "magical_attack": {
-                "min": 36,
-                "max": 36
             },
             "attack_speed": 23
         },
@@ -792,10 +672,6 @@
                 "min": 14,
                 "max": 16
             },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
-            },
             "attack_speed": 19
         },
         "profession": [
@@ -817,10 +693,6 @@
             "attack": {
                 "min": 18,
                 "max": 20
-            },
-            "magical_attack": {
-                "min": 4,
-                "max": 4
             },
             "attack_speed": 19
         },
@@ -844,10 +716,6 @@
                 "min": 22,
                 "max": 24
             },
-            "magical_attack": {
-                "min": 8,
-                "max": 8
-            },
             "attack_speed": 19
         },
         "profession": [
@@ -869,10 +737,6 @@
             "attack": {
                 "min": 26,
                 "max": 28
-            },
-            "magical_attack": {
-                "min": 12,
-                "max": 12
             },
             "attack_speed": 19
         },
@@ -896,10 +760,6 @@
                 "min": 30,
                 "max": 32
             },
-            "magical_attack": {
-                "min": 16,
-                "max": 16
-            },
             "attack_speed": 19
         },
         "profession": [
@@ -921,10 +781,6 @@
             "attack": {
                 "min": 34,
                 "max": 36
-            },
-            "magical_attack": {
-                "min": 20,
-                "max": 20
             },
             "attack_speed": 19
         },
@@ -948,10 +804,6 @@
                 "min": 38,
                 "max": 40
             },
-            "magical_attack": {
-                "min": 24,
-                "max": 24
-            },
             "attack_speed": 19
         },
         "profession": [
@@ -973,10 +825,6 @@
             "attack": {
                 "min": 42,
                 "max": 44
-            },
-            "magical_attack": {
-                "min": 28,
-                "max": 28
             },
             "attack_speed": 19
         },
@@ -1000,10 +848,6 @@
                 "min": 46,
                 "max": 48
             },
-            "magical_attack": {
-                "min": 32,
-                "max": 32
-            },
             "attack_speed": 19
         },
         "profession": [
@@ -1025,10 +869,6 @@
             "attack": {
                 "min": 50,
                 "max": 54
-            },
-            "magical_attack": {
-                "min": 36,
-                "max": 36
             },
             "attack_speed": 19
         },
@@ -1052,10 +892,6 @@
                 "min": 15,
                 "max": 19
             },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -1077,10 +913,6 @@
             "attack": {
                 "min": 19,
                 "max": 23
-            },
-            "magical_attack": {
-                "min": 4,
-                "max": 4
             },
             "attack_speed": 15
         },
@@ -1104,10 +936,6 @@
                 "min": 23,
                 "max": 27
             },
-            "magical_attack": {
-                "min": 8,
-                "max": 8
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -1129,10 +957,6 @@
             "attack": {
                 "min": 27,
                 "max": 31
-            },
-            "magical_attack": {
-                "min": 12,
-                "max": 12
             },
             "attack_speed": 15
         },
@@ -1156,10 +980,6 @@
                 "min": 31,
                 "max": 35
             },
-            "magical_attack": {
-                "min": 16,
-                "max": 16
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -1181,10 +1001,6 @@
             "attack": {
                 "min": 35,
                 "max": 39
-            },
-            "magical_attack": {
-                "min": 20,
-                "max": 20
             },
             "attack_speed": 15
         },
@@ -1208,10 +1024,6 @@
                 "min": 39,
                 "max": 43
             },
-            "magical_attack": {
-                "min": 24,
-                "max": 24
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -1233,10 +1045,6 @@
             "attack": {
                 "min": 43,
                 "max": 47
-            },
-            "magical_attack": {
-                "min": 28,
-                "max": 28
             },
             "attack_speed": 15
         },
@@ -1260,10 +1068,6 @@
                 "min": 47,
                 "max": 51
             },
-            "magical_attack": {
-                "min": 32,
-                "max": 32
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -1285,10 +1089,6 @@
             "attack": {
                 "min": 51,
                 "max": 55
-            },
-            "magical_attack": {
-                "min": 36,
-                "max": 36
             },
             "attack_speed": 15
         },
@@ -1312,10 +1112,6 @@
                 "min": 28,
                 "max": 32
             },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
-            },
             "attack_speed": 27
         },
         "profession": [
@@ -1337,10 +1133,6 @@
             "attack": {
                 "min": 31,
                 "max": 35
-            },
-            "magical_attack": {
-                "min": 3,
-                "max": 3
             },
             "attack_speed": 27
         },
@@ -1364,10 +1156,6 @@
                 "min": 34,
                 "max": 38
             },
-            "magical_attack": {
-                "min": 6,
-                "max": 6
-            },
             "attack_speed": 27
         },
         "profession": [
@@ -1389,10 +1177,6 @@
             "attack": {
                 "min": 37,
                 "max": 41
-            },
-            "magical_attack": {
-                "min": 9,
-                "max": 9
             },
             "attack_speed": 27
         },
@@ -1416,10 +1200,6 @@
                 "min": 40,
                 "max": 44
             },
-            "magical_attack": {
-                "min": 12,
-                "max": 12
-            },
             "attack_speed": 27
         },
         "profession": [
@@ -1441,10 +1221,6 @@
             "attack": {
                 "min": 45,
                 "max": 49
-            },
-            "magical_attack": {
-                "min": 17,
-                "max": 17
             },
             "attack_speed": 27
         },
@@ -1468,10 +1244,6 @@
                 "min": 51,
                 "max": 55
             },
-            "magical_attack": {
-                "min": 23,
-                "max": 23
-            },
             "attack_speed": 27
         },
         "profession": [
@@ -1493,10 +1265,6 @@
             "attack": {
                 "min": 58,
                 "max": 62
-            },
-            "magical_attack": {
-                "min": 30,
-                "max": 30
             },
             "attack_speed": 27
         },
@@ -1520,10 +1288,6 @@
                 "min": 66,
                 "max": 70
             },
-            "magical_attack": {
-                "min": 38,
-                "max": 38
-            },
             "attack_speed": 27
         },
         "profession": [
@@ -1545,10 +1309,6 @@
             "attack": {
                 "min": 75,
                 "max": 79
-            },
-            "magical_attack": {
-                "min": 47,
-                "max": 47
             },
             "attack_speed": 27
         },
@@ -1572,10 +1332,6 @@
                 "min": 40,
                 "max": 44
             },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -1597,10 +1353,6 @@
             "attack": {
                 "min": 43,
                 "max": 47
-            },
-            "magical_attack": {
-                "min": 3,
-                "max": 3
             },
             "attack_speed": 15
         },
@@ -1624,10 +1376,6 @@
                 "min": 45,
                 "max": 49
             },
-            "magical_attack": {
-                "min": 5,
-                "max": 5
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -1649,10 +1397,6 @@
             "attack": {
                 "min": 48,
                 "max": 52
-            },
-            "magical_attack": {
-                "min": 8,
-                "max": 8
             },
             "attack_speed": 15
         },
@@ -1676,10 +1420,6 @@
                 "min": 50,
                 "max": 54
             },
-            "magical_attack": {
-                "min": 10,
-                "max": 10
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -1701,10 +1441,6 @@
             "attack": {
                 "min": 55,
                 "max": 59
-            },
-            "magical_attack": {
-                "min": 15,
-                "max": 15
             },
             "attack_speed": 15
         },
@@ -1728,10 +1464,6 @@
                 "min": 60,
                 "max": 67
             },
-            "magical_attack": {
-                "min": 20,
-                "max": 20
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -1753,10 +1485,6 @@
             "attack": {
                 "min": 67,
                 "max": 71
-            },
-            "magical_attack": {
-                "min": 27,
-                "max": 27
             },
             "attack_speed": 15
         },
@@ -1780,10 +1508,6 @@
                 "min": 74,
                 "max": 78
             },
-            "magical_attack": {
-                "min": 34,
-                "max": 34
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -1805,10 +1529,6 @@
             "attack": {
                 "min": 83,
                 "max": 87
-            },
-            "magical_attack": {
-                "min": 43,
-                "max": 43
             },
             "attack_speed": 15
         },
@@ -1832,10 +1552,6 @@
                 "min": 30,
                 "max": 36
             },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
-            },
             "attack_speed": 23
         },
         "profession": [
@@ -1857,10 +1573,6 @@
             "attack": {
                 "min": 33,
                 "max": 39
-            },
-            "magical_attack": {
-                "min": 3,
-                "max": 3
             },
             "attack_speed": 23
         },
@@ -1884,10 +1596,6 @@
                 "min": 36,
                 "max": 42
             },
-            "magical_attack": {
-                "min": 6,
-                "max": 6
-            },
             "attack_speed": 23
         },
         "profession": [
@@ -1909,10 +1617,6 @@
             "attack": {
                 "min": 39,
                 "max": 45
-            },
-            "magical_attack": {
-                "min": 9,
-                "max": 9
             },
             "attack_speed": 23
         },
@@ -1936,10 +1640,6 @@
                 "min": 42,
                 "max": 48
             },
-            "magical_attack": {
-                "min": 12,
-                "max": 12
-            },
             "attack_speed": 23
         },
         "profession": [
@@ -1961,10 +1661,6 @@
             "attack": {
                 "min": 47,
                 "max": 53
-            },
-            "magical_attack": {
-                "min": 17,
-                "max": 17
             },
             "attack_speed": 23
         },
@@ -1988,10 +1684,6 @@
                 "min": 53,
                 "max": 59
             },
-            "magical_attack": {
-                "min": 23,
-                "max": 23
-            },
             "attack_speed": 23
         },
         "profession": [
@@ -2013,10 +1705,6 @@
             "attack": {
                 "min": 60,
                 "max": 66
-            },
-            "magical_attack": {
-                "min": 30,
-                "max": 30
             },
             "attack_speed": 23
         },
@@ -2040,10 +1728,6 @@
                 "min": 68,
                 "max": 74
             },
-            "magical_attack": {
-                "min": 38,
-                "max": 38
-            },
             "attack_speed": 23
         },
         "profession": [
@@ -2065,10 +1749,6 @@
             "attack": {
                 "min": 77,
                 "max": 83
-            },
-            "magical_attack": {
-                "min": 47,
-                "max": 47
             },
             "attack_speed": 23
         },
@@ -2092,10 +1772,6 @@
                 "min": 33,
                 "max": 37
             },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
-            },
             "attack_speed": 19
         },
         "profession": [
@@ -2117,10 +1793,6 @@
             "attack": {
                 "min": 36,
                 "max": 40
-            },
-            "magical_attack": {
-                "min": 3,
-                "max": 3
             },
             "attack_speed": 19
         },
@@ -2144,10 +1816,6 @@
                 "min": 39,
                 "max": 43
             },
-            "magical_attack": {
-                "min": 6,
-                "max": 6
-            },
             "attack_speed": 19
         },
         "profession": [
@@ -2169,10 +1837,6 @@
             "attack": {
                 "min": 42,
                 "max": 46
-            },
-            "magical_attack": {
-                "min": 9,
-                "max": 9
             },
             "attack_speed": 19
         },
@@ -2196,10 +1860,6 @@
                 "min": 45,
                 "max": 49
             },
-            "magical_attack": {
-                "min": 12,
-                "max": 12
-            },
             "attack_speed": 19
         },
         "profession": [
@@ -2221,10 +1881,6 @@
             "attack": {
                 "min": 50,
                 "max": 54
-            },
-            "magical_attack": {
-                "min": 17,
-                "max": 17
             },
             "attack_speed": 19
         },
@@ -2248,10 +1904,6 @@
                 "min": 55,
                 "max": 60
             },
-            "magical_attack": {
-                "min": 23,
-                "max": 23
-            },
             "attack_speed": 19
         },
         "profession": [
@@ -2273,10 +1925,6 @@
             "attack": {
                 "min": 63,
                 "max": 67
-            },
-            "magical_attack": {
-                "min": 30,
-                "max": 30
             },
             "attack_speed": 19
         },
@@ -2300,10 +1948,6 @@
                 "min": 71,
                 "max": 75
             },
-            "magical_attack": {
-                "min": 38,
-                "max": 38
-            },
             "attack_speed": 19
         },
         "profession": [
@@ -2325,10 +1969,6 @@
             "attack": {
                 "min": 80,
                 "max": 84
-            },
-            "magical_attack": {
-                "min": 47,
-                "max": 47
             },
             "attack_speed": 19
         },
@@ -2352,10 +1992,6 @@
                 "min": 36,
                 "max": 40
             },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -2377,10 +2013,6 @@
             "attack": {
                 "min": 39,
                 "max": 43
-            },
-            "magical_attack": {
-                "min": 3,
-                "max": 3
             },
             "attack_speed": 15
         },
@@ -2404,10 +2036,6 @@
                 "min": 42,
                 "max": 46
             },
-            "magical_attack": {
-                "min": 6,
-                "max": 6
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -2429,10 +2057,6 @@
             "attack": {
                 "min": 45,
                 "max": 49
-            },
-            "magical_attack": {
-                "min": 9,
-                "max": 9
             },
             "attack_speed": 15
         },
@@ -2456,10 +2080,6 @@
                 "min": 48,
                 "max": 52
             },
-            "magical_attack": {
-                "min": 12,
-                "max": 12
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -2481,10 +2101,6 @@
             "attack": {
                 "min": 53,
                 "max": 57
-            },
-            "magical_attack": {
-                "min": 17,
-                "max": 17
             },
             "attack_speed": 15
         },
@@ -2508,10 +2124,6 @@
                 "min": 59,
                 "max": 63
             },
-            "magical_attack": {
-                "min": 23,
-                "max": 23
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -2533,10 +2145,6 @@
             "attack": {
                 "min": 66,
                 "max": 70
-            },
-            "magical_attack": {
-                "min": 30,
-                "max": 30
             },
             "attack_speed": 15
         },
@@ -2560,10 +2168,6 @@
                 "min": 74,
                 "max": 78
             },
-            "magical_attack": {
-                "min": 38,
-                "max": 38
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -2585,10 +2189,6 @@
             "attack": {
                 "min": 83,
                 "max": 87
-            },
-            "magical_attack": {
-                "min": 47,
-                "max": 47
             },
             "attack_speed": 15
         },
@@ -2612,10 +2212,6 @@
                 "min": 47,
                 "max": 51
             },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
-            },
             "attack_speed": 27
         },
         "profession": [
@@ -2637,10 +2233,6 @@
             "attack": {
                 "min": 49,
                 "max": 53
-            },
-            "magical_attack": {
-                "min": 2,
-                "max": 2
             },
             "attack_speed": 27
         },
@@ -2664,10 +2256,6 @@
                 "min": 51,
                 "max": 55
             },
-            "magical_attack": {
-                "min": 4,
-                "max": 4
-            },
             "attack_speed": 27
         },
         "profession": [
@@ -2689,10 +2277,6 @@
             "attack": {
                 "min": 53,
                 "max": 57
-            },
-            "magical_attack": {
-                "min": 6,
-                "max": 6
             },
             "attack_speed": 27
         },
@@ -2716,10 +2300,6 @@
                 "min": 55,
                 "max": 59
             },
-            "magical_attack": {
-                "min": 8,
-                "max": 8
-            },
             "attack_speed": 27
         },
         "profession": [
@@ -2741,10 +2321,6 @@
             "attack": {
                 "min": 59,
                 "max": 63
-            },
-            "magical_attack": {
-                "min": 12,
-                "max": 12
             },
             "attack_speed": 27
         },
@@ -2768,10 +2344,6 @@
                 "min": 64,
                 "max": 68
             },
-            "magical_attack": {
-                "min": 17,
-                "max": 17
-            },
             "attack_speed": 27
         },
         "profession": [
@@ -2793,10 +2365,6 @@
             "attack": {
                 "min": 70,
                 "max": 74
-            },
-            "magical_attack": {
-                "min": 23,
-                "max": 23
             },
             "attack_speed": 27
         },
@@ -2820,10 +2388,6 @@
                 "min": 77,
                 "max": 81
             },
-            "magical_attack": {
-                "min": 30,
-                "max": 30
-            },
             "attack_speed": 27
         },
         "profession": [
@@ -2845,10 +2409,6 @@
             "attack": {
                 "min": 85,
                 "max": 89
-            },
-            "magical_attack": {
-                "min": 38,
-                "max": 38
             },
             "attack_speed": 27
         },
@@ -2872,10 +2432,6 @@
                 "min": 48,
                 "max": 56
             },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
-            },
             "attack_speed": 24
         },
         "profession": [
@@ -2897,10 +2453,6 @@
             "attack": {
                 "min": 50,
                 "max": 58
-            },
-            "magical_attack": {
-                "min": 2,
-                "max": 2
             },
             "attack_speed": 24
         },
@@ -2924,10 +2476,6 @@
                 "min": 52,
                 "max": 60
             },
-            "magical_attack": {
-                "min": 4,
-                "max": 4
-            },
             "attack_speed": 24
         },
         "profession": [
@@ -2949,10 +2497,6 @@
             "attack": {
                 "min": 54,
                 "max": 62
-            },
-            "magical_attack": {
-                "min": 6,
-                "max": 6
             },
             "attack_speed": 24
         },
@@ -2976,10 +2520,6 @@
                 "min": 56,
                 "max": 64
             },
-            "magical_attack": {
-                "min": 8,
-                "max": 8
-            },
             "attack_speed": 24
         },
         "profession": [
@@ -3001,10 +2541,6 @@
             "attack": {
                 "min": 60,
                 "max": 68
-            },
-            "magical_attack": {
-                "min": 12,
-                "max": 12
             },
             "attack_speed": 24
         },
@@ -3028,10 +2564,6 @@
                 "min": 65,
                 "max": 73
             },
-            "magical_attack": {
-                "min": 17,
-                "max": 17
-            },
             "attack_speed": 24
         },
         "profession": [
@@ -3053,10 +2585,6 @@
             "attack": {
                 "min": 71,
                 "max": 79
-            },
-            "magical_attack": {
-                "min": 23,
-                "max": 23
             },
             "attack_speed": 24
         },
@@ -3080,10 +2608,6 @@
                 "min": 78,
                 "max": 86
             },
-            "magical_attack": {
-                "min": 30,
-                "max": 30
-            },
             "attack_speed": 24
         },
         "profession": [
@@ -3105,10 +2629,6 @@
             "attack": {
                 "min": 86,
                 "max": 94
-            },
-            "magical_attack": {
-                "min": 38,
-                "max": 38
             },
             "attack_speed": 24
         },
@@ -3132,10 +2652,6 @@
                 "min": 49,
                 "max": 59
             },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
-            },
             "attack_speed": 21
         },
         "profession": [
@@ -3157,10 +2673,6 @@
             "attack": {
                 "min": 51,
                 "max": 61
-            },
-            "magical_attack": {
-                "min": 2,
-                "max": 2
             },
             "attack_speed": 21
         },
@@ -3184,10 +2696,6 @@
                 "min": 53,
                 "max": 63
             },
-            "magical_attack": {
-                "min": 4,
-                "max": 4
-            },
             "attack_speed": 21
         },
         "profession": [
@@ -3209,10 +2717,6 @@
             "attack": {
                 "min": 55,
                 "max": 65
-            },
-            "magical_attack": {
-                "min": 6,
-                "max": 6
             },
             "attack_speed": 21
         },
@@ -3236,10 +2740,6 @@
                 "min": 57,
                 "max": 67
             },
-            "magical_attack": {
-                "min": 8,
-                "max": 8
-            },
             "attack_speed": 21
         },
         "profession": [
@@ -3261,10 +2761,6 @@
             "attack": {
                 "min": 61,
                 "max": 71
-            },
-            "magical_attack": {
-                "min": 12,
-                "max": 12
             },
             "attack_speed": 21
         },
@@ -3288,10 +2784,6 @@
                 "min": 66,
                 "max": 76
             },
-            "magical_attack": {
-                "min": 17,
-                "max": 17
-            },
             "attack_speed": 21
         },
         "profession": [
@@ -3313,10 +2805,6 @@
             "attack": {
                 "min": 72,
                 "max": 82
-            },
-            "magical_attack": {
-                "min": 23,
-                "max": 23
             },
             "attack_speed": 21
         },
@@ -3340,10 +2828,6 @@
                 "min": 79,
                 "max": 89
             },
-            "magical_attack": {
-                "min": 30,
-                "max": 30
-            },
             "attack_speed": 21
         },
         "profession": [
@@ -3365,10 +2849,6 @@
             "attack": {
                 "min": 87,
                 "max": 97
-            },
-            "magical_attack": {
-                "min": 38,
-                "max": 38
             },
             "attack_speed": 21
         },
@@ -3392,10 +2872,6 @@
                 "min": 53,
                 "max": 65
             },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -3417,10 +2893,6 @@
             "attack": {
                 "min": 55,
                 "max": 67
-            },
-            "magical_attack": {
-                "min": 2,
-                "max": 2
             },
             "attack_speed": 15
         },
@@ -3444,10 +2916,6 @@
                 "min": 57,
                 "max": 69
             },
-            "magical_attack": {
-                "min": 4,
-                "max": 4
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -3469,10 +2937,6 @@
             "attack": {
                 "min": 59,
                 "max": 71
-            },
-            "magical_attack": {
-                "min": 6,
-                "max": 6
             },
             "attack_speed": 15
         },
@@ -3496,10 +2960,6 @@
                 "min": 61,
                 "max": 73
             },
-            "magical_attack": {
-                "min": 8,
-                "max": 8
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -3521,10 +2981,6 @@
             "attack": {
                 "min": 65,
                 "max": 77
-            },
-            "magical_attack": {
-                "min": 12,
-                "max": 12
             },
             "attack_speed": 15
         },
@@ -3548,10 +3004,6 @@
                 "min": 70,
                 "max": 82
             },
-            "magical_attack": {
-                "min": 17,
-                "max": 17
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -3573,10 +3025,6 @@
             "attack": {
                 "min": 76,
                 "max": 88
-            },
-            "magical_attack": {
-                "min": 23,
-                "max": 23
             },
             "attack_speed": 15
         },
@@ -3600,10 +3048,6 @@
                 "min": 83,
                 "max": 95
             },
-            "magical_attack": {
-                "min": 30,
-                "max": 30
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -3625,10 +3069,6 @@
             "attack": {
                 "min": 91,
                 "max": 103
-            },
-            "magical_attack": {
-                "min": 38,
-                "max": 38
             },
             "attack_speed": 15
         },
@@ -3652,10 +3092,6 @@
                 "min": 74,
                 "max": 86
             },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
-            },
             "attack_speed": 17
         },
         "profession": [
@@ -3677,10 +3113,6 @@
             "attack": {
                 "min": 80,
                 "max": 92
-            },
-            "magical_attack": {
-                "min": 6,
-                "max": 6
             },
             "attack_speed": 18
         },
@@ -3704,10 +3136,6 @@
                 "min": 87,
                 "max": 99
             },
-            "magical_attack": {
-                "min": 13,
-                "max": 13
-            },
             "attack_speed": 19
         },
         "profession": [
@@ -3729,10 +3157,6 @@
             "attack": {
                 "min": 95,
                 "max": 107
-            },
-            "magical_attack": {
-                "min": 21,
-                "max": 21
             },
             "attack_speed": 20
         },
@@ -3756,10 +3180,6 @@
                 "min": 104,
                 "max": 116
             },
-            "magical_attack": {
-                "min": 30,
-                "max": 30
-            },
             "attack_speed": 21
         },
         "profession": [
@@ -3781,10 +3201,6 @@
             "attack": {
                 "min": 114,
                 "max": 126
-            },
-            "magical_attack": {
-                "min": 40,
-                "max": 40
             },
             "attack_speed": 22
         },
@@ -3808,10 +3224,6 @@
                 "min": 125,
                 "max": 137
             },
-            "magical_attack": {
-                "min": 51,
-                "max": 51
-            },
             "attack_speed": 23
         },
         "profession": [
@@ -3833,10 +3245,6 @@
             "attack": {
                 "min": 137,
                 "max": 149
-            },
-            "magical_attack": {
-                "min": 63,
-                "max": 63
             },
             "attack_speed": 24
         },
@@ -3860,10 +3268,6 @@
                 "min": 150,
                 "max": 162
             },
-            "magical_attack": {
-                "min": 76,
-                "max": 76
-            },
             "attack_speed": 25
         },
         "profession": [
@@ -3885,10 +3289,6 @@
             "attack": {
                 "min": 164,
                 "max": 176
-            },
-            "magical_attack": {
-                "min": 90,
-                "max": 90
             },
             "attack_speed": 27
         },
@@ -3912,10 +3312,6 @@
                 "min": 74,
                 "max": 86
             },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -3937,10 +3333,6 @@
             "attack": {
                 "min": 82,
                 "max": 94
-            },
-            "magical_attack": {
-                "min": 8,
-                "max": 8
             },
             "attack_speed": 15
         },
@@ -3964,10 +3356,6 @@
                 "min": 91,
                 "max": 103
             },
-            "magical_attack": {
-                "min": 17,
-                "max": 17
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -3989,10 +3377,6 @@
             "attack": {
                 "min": 101,
                 "max": 113
-            },
-            "magical_attack": {
-                "min": 27,
-                "max": 27
             },
             "attack_speed": 15
         },
@@ -4016,10 +3400,6 @@
                 "min": 112,
                 "max": 124
             },
-            "magical_attack": {
-                "min": 38,
-                "max": 38
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -4041,10 +3421,6 @@
             "attack": {
                 "min": 124,
                 "max": 136
-            },
-            "magical_attack": {
-                "min": 50,
-                "max": 50
             },
             "attack_speed": 15
         },
@@ -4068,10 +3444,6 @@
                 "min": 137,
                 "max": 149
             },
-            "magical_attack": {
-                "min": 63,
-                "max": 63
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -4093,10 +3465,6 @@
             "attack": {
                 "min": 151,
                 "max": 163
-            },
-            "magical_attack": {
-                "min": 77,
-                "max": 77
             },
             "attack_speed": 15
         },
@@ -4120,10 +3488,6 @@
                 "min": 176,
                 "max": 188
             },
-            "magical_attack": {
-                "min": 102,
-                "max": 102
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -4146,10 +3510,6 @@
                 "min": 211,
                 "max": 223
             },
-            "magical_attack": {
-                "min": 137,
-                "max": 137
-            },
             "attack_speed": 15
         },
         "profession": [
@@ -4171,10 +3531,6 @@
             "attack": {
                 "min": 74,
                 "max": 86
-            },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
             },
             "attack_speed": 15,
             "strong_against_monsters": 5
@@ -4199,10 +3555,6 @@
                 "min": 80,
                 "max": 92
             },
-            "magical_attack": {
-                "min": 6,
-                "max": 6
-            },
             "attack_speed": 15,
             "strong_against_monsters": 6
         },
@@ -4225,10 +3577,6 @@
             "attack": {
                 "min": 87,
                 "max": 99
-            },
-            "magical_attack": {
-                "min": 13,
-                "max": 13
             },
             "attack_speed": 15,
             "strong_against_monsters": 7
@@ -4253,10 +3601,6 @@
                 "min": 95,
                 "max": 107
             },
-            "magical_attack": {
-                "min": 21,
-                "max": 21
-            },
             "attack_speed": 15,
             "strong_against_monsters": 8
         },
@@ -4279,10 +3623,6 @@
             "attack": {
                 "min": 104,
                 "max": 116
-            },
-            "magical_attack": {
-                "min": 30,
-                "max": 30
             },
             "attack_speed": 15,
             "strong_against_monsters": 10
@@ -4307,10 +3647,6 @@
                 "min": 114,
                 "max": 126
             },
-            "magical_attack": {
-                "min": 40,
-                "max": 40
-            },
             "attack_speed": 15,
             "strong_against_monsters": 12
         },
@@ -4333,10 +3669,6 @@
             "attack": {
                 "min": 125,
                 "max": 137
-            },
-            "magical_attack": {
-                "min": 51,
-                "max": 51
             },
             "attack_speed": 15,
             "strong_against_monsters": 14
@@ -4361,10 +3693,6 @@
                 "min": 137,
                 "max": 149
             },
-            "magical_attack": {
-                "min": 63,
-                "max": 63
-            },
             "attack_speed": 15,
             "strong_against_monsters": 17
         },
@@ -4387,10 +3715,6 @@
             "attack": {
                 "min": 150,
                 "max": 162
-            },
-            "magical_attack": {
-                "min": 76,
-                "max": 76
             },
             "attack_speed": 15,
             "strong_against_monsters": 20
@@ -4415,10 +3739,6 @@
                 "min": 164,
                 "max": 176
             },
-            "magical_attack": {
-                "min": 90,
-                "max": 90
-            },
             "attack_speed": 15,
             "strong_against_monsters": 25
         },
@@ -4442,10 +3762,6 @@
                 "min": 83,
                 "max": 92
             },
-            "magical_attack": {
-                "min": 0,
-                "max": 0
-            },
             "attack_speed": 17
         },
         "profession": [
@@ -4467,10 +3783,6 @@
             "attack": {
                 "min": 91,
                 "max": 100
-            },
-            "magical_attack": {
-                "min": 8,
-                "max": 8
             },
             "attack_speed": 18
         },
@@ -4494,10 +3806,6 @@
                 "min": 100,
                 "max": 109
             },
-            "magical_attack": {
-                "min": 17,
-                "max": 17
-            },
             "attack_speed": 19
         },
         "profession": [
@@ -4519,10 +3827,6 @@
             "attack": {
                 "min": 110,
                 "max": 119
-            },
-            "magical_attack": {
-                "min": 27,
-                "max": 27
             },
             "attack_speed": 20
         },
@@ -4546,10 +3850,6 @@
                 "min": 121,
                 "max": 130
             },
-            "magical_attack": {
-                "min": 38,
-                "max": 38
-            },
             "attack_speed": 21
         },
         "profession": [
@@ -4571,10 +3871,6 @@
             "attack": {
                 "min": 133,
                 "max": 142
-            },
-            "magical_attack": {
-                "min": 50,
-                "max": 50
             },
             "attack_speed": 22
         },
@@ -4598,10 +3894,6 @@
                 "min": 146,
                 "max": 155
             },
-            "magical_attack": {
-                "min": 63,
-                "max": 63
-            },
             "attack_speed": 23
         },
         "profession": [
@@ -4623,10 +3915,6 @@
             "attack": {
                 "min": 160,
                 "max": 169
-            },
-            "magical_attack": {
-                "min": 77,
-                "max": 77
             },
             "attack_speed": 24
         },
@@ -4650,10 +3938,6 @@
                 "min": 184,
                 "max": 193
             },
-            "magical_attack": {
-                "min": 101,
-                "max": 101
-            },
             "attack_speed": 25
         },
         "profession": [
@@ -4675,10 +3959,6 @@
             "attack": {
                 "min": 220,
                 "max": 229
-            },
-            "magical_attack": {
-                "min": 137,
-                "max": 137
             },
             "attack_speed": 26
         },
