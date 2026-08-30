@@ -8,7 +8,7 @@ const TooltipContent = ({ itemInstance }) => {
 
     const item = itemInstance.item;
     const { translate } = useContext(LocaleContext)
-    console.log(itemInstance)
+
     const wearableItemTypes = [
         'weapon',
         'armour',

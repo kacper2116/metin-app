@@ -60,8 +60,10 @@ const ItemFilter = ({ filter, setFilter, setFilteredItems, setActiveTab }) => {
             item.type === filter.type &&
             (!filter.subtype || item.subtype === filter.subtype) &&
             (!item.profession || item.profession.includes(filter.profession)) &&
-            (!item.plus || item.plus === filter.plus)
+            (item.plus == null || item.plus === filter.plus)
         )
+
+        console.log(filtered);
 
         setFilteredItems(filtered);
         setActiveTab(0);

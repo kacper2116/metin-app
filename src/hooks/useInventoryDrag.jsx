@@ -1,8 +1,7 @@
-import { act, useContext } from 'react'
+import { useContext } from 'react'
 import { useState, useEffect, useRef } from 'react';
 import { getSelectedSlots, getItemSlots, findItemBySlot, canPlaceItem } from '../utils/inventory';
 import MouseContext from '../contexts/MouseContext';
-import useUpgrade from './useUpgrade';
 import UpgradeContext from '../contexts/UpgradeContext';
 const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHoverSlot }) => {
 
@@ -11,18 +10,15 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         item => item.instanceId === draggedItemId
     ) ?? null;
 
-    /* const [draggedItem, setDraggedItem] = useState(null); */
     const slotsPreview = useRef({ slots: [], canPlace: true });
     const startPos = useRef({ x: 0, y: 0 });
     const moveMode = useRef(null);
     const itemOriginSlots = useRef([]);
-    const { handleStartUpgrade, itemToUpgrade, isUpgrading } = useContext(UpgradeContext);
+    const { handleStartUpgrade, itemToUpgrade } = useContext(UpgradeContext);
 
     const mousePosition = useContext(MouseContext);
 
     const handleClickSlot = (e) => {
-
-
 
         if (draggedItem) {
             handleDropItem(e);
@@ -61,6 +57,8 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         }
 
         const slotIndex = slotsPreview.current.slots[0];
+
+
         if (canPlaceItem(items, activeTab, slotIndex, draggedItem.item, inventorySize)) {
 
             setItems(prev =>
@@ -90,18 +88,12 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
     const updateSlotsPreview = (index) => {
         let slots = getSelectedSlots(index, draggedItem.item.size, inventorySize);
 
-
-        /*  const firstHoveredItem = slots.map(slot =>
-             findItemBySlot(items, activeTab, slot, inventorySize) || null
-         ).find(item => item !== null) */
-
-        /* setHoveredItem(firstHoveredItem);  */
-
         const firstHoveredSlot = slots.find(slot =>
             findItemBySlot(items, activeTab, slot, inventorySize)
         );
 
         handleHoverSlot(firstHoveredSlot)
+        console.log(firstHoveredSlot)
 
         const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot))
             ? true
