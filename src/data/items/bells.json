@@ -801,7 +801,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bells/antique_bell.png",
         "size": 1
     },
@@ -827,7 +827,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bells/antique_bell.png",
         "size": 1
     },
@@ -853,7 +853,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bells/antique_bell.png",
         "size": 1
     },
@@ -879,7 +879,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bells/antique_bell.png",
         "size": 1
     },
@@ -905,7 +905,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bells/antique_bell.png",
         "size": 1
     },
@@ -931,7 +931,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bells/antique_bell.png",
         "size": 1
     },
@@ -957,7 +957,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bells/antique_bell.png",
         "size": 1
     },
@@ -983,7 +983,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bells/antique_bell.png",
         "size": 1
     },
@@ -1009,7 +1009,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bells/antique_bell.png",
         "size": 1
     },
@@ -1035,7 +1035,7 @@
         "profession": [
             "shaman"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bells/antique_bell.png",
         "size": 1
     },

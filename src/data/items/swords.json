@@ -1703,7 +1703,7 @@
             "ninja",
             "sura"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/swords/full_moon_sword.png",
         "size": 2
     },
@@ -1731,7 +1731,7 @@
             "ninja",
             "sura"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/swords/full_moon_sword.png",
         "size": 2
     },
@@ -1759,7 +1759,7 @@
             "ninja",
             "sura"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/swords/full_moon_sword.png",
         "size": 2
     },
@@ -1787,7 +1787,7 @@
             "ninja",
             "sura"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/swords/full_moon_sword.png",
         "size": 2
     },
@@ -1815,7 +1815,7 @@
             "ninja",
             "sura"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/swords/full_moon_sword.png",
         "size": 2
     },
@@ -1843,7 +1843,7 @@
             "ninja",
             "sura"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/swords/full_moon_sword.png",
         "size": 2
     },
@@ -1871,7 +1871,7 @@
             "ninja",
             "sura"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/swords/full_moon_sword.png",
         "size": 2
     },
@@ -1899,7 +1899,7 @@
             "ninja",
             "sura"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/swords/full_moon_sword.png",
         "size": 2
     },
@@ -1927,7 +1927,7 @@
             "ninja",
             "sura"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/swords/full_moon_sword.png",
         "size": 2
     },
@@ -1955,7 +1955,7 @@
             "ninja",
             "sura"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/swords/full_moon_sword.png",
         "size": 2
     },

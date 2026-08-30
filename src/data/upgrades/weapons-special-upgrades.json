@@ -1,0 +1,41 @@
+{
+    "name": "weapons-special-30",
+    "upgrades": {
+        "1": {
+            "cost": 3000,
+            "materials": []
+        },
+        "2": {
+            "cost": 6000,
+            "materials": []
+        },
+        "3": {
+            "cost": 12000,
+            "materials": []
+        },
+        "4": {
+            "cost": 25000,
+            "materials": []
+        },
+        "5": {
+            "cost": 40000,
+            "materials": []
+        },
+        "6": {
+            "cost": 60000,
+            "materials": []
+        },
+        "7": {
+            "cost": 90000,
+            "materials": []
+        },
+        "8": {
+            "cost": 120000,
+            "materials": []
+        },
+        "9": {
+            "cost": 150000,
+            "materials": []
+        }
+    }
+}

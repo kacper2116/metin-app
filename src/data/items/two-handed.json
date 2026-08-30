@@ -1337,7 +1337,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/two_handed/red_iron_blade.png",
         "size": 3
     },
@@ -1359,7 +1359,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/two_handed/red_iron_blade.png",
         "size": 3
     },
@@ -1381,7 +1381,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/two_handed/red_iron_blade.png",
         "size": 3
     },
@@ -1403,7 +1403,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/two_handed/red_iron_blade.png",
         "size": 3
     },
@@ -1425,7 +1425,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/two_handed/red_iron_blade.png",
         "size": 3
     },
@@ -1447,7 +1447,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/two_handed/red_iron_blade.png",
         "size": 3
     },
@@ -1469,7 +1469,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/two_handed/red_iron_blade.png",
         "size": 3
     },
@@ -1491,7 +1491,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/two_handed/red_iron_blade.png",
         "size": 3
     },
@@ -1513,7 +1513,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/two_handed/red_iron_blade.png",
         "size": 3
     },
@@ -1535,7 +1535,7 @@
         "profession": [
             "warrior"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/two_handed/red_iron_blade.png",
         "size": 3
     },

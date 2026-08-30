@@ -1337,7 +1337,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bows/hornbow.png",
         "size": 2
     },
@@ -1359,7 +1359,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bows/hornbow.png",
         "size": 2
     },
@@ -1381,7 +1381,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bows/hornbow.png",
         "size": 2
     },
@@ -1403,7 +1403,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bows/hornbow.png",
         "size": 2
     },
@@ -1425,7 +1425,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bows/hornbow.png",
         "size": 2
     },
@@ -1447,7 +1447,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bows/hornbow.png",
         "size": 2
     },
@@ -1469,7 +1469,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bows/hornbow.png",
         "size": 2
     },
@@ -1491,7 +1491,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bows/hornbow.png",
         "size": 2
     },
@@ -1513,7 +1513,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bows/hornbow.png",
         "size": 2
     },
@@ -1535,7 +1535,7 @@
         "profession": [
             "ninja"
         ],
-        "upgrade_scheme": "weapons-30",
+        "upgrade_scheme": "weapons-special-30",
         "img": "items/bows/hornbow.png",
         "size": 2
     },
