@@ -6,7 +6,7 @@ import LocaleContext from '../contexts/LocaleContext'
 const TooltipContent = ({ itemInstance }) => {
 
     const item = itemInstance.item;
-
+    console.log(itemInstance)
     const { translate } = useContext(LocaleContext)
 
     const wearableItemTypes = [
@@ -157,8 +157,12 @@ const TooltipContent = ({ itemInstance }) => {
         },
         rob_sp: {
             format: value => `${translate('stats.rob_sp')} ${value}%`
-        }
+        },
+        avg_dmg: { format: value => `${translate('stats.avg_dmg')} ${value}%` },
+        skill_dmg: { format: value => `${translate('stats.skill_dmg')} ${value}%` }
     };
+
+
 
     const formatStatValue = (value) => {
 
@@ -189,9 +193,19 @@ const TooltipContent = ({ itemInstance }) => {
             {item.stats &&
                 <div className='tooltip-stats'>
                     {Object.entries(item.stats).map(([name, value]) => (
-
-                        <div key={name} className={typeof value !== 'object' && value < 0 ? 'tooltip-stat--negative' : 'tooltip-stat'}>{formatStat(name, value)}</div>
+                        value !== 0 && (
+                            <div key={name} className={typeof value !== 'object' && value < 0 ? 'tooltip-stat--negative' : 'tooltip-stat'}>{formatStat(name, value)}</div>
+                        )
                     ))}</div>
+            }
+            {itemInstance.bonuses &&
+                <div className='tooltip-bonuses'>
+                    {Object.entries(itemInstance.bonuses).map(([name, value]) => (
+                        value !== 0 && (
+                            <div key={name} className={typeof value !== 'object' && value < 0 ? 'tooltip-bonus--negative' : 'tooltip-bonus'}>{formatStat(name, value)}</div>
+                        )
+                    ))}
+                </div>
             }
             {wearableItemTypes.includes(item.type) && <div className="tooltip-wearable">[ {translate("stats.wearable")} ]</div>}
             {item.profession && (

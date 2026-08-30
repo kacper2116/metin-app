@@ -37,5 +37,7 @@
     "arrow_defence": "Arrow Defence",
     "chance_to_avoid_arrows": "Chance to avoid Arrows",
     "defence_bonus": "Defence",
-    "rob_sp": "Chance to rob SP"
+    "rob_sp": "Chance to rob SP",
+    "avg_dmg": "Average Damage",
+    "skill_dmg": "Skill Damage"
 }

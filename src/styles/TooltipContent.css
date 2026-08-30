@@ -39,3 +39,7 @@
 .tooltip-bonus {
     color: #9EC8A2;
 }
+
+.tooltip-bonus--negative {
+    color: #CE6C69;
+}

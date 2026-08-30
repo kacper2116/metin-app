@@ -1,17 +1,28 @@
 import { useState } from "react";
 import { canPlaceItem } from '../utils/inventory'
 import { itemsDB } from '../data/itemsDB'
-
+import { hasAvg } from "../utils/item";
+import { generateAvgAndSkillBonus } from "../utils/bonuses";
 const useInventory = () => {
 
     const inventorySize = { x: 5, y: 9 };
     const tabCount = 2;
     const [items, setItems] = useState([])
 
-    const addItem = (item) => {
+    const addItem = (itemInstance) => {
+
+
+        if (hasAvg(itemInstance.item)) {
+
+            const { avgDmg, skillDmg } = generateAvgAndSkillBonus();
+
+            itemInstance.bonuses.avg_dmg = avgDmg;
+            itemInstance.bonuses.skill_dmg = skillDmg;
+        }
+
         setItems((prev) => {
             let updated = structuredClone(prev)
-            updated = [...updated, item];
+            updated = [...updated, itemInstance];
             return updated;
         })
     }
