@@ -1,0 +1,52 @@
+[
+    {
+        "id": 25040,
+        "name": "blessing scroll",
+        "type": "special",
+        "subtype": "upgrade",
+        "upgrade_method": "blessing_scroll",
+        "img": "items/special/blessing_scroll.png",
+        "size": 1,
+        "description": "Eliminates the risk of an item being destroyed when an improvement fails. In the case of failure, the item's quality is merely reduced by 1 instead."
+    },
+    {
+        "id": 39022,
+        "name": "dragon scroll",
+        "type": "special",
+        "subtype": "upgrade",
+        "upgrade_method": "dragon_scroll",
+        "img": "items/special/dragon_scroll.png",
+        "size": 1,
+        "description": "Eliminates the risk of an item being destroyed when an improvement fails. In the case of failure, the item's quality is merely reduced by 1 instead. In addition, the chance of a successful improvement is increased by 10%."
+    },
+    {
+        "id": 39007,
+        "name": "blacksmith handbook",
+        "type": "special",
+        "subtype": "upgrade",
+        "upgrade_method": "blacksmith_handbook",
+        "img": "items/special/blacksmith_handbook.png",
+        "size": 1,
+        "description": "This book contains the soul of an old blacksmith. If it is used, it raises the chance of successfully improving an item."
+    },
+    {
+        "id": 25041,
+        "name": "magic stone",
+        "type": "special",
+        "subtype": "upgrade",
+        "upgrade_method": "magic_stone",
+        "img": "items/special/magic_stone.png",
+        "size": 1,
+        "description": "A chunk of the legendary metal can increase your chances when upgrading an item. The upgraded item can then neither be destroyed nor downgraded."
+    },
+    {
+        "id": 39014,
+        "name": "scroll of war",
+        "type": "special",
+        "subtype": "upgrade",
+        "upgrade_method": "scroll_of_war",
+        "img": "items/special/scroll_of_war.png",
+        "size": 1,
+        "description": "Improvement of items will succeed (100%). Only works on items +0 to +3."
+    }
+]

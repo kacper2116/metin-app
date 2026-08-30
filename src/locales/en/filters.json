@@ -7,7 +7,8 @@
         "earrings": "Earrings",
         "necklace": "Necklaces",
         "bracelet": "Bracelets",
-        "shoes": "Shoes"
+        "shoes": "Shoes",
+        "special": "Special"
     },
     "weapon_type": {
         "sword": "Swords",

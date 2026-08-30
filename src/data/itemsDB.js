@@ -15,6 +15,7 @@ import earrings from './items/earrings.json'
 import bracelets from './items/bracelets.json'
 import necklaces from './items/necklaces.json'
 import shoes from './items/shoes.json'
+import special from './items/special.json'
 
 export const itemsDB = [
     ...swords,
@@ -34,4 +35,5 @@ export const itemsDB = [
     ...bracelets,
     ...necklaces,
     ...shoes,
+    ...special
 ]

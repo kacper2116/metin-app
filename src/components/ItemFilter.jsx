@@ -16,7 +16,8 @@ const ItemFilter = ({ filter, setFilter, setFilteredItems, setActiveTab }) => {
             "earrings",
             "necklace",
             "bracelet",
-            "shoes"
+            "shoes",
+            "special",
         ],
         plus: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
         profession: ["warrior", "ninja", "sura", "shaman"]
@@ -55,10 +56,11 @@ const ItemFilter = ({ filter, setFilter, setFilteredItems, setActiveTab }) => {
     useEffect(() => {
 
         const filtered = itemsDB.filter(item =>
+
             item.type === filter.type &&
             (!filter.subtype || item.subtype === filter.subtype) &&
-            item.profession.includes(filter.profession) &&
-            item.plus === filter.plus
+            (!item.profession || item.profession.includes(filter.profession)) &&
+            (!item.plus || item.plus === filter.plus)
         )
 
         setFilteredItems(filtered);
@@ -101,11 +103,14 @@ const ItemFilter = ({ filter, setFilter, setFilteredItems, setActiveTab }) => {
                     <option value={type} key={type}>{translate(`filters.type.${type}`)}</option>
                 )}
             </select>
-            <select className='filter-plus' onChange={handleSetFilter} value={filter.plus} name='plus'>
-                {filterOptions.plus.map(plus =>
-                    <option key={plus} value={plus}>{'+' + plus}</option>
-                )}
-            </select>
+            {filter.type !== 'special' &&
+                <select className='filter-plus' onChange={handleSetFilter} value={filter.plus} name='plus'>
+                    {filterOptions.plus.map(plus =>
+                        <option key={plus} value={plus}>{'+' + plus}</option>
+                    )}
+                </select>
+
+            }
 
             {filter.type === 'weapon' &&
                 <div className='filter-subtype'>

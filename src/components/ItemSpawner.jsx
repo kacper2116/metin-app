@@ -4,6 +4,7 @@ import ItemPicker from './ItemPicker';
 import ItemFilter from './ItemFilter';
 import { placeItemsInGrid } from '../utils/inventory';
 import { itemsDB } from "../data/itemsDB";
+import { getItemName } from '../utils/item';
 import LocaleContext from '../contexts/LocaleContext';
 import InventoryContext from '../contexts/InventoryContext';
 import Window from './Window';
@@ -34,11 +35,12 @@ const ItemSpawner = () => {
         spawnItem(itemId);
     }
 
+    const item = itemToSpawn?.item;
+    let itemDisplayName = null;
 
-
-    const itemDisplayName = itemToSpawn
-        ? `${translate(`items.${itemToSpawn.item.name.split('+')[0]}`)}+${itemToSpawn.item.plus}`
-        : null;
+    if (item) {
+        itemDisplayName = item?.plus != null ? translate(`items.${getItemName(item)}`) + '+' + item.plus : translate(`items.${getItemName(item)}`);
+    }
 
 
     return (

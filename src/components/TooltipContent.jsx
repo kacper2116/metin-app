@@ -2,12 +2,13 @@
 import '../styles/TooltipContent.css'
 import { useContext } from 'react';
 import LocaleContext from '../contexts/LocaleContext'
+import { getItemName } from '../utils/item';
 
 const TooltipContent = ({ itemInstance }) => {
 
     const item = itemInstance.item;
     const { translate } = useContext(LocaleContext)
-
+    console.log(itemInstance)
     const wearableItemTypes = [
         'weapon',
         'armour',
@@ -181,7 +182,7 @@ const TooltipContent = ({ itemInstance }) => {
 
     }
 
-    const itemDisplayName = translate(`items.${item.name.split('+')[0]}`) + '+' + item.plus;
+    const itemDisplayName = item.plus != null ? translate(`items.${getItemName(item)}`) + '+' + item.plus : translate(`items.${getItemName(item)}`);
 
     return (
 
@@ -196,6 +197,12 @@ const TooltipContent = ({ itemInstance }) => {
                             <div key={name} className={typeof value !== 'object' && value < 0 ? 'tooltip-stat--negative' : 'tooltip-stat'}>{formatStat(name, value)}</div>
                         )
                     ))}</div>
+            }
+
+            {item.description &&
+                <div className='tooltip-description'>
+                    {item.description}
+                </div>
             }
             {itemInstance.bonuses &&
                 <div className='tooltip-bonuses'>

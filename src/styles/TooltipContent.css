@@ -8,7 +8,8 @@
 
 
 .tooltip-level,
-.tooltip-stats {
+.tooltip-stats,
+.tooltip-description {
     margin-top: 6px;
 }
 
@@ -42,4 +43,10 @@
 
 .tooltip-bonus--negative {
     color: #CE6C69;
+}
+
+.tooltip-description {
+    max-width: 200px;
+    text-wrap: wrap;
+    line-height: 1.25rem;
 }
