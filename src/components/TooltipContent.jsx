@@ -6,7 +6,6 @@ import LocaleContext from '../contexts/LocaleContext'
 const TooltipContent = ({ itemInstance }) => {
 
     const item = itemInstance.item;
-    console.log(itemInstance)
     const { translate } = useContext(LocaleContext)
 
     const wearableItemTypes = [
@@ -211,7 +210,7 @@ const TooltipContent = ({ itemInstance }) => {
             {item.profession && (
                 <div className="tooltip-professions">
                     {item.profession.map(prof => (
-                        <span className="tooltip-profession">{translate(`common.professions.${prof}`)}</span>))}
+                        <span key={prof} className="tooltip-profession">{translate(`common.professions.${prof}`)}</span>))}
                 </div>
             )
             }

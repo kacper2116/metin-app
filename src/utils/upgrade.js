@@ -10,14 +10,11 @@ const upgradeFiles = import.meta.glob(
 
 const upgradeSchemes = Object.values(upgradeFiles).flat();
 
-
 export const getUpgradeRequirements = (item) => {
 
     const upgradeScheme = upgradeSchemes.find(
         scheme => scheme.name === item['upgrade_scheme']
     )
-
-    console.log(upgradeScheme)
 
     const requirements = upgradeScheme?.upgrades[item.plus] ?? null
     const materialsData = requirements?.materials.map(material => ({
@@ -32,7 +29,6 @@ export const getUpgradeRequirements = (item) => {
 export const getUpgradeChance = (item, method) => {
 
     const { required_level, plus } = item;
-
 
     if (method === 'base') {
 

@@ -20,3 +20,4 @@ export const generateAvgAndSkillBonus = () => {
 
     return { avgDmg, skillDmg }
 }
+
