@@ -2,6 +2,7 @@ import swords from './items/swords.json'
 import twoHanded from './items/two-handed.json'
 import daggers from './items/daggers.json'
 import bows from './items/bows.json'
+import blades from './items/blades.json'
 import fans from './items/fans.json'
 import bells from './items/bells.json'
 import warriorArmours from './items/warrior-armours.json'
@@ -20,6 +21,7 @@ export const itemsDB = [
     ...twoHanded,
     ...daggers,
     ...bows,
+    ...blades,
     ...fans,
     ...bells,
     ...warriorArmours,

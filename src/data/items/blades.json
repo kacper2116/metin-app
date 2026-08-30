@@ -1,0 +1,1052 @@
+[
+    {
+        "id": 240,
+        "name": "exorcism sword+0",
+        "plus": 0,
+        "next_item_id": 241,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 98,
+                "max": 142
+            },
+            "magical_attack": {
+                "min": 74,
+                "max": 98
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/exorcism_sword.png",
+        "size": 2
+    },
+    {
+        "id": 241,
+        "name": "exorcism sword+1",
+        "plus": 1,
+        "next_item_id": 242,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 104,
+                "max": 148
+            },
+            "magical_attack": {
+                "min": 80,
+                "max": 104
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/exorcism_sword.png",
+        "size": 2
+    },
+    {
+        "id": 242,
+        "name": "exorcism sword+2",
+        "plus": 2,
+        "next_item_id": 243,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 111,
+                "max": 155
+            },
+            "magical_attack": {
+                "min": 87,
+                "max": 111
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/exorcism_sword.png",
+        "size": 2
+    },
+    {
+        "id": 243,
+        "name": "exorcism sword+3",
+        "plus": 3,
+        "next_item_id": 244,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 119,
+                "max": 163
+            },
+            "magical_attack": {
+                "min": 95,
+                "max": 119
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/exorcism_sword.png",
+        "size": 2
+    },
+    {
+        "id": 244,
+        "name": "exorcism sword+4",
+        "plus": 4,
+        "next_item_id": 245,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 128,
+                "max": 172
+            },
+            "magical_attack": {
+                "min": 104,
+                "max": 128
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/exorcism_sword.png",
+        "size": 2
+    },
+    {
+        "id": 245,
+        "name": "exorcism sword+5",
+        "plus": 5,
+        "next_item_id": 246,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 138,
+                "max": 182
+            },
+            "magical_attack": {
+                "min": 114,
+                "max": 138
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/exorcism_sword.png",
+        "size": 2
+    },
+    {
+        "id": 246,
+        "name": "exorcism sword+6",
+        "plus": 6,
+        "next_item_id": 247,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 149,
+                "max": 193
+            },
+            "magical_attack": {
+                "min": 125,
+                "max": 149
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/exorcism_sword.png",
+        "size": 2
+    },
+    {
+        "id": 247,
+        "name": "exorcism sword+7",
+        "plus": 7,
+        "next_item_id": 248,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 161,
+                "max": 205
+            },
+            "magical_attack": {
+                "min": 138,
+                "max": 161
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/exorcism_sword.png",
+        "size": 2
+    },
+    {
+        "id": 248,
+        "name": "exorcism sword+8",
+        "plus": 8,
+        "next_item_id": 249,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 174,
+                "max": 218
+            },
+            "magical_attack": {
+                "min": 150,
+                "max": 174
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/exorcism_sword.png",
+        "size": 2
+    },
+    {
+        "id": 249,
+        "name": "exorcism sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 188,
+                "max": 232
+            },
+            "magical_attack": {
+                "min": 164,
+                "max": 188
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/exorcism_sword.png",
+        "size": 2
+    },
+    {
+        "id": 150,
+        "name": "ghost fang blade+0",
+        "plus": 0,
+        "next_item_id": 151,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 77,
+                "max": 105
+            },
+            "magical_attack": {
+                "min": 90,
+                "max": 110
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/ghost_fang_blade.png",
+        "size": 2
+    },
+    {
+        "id": 151,
+        "name": "ghost fang blade+1",
+        "plus": 1,
+        "next_item_id": 152,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 82,
+                "max": 110
+            },
+            "magical_attack": {
+                "min": 98,
+                "max": 118
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/ghost_fang_blade.png",
+        "size": 2
+    },
+    {
+        "id": 152,
+        "name": "ghost fang blade+2",
+        "plus": 2,
+        "next_item_id": 153,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 87,
+                "max": 117
+            },
+            "magical_attack": {
+                "min": 107,
+                "max": 127
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/ghost_fang_blade.png",
+        "size": 2
+    },
+    {
+        "id": 153,
+        "name": "ghost fang blade+3",
+        "plus": 3,
+        "next_item_id": 154,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 96,
+                "max": 126
+            },
+            "magical_attack": {
+                "min": 117,
+                "max": 137
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/ghost_fang_blade.png",
+        "size": 2
+    },
+    {
+        "id": 154,
+        "name": "ghost fang blade+4",
+        "plus": 4,
+        "next_item_id": 155,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 105,
+                "max": 136
+            },
+            "magical_attack": {
+                "min": 128,
+                "max": 148
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/ghost_fang_blade.png",
+        "size": 2
+    },
+    {
+        "id": 155,
+        "name": "ghost fang blade+5",
+        "plus": 5,
+        "next_item_id": 156,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 113,
+                "max": 146
+            },
+            "magical_attack": {
+                "min": 140,
+                "max": 160
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/ghost_fang_blade.png",
+        "size": 2
+    },
+    {
+        "id": 156,
+        "name": "ghost fang blade+6",
+        "plus": 6,
+        "next_item_id": 157,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 119,
+                "max": 157
+            },
+            "magical_attack": {
+                "min": 153,
+                "max": 173
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/ghost_fang_blade.png",
+        "size": 2
+    },
+    {
+        "id": 157,
+        "name": "ghost fang blade+7",
+        "plus": 7,
+        "next_item_id": 158,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 123,
+                "max": 167
+            },
+            "magical_attack": {
+                "min": 167,
+                "max": 187
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/ghost_fang_blade.png",
+        "size": 2
+    },
+    {
+        "id": 158,
+        "name": "ghost fang blade+8",
+        "plus": 8,
+        "next_item_id": 159,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 134,
+                "max": 184
+            },
+            "magical_attack": {
+                "min": 192,
+                "max": 212
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/ghost_fang_blade.png",
+        "size": 2
+    },
+    {
+        "id": 159,
+        "name": "ghost fang blade+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 65,
+        "stats": {
+            "attack": {
+                "min": 142,
+                "max": 206
+            },
+            "magical_attack": {
+                "min": 227,
+                "max": 247
+            },
+            "attack_speed": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/ghost_fang_blade.png",
+        "size": 2
+    },
+    {
+        "id": 250,
+        "name": "demon blade+0",
+        "plus": 0,
+        "next_item_id": 251,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 77,
+                "max": 105
+            },
+            "magical_attack": {
+                "min": 90,
+                "max": 110
+            },
+            "attack_speed": 15,
+            "rob_sp": 2
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/demon_blade.png",
+        "size": 2
+    },
+    {
+        "id": 251,
+        "name": "demon blade+1",
+        "plus": 1,
+        "next_item_id": 252,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 80,
+                "max": 108
+            },
+            "magical_attack": {
+                "min": 96,
+                "max": 116
+            },
+            "attack_speed": 15,
+            "rob_sp": 3
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/demon_blade.png",
+        "size": 2
+    },
+    {
+        "id": 252,
+        "name": "demon blade+2",
+        "plus": 2,
+        "next_item_id": 253,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 83,
+                "max": 113
+            },
+            "magical_attack": {
+                "min": 103,
+                "max": 123
+            },
+            "attack_speed": 15,
+            "rob_sp": 4
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/demon_blade.png",
+        "size": 2
+    },
+    {
+        "id": 253,
+        "name": "demon blade+3",
+        "plus": 3,
+        "next_item_id": 254,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 90,
+                "max": 120
+            },
+            "magical_attack": {
+                "min": 111,
+                "max": 131
+            },
+            "attack_speed": 15,
+            "rob_sp": 5
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/demon_blade.png",
+        "size": 2
+    },
+    {
+        "id": 254,
+        "name": "demon blade+4",
+        "plus": 4,
+        "next_item_id": 255,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 97,
+                "max": 128
+            },
+            "magical_attack": {
+                "min": 120,
+                "max": 140
+            },
+            "attack_speed": 15,
+            "rob_sp": 7
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/demon_blade.png",
+        "size": 2
+    },
+    {
+        "id": 255,
+        "name": "demon blade+5",
+        "plus": 5,
+        "next_item_id": 256,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 103,
+                "max": 136
+            },
+            "magical_attack": {
+                "min": 130,
+                "max": 150
+            },
+            "attack_speed": 15,
+            "rob_sp": 9
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/demon_blade.png",
+        "size": 2
+    },
+    {
+        "id": 256,
+        "name": "demon blade+6",
+        "plus": 6,
+        "next_item_id": 257,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 107,
+                "max": 144
+            },
+            "magical_attack": {
+                "min": 141,
+                "max": 161
+            },
+            "attack_speed": 15,
+            "rob_sp": 12
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/demon_blade.png",
+        "size": 2
+    },
+    {
+        "id": 257,
+        "name": "demon blade+7",
+        "plus": 7,
+        "next_item_id": 258,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 109,
+                "max": 150
+            },
+            "magical_attack": {
+                "min": 153,
+                "max": 173
+            },
+            "attack_speed": 15,
+            "rob_sp": 15
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/demon_blade.png",
+        "size": 2
+    },
+    {
+        "id": 258,
+        "name": "demon blade+8",
+        "plus": 8,
+        "next_item_id": 259,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 105,
+                "max": 155
+            },
+            "magical_attack": {
+                "min": 166,
+                "max": 186
+            },
+            "attack_speed": 15,
+            "rob_sp": 18
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/demon_blade.png",
+        "size": 2
+    },
+    {
+        "id": 259,
+        "name": "demon blade+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 70,
+        "stats": {
+            "attack": {
+                "min": 95,
+                "max": 157
+            },
+            "magical_attack": {
+                "min": 180,
+                "max": 200
+            },
+            "attack_speed": 15,
+            "rob_sp": 25
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/demon_blade.png",
+        "size": 2
+    },
+    {
+        "id": 190,
+        "name": "lion sword+0",
+        "plus": 0,
+        "next_item_id": 191,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 90,
+                "max": 110
+            },
+            "magical_attack": {
+                "min": 77,
+                "max": 105
+            },
+            "attack_speed": 17
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/lion_sword.png",
+        "size": 2
+    },
+    {
+        "id": 191,
+        "name": "lion sword+1",
+        "plus": 1,
+        "next_item_id": 192,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 96,
+                "max": 116
+            },
+            "magical_attack": {
+                "min": 80,
+                "max": 108
+            },
+            "attack_speed": 18
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/lion_sword.png",
+        "size": 2
+    },
+    {
+        "id": 192,
+        "name": "lion sword+2",
+        "plus": 2,
+        "next_item_id": 193,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 103,
+                "max": 123
+            },
+            "magical_attack": {
+                "min": 83,
+                "max": 113
+            },
+            "attack_speed": 19
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/lion_sword.png",
+        "size": 2
+    },
+    {
+        "id": 193,
+        "name": "lion sword+3",
+        "plus": 3,
+        "next_item_id": 194,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 111,
+                "max": 131
+            },
+            "magical_attack": {
+                "min": 90,
+                "max": 120
+            },
+            "attack_speed": 20
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/lion_sword.png",
+        "size": 2
+    },
+    {
+        "id": 194,
+        "name": "lion sword+4",
+        "plus": 4,
+        "next_item_id": 195,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 120,
+                "max": 140
+            },
+            "magical_attack": {
+                "min": 97,
+                "max": 128
+            },
+            "attack_speed": 21
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/lion_sword.png",
+        "size": 2
+    },
+    {
+        "id": 195,
+        "name": "lion sword+5",
+        "plus": 5,
+        "next_item_id": 196,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 130,
+                "max": 150
+            },
+            "magical_attack": {
+                "min": 103,
+                "max": 136
+            },
+            "attack_speed": 22
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/lion_sword.png",
+        "size": 2
+    },
+    {
+        "id": 196,
+        "name": "lion sword+6",
+        "plus": 6,
+        "next_item_id": 197,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 141,
+                "max": 161
+            },
+            "magical_attack": {
+                "min": 107,
+                "max": 144
+            },
+            "attack_speed": 23
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/lion_sword.png",
+        "size": 2
+    },
+    {
+        "id": 197,
+        "name": "lion sword+7",
+        "plus": 7,
+        "next_item_id": 198,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 153,
+                "max": 173
+            },
+            "magical_attack": {
+                "min": 109,
+                "max": 150
+            },
+            "attack_speed": 24
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/lion_sword.png",
+        "size": 2
+    },
+    {
+        "id": 198,
+        "name": "lion sword+8",
+        "plus": 8,
+        "next_item_id": 198,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 166,
+                "max": 186
+            },
+            "magical_attack": {
+                "min": 105,
+                "max": 155
+            },
+            "attack_speed": 25
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/lion_sword.png",
+        "size": 2
+    },
+    {
+        "id": 199,
+        "name": "lion sword+9",
+        "plus": 9,
+        "next_item_id": null,
+        "type": "weapon",
+        "subtype": "blade",
+        "required_level": 75,
+        "stats": {
+            "attack": {
+                "min": 180,
+                "max": 200
+            },
+            "magical_attack": {
+                "min": 95,
+                "max": 157
+            },
+            "attack_speed": 26
+        },
+        "profession": [
+            "sura"
+        ],
+        "upgrade_scheme": "swords-45-75",
+        "img": "items/blades/lion_sword.png",
+        "size": 2
+    }
+]

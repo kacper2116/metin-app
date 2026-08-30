@@ -36,5 +36,6 @@
     "wind_resistance": "Wind Resistance",
     "arrow_defence": "Arrow Defence",
     "chance_to_avoid_arrows": "Chance to avoid Arrows",
-    "defence_bonus": "Defence"
+    "defence_bonus": "Defence",
+    "rob_sp": "Chance to rob SP"
 }

@@ -155,6 +155,9 @@ const TooltipContent = ({ itemInstance }) => {
         }, defence_bonus: {
             format: value => `${translate('stats.defence_bonus')} +${value}`
         },
+        rob_sp: {
+            format: value => `${translate('stats.rob_sp')} ${value}%`
+        }
     };
 
     const formatStatValue = (value) => {
