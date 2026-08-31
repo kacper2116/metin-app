@@ -78,7 +78,6 @@ const useInventory = () => {
                 instance.instanceId === instanceId ? { ...instance, item: prevItem }
                     : instance
             )
-
         )
     }
 

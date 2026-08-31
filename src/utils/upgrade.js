@@ -36,7 +36,9 @@ export const getUpgradeChance = (item, method) => {
         return chances[plus]
     }
 
-    return upgradeFiles[method]?.[plus] ?? null;
+
+
+    return upgradeChances[method]?.[plus] ?? null;
 }
 
 export const isUpgradeSuccess = (chance) => {

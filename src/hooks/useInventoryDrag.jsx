@@ -47,7 +47,24 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         "blessing scroll": {
             canInteract: (item) => item.next_item_id != null,
             onInteract: (item) => handleStartUpgrade(item, 'blessing_scroll')
+        },
+        "dragon scroll": {
+            canInteract: (item) => item.next_item_id != null,
+            onInteract: (item) => handleStartUpgrade(item, 'dragon_scroll')
+        },
+        "blacksmith handbook": {
+            canInteract: (item) => item.next_item_id != null,
+            onInteract: (item) => handleStartUpgrade(item, 'blacksmith_handbook')
+        },
+        "magic stone": {
+            canInteract: (item) => item.next_item_id != null,
+            onInteract: (item) => handleStartUpgrade(item, 'magic_stone')
+        },
+        "scroll of war": {
+            canInteract: (item) => item.next_item_id != null && item.plus < 3,
+            onInteract: (item) => handleStartUpgrade(item, 'scroll_of_war')
         }
+
     }
 
     const resetDrag = () => {
@@ -69,9 +86,10 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
 
         if (itemInSlot && dropConfig[draggedItem.item.name]) {
-            dropConfig[draggedItem.item.name].onInteract(itemInSlot)
 
+            const canInteract = dropConfig[draggedItem.item.name].canInteract(itemInSlot.item)
 
+            canInteract && dropConfig[draggedItem.item.name].onInteract(itemInSlot)
         }
 
         if (canPlaceItem(items, activeTab, slotIndex, draggedItem.item, inventorySize)) {

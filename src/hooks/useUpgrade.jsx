@@ -14,7 +14,10 @@ const useUpgrade = () => {
     const baseChanceMethods = ['blacksmith', 'blessing_scroll', 'magic_stone'];
     const chanceScheme = baseChanceMethods.includes(upgradeMethod) ? 'base' : upgradeMethod;
 
+
     const chance = itemToUpgrade ? getUpgradeChance(itemToUpgrade.item, chanceScheme) : null;
+
+    console.log(chance)
 
     const onFailure = {
         "blacksmith": removeItem,
