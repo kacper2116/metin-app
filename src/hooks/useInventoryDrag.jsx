@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import { act, useContext } from 'react'
 import { useState, useEffect, useRef } from 'react';
 import { getSelectedSlots, getItemSlots, findItemBySlot, canPlaceItem } from '../utils/inventory';
 import MouseContext from '../contexts/MouseContext';
@@ -6,11 +6,12 @@ import UpgradeContext from '../contexts/UpgradeContext';
 const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHoverSlot }) => {
 
     const [draggedItemId, setDraggedItemId] = useState(null);
+    const targetItem = useRef(null);
     const draggedItem = items.find(
         item => item.instanceId === draggedItemId
     ) ?? null;
 
-    const slotsPreview = useRef({ slots: [], canPlace: true });
+    const slotsPreview = useRef({ slots: [], status: 'valid' });
     const startPos = useRef({ x: 0, y: 0 });
     const moveMode = useRef(null);
     const itemOriginSlots = useRef([]);
@@ -35,18 +36,25 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
             let slots = getSelectedSlots(slotIndex, itemInSlot.item.size, inventorySize)
 
-            const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot)) ? true : canPlaceItem(items, activeTab, Math.min(...slots), itemInSlot.item, inventorySize);
+            const status = 'valid'
 
-            slotsPreview.current = ({ slots: getSelectedSlots(slotIndex, itemInSlot.item.size, inventorySize), canPlace });
+            slotsPreview.current = ({ slots: getSelectedSlots(slotIndex, itemInSlot.item.size, inventorySize), status });
         }
 
     }
 
+    const dropConfig = {
+        "blessing scroll": {
+            canDrop: (item) => item.next_item_id != null
+        }
+    }
+
     const resetDrag = () => {
-        slotsPreview.current = ({ slots: [], canPlace: true });
+        slotsPreview.current = ({ slots: [], stauts: 'valid' });
         setDraggedItemId(null);
         moveMode.current = null;
         itemOriginSlots.current = [];
+        targetItem.current = null;
     }
 
     const dropOnSlot = () => {
@@ -57,6 +65,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         }
 
         const slotIndex = slotsPreview.current.slots[0];
+
 
 
         if (canPlaceItem(items, activeTab, slotIndex, draggedItem.item, inventorySize)) {
@@ -93,12 +102,26 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         );
 
         handleHoverSlot(firstHoveredSlot)
-        console.log(firstHoveredSlot)
 
-        const canPlace = itemOriginSlots.current.every(slot => slots.includes(slot))
-            ? true
-            : canPlaceItem(items, activeTab, Math.min(...slots), draggedItem.item, inventorySize);
-        slotsPreview.current = ({ slots: [...slots], canPlace });
+        targetItem.current = findItemBySlot(items, activeTab, firstHoveredSlot, inventorySize)
+
+        let status = 'valid'
+
+        if (targetItem.current) {
+            console.log('jest jakis item')
+            status = (dropConfig[draggedItem.item.name]?.canDrop(targetItem.current.item) ?? false) ? 'interaction' : 'invalid';
+            slots = getItemSlots(targetItem.current, inventorySize)
+
+        }
+        else {
+
+            status = itemOriginSlots.current.every(slot => slots.includes(slot))
+                ? 'valid'
+                : (canPlaceItem(items, activeTab, Math.min(...slots), draggedItem.item, inventorySize) ? 'valid' : 'invalid');
+        }
+
+
+        slotsPreview.current = ({ slots: [...slots], status });
 
     }
 
@@ -113,7 +136,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
     }
 
     const clearSlotsPreview = () => {
-        slotsPreview.current = { slots: [], canPlace: true }
+        slotsPreview.current = { slots: [], status: 'valid' }
     }
 
 

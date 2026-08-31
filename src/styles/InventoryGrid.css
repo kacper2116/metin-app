@@ -18,11 +18,14 @@
     opacity: 0.5;
     position: absolute;
     pointer-events: none;
-    border-radius: 10px;
 }
 
-.slot-overlay-red {
+.slot-overlay-invalid {
     background: red;
+}
+
+.slot-overlay-interaction {
+    background: rgb(132, 175, 37);
 }
 
 .item {
@@ -30,6 +33,11 @@
     display: flex;
     position: relative;
     pointer-events: none;
+    z-index: 999;
+
+    border-radius: 10px;
+    overflow: hidden;
+
 }
 
 .item-selected {

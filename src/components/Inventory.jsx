@@ -25,8 +25,9 @@ const Inventory = () => {
 
     const slotOverlay = (index) => {
         if (!slotsPreview.current.slots?.includes(index)) return null;
+
         return (
-            <div className={`slot-overlay ${!slotsPreview.current.canPlace && 'slot-overlay-red'}`}></div>
+            <div className={`slot-overlay slot-overlay-${slotsPreview.current.status}`}></div>
         )
     }
 
