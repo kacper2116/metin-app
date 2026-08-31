@@ -65,8 +65,24 @@ const useInventory = () => {
         )
     }
 
+    const downgradeItem = (instanceId) => {
 
-    return { items, setItems, spawnItem, inventorySize, tabCount, replaceItem, removeItem }
+        const itemToDowngrade = items.find(instance => instance.instanceId === instanceId)?.item;
+        if (!itemToDowngrade) return;
+
+        const prevItem = itemsDB.find(item => item.next_item_id === itemToDowngrade.id)
+        if (!prevItem) return;
+
+        setItems(prev =>
+            prev.map(instance =>
+                instance.instanceId === instanceId ? { ...instance, item: prevItem }
+                    : instance
+            )
+
+        )
+    }
+
+    return { items, setItems, spawnItem, inventorySize, tabCount, replaceItem, removeItem, downgradeItem }
 };
 
 export default useInventory;

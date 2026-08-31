@@ -8,7 +8,7 @@ const useUpgrade = () => {
     const [itemToUpgrade, setItemToUpgrade] = useState(null);
     const [upgradeMethod, setUpgradeMethod] = useState('blacksmith')
     const [result, setResult] = useState(null);
-    const { replaceItem, removeItem } = useContext(InventoryContext);
+    const { replaceItem, removeItem, downgradeItem } = useContext(InventoryContext);
     const upgradeRef = useRef(false);
 
     const baseChanceMethods = ['blacksmith', 'blessing_scroll', 'magic_stone'];
@@ -17,14 +17,16 @@ const useUpgrade = () => {
     const chance = itemToUpgrade ? getUpgradeChance(itemToUpgrade.item, chanceScheme) : null;
 
     const onFailure = {
-        "blacksmith": removeItem
-        /*   "blessing_scroll": downgradeItem,
-          "god_scroll": downgradeItem,
-          "blacksmith_handbook": downgradeItem,
-          "magic_stone": () => { }, */
+        "blacksmith": removeItem,
+        "blessing_scroll": downgradeItem,
+        "god_scroll": downgradeItem,
+        "blacksmith_handbook": downgradeItem,
+        "magic_stone": () => { },
     }
 
     const handleStartUpgrade = (itemInstance, method = 'blacksmith') => {
+
+        console.log(method)
 
         if (itemInstance.item.next_item_id == null) return;
         if (upgradeRef.current) return;

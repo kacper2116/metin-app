@@ -45,7 +45,8 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
     const dropConfig = {
         "blessing scroll": {
-            canDrop: (item) => item.next_item_id != null
+            canInteract: (item) => item.next_item_id != null,
+            onInteract: (item) => handleStartUpgrade(item, 'blessing_scroll')
         }
     }
 
@@ -65,8 +66,13 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         }
 
         const slotIndex = slotsPreview.current.slots[0];
+        const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
+
+        if (itemInSlot && dropConfig[draggedItem.item.name]) {
+            dropConfig[draggedItem.item.name].onInteract(itemInSlot)
 
 
+        }
 
         if (canPlaceItem(items, activeTab, slotIndex, draggedItem.item, inventorySize)) {
 
@@ -108,9 +114,11 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         let status = 'valid'
 
         if (targetItem.current) {
-            console.log('jest jakis item')
-            status = (dropConfig[draggedItem.item.name]?.canDrop(targetItem.current.item) ?? false) ? 'interaction' : 'invalid';
-            slots = getItemSlots(targetItem.current, inventorySize)
+
+            const canInteract = dropConfig[draggedItem.item.name]?.canInteract(targetItem.current.item) ?? false
+            status = canInteract ? 'interaction' : 'invalid';
+
+            dropConfig[draggedItem.item.name] ? slots = getItemSlots(targetItem.current, inventorySize) : '';
 
         }
         else {
