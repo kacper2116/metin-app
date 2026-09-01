@@ -11,6 +11,8 @@ const App = () => {
 
   const { itemToUpgrade } = useContext(UpgradeContext);
 
+
+
   return (
     <div className='app-container'>
       <Blacksmith />

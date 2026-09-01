@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "gaussian-rng": "^1.0.6",
+    "howler": "^2.2.4",
     "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "react-dom": "^19.2.6",
+    "react-sounds": "^1.0.30"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

@@ -3,6 +3,8 @@ import { useState, useEffect, useRef } from 'react';
 import { getSelectedSlots, getItemSlots, findItemBySlot, canPlaceItem } from '../utils/inventory';
 import MouseContext from '../contexts/MouseContext';
 import UpgradeContext from '../contexts/UpgradeContext';
+import { playSound, dropSounds } from '../utils/audio'
+
 const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHoverSlot }) => {
 
     const [draggedItemId, setDraggedItemId] = useState(null);
@@ -26,6 +28,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
             return;
         }
 
+        playSound('drag_item');
         const slotIndex = Number(e.currentTarget.id.split('-')[1]);
         const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
 
@@ -84,13 +87,16 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
         const slotIndex = slotsPreview.current.slots[0];
         const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
+        let canInteract = false;
 
         if (itemInSlot && dropConfig[draggedItem.item.name]) {
 
-            const canInteract = dropConfig[draggedItem.item.name].canInteract(itemInSlot.item)
+            canInteract = dropConfig[draggedItem.item.name].canInteract(itemInSlot.item)
 
             canInteract && dropConfig[draggedItem.item.name].onInteract(itemInSlot)
         }
+
+        !canInteract && playSound(dropSounds[draggedItem.item.type] ?? 'drop_default');
 
         if (canPlaceItem(items, activeTab, slotIndex, draggedItem.item, inventorySize)) {
 
@@ -109,6 +115,10 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
     const handleDropItem = (e) => {
         if (!draggedItem) return;
+
+
+
+
 
         const dropTarget = e.target.closest('[drop-target]')?.getAttribute('drop-target');
 

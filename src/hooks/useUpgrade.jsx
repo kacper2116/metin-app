@@ -1,6 +1,7 @@
 import React, { useContext, useRef, useState } from 'react'
 import { getUpgradeChance, isUpgradeSuccess } from '../utils/upgrade';
 import InventoryContext from '../contexts/InventoryContext';
+import { playSound } from '../utils/audio'
 
 
 const useUpgrade = () => {
@@ -10,14 +11,13 @@ const useUpgrade = () => {
     const [result, setResult] = useState(null);
     const { replaceItem, removeItem, downgradeItem } = useContext(InventoryContext);
     const upgradeRef = useRef(false);
-
     const baseChanceMethods = ['blacksmith', 'blessing_scroll', 'magic_stone'];
     const chanceScheme = baseChanceMethods.includes(upgradeMethod) ? 'base' : upgradeMethod;
-
-
     const chance = itemToUpgrade ? getUpgradeChance(itemToUpgrade.item, chanceScheme) : null;
 
     console.log(chance)
+
+
 
     const onFailure = {
         "blacksmith": removeItem,
@@ -68,11 +68,13 @@ const useUpgrade = () => {
         console.log('upgrade success')
         console.log(itemToUpgrade)
         replaceItem(itemToUpgrade.instanceId, itemToUpgrade.item.next_item_id);
+        playSound('upgrade_success')
     }
 
     const upgradeFailure = () => {
         console.log('upgrade failure')
         onFailure[upgradeMethod]?.(itemToUpgrade.instanceId);
+        playSound('upgrade_failure')
 
     }
 
