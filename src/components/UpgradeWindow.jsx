@@ -7,6 +7,7 @@ import LocaleContext from '../contexts/LocaleContext';
 import { itemsDB } from '../data/itemsDB'
 import { getUpgradeRequirements } from '../utils/upgrade'
 import UpgradeContext from '../contexts/UpgradeContext'
+import Button from './Button'
 
 const UpgradeWindow = ({ itemInstance }) => {
 
@@ -61,8 +62,8 @@ const UpgradeWindow = ({ itemInstance }) => {
                             <div className='upgrade-cost'>{`${translate('ui.upgrade_cost')}: ${(upgradeRequirements?.cost ?? 0).toLocaleString('de-DE')}`} Yang</div>
                         </div>
                         <div className='buttons'>
-                            <button className='button-basic' onClick={() => setShowConfirmWindow(true)} >OK</button>
-                            <button className='button-basic' onClick={handleEndUpgrade} >{translate('ui.cancel')}</button>
+                            <Button className='button' onClick={() => setShowConfirmWindow(true)} >OK</Button>
+                            <Button className='button' onClick={handleEndUpgrade} >{translate('ui.cancel')}</Button>
                         </div>
                     </Window>
 
@@ -73,8 +74,8 @@ const UpgradeWindow = ({ itemInstance }) => {
                                 <span>{translate('ui.upgrade_warning')}</span>
                                 <span>{translate('ui.upgrade_continue')}</span>
                                 <div className='buttons'>
-                                    <button className='button-basic' onClick={handleConfirmUpgrade} >{translate('ui.yes')}</button>
-                                    <button className='button-basic' onClick={() => setShowConfirmWindow(false)}>{translate('ui.no')}</button>
+                                    <Button className='button' onClick={handleConfirmUpgrade} >{translate('ui.yes')}</Button>
+                                    <Button className='button' onClick={() => setShowConfirmWindow(false)}>{translate('ui.no')}</Button>
                                 </div>
 
                             </Window>
@@ -85,7 +86,7 @@ const UpgradeWindow = ({ itemInstance }) => {
                 <div className='upgrade-result-window'>
                     <Window>
                         <div className='upgrade-result'>{result === 'success' ? translate('ui.upgrade_success') : translate('ui.upgrade_failure')}</div>
-                        <button className='button-basic' onClick={handleEndUpgrade}>Ok</button>
+                        <Button className='button' onClick={handleEndUpgrade}>Ok</Button>
                     </Window>
                 </div>
             }

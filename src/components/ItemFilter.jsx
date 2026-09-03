@@ -2,6 +2,8 @@ import { useContext, useEffect, useState } from 'react'
 import '../styles/ItemFilter.css';
 import { itemsDB } from '../data/itemsDB';
 import LocaleContext from '../contexts/LocaleContext'
+import Button from './Button';
+import { playSound } from '../utils/audio';
 const ItemFilter = ({ filter, setFilter, setFilteredItems, setActiveTab }) => {
 
     const { translate } = useContext(LocaleContext)
@@ -40,6 +42,11 @@ const ItemFilter = ({ filter, setFilter, setFilteredItems, setActiveTab }) => {
             ...prev,
             [prop]: prev[prop] === value ? null : value,
         }))
+    }
+
+    const handleChangeSelect = (e) => {
+        playSound('click_button')
+        handleSetFilter(e);
     }
 
     useEffect(() => {
@@ -90,23 +97,23 @@ const ItemFilter = ({ filter, setFilter, setFilteredItems, setActiveTab }) => {
         <div className='filter-options'>
             <div className='filter-profession' >
                 {filterOptions.profession.map(profession =>
-                    <button
+                    <Button
                         key={profession}
                         name="profession"
                         value={profession}
-                        className={`filter-button button-basic ${filter.profession === profession ? 'active' : ''}`}
+                        className={`button filter-button ${filter.profession === profession ? 'active' : ''}`}
                         onClick={(e) => filter.profession !== profession && handleSetFilter(e)}
-                    >{translate(`common.professions.${profession}`)}</button>
+                    >{translate(`common.professions.${profession}`)}</Button>
                 )}
             </div>
 
-            <select className='filter-type' onChange={handleSetFilter} value={filter.type} name="type">
+            <select className='filter-type' onChange={handleChangeSelect} value={filter.type} name="type">
                 {filterOptions.type.map(type =>
                     <option value={type} key={type}>{translate(`filters.type.${type}`)}</option>
                 )}
             </select>
             {filter.type !== 'special' &&
-                <select className='filter-plus' onChange={handleSetFilter} value={filter.plus} name='plus'>
+                <select className='filter-plus' onChange={handleChangeSelect} value={filter.plus} name='plus'>
                     {filterOptions.plus.map(plus =>
                         <option key={plus} value={plus}>{'+' + plus}</option>
                     )}
@@ -117,13 +124,13 @@ const ItemFilter = ({ filter, setFilter, setFilteredItems, setActiveTab }) => {
             {filter.type === 'weapon' &&
                 <div className='filter-subtype'>
                     {weaponTypes[filter.profession].map(subtype =>
-                        <button
+                        <Button
                             key={subtype}
                             name='subtype'
                             value={subtype}
-                            className={`filter-button button-basic ${filter.subtype === subtype ? 'active' : ''}`}
+                            className={`button filter-button ${filter.subtype === subtype ? 'active' : ''}`}
                             onClick={handleSetFilter}
-                        >{translate(`filters.weapon_type.${subtype}`)}</button>
+                        >{translate(`filters.weapon_type.${subtype}`)}</Button>
                     )}
                 </div>
             }

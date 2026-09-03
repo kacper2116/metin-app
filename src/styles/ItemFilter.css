@@ -39,3 +39,9 @@
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
+select {
+    padding: 0.25rem;
+    font-family: inherit;
+    font-size: 1.2rem;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Window.css'
-import closeButton from '../assets/close-button.png'
+import closeButtonImg from '../assets/close-button.png'
+import Button from './Button'
 const Window = ({ children, title, onClose, onSubmit }) => {
 
 
@@ -9,9 +10,9 @@ const Window = ({ children, title, onClose, onSubmit }) => {
             {title &&
                 <div className='ui-container'>
                     <span className='window-title'>{title}</span>
-                    <button className='close-button' onClick={onClose}>
-                        <img src={closeButton} />
-                    </button>
+                    <Button className='close-button' onClick={onClose}>
+                        <img src={closeButtonImg} />
+                    </Button>
                 </div>
             }
 

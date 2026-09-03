@@ -7,6 +7,7 @@ import { itemsDB } from "../data/itemsDB";
 import { getItemName } from '../utils/item';
 import LocaleContext from '../contexts/LocaleContext';
 import InventoryContext from '../contexts/InventoryContext';
+import Button from './Button';
 import Window from './Window';
 
 const ItemSpawner = () => {
@@ -48,7 +49,7 @@ const ItemSpawner = () => {
         <div className='item-spawner'>
             <div className='select-item' onClick={() => setShowModal(true)}><span>{itemDisplayName ?? translate('ui.select_item')}</span></div>
             {itemToSpawn &&
-                <button className='spawn-button button-basic' onClick={() => handleSpawnItem(itemToSpawn)}>Spawn</button>}
+                <Button className='button' onClick={() => handleSpawnItem(itemToSpawn)}>Spawn</Button>}
 
             {showModal &&
                 <div className='modal'>

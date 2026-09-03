@@ -17,6 +17,7 @@ export const dropSounds = {
 }
 
 export const playSound = (name) => {
+
     const audio = new Audio(sound[name])
     audio.play();
 }
