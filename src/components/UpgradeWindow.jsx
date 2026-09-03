@@ -62,12 +62,12 @@ const UpgradeWindow = ({ itemInstance }) => {
                             <div className='upgrade-cost'>{`${translate('ui.upgrade_cost')}: ${(upgradeRequirements?.cost ?? 0).toLocaleString('de-DE')}`} Yang</div>
                         </div>
                         <div className='buttons'>
-                            <Button className='button' onClick={() => setShowConfirmWindow(true)} >OK</Button>
+                            <Button className='button' onClick={chance === 100 ? handleConfirmUpgrade : () => setShowConfirmWindow(true)} >OK</Button>
                             <Button className='button' onClick={handleEndUpgrade} >{translate('ui.cancel')}</Button>
                         </div>
                     </Window>
 
-                    {showConfirmWindow &&
+                    {showConfirmWindow && chance < 100 &&
                         <div className='confirm-upgrade-modal'>
                             <Window >
 

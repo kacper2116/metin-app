@@ -17,12 +17,10 @@ const useUpgrade = () => {
 
     console.log(chance)
 
-
-
     const onFailure = {
         "blacksmith": removeItem,
         "blessing_scroll": downgradeItem,
-        "god_scroll": downgradeItem,
+        "dragon_scroll": downgradeItem,
         "blacksmith_handbook": downgradeItem,
         "magic_stone": () => { },
     }
