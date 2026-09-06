@@ -44,8 +44,8 @@ const Inventory = () => {
         handleClickSlot,
         slotOverlay,
         handleHoverSlot: handleUpdateSlotsPreview,
-        handleLeaveSlot: clearSlotsPreview,
-        handleLeaveGrid: clearHover,
+        handleLeaveSlot: clearHover,
+        handleLeaveGrid: clearSlotsPreview,
     }
 
     return (

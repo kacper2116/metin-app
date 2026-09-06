@@ -86,13 +86,13 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         }
 
         const slotIndex = slotsPreview.current.slots[0];
+        handleHoverSlot(slotIndex);
         const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
         let canInteract = false;
 
         if (itemInSlot && dropConfig[draggedItem.item.name]) {
 
             canInteract = dropConfig[draggedItem.item.name].canInteract(itemInSlot.item)
-
             canInteract && dropConfig[draggedItem.item.name].onInteract(itemInSlot)
         }
 
@@ -100,11 +100,16 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
         if (canPlaceItem(items, activeTab, slotIndex, draggedItem.item, inventorySize)) {
 
+
+
             setItems(prev =>
                 prev.map(item => item.tab === draggedItem.tab && item.slot === draggedItem.slot ? { ...item, tab: activeTab, slot: slotIndex } : item)
             );
         }
+
+
         resetDrag();
+
     }
 
     const dropOnBlacksmith = () => {
@@ -132,6 +137,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         const firstHoveredSlot = slots.find(slot =>
             findItemBySlot(items, activeTab, slot, inventorySize)
         );
+
 
         handleHoverSlot(firstHoveredSlot)
 

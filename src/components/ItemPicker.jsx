@@ -33,6 +33,7 @@ const ItemPicker = ({ items, activeTab, setActiveTab, inventorySize, setItemToSp
         items: placedItems,
         inventorySize: inventorySize,
         handleHoverSlot: handleHoverSlot,
+        handleLeaveSlot: clearHover,
         handleLeaveGrid: clearHover,
         handleClickSlot: handlePickItem,
         canDrop: false

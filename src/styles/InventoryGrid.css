@@ -9,6 +9,8 @@
     height: 50px;
     background: url("https://pl-wiki.metin2.gameforge.com/images/4/48/Czarne_T%C5%82o.png") no-repeat;
     background-size: contain;
+
+    border-radius: 15px;
 }
 
 .slot-overlay {

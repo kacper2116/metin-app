@@ -8,6 +8,12 @@
   padding: 0;
 }
 
+*,
+select,
+option {
+  cursor: url('/src/assets/cursor.cur'), auto;
+}
+
 html {
   font-size: 16px;
 }

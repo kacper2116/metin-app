@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useState } from 'react'
+import React, { useContext, useEffect, useRef, useState } from 'react'
 import useInventoryDrag from './useInventoryDrag';
 import { findItemBySlot } from '../utils/inventory';
 import TooltipContext from '../contexts/TooltipContext';
@@ -7,12 +7,28 @@ const useSlotHover = ({ items, activeTab, inventorySize }) => {
 
     const { showTooltip, hideTooltip } = useContext(TooltipContext);
 
+    const hoveredSlot = useRef(null);
+
     const handleHoverSlot = (index) => {
+
+        hoveredSlot.current = index;
         const item = findItemBySlot(items, activeTab, index, inventorySize)
         item ? showTooltip(item) : hideTooltip();
     }
 
-    const clearHover = () => hideTooltip();
+    const clearHover = () => {
+        hoveredSlot.current = null;
+        hideTooltip();
+    }
+
+    useEffect(() => {
+        if (hoveredSlot === null) return;
+
+        const item = findItemBySlot(items, activeTab, hoveredSlot.current, inventorySize);
+
+        item ? showTooltip(item) : hideTooltip();
+
+    }, [items, activeTab])
 
     return { handleHoverSlot, clearHover }
 }
