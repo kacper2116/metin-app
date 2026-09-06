@@ -115,9 +115,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
     const handleDropItem = (e) => {
         if (!draggedItem) return;
-
-
-
+        console.log('dropping')
 
 
         const dropTarget = e.target.closest('[drop-target]')?.getAttribute('drop-target');

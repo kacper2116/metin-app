@@ -34,7 +34,9 @@ const ItemPicker = ({ items, activeTab, setActiveTab, inventorySize, setItemToSp
         inventorySize: inventorySize,
         handleHoverSlot: handleHoverSlot,
         handleLeaveGrid: clearHover,
-        handleClickSlot: handlePickItem
+        handleClickSlot: handlePickItem,
+        canDrop: false
+
     }
 
     const tabsProps = {
@@ -48,7 +50,7 @@ const ItemPicker = ({ items, activeTab, setActiveTab, inventorySize, setItemToSp
         <div className='inventory'>
             {tabCount > 1 && <InventoryTabs {...tabsProps} />}
 
-            <InventoryGrid {...gridProps} />
+            <InventoryGrid {...gridProps} canDrop={false} />
 
             {hoveredItem &&
                 <Tooltip mousePosition={mousePosition} >
