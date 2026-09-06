@@ -34,12 +34,14 @@
 .material {
     display: flex;
     gap: 4px;
+    align-items: center;
 }
 
 .material-icon {
     width: 40px;
     background: url("https://pl-wiki.metin2.gameforge.com/images/4/48/Czarne_T%C5%82o.png");
     background-size: 40px;
+
 }
 
 .upgrade-chance {

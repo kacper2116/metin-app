@@ -1,6 +1,6 @@
 [
     {
-        "name": "helmet-1",
+        "name": "helmets-1",
         "upgrades": {
             "1": {
                 "cost": 600,
@@ -56,7 +56,7 @@
         }
     },
     {
-        "name": "helmet-21",
+        "name": "helmets-21",
         "upgrades": {
             "1": {
                 "cost": 1000,

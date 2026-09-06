@@ -1,6 +1,6 @@
 [
     {
-        "name": "shield-1",
+        "name": "shields-1",
         "upgrades": {
             "1": {
                 "cost": 600,
@@ -56,7 +56,7 @@
         }
     },
     {
-        "name": "shield-21",
+        "name": "shields-21",
         "upgrades": {
             "1": {
                 "cost": 1000,
