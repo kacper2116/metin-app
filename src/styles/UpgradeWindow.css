@@ -3,11 +3,10 @@
     position: absolute;
     left: 140px;
     top: 30px;
-
     color: #d3d3d3;
     font-size: 1.2rem;
     text-align: center;
-
+    z-index: 3;
 }
 
 .item-info {

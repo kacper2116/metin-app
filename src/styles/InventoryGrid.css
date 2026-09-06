@@ -33,7 +33,7 @@
     display: flex;
     position: relative;
     pointer-events: none;
-    z-index: 998;
+    z-index: 1;
 
     border-radius: 10px;
     overflow: hidden;
