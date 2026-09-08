@@ -45,12 +45,3 @@
     gap: 5px;
     border-radius: 5px;
 }
-
-.modal .close-modal-button {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 25px;
-    height: 25px;
-    font-size: 1.7rem;
-}

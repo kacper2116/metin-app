@@ -12,4 +12,5 @@
 
 .locale-icon {
     margin: 2px;
+    pointer-events: none;
 }
