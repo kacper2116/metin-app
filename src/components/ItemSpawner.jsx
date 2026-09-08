@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react'
+import { useContext, useMemo, useState } from 'react'
 import '../styles/ItemSpawner.css'
 import ItemPicker from './ItemPicker';
 import ItemFilter from './ItemFilter';
@@ -16,20 +16,39 @@ const ItemSpawner = () => {
     const [itemToSpawn, setItemToSpawn] = useState(null);
 
     const [showModal, setShowModal] = useState(false)
-    const [filteredItems, setFilteredItems] = useState(itemsDB)
+
     const [activeTab, setActiveTab] = useState(0);
     const gridSize = { x: 5, y: 6 };
     const { translate } = useContext(LocaleContext);
 
     const [filter, setFilter] = useState({
         type: 'weapon',
-        subtype: null,
+        subtype: 'sword',
         profession: 'warrior',
         plus: 0
     });
 
+    const filteredItems = useMemo(() => {
+        setActiveTab(0);
+        return itemsDB.filter(item =>
 
-    const placedItems = placeItemsInGrid(filteredItems, gridSize);
+            item.type === filter.type &&
+            (!filter.subtype || item.subtype === filter.subtype) &&
+            (!item.profession || item.profession.includes(filter.profession)) &&
+            (item.plus == null || item.plus === filter.plus)
+        )
+
+
+
+    }, [filter])
+
+    const placedItems = useMemo(() =>
+        showModal
+            ? placeItemsInGrid(filteredItems, gridSize)
+            : [],
+        [filteredItems, showModal]
+
+    );
 
     const handleSpawnItem = (item) => {
         const itemId = item.item.id;
@@ -55,7 +74,7 @@ const ItemSpawner = () => {
                 <div className='modal'>
                     <Window title="Spawner" onClose={() => setShowModal(false)}>
 
-                        <ItemFilter filter={filter} setFilter={setFilter} setFilteredItems={setFilteredItems} setActiveTab={setActiveTab} />
+                        <ItemFilter filter={filter} setFilter={setFilter} setActiveTab={setActiveTab} />
                         <ItemPicker items={placedItems} activeTab={activeTab} setActiveTab={setActiveTab} inventorySize={gridSize} setItemToSpawn={setItemToSpawn} />
                     </Window>
                 </div>

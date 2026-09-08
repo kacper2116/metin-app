@@ -48,6 +48,7 @@ const Inventory = () => {
         handleLeaveGrid: clearSlotsPreview,
     }
 
+
     return (
         <div className="inventory" >
             <InventoryTabs {...tabsProps} />

@@ -4,10 +4,9 @@ import { itemsDB } from '../data/itemsDB';
 import LocaleContext from '../contexts/LocaleContext'
 import Button from './Button';
 import { playSound } from '../utils/audio';
-const ItemFilter = ({ filter, setFilter, setFilteredItems, setActiveTab }) => {
+const ItemFilter = ({ filter, setFilter, setActiveTab }) => {
 
     const { translate } = useContext(LocaleContext)
-
 
     const filterOptions = {
         type: [
@@ -57,26 +56,6 @@ const ItemFilter = ({ filter, setFilter, setFilteredItems, setActiveTab }) => {
             subtype: null
         }))
     }, [filter.profession, filter.type])
-
-
-
-    useEffect(() => {
-
-        const filtered = itemsDB.filter(item =>
-
-            item.type === filter.type &&
-            (!filter.subtype || item.subtype === filter.subtype) &&
-            (!item.profession || item.profession.includes(filter.profession)) &&
-            (item.plus == null || item.plus === filter.plus)
-        )
-
-        console.log(filtered);
-
-        setFilteredItems(filtered);
-        setActiveTab(0);
-
-    }, [filter])
-
 
     useEffect(() => {
         if (filter.type !== 'weapon') return;

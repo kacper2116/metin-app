@@ -11,7 +11,7 @@ const Window = ({ children, title, onClose, onSubmit }) => {
                 <div className='ui-container'>
                     <span className='window-title'>{title}</span>
                     <Button className='close-button' onClick={onClose}>
-                        <img src={closeButtonImg} />
+                        <img width={32} height={32} src={closeButtonImg} />
                     </Button>
                 </div>
             }

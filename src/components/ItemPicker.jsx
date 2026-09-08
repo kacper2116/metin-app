@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import InventoryGrid from './InventoryGrid'
 import Tooltip from "./Tooltip"
 import InventoryTabs from './InventoryTabs'
@@ -6,13 +6,16 @@ import useInventory from '../hooks/useInventory'
 import useSlotHover from "../hooks/useSlotHover"
 import { canPlaceItem, findItemBySlot } from '../utils/inventory'
 
-
-
 const ItemPicker = ({ items, activeTab, setActiveTab, inventorySize, setItemToSpawn }) => {
 
+    const tabCount = useMemo(() =>
+        Math.max(...items.map(item => item.tab)) + 1,
+        [items]
+    )
 
-    const [tabCount, setTabCount] = useState(1);
-    const [placedItems, setPlacedItems] = useState([]);
+    const tabItems = useMemo(() =>
+        items.filter(item => item.tab === activeTab)
+    )
 
     const { hoveredItem, handleHoverSlot, clearHover } = useSlotHover({ items, activeTab, inventorySize });
 
@@ -23,22 +26,16 @@ const ItemPicker = ({ items, activeTab, setActiveTab, inventorySize, setItemToSp
         setItemToSpawn(itemInSlot)
     }
 
-    useEffect(() => {
-        setPlacedItems(items.filter(item => item.tab === activeTab))
-        setTabCount(Math.max(...items.map(item => item.tab)) + 1)
-    }, [items, activeTab])
-
-
     const gridProps = {
-        items: placedItems,
+        items: tabItems,
         inventorySize: inventorySize,
         handleHoverSlot: handleHoverSlot,
         handleLeaveSlot: clearHover,
         handleLeaveGrid: clearHover,
         handleClickSlot: handlePickItem,
         canDrop: false
-
     }
+
 
     const tabsProps = {
         activeTab,

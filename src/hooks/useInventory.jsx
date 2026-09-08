@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { canPlaceItem } from '../utils/inventory'
 import { itemsDB } from '../data/itemsDB'
 import { hasAvg } from "../utils/item";
@@ -7,10 +7,17 @@ const useInventory = () => {
 
     const inventorySize = { x: 5, y: 9 };
     const tabCount = 2;
-    const [items, setItems] = useState([])
+
+    const [items, setItems] = useState(() => {
+        try {
+            return JSON.parse(localStorage.getItem("inventory") ?? [])
+        } catch (error) {
+            return [];
+        }
+    }
+    );
 
     const addItem = (itemInstance) => {
-
 
         if (hasAvg(itemInstance.item)) {
 
@@ -80,6 +87,14 @@ const useInventory = () => {
             )
         )
     }
+
+    useEffect(() => {
+        try {
+            localStorage.setItem("inventory", JSON.stringify(items))
+        } catch (error) {
+            console.log("Failed to save inventory to local storage", error)
+        }
+    }, [items])
 
     return { items, setItems, spawnItem, inventorySize, tabCount, replaceItem, removeItem, downgradeItem }
 };

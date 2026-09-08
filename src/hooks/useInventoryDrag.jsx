@@ -28,16 +28,17 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
             return;
         }
 
-        playSound('drag_item');
+
         const slotIndex = Number(e.currentTarget.id.split('-')[1]);
         const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
 
         if (itemInSlot) {
+            playSound('drag_item');
             setDraggedItemId(itemInSlot.instanceId)
             startPos.current = { x: e.clientX, y: e.clientY };
             itemOriginSlots.current = getItemSlots(itemInSlot, inventorySize);
 
-            let slots = getSelectedSlots(slotIndex, itemInSlot.item.size, inventorySize)
+            /*  let slots = getSelectedSlots(slotIndex, itemInSlot.item.size, inventorySize) */
 
             const status = 'valid'
 
