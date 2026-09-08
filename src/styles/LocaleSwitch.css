@@ -1,0 +1,15 @@
+.locale-switch {
+    color: white;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.locale-icon {
+    margin: 2px;
+}

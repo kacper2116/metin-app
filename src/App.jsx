@@ -6,7 +6,9 @@ import ItemSpawner from './components/ItemSpawner'
 
 import { useContext } from 'react'
 import UpgradeContext from './contexts/UpgradeContext'
+import LocaleSwitch from './components/LocaleSwitch'
 import UpgradeWindow from './components/UpgradeWindow'
+
 const App = () => {
 
   const { itemToUpgrade } = useContext(UpgradeContext);
@@ -15,6 +17,7 @@ const App = () => {
 
   return (
     <div className='app-container'>
+      <LocaleSwitch />
       <Blacksmith />
       <div className='inventory-wrapper'>
         <ItemSpawner />
