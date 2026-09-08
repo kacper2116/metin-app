@@ -8,6 +8,7 @@ import { useContext } from 'react'
 import UpgradeContext from './contexts/UpgradeContext'
 import LocaleSwitch from './components/LocaleSwitch'
 import UpgradeWindow from './components/UpgradeWindow'
+import InventoryReset from './components/InventoryReset'
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
 
   return (
     <div className='app-container'>
+      <InventoryReset />
       <LocaleSwitch />
       <Blacksmith />
       <div className='inventory-wrapper'>
