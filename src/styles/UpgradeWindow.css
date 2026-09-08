@@ -17,7 +17,7 @@
 
 .item-thumbnail {
     width: 40px;
-    background: url("https://pl-wiki.metin2.gameforge.com/images/4/48/Czarne_T%C5%82o.png");
+    background: url("../assets/slot.png");
     background-size: 40px;
     flex: 0 0 auto;
 }
@@ -38,7 +38,7 @@
 
 .material-icon {
     width: 40px;
-    background: url("https://pl-wiki.metin2.gameforge.com/images/4/48/Czarne_T%C5%82o.png");
+    background: url("../assets/slot.png");
     background-size: 40px;
 
 }
