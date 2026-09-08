@@ -1,4 +1,8 @@
-@import url(https://db.onlinewebfonts.com/c/42f9562c8f7c7a67c631997066a9bff4?family=fs+Tahoma+8px);
+@font-face {
+  font-family: "fs Tahoma 8px";
+  src: url('../src/assets/fonts/fs-tahoma-8px.woff2') format("woff2"),
+    url('../src/assets/fonts/fs-tahoma-8px.woff') format("woff");
+}
 
 *,
 *::before,
