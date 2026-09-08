@@ -39,7 +39,7 @@ const locales = {
 const LocaleContext = createContext();
 
 export const LocaleProvider = ({ children }) => {
-    const [locale, setLocale] = useState('en');
+    const [locale, setLocale] = useState('pl');
 
     const translate = (path) => {
         const keys = path.split('.');

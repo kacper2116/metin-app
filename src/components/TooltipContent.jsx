@@ -213,7 +213,7 @@ const TooltipContent = ({ itemInstance }) => {
                     ))}
                 </div>
             }
-            {wearableItemTypes.includes(item.type) && <div className="tooltip-wearable">[ {translate("stats.wearable")} ]</div>}
+            {wearableItemTypes.includes(item.type) && <div className="tooltip-wearable">{translate("stats.wearable")}</div>}
             {item.profession && (
                 <div className="tooltip-professions">
                     {item.profession.map(prof => (
