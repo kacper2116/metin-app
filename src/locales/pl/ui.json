@@ -1,5 +1,16 @@
 {
     "blacksmith": "Kowal",
     "select_item": "Wybierz item",
-    "close": "Zamknij"
+    "close": "Zamknij",
+    "spawner": "Spawner",
+    "upgrades": "Ulepszanie",
+    "upgrade_cost": "Cena za Ulepszenie",
+    "cancel": "Anuluj",
+    "upgrade_warning": "Ten przedmiot może zostać zniszczony podczas ulepszania",
+    "upgrade_continue": "Czy chcesz kontynuować?",
+    "yes": "Tak",
+    "no": "Nie",
+    "upgrade_success": "Przedmiot został ulepszony",
+    "upgrade_failure": "Ulepszanie nie powiodło się.",
+    "upgrade_chance": "Szansa na ulepszenie"
 }

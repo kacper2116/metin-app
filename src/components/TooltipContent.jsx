@@ -201,7 +201,7 @@ const TooltipContent = ({ itemInstance }) => {
 
             {item.description &&
                 <div className='tooltip-description'>
-                    {item.description}
+                    {translate(`descriptions.${item.id}`)}
                 </div>
             }
             {itemInstance.bonuses &&

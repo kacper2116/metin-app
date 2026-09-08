@@ -1,13 +1,14 @@
 {
     "type": {
         "weapon": "Bronie",
-        "armor": "Zbroje",
+        "armour": "Zbroje",
         "shield": "Tarcze",
         "helmet": "Hełmy",
         "earrings": "Kolczyki",
         "necklace": "Naszyjniki",
         "bracelet": "Bransolety",
-        "shoes": "Buty"
+        "shoes": "Buty",
+        "special": "Specjalne"
     },
     "weapon_type": {
         "sword": "Miecze",

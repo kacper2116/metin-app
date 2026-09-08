@@ -1,0 +1,7 @@
+{
+    "25040": "Eliminates the risk of an item being destroyed when an improvement fails. In the case of failure, the item's quality is merely reduced by 1 instead.",
+    "39022": "Eliminates the risk of an item being destroyed when an improvement fails. In the case of failure, the item's quality is merely reduced by 1 instead. In addition, the chance of a successful improvement is increased by 10%.",
+    "39007": "This book contains the soul of an old blacksmith. If it is used, it raises the chance of successfully improving an item.",
+    "25041": "A chunk of the legendary metal can increase your chances when upgrading an item. The upgraded item can then neither be destroyed nor downgraded.",
+    "39014": "Improvement of items will succeed (100%). Only works on items +0 to +3."
+}

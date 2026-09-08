@@ -102,12 +102,6 @@
         "description": "The venom sack of a spider."
     },
     {
-        "id": 30025,
-        "name": "Spider's Poison Sack",
-        "type": "material",
-        "description": "The venom sack of a spider."
-    },
-    {
         "id": 30030,
         "name": "Rusty Blade",
         "type": "material",
@@ -360,12 +354,6 @@
         "description": "Unknown medicine with unknown ingredients."
     },
     {
-        "id": 30084,
-        "name": "Unknown Talisman+",
-        "type": "material",
-        "description": "An unknown talisman, only Esoterics can read it."
-    },
-    {
         "id": 30085,
         "name": "Piece of Fabric+",
         "type": "material",
@@ -403,12 +391,6 @@
     },
     {
         "id": 30091,
-        "name": "Warrior's Symbol",
-        "type": "material",
-        "description": "The Warrior symbol given to the legendary Warriors."
-    },
-    {
-        "id": 30092,
         "name": "Warrior's Symbol",
         "type": "material",
         "description": "The Warrior symbol given to the legendary Warriors."

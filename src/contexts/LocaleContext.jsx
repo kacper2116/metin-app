@@ -4,12 +4,16 @@ import filtersEN from '../locales/en/filters.json'
 import statsEN from '../locales/en/stats.json'
 import uiEN from '../locales/en/ui.json'
 import commonEN from '../locales/en/common.json'
+import descriptionsEN from '../locales/en/descriptions.json'
+import materialsEN from '../locales/en/materials.json'
 
 import itemsPL from '../locales/pl/items.json'
 import filtersPL from '../locales/pl/filters.json'
 import statsPL from '../locales/pl/stats.json'
 import uiPL from '../locales/pl/ui.json'
 import commonPL from '../locales/pl/common.json'
+import descriptionsPL from '../locales/pl/descriptions.json'
+import materialsPL from '../locales/pl/materials.json'
 
 
 const locales = {
@@ -18,14 +22,18 @@ const locales = {
         items: itemsEN,
         filters: filtersEN,
         stats: statsEN,
-        ui: uiEN
+        ui: uiEN,
+        descriptions: descriptionsEN,
+        materials: materialsEN
     },
     pl: {
         common: commonPL,
         items: itemsPL,
         filters: filtersPL,
         stats: statsPL,
-        ui: uiPL
+        ui: uiPL,
+        descriptions: descriptionsPL,
+        materials: materialsPL
     }
 }
 const LocaleContext = createContext();
