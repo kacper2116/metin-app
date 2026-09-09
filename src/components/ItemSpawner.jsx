@@ -1,4 +1,4 @@
-import { useContext, useMemo, useState } from 'react'
+import { useContext, useEffect, useMemo, useState } from 'react'
 import '../styles/ItemSpawner.css'
 import ItemPicker from './ItemPicker';
 import ItemFilter from './ItemFilter';
@@ -29,7 +29,6 @@ const ItemSpawner = () => {
     });
 
     const filteredItems = useMemo(() => {
-        setActiveTab(0);
         return itemsDB.filter(item =>
 
             item.type === filter.type &&
@@ -38,9 +37,11 @@ const ItemSpawner = () => {
             (item.plus == null || item.plus === filter.plus)
         )
 
-
-
     }, [filter])
+
+    useEffect(() => {
+        setActiveTab(0)
+    }, [filter.type, filter.subtype, filter.profession])
 
     const placedItems = useMemo(() =>
         showModal
