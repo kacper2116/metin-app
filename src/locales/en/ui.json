@@ -1,6 +1,7 @@
 {
     "blacksmith": "Blacksmith",
     "select_item": "Select item",
+    "add_item": "Add item",
     "close": "Close",
     "spawner": "Spawner",
     "upgrades": "Upgrades",
@@ -12,5 +13,6 @@
     "no": "No",
     "upgrade_success": "The item upgrade was successful.",
     "upgrade_failure": "It didn't work. We failed.",
-    "upgrade_chance": "Chance for Advancement"
+    "upgrade_chance": "Chance for Advancement",
+    "select_language": "Select language"
 }

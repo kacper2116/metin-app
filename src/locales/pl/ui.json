@@ -1,6 +1,7 @@
 {
     "blacksmith": "Kowal",
-    "select_item": "Wybierz item",
+    "select_item": "Wybierz przedmiot",
+    "add_item": "Dodaj przedmiot",
     "close": "Zamknij",
     "spawner": "Spawner",
     "upgrades": "Ulepszanie",
@@ -12,5 +13,6 @@
     "no": "Nie",
     "upgrade_success": "Przedmiot został ulepszony",
     "upgrade_failure": "Ulepszanie nie powiodło się.",
-    "upgrade_chance": "Szansa na ulepszenie"
+    "upgrade_chance": "Szansa na ulepszenie",
+    "select_language": "Wybierz język"
 }

@@ -69,7 +69,7 @@ const ItemSpawner = () => {
 
             <div className='select-item' onClick={() => setShowModal(true)}><span>{itemDisplayName ?? translate('ui.select_item')}</span></div>
             {itemToSpawn &&
-                <Button className='button' onClick={() => handleSpawnItem(itemToSpawn)}>Spawn</Button>}
+                <Button className='button' onClick={() => handleSpawnItem(itemToSpawn)} title={translate('ui.add_item')}><img height={16} width={32} src='/icons/add_icon.svg' /></Button>}
 
             {showModal &&
                 <div className='modal'>
