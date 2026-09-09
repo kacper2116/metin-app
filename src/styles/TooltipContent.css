@@ -10,13 +10,20 @@
 .tooltip-level,
 .tooltip-stats,
 .tooltip-description {
-    margin-top: 6px;
+    margin-top: 8px;
 }
 
 .tooltip-stats {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 4px;
+}
+
+.tooltip-bonuses {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4px;
+    gap: 4px;
 }
 
 .tooltip-stat {
@@ -28,10 +35,11 @@
 }
 
 .tooltip-wearable {
-    margin-top: 6px;
+    margin-top: 8px;
 }
 
 .tooltip-professions {
+    margin-top: 4px;
     display: flex;
     justify-content: center;
     gap: 6px;
