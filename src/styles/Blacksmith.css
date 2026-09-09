@@ -1,6 +1,14 @@
 .blacksmith {
-    width: 400px;
-    border-radius: 40%;
+    width: 300px;
+
+}
+
+@media (min-width:768px) {
+    .blacksmith {
+        width: 400px;
+        border-radius: 40%;
+        margin-top: 0;
+    }
 }
 
 .blacksmith-nickname {

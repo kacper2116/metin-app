@@ -26,11 +26,13 @@ body {
   background-image: url("/src/assets/background.png");
   background-size: 400px;
   background-repeat: repeat;
-
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-family: "fs Tahoma 8px", sans-serif;
+
+  @media (min-width:768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 }

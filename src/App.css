@@ -1,14 +1,22 @@
 .app-container {
-    position: relative;
-    width: 100%;
-    max-width: 1200px;
-    gap: 50px;
-    border: 2px solid rgb(53, 53, 53);
-    border-radius: 10px;
     display: flex;
+    flex-direction: column;
+    position: relative;
     align-items: center;
-    padding: 30px 20px;
+    height: 100vh;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px;
 
+    @media(min-width:768px) {
+        height: auto;
+        max-width: 1200px;
+        gap: 50px;
+        border: 2px solid rgb(53, 53, 53);
+        border-radius: 10px;
+        flex-direction: row;
+        padding: 30px 20px;
+    }
 
 }
 

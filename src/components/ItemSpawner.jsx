@@ -77,7 +77,11 @@ const ItemSpawner = () => {
                     <Window title="Spawner" onClose={() => setShowModal(false)}>
 
                         <ItemFilter filter={filter} setFilter={setFilter} setActiveTab={setActiveTab} />
+
                         <ItemPicker items={placedItems} activeTab={activeTab} setActiveTab={setActiveTab} inventorySize={gridSize} setItemToSpawn={setItemToSpawn} />
+
+
+
                     </Window>
                 </div>
             }

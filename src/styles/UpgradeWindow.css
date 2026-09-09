@@ -1,13 +1,22 @@
 .upgrade-window {
 
     position: absolute;
-    left: 140px;
-    top: 30px;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
     color: #d3d3d3;
     font-size: 1.2rem;
     text-align: center;
-    z-index: 3;
+    z-index: 2;
+
+    @media(min-width:768px) {
+        left: 140px;
+        top: 30px;
+        transform: none;
+    }
+
 }
+
 
 .item-info {
     display: flex;
@@ -77,16 +86,27 @@
 
 
 .upgrade-result-window {
-
     position: absolute;
-    top: 45%;
-    left: 40%;
+    top: 25%;
+    left: 50%;
     transform: translate(-50%);
     color: #d3d3d3;
     font-size: 1.2rem;
     text-align: center;
     line-height: 1.5;
+    z-index: 2;
+
+    @media (min-width:768px) {
+        left: 30%;
+        top: 40%;
+        transform: none;
+    }
 }
+
+
+
+
+
 
 .upgrade-result-window button {
     min-width: 50px;

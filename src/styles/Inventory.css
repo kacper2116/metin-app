@@ -1,3 +1,17 @@
+.inventory-wrapper {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+
+    @media(min-width:768px) {
+        border: none;
+        padding: 0;
+        box-shadow: none;
+    }
+}
+
 .inventory {
     width: fit-content;
     border-radius: 5px;
@@ -8,5 +22,5 @@
     flex-direction: column;
     gap: 5px;
     user-select: none;
-    box-shadow: 0 0 2px 1px rgb(88, 69, 50);
+    box-shadow: 1px 1px 3px 2px rgb(88, 69, 50);
 }

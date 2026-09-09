@@ -45,7 +45,7 @@ const ItemPicker = ({ items, activeTab, setActiveTab, inventorySize, setItemToSp
 
 
     return (
-        <div className='inventory'>
+        <div className='inventory item-picker'>
             {tabCount > 1 && <InventoryTabs {...tabsProps} />}
 
             <InventoryGrid {...gridProps} canDrop={false} />
