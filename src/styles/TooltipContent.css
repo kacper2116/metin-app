@@ -1,5 +1,6 @@
 .tooltip-name {
     color: #D8CFAC;
+    margin-top: 5px;
 }
 
 .tooltip-name--bonus {
@@ -35,10 +36,12 @@
 
 .tooltip-wearable {
     margin-top: 8px;
+
 }
 
 .tooltip-professions {
     margin-top: 4px;
+    margin-bottom: 5px;
     display: flex;
     justify-content: center;
     gap: 6px;
@@ -53,7 +56,8 @@
 }
 
 .tooltip-description {
-    max-width: 200px;
+    max-width: 220px;
     text-wrap: wrap;
     line-height: 1.25rem;
+    margin-bottom: 5px;
 }
