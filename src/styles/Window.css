@@ -38,7 +38,6 @@
     display: flex;
     background: none;
     border: none;
-
     overflow: hidden;
 }
 
@@ -48,10 +47,8 @@
 
 .close-button:active {
     filter: brightness(70%);
-
 }
 
 .close-button img {
     width: 100%;
-
 }

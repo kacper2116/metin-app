@@ -1,13 +1,12 @@
-import React from 'react'
 import '../styles/Button.css'
 import { playSound } from '../utils/audio'
+
 const Button = ({ children, onClick, onMouseDown, isActive, ...props }) => {
 
     const handleClick = (e) => {
         if (isActive) return;
         playSound('click_button');
         onClick?.(e);
-
     }
 
     const handleMouseDown = (e) => {

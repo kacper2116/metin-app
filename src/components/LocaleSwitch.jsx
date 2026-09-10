@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef, useState } from 'react'
+import { useContext, useEffect, useRef, useState } from 'react'
 import '../styles/LocaleSwitch.css'
 import LocaleContext from '../contexts/LocaleContext'
 import Button from '../components/Button'
@@ -8,9 +8,6 @@ const LocalesSwitch = () => {
     const { locales, locale, setLocale, translate } = useContext(LocaleContext);
     const [showLang, setShowLang] = useState(false);
     const switchRef = useRef(null);
-
-
-
 
     useEffect(() => {
         const handleClickOutside = (e) => {

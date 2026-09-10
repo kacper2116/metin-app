@@ -3,7 +3,6 @@ import useUpgrade from '../hooks/useUpgrade';
 
 const UpgradeContext = createContext(null);
 
-
 export const UpgradeProvider = ({ children }) => {
 
     const upgrade = useUpgrade();

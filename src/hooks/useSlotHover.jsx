@@ -1,5 +1,4 @@
-import React, { useContext, useEffect, useRef, useState } from 'react'
-import useInventoryDrag from './useInventoryDrag';
+import { useContext, useEffect, useRef } from 'react'
 import { findItemBySlot } from '../utils/inventory';
 import TooltipContext from '../contexts/TooltipContext';
 

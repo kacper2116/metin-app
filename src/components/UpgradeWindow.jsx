@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import { useContext, useState } from 'react'
 import '../styles/UpgradeWindow.css'
 import Tooltip from './Tooltip'
 import TooltipContent from './TooltipContent'
@@ -11,8 +11,6 @@ import Button from './Button'
 
 const UpgradeWindow = ({ itemInstance }) => {
 
-
-    console.log(itemInstance)
     const nextItemId = itemInstance?.item['next_item_id']
     if (nextItemId == null) return;
     const { translate } = useContext(LocaleContext);
@@ -90,10 +88,7 @@ const UpgradeWindow = ({ itemInstance }) => {
                     </Window>
                 </div>
             }
-
-
         </div>
-
     )
 }
 

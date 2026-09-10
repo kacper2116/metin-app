@@ -1,10 +1,10 @@
-import { useContext, useEffect, useState } from 'react'
+import { useContext, useEffect } from 'react'
 import '../styles/ItemFilter.css';
 import { itemsDB } from '../data/itemsDB';
 import LocaleContext from '../contexts/LocaleContext'
 import Button from './Button';
 import { playSound } from '../utils/audio';
-const ItemFilter = ({ filter, setFilter, setActiveTab }) => {
+const ItemFilter = ({ filter, setFilter }) => {
 
     const { translate } = useContext(LocaleContext)
 
@@ -49,26 +49,24 @@ const ItemFilter = ({ filter, setFilter, setActiveTab }) => {
     }
 
     useEffect(() => {
+        if (filter.type === 'weapon') {
 
-        if (filter.subtype === null) return;
-        setFilter(prev => ({
-            ...prev,
-            subtype: null
-        }))
-    }, [filter.profession, filter.type])
+            const defaultSubtype = weaponTypes[filter.profession]?.[0]
+            if (!defaultSubtype) return;
 
-    useEffect(() => {
-        if (filter.type !== 'weapon') return;
-
-        const defaultSubtype = weaponTypes[filter.profession]?.[0]
-        if (!defaultSubtype) return;
-
-        setFilter(prev => (
-            {
+            setFilter(prev => ({
                 ...prev,
                 subtype: defaultSubtype
-            })
-        )
+            }))
+            return;
+        }
+
+        if (filter.subtype !== null) {
+            setFilter(prev => ({
+                ...prev,
+                subtype: null
+            }))
+        }
 
     }, [filter.profession, filter.type])
 
@@ -97,7 +95,6 @@ const ItemFilter = ({ filter, setFilter, setActiveTab }) => {
                         <option key={plus} value={plus}>{'+' + plus}</option>
                     )}
                 </select>
-
             }
 
             {filter.type === 'weapon' &&
@@ -113,8 +110,6 @@ const ItemFilter = ({ filter, setFilter, setActiveTab }) => {
                     )}
                 </div>
             }
-
-
         </div>
     )
 }

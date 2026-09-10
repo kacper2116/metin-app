@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import Button from '../components/Button'
 import '../styles/InventoryReset.css'
 import InventoryContext from '../contexts/InventoryContext'
@@ -10,9 +10,8 @@ const InventoryReset = () => {
 
     return (
         <Button className='inventory-reset button' onClick={() => setItems([])} title="reset">
-            <img src='/icons/reset_icon.svg'>
-            </img></Button>
-
+            <img src='/icons/reset_icon.svg' />
+        </Button>
     )
 }
 

@@ -1,4 +1,4 @@
-import { act, useContext } from 'react'
+import { useContext } from 'react'
 import { useState, useEffect, useRef } from 'react';
 import { getSelectedSlots, getItemSlots, findItemBySlot, canPlaceItem } from '../utils/inventory';
 import MouseContext from '../contexts/MouseContext';

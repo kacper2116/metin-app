@@ -6,7 +6,6 @@
     gap: 5px;
     position: relative;
     color: #d3d3d3;
-
 }
 
 .select-item {
@@ -36,25 +35,14 @@
     width: 30%;
 }
 
-.spawner-wrapper {
-    border: 3px solid red;
-    margin-top: auto;
-    align-self: flex-end;
-    justify-self: flex-end;
-}
-
 .modal {
     position: absolute;
     display: flex;
     left: -12px;
     top: 36px;
-}
 
-@media(min-width:768px) {
-
-    .modal {
+    @media(min-width:768px) {
         left: -300px;
         top: 0;
     }
-
 }

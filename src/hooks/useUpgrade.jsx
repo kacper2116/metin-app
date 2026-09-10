@@ -1,8 +1,7 @@
-import React, { useContext, useRef, useState } from 'react'
+import { useContext, useRef, useState } from 'react'
 import { getUpgradeChance, isUpgradeSuccess } from '../utils/upgrade';
 import InventoryContext from '../contexts/InventoryContext';
 import { playSound } from '../utils/audio'
-
 
 const useUpgrade = () => {
 
@@ -15,8 +14,6 @@ const useUpgrade = () => {
     const chanceScheme = baseChanceMethods.includes(upgradeMethod) ? 'base' : upgradeMethod;
     const chance = itemToUpgrade ? getUpgradeChance(itemToUpgrade.item, chanceScheme) : null;
 
-    console.log(chance)
-
     const onFailure = {
         "blacksmith": removeItem,
         "blessing_scroll": downgradeItem,
@@ -27,8 +24,6 @@ const useUpgrade = () => {
 
     const handleStartUpgrade = (itemInstance, method = 'blacksmith') => {
 
-        console.log(method)
-
         if (itemInstance.item.next_item_id == null) return;
         if (upgradeRef.current) return;
 
@@ -36,7 +31,6 @@ const useUpgrade = () => {
         setUpgradeMethod(method);
         console.log(itemInstance)
         upgradeRef.current = true;
-
     }
 
     const handleEndUpgrade = () => {
@@ -46,7 +40,6 @@ const useUpgrade = () => {
         upgradeRef.current = false;
 
     }
-    console.log(chance)
 
     const handleUpgrade = () => {
         console.log('upgrading')
@@ -59,23 +52,18 @@ const useUpgrade = () => {
             setResult('failure')
             upgradeFailure()
         };
-
     }
 
     const upgradeSucces = () => {
-        console.log('upgrade success')
-        console.log(itemToUpgrade)
         replaceItem(itemToUpgrade.instanceId, itemToUpgrade.item.next_item_id);
         playSound('upgrade_success')
     }
 
     const upgradeFailure = () => {
-        console.log('upgrade failure')
         onFailure[upgradeMethod]?.(itemToUpgrade.instanceId);
         playSound('upgrade_failure')
 
     }
-
     return { itemToUpgrade, handleStartUpgrade, handleEndUpgrade, handleUpgrade, upgradeSucces, upgradeFailure, chance, result, isUpgrading: upgradeRef }
 }
 

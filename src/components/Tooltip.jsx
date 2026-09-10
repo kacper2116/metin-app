@@ -39,8 +39,6 @@ const Tooltip = ({ children, isStatic }) => {
             top: mousePosition.y
         };
 
-
-
     return (
 
         <div className={`tooltip ${isStatic && 'tooltip-static'}`} ref={tooltipRef}

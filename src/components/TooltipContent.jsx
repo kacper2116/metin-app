@@ -162,8 +162,6 @@ const TooltipContent = ({ itemInstance }) => {
         skill_dmg: { format: value => `${translate('stats.skill_dmg')} ${value}%` }
     };
 
-
-
     const formatStatValue = (value) => {
 
         if (typeof value !== 'object' || value === null) return value;
@@ -185,8 +183,6 @@ const TooltipContent = ({ itemInstance }) => {
     const itemDisplayName = item.plus != null ? translate(`items.${getItemName(item)}`) + '+' + item.plus : translate(`items.${getItemName(item)}`);
 
     return (
-
-
         <div>
             <div className='tooltip-name'>{itemDisplayName}</div>
             {item.required_level && <div className='tooltip-level'>{formatStat("required_level", item.required_level)}</div>}

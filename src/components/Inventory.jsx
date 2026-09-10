@@ -1,4 +1,4 @@
-import { useState, useRef, useContext } from "react"
+import { useState, useContext } from "react"
 import '../styles/Inventory.css'
 
 import InventoryTabs from "./InventoryTabs"
@@ -37,7 +37,6 @@ const Inventory = () => {
         tabCount
     }
 
-
     const gridProps = {
         items: activeTabItems,
         inventorySize,
@@ -47,7 +46,6 @@ const Inventory = () => {
         handleLeaveSlot: clearHover,
         handleLeaveGrid: clearSlotsPreview,
     }
-
 
     return (
         <div className="inventory" >

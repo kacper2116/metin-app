@@ -63,7 +63,6 @@ const ItemSpawner = () => {
         itemDisplayName = item?.plus != null ? translate(`items.${getItemName(item)}`) + '+' + item.plus : translate(`items.${getItemName(item)}`);
     }
 
-
     return (
 
         <div className='item-spawner'>
@@ -75,13 +74,9 @@ const ItemSpawner = () => {
             {showModal &&
                 <div className='modal'>
                     <Window title="Spawner" onClose={() => setShowModal(false)}>
-
                         <ItemFilter filter={filter} setFilter={setFilter} setActiveTab={setActiveTab} />
 
                         <ItemPicker items={placedItems} activeTab={activeTab} setActiveTab={setActiveTab} inventorySize={gridSize} setItemToSpawn={setItemToSpawn} />
-
-
-
                     </Window>
                 </div>
             }

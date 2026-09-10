@@ -1,8 +1,7 @@
-import React, { createContext, useState } from 'react'
+import { createContext } from 'react'
 import useInventory from '../hooks/useInventory';
 
 const InventoryContext = createContext();
-
 
 export const InventoryProvider = ({ children }) => {
 

@@ -17,7 +17,6 @@
 
 }
 
-
 .item-info {
     display: flex;
     gap: 3px;
@@ -30,7 +29,6 @@
     background-size: 40px;
     flex: 0 0 auto;
 }
-
 
 .materials {
     display: flex;
@@ -49,7 +47,6 @@
     width: 40px;
     background: url("../assets/slot.png");
     background-size: 40px;
-
 }
 
 .upgrade-chance {
@@ -102,11 +99,6 @@
         transform: none;
     }
 }
-
-
-
-
-
 
 .upgrade-result-window button {
     min-width: 50px;

@@ -4,7 +4,6 @@
     opacity: 0.6;
     gap: 2px;
     padding: 0 5px;
-
 }
 
 .tab {
@@ -21,8 +20,6 @@
     box-shadow: inset #8d8c8c 1px 1px 2px 1px, inset #131313a2 -2px -2px 2px 1px;
     border: none;
 }
-
-
 
 .tab:hover:not(.active) {
     background: hsla(0, 0%, 90%, 0.478) !important;

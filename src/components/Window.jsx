@@ -1,9 +1,9 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
 import '../styles/Window.css'
 import closeButtonImg from '../assets/close-button.png'
 import LocaleContext from '../contexts/LocaleContext'
 import Button from './Button'
-const Window = ({ children, title, onClose, onSubmit }) => {
+const Window = ({ children, title, onClose }) => {
 
     const { translate } = useContext(LocaleContext);
 

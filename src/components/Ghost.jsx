@@ -11,7 +11,6 @@ const Ghost = ({ draggedItem }) => {
                 top: mousePosition.y
             }} />
     )
-
 }
 
 export default Ghost

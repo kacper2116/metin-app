@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react'
+import { createContext, useState } from 'react'
 import itemsEN from '../locales/en/items.json'
 import filtersEN from '../locales/en/filters.json'
 import statsEN from '../locales/en/stats.json'

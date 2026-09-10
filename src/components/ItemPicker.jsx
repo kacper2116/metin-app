@@ -1,10 +1,9 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useMemo } from 'react'
 import InventoryGrid from './InventoryGrid'
 import Tooltip from "./Tooltip"
 import InventoryTabs from './InventoryTabs'
-import useInventory from '../hooks/useInventory'
 import useSlotHover from "../hooks/useSlotHover"
-import { canPlaceItem, findItemBySlot } from '../utils/inventory'
+import { findItemBySlot } from '../utils/inventory'
 
 const ItemPicker = ({ items, activeTab, setActiveTab, inventorySize, setItemToSpawn }) => {
 
@@ -36,13 +35,11 @@ const ItemPicker = ({ items, activeTab, setActiveTab, inventorySize, setItemToSp
         canDrop: false
     }
 
-
     const tabsProps = {
         activeTab,
         setActiveTab,
         tabCount: tabCount
     }
-
 
     return (
         <div className='inventory item-picker'>
