@@ -9,7 +9,6 @@
     height: 50px;
     background: url("../assets/slot.png") no-repeat;
     background-size: contain;
-    border-radius: 15px;
 }
 
 .slot-overlay {
@@ -35,7 +34,6 @@
     position: relative;
     pointer-events: none;
     z-index: 1;
-    border-radius: 10px;
     overflow: hidden;
 }
 
