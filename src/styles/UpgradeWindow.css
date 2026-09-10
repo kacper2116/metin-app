@@ -60,13 +60,6 @@
     margin-top: 5px;
 }
 
-.buttons {
-    display: flex;
-    justify-content: center;
-    gap: 14px;
-    margin-top: 10px;
-}
-
 .buttons>button {
     min-width: 80px;
 }
@@ -81,7 +74,7 @@
 .confirm-upgrade-modal span {
     display: block;
     text-wrap: nowrap;
-    line-height: 1.5rem;
+    line-height: 1.5;
 }
 
 
@@ -93,17 +86,19 @@
     color: #d3d3d3;
     font-size: 1.2rem;
     text-align: center;
-    line-height: 1.5;
+    line-height: 3;
     z-index: 2;
+    min-width: 300px;
 
     @media (min-width:768px) {
-        left: 30%;
-        top: 40%;
-        transform: none;
+        left: 40%;
+        top: 30%;
+        transform: translate(-50%);
     }
 }
 
 .upgrade-result-window button {
-    min-width: 50px;
+    min-width: 80px;
     margin: auto;
+    margin-bottom: 10px;
 }

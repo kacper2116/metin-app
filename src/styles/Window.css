@@ -4,7 +4,7 @@
     padding-block: 1px;
     padding-inline: 1px;
     border: 2px solid grey;
-    box-shadow: 1px 1px 5px 3px rgb(0, 0, 0);
+    box-shadow: 1px 1px 4px 3px rgb(0, 0, 0);
     border-radius: 5px;
     background: url('../assets/background.png');
     color: #d3d3d3;
@@ -32,6 +32,14 @@
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
+}
+
+.window .buttons {
+
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 10px;
 }
 
 .close-button {

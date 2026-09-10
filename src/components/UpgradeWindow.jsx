@@ -41,7 +41,6 @@ const UpgradeWindow = ({ itemInstance }) => {
                 }
                 setShowConfirmWindow(true)
 
-
             }
             if (e.key === 'Escape' || e.key === 'Backspace') {
                 if (showConfirmWindow === true) {

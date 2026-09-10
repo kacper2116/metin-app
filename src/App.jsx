@@ -14,12 +14,13 @@ const App = () => {
 
   const { itemToUpgrade } = useContext(UpgradeContext);
 
+
   return (
-    <div className='app-container'>
+    <div className='app-container' >
       <InventoryReset />
       <LocaleSwitch />
       <Blacksmith />
-      <div className='inventory-wrapper'>
+      <div className='inventory-wrapper' >
         <ItemSpawner />
         <Inventory />
         {itemToUpgrade && <UpgradeWindow itemInstance={itemToUpgrade} />}

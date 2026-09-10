@@ -24,3 +24,27 @@
     user-select: none;
     box-shadow: 1px 1px 3px 2px rgb(88, 69, 50);
 }
+
+.drop-window {
+    position: absolute;
+    z-index: 3;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 1.2rem;
+    text-align: center;
+    min-width: 300px;
+    line-height: 1.6;
+
+    @media(min-width:768px) {
+
+        top: 30%;
+        left: 20%;
+        transform: none;
+    }
+}
+
+.drop-window span {
+    display: block;
+    text-wrap: nowrap;
+}

@@ -65,7 +65,7 @@ const ItemSpawner = () => {
 
     return (
 
-        <div className='item-spawner'>
+        <div className='item-spawner' data-drop-block>
 
             <div className='select-item' onClick={() => setShowModal(true)}><span>{itemDisplayName ?? translate('ui.select_item')}</span></div>
             {itemToSpawn &&

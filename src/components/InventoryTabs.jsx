@@ -6,7 +6,7 @@ const InventoryTabs = (props) => {
     const { activeTab, setActiveTab, tabCount } = props;
 
     return (
-        <div className="tabs">
+        <div className="tabs" data-drop-block>
             {Array.from({ length: tabCount }).map((_, index) => (
                 <Button key={`tab-${index}`} className={`tab ${activeTab === index && 'active'}`} onMouseDown={() => setActiveTab(index)} isActive={activeTab === index}>{integerToRoman(index + 1)}</Button>
             ))}

@@ -3,11 +3,13 @@ import { useState, useEffect, useRef } from 'react';
 import { getSelectedSlots, getItemSlots, findItemBySlot, canPlaceItem } from '../utils/inventory';
 import MouseContext from '../contexts/MouseContext';
 import UpgradeContext from '../contexts/UpgradeContext';
+import InventoryContext from '../contexts/InventoryContext';
 import { playSound, dropSounds } from '../utils/audio'
 
 const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHoverSlot }) => {
 
     const [draggedItemId, setDraggedItemId] = useState(null);
+    const [itemToDrop, setItemToDrop] = useState(false);
     const targetItem = useRef(null);
     const draggedItem = items.find(
         item => item.instanceId === draggedItemId
@@ -18,7 +20,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
     const moveMode = useRef(null);
     const itemOriginSlots = useRef([]);
     const { handleStartUpgrade, itemToUpgrade } = useContext(UpgradeContext);
-
+    const { removeItem } = useContext(InventoryContext)
     const mousePosition = useContext(MouseContext);
 
     const handleClickSlot = (e) => {
@@ -81,7 +83,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
     const dropOnSlot = () => {
 
-        if (itemToUpgrade) {
+        if (itemToUpgrade || itemToDrop) {
             resetDrag();
             return;
         }
@@ -119,15 +121,42 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         resetDrag();
     }
 
+    const dropOnGrond = () => {
+        if (itemToUpgrade || itemToDrop) {
+            resetDrag();
+            return;
+        }
+        setItemToDrop(draggedItem);
+        resetDrag();
+    }
+
+    const confirmDropItem = () => {
+        if (!itemToDrop) return;
+
+        removeItem(itemToDrop.instanceId)
+        setItemToDrop(null);
+    };
+
+    const cancelDropItem = () => {
+        setItemToDrop(null);
+    }
+
     const handleDropItem = (e) => {
         if (!draggedItem) return;
-        console.log('dropping')
+
+        const element = e.target;
+        if (element.closest('[data-drop-block]')) {
+            /*  resetDrag(); */
+            return;
+        }
+
+        const dropTarget = element.closest('[drop-target]')?.getAttribute('drop-target');
 
 
-        const dropTarget = e.target.closest('[drop-target]')?.getAttribute('drop-target');
+        if (dropTarget === 'inventory-slot') dropOnSlot();
+        else if (dropTarget === 'blacksmith') dropOnBlacksmith();
+        else if (dropTarget === 'ground') dropOnGrond();
 
-        if (dropTarget === 'inventory-slot') dropOnSlot()
-        if (dropTarget === 'blacksmith') dropOnBlacksmith();
 
 
     }
@@ -223,7 +252,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
     }, [draggedItem])
 
-    return { draggedItem, slotsPreview, handleClickSlot, handleUpdateSlotsPreview, clearSlotsPreview }
+    return { draggedItem, slotsPreview, handleClickSlot, handleUpdateSlotsPreview, clearSlotsPreview, itemToDrop, confirmDropItem, cancelDropItem }
 }
 
 export default useInventoryDrag

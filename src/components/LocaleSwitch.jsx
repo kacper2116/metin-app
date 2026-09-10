@@ -27,7 +27,7 @@ const LocalesSwitch = () => {
     }
 
     return (
-        <div className='locale-switch' ref={switchRef}>
+        <div className='locale-switch' ref={switchRef} data-drop-block>
 
             <Button className='button' onClick={() => setShowLang(prev => !prev)} title={translate('ui.select_language')}>
                 <img className='locale-icon' width={20} src={`/icons/${locale}_icon.png`} ></img>

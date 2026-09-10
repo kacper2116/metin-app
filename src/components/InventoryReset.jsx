@@ -9,7 +9,7 @@ const InventoryReset = () => {
     if (!items || items.length < 1) return;
 
     return (
-        <Button className='inventory-reset button' onClick={() => setItems([])} title="reset">
+        <Button className='inventory-reset button' onClick={() => setItems([])} title="reset" data-drop-block>
             <img src='/icons/reset_icon.svg' />
         </Button>
     )

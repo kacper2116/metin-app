@@ -14,5 +14,6 @@
     "upgrade_success": "Przedmiot został ulepszony",
     "upgrade_failure": "Ulepszanie nie powiodło się.",
     "upgrade_chance": "Szansa na ulepszenie",
-    "select_language": "Wybierz język"
+    "select_language": "Wybierz język",
+    "drop_warning": "Czy chcesz wyrzucić ten przedmiot?"
 }
