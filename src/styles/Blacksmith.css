@@ -1,7 +1,7 @@
 .blacksmith {
     width: 300px;
-    -webkit-user-select: none;
-    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+
 }
 
 @media (min-width:768px) {
