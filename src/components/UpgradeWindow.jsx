@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react'
+import { useContext, useEffect, useState } from 'react'
 import '../styles/UpgradeWindow.css'
 import Tooltip from './Tooltip'
 import TooltipContent from './TooltipContent'
@@ -24,6 +24,39 @@ const UpgradeWindow = ({ itemInstance }) => {
         setShowConfirmWindow(false);
         handleUpgrade();
     }
+
+    useEffect(() => {
+        const handleKeyDown = (e) => {
+            if (e.key === 'Enter') {
+                console.log('enter');
+
+                if (result) {
+                    handleEndUpgrade();
+                    return;
+                }
+
+                if (showConfirmWindow === true) {
+                    handleConfirmUpgrade();
+                    return;
+                }
+                setShowConfirmWindow(true)
+
+
+            }
+            if (e.key === 'Escape' || e.key === 'Backspace') {
+                if (showConfirmWindow === true) {
+                    setShowConfirmWindow(false)
+                }
+            }
+
+        }
+
+        window.addEventListener('keydown', handleKeyDown);
+
+        return () => {
+            window.removeEventListener('keydown', handleKeyDown)
+        }
+    })
 
     return (
 
