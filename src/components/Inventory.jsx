@@ -13,6 +13,9 @@ import InventoryContext from "../contexts/InventoryContext"
 import Button from "./Button"
 import LocaleContext from "../contexts/LocaleContext"
 import UpgradeContext from "../contexts/UpgradeContext"
+import { getItemName } from '../utils/item';
+import DropWindow from "./DropWindow"
+
 
 const Inventory = () => {
 
@@ -54,25 +57,17 @@ const Inventory = () => {
         handleLeaveGrid: clearSlotsPreview,
     }
 
-
+    const dropWindowProps = {
+        item: itemToDrop?.item,
+        onConfirm: confirmDropItem,
+        onCancel: cancelDropItem
+    }
 
     return (
         <div className="inventory" >
-            {itemToDrop &&
-
-                <div className="drop-window" data-drop-block>
-                    <Window>
-                        <span>{translate('ui.drop_warning')}</span>
-                        <div className="buttons">
-                            <Button className='button' onClick={confirmDropItem}>{translate('ui.yes')}</Button>
-                            <Button className='button' onClick={cancelDropItem}>{translate('ui.no')}</Button>
-                        </div>
-
-                    </Window>
-                </div>}
+            {itemToDrop && <DropWindow {...dropWindowProps} />}
             <InventoryTabs {...tabsProps} />
             <InventoryGrid {...gridProps} />
-
             {draggedItem && <Ghost draggedItem={draggedItem} />}
         </div>
     )
