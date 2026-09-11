@@ -78,6 +78,7 @@ const ItemFilter = ({ filter, setFilter }) => {
                         key={profession}
                         name="profession"
                         value={profession}
+                        isActive={filter.profession === profession}
                         className={`button filter-button ${filter.profession === profession ? 'active' : ''}`}
                         onClick={(e) => filter.profession !== profession && handleSetFilter(e)}
                     >{translate(`common.professions.${profession}`)}</Button>

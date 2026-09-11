@@ -5,6 +5,7 @@ import MouseContext from '../contexts/MouseContext';
 import UpgradeContext from '../contexts/UpgradeContext';
 import InventoryContext from '../contexts/InventoryContext';
 import { playSound, dropSounds } from '../utils/audio'
+import WindowContext from '../contexts/WindowContext';
 
 const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHoverSlot }) => {
 
@@ -15,12 +16,13 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         item => item.instanceId === draggedItemId
     ) ?? null;
 
+    const { activeWindow } = useContext(WindowContext);
 
     const slotsPreview = useRef({ slots: [], status: 'valid' });
     const startPos = useRef({ x: 0, y: 0 });
     const moveMode = useRef(null);
     const itemOriginSlots = useRef([]);
-    const { handleStartUpgrade, itemToUpgrade, setBlockUpgrade } = useContext(UpgradeContext);
+    const { handleStartUpgrade, itemToUpgrade } = useContext(UpgradeContext);
     const { removeItem } = useContext(InventoryContext)
     const mousePosition = useContext(MouseContext);
 
@@ -118,17 +120,21 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
     const dropOnBlacksmith = () => {
 
+
         handleStartUpgrade(draggedItem);
         resetDrag();
     }
 
     const dropOnGrond = () => {
-        if (itemToUpgrade || itemToDrop) {
+
+        if (activeWindow.current) {
             resetDrag();
-            return;
+            return
         }
+
         setItemToDrop(draggedItem);
-        setBlockUpgrade(true);
+        activeWindow.current = true;
+
         resetDrag();
     }
 
@@ -137,32 +143,27 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
         removeItem(itemToDrop.instanceId)
         setItemToDrop(null);
-        setBlockUpgrade(false);
+        activeWindow.current = false;;
+
     };
 
     const cancelDropItem = () => {
         setItemToDrop(null);
-        setBlockUpgrade(false);
+        activeWindow.current = false;;
+
     }
 
     const handleDropItem = (e) => {
         if (!draggedItem) return;
 
         const element = e.target;
-        if (element.closest('[data-drop-block]')) {
-            /*  resetDrag(); */
-            return;
-        }
+        if (element.closest('[data-drop-block]')) return;
 
         const dropTarget = element.closest('[drop-target]')?.getAttribute('drop-target');
-
 
         if (dropTarget === 'inventory-slot') dropOnSlot();
         else if (dropTarget === 'blacksmith') dropOnBlacksmith();
         else if (dropTarget === 'ground') dropOnGrond();
-
-
-
     }
 
     const updateSlotsPreview = (index) => {
@@ -171,7 +172,6 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         const firstHoveredSlot = slots.find(slot =>
             findItemBySlot(items, activeTab, slot, inventorySize)
         );
-
 
         handleHoverSlot(firstHoveredSlot)
 

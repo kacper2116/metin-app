@@ -60,7 +60,7 @@ const Inventory = () => {
         <div className="inventory" >
             {itemToDrop &&
 
-                <div className="drop-window">
+                <div className="drop-window" data-drop-block>
                     <Window>
                         <span>{translate('ui.drop_warning')}</span>
                         <div className="buttons">

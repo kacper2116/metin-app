@@ -9,17 +9,21 @@ import LocaleContext from '../contexts/LocaleContext';
 import InventoryContext from '../contexts/InventoryContext';
 import Button from './Button';
 import Window from './Window';
+import WindowContext from '../contexts/WindowContext';
+import { playSound } from '../utils/audio';
 
 const ItemSpawner = () => {
 
     const { spawnItem } = useContext(InventoryContext);
     const [itemToSpawn, setItemToSpawn] = useState(null);
 
-    const [showModal, setShowModal] = useState(false)
+    const [showPicker, setShowPicker] = useState(false)
 
     const [activeTab, setActiveTab] = useState(0);
     const gridSize = { x: 5, y: 6 };
     const { translate } = useContext(LocaleContext);
+    const { activeWindow } = useContext(WindowContext);
+
 
     const [filter, setFilter] = useState({
         type: 'weapon',
@@ -44,12 +48,24 @@ const ItemSpawner = () => {
     }, [filter.type, filter.subtype, filter.profession])
 
     const placedItems = useMemo(() =>
-        showModal
+        showPicker
             ? placeItemsInGrid(filteredItems, gridSize)
             : [],
-        [filteredItems, showModal]
+        [filteredItems, showPicker]
 
     );
+
+    const handleShowPicker = () => {
+        if (activeWindow.current) return;
+        setShowPicker(true);
+        activeWindow.current = true;
+        playSound('click_button')
+    }
+
+    const handleClosePicker = () => {
+        activeWindow.current = false;
+        setShowPicker(false);
+    }
 
     const handleSpawnItem = (item) => {
         const itemId = item.item.id;
@@ -67,13 +83,13 @@ const ItemSpawner = () => {
 
         <div className='item-spawner' data-drop-block>
 
-            <div className='select-item' onClick={() => setShowModal(true)}><span>{itemDisplayName ?? translate('ui.select_item')}</span></div>
+            <div className='select-item' onClick={handleShowPicker}><span>{itemDisplayName ?? translate('ui.select_item')}</span></div>
             {itemToSpawn &&
                 <Button className='button' onClick={() => handleSpawnItem(itemToSpawn)} title={translate('ui.add_item')}><img height={16} width={32} src='/icons/add_icon.svg' /></Button>}
 
-            {showModal &&
+            {showPicker &&
                 <div className='modal'>
-                    <Window title="Spawner" onClose={() => setShowModal(false)}>
+                    <Window title="Spawner" onClose={handleClosePicker}>
                         <ItemFilter filter={filter} setFilter={setFilter} setActiveTab={setActiveTab} />
 
                         <ItemPicker items={placedItems} activeTab={activeTab} setActiveTab={setActiveTab} inventorySize={gridSize} setItemToSpawn={setItemToSpawn} />
