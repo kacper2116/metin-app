@@ -16,7 +16,7 @@ const Button = ({ children, onClick, onMouseDown, isActive, ...props }) => {
     }
 
     return (
-        <button onClick={onClick && handleClick} onMouseDown={onMouseDown && handleMouseDown} {...props}>{children}</button>
+        <button data-drop-block onClick={onClick && handleClick} onMouseDown={onMouseDown && handleMouseDown} {...props}>{children}</button>
     )
 }
 

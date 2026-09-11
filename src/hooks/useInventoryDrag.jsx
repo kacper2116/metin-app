@@ -15,11 +15,12 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         item => item.instanceId === draggedItemId
     ) ?? null;
 
+
     const slotsPreview = useRef({ slots: [], status: 'valid' });
     const startPos = useRef({ x: 0, y: 0 });
     const moveMode = useRef(null);
     const itemOriginSlots = useRef([]);
-    const { handleStartUpgrade, itemToUpgrade } = useContext(UpgradeContext);
+    const { handleStartUpgrade, itemToUpgrade, setBlockUpgrade } = useContext(UpgradeContext);
     const { removeItem } = useContext(InventoryContext)
     const mousePosition = useContext(MouseContext);
 
@@ -127,6 +128,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
             return;
         }
         setItemToDrop(draggedItem);
+        setBlockUpgrade(true);
         resetDrag();
     }
 
@@ -135,10 +137,12 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
         removeItem(itemToDrop.instanceId)
         setItemToDrop(null);
+        setBlockUpgrade(false);
     };
 
     const cancelDropItem = () => {
         setItemToDrop(null);
+        setBlockUpgrade(false);
     }
 
     const handleDropItem = (e) => {

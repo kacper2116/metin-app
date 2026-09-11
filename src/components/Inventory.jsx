@@ -1,4 +1,4 @@
-import { useState, useContext } from "react"
+import { useState, useContext, useEffect } from "react"
 import '../styles/Inventory.css'
 
 import InventoryTabs from "./InventoryTabs"
@@ -12,6 +12,7 @@ import useSlotHover from "../hooks/useSlotHover"
 import InventoryContext from "../contexts/InventoryContext"
 import Button from "./Button"
 import LocaleContext from "../contexts/LocaleContext"
+import UpgradeContext from "../contexts/UpgradeContext"
 
 const Inventory = () => {
 
@@ -21,6 +22,7 @@ const Inventory = () => {
     const { translate } = useContext(LocaleContext)
 
     const { handleHoverSlot, clearHover } = useSlotHover({ items, activeTab, inventorySize });
+
 
     const { draggedItem, slotsPreview, handleClickSlot, handleUpdateSlotsPreview, clearSlotsPreview, itemToDrop, confirmDropItem, cancelDropItem } = useInventoryDrag({
         items, setItems, activeTab, canPlaceItem, inventorySize, handleHoverSlot
@@ -52,9 +54,12 @@ const Inventory = () => {
         handleLeaveGrid: clearSlotsPreview,
     }
 
+
+
     return (
         <div className="inventory" >
             {itemToDrop &&
+
                 <div className="drop-window">
                     <Window>
                         <span>{translate('ui.drop_warning')}</span>

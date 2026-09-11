@@ -8,11 +8,13 @@ const useUpgrade = () => {
     const [itemToUpgrade, setItemToUpgrade] = useState(null);
     const [upgradeMethod, setUpgradeMethod] = useState('blacksmith')
     const [result, setResult] = useState(null);
+    const [blockUpgrade, setBlockUpgrade] = useState(false);
     const { replaceItem, removeItem, downgradeItem } = useContext(InventoryContext);
     const upgradeRef = useRef(false);
     const baseChanceMethods = ['blacksmith', 'blessing_scroll', 'magic_stone'];
     const chanceScheme = baseChanceMethods.includes(upgradeMethod) ? 'base' : upgradeMethod;
     const chance = itemToUpgrade ? getUpgradeChance(itemToUpgrade.item, chanceScheme) : null;
+
 
     const onFailure = {
         "blacksmith": removeItem,
@@ -24,6 +26,7 @@ const useUpgrade = () => {
 
     const handleStartUpgrade = (itemInstance, method = 'blacksmith') => {
 
+        if (blockUpgrade) return;
         if (itemInstance.item.next_item_id == null) return;
         if (upgradeRef.current) return;
 
@@ -38,7 +41,6 @@ const useUpgrade = () => {
         setUpgradeMethod('blacksmith');
         setResult(null);
         upgradeRef.current = false;
-
     }
 
     const handleUpgrade = () => {
@@ -64,7 +66,7 @@ const useUpgrade = () => {
         playSound('upgrade_failure')
 
     }
-    return { itemToUpgrade, handleStartUpgrade, handleEndUpgrade, handleUpgrade, upgradeSucces, upgradeFailure, chance, result, isUpgrading: upgradeRef }
+    return { itemToUpgrade, handleStartUpgrade, handleEndUpgrade, handleUpgrade, upgradeSucces, upgradeFailure, chance, result, isUpgrading: upgradeRef, setBlockUpgrade }
 }
 
 export default useUpgrade
