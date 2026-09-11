@@ -16,8 +16,22 @@ export const dropSounds = {
     necklace: 'drop_jewelry'
 }
 
+
+const sounds = Object.fromEntries(
+    Object.entries(sound).map(([name, path]) => {
+        const audio = new Audio(path);
+
+        audio.preload = 'auto';
+        audio.load();
+
+        return [name, audio];
+    })
+);
+
 export const playSound = (name) => {
 
-    const audio = new Audio(sound[name])
+    const audio = sounds[name];
+    if (!audio) return;
+    audio.currentTime = 0;
     audio.play();
 }

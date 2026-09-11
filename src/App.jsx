@@ -9,10 +9,17 @@ import UpgradeContext from './contexts/UpgradeContext'
 import LocaleSwitch from './components/LocaleSwitch'
 import UpgradeWindow from './components/UpgradeWindow'
 import InventoryReset from './components/InventoryReset'
+import { preloadImages } from './utils/preload';
+
 
 const App = () => {
 
+
   const { itemToUpgrade } = useContext(UpgradeContext);
+
+  useEffect(() => {
+    preloadImages(itemsDB);
+  }, []);
 
   return (
     <div className='app-container' >
