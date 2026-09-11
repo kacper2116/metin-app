@@ -35,7 +35,12 @@ const UpgradeWindow = ({ itemInstance }) => {
                     return;
                 }
 
+
                 if (showConfirmWindow === true) {
+                    handleConfirmUpgrade();
+                    return;
+                }
+                if (chance === 100) {
                     handleConfirmUpgrade();
                     return;
                 }

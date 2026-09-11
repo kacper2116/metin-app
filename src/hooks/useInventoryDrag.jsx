@@ -47,6 +47,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
             const status = 'valid'
 
+
             slotsPreview.current = ({ slots: getSelectedSlots(slotIndex, itemInSlot.item.size, inventorySize), status });
         }
 
@@ -193,7 +194,6 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
                 ? 'valid'
                 : (canPlaceItem(items, activeTab, Math.min(...slots), draggedItem.item, inventorySize) ? 'valid' : 'invalid');
         }
-
 
         slotsPreview.current = ({ slots: [...slots], status });
 
