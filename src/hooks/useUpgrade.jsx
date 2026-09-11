@@ -31,15 +31,13 @@ const useUpgrade = () => {
 
 
         if (activeWindow.current) return;
-        console.log('tak')
+
         if (itemInstance.item.next_item_id == null) return;
         if (upgradeRef.current) return;
-
 
         activeWindow.current = true;
         setItemToUpgrade(itemInstance);
         setUpgradeMethod(method);
-        console.log(itemInstance)
         upgradeRef.current = true;
     }
 
@@ -53,7 +51,6 @@ const useUpgrade = () => {
     }
 
     const handleUpgrade = () => {
-        console.log('upgrading')
 
         if (isUpgradeSuccess(chance)) {
             setResult('success');

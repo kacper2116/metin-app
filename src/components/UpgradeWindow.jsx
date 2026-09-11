@@ -28,13 +28,11 @@ const UpgradeWindow = ({ itemInstance }) => {
     useEffect(() => {
         const handleKeyDown = (e) => {
             if (e.key === 'Enter') {
-                console.log('enter');
 
                 if (result) {
                     handleEndUpgrade();
                     return;
                 }
-
 
                 if (showConfirmWindow === true) {
                     handleConfirmUpgrade();
