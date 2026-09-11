@@ -10,7 +10,6 @@ import LocaleSwitch from './components/LocaleSwitch'
 import UpgradeWindow from './components/UpgradeWindow'
 import InventoryReset from './components/InventoryReset'
 import { preloadAssets } from './utils/preload';
-import { itemsDB } from './data/itemsDB'
 
 const App = () => {
 

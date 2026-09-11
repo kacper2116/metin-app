@@ -1,4 +1,6 @@
-import itemsDB from '../data/items.json';
+
+import { itemsDB } from '../data/itemsDB'
+
 const icons = [
     '/icons/add_icon.svg',
     '/icons/en_icon.png',
