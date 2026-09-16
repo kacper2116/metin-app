@@ -23,6 +23,44 @@ const ItemPicker = ({ items, activeTab, setActiveTab, inventorySize, setItemToSp
         const slotIndex = Number(e.currentTarget.id.split('-')[1]);
         const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
         setItemToSpawn(itemInSlot)
+        handleHoverSlot(slotIndex);
+
+    }
+
+    const handlePointerDown = (e) => {
+        const element = document.elementFromPoint(e.clientX, e.clientY);
+        const slot = element?.closest('.slot');
+        if (!slot) return;
+        const slotIndex = Number(slot.id.split('-')[1]);
+        const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
+
+        setItemToSpawn(itemInSlot)
+        handleHoverSlot(slotIndex)
+    }
+
+    const handlePointerUp = (e) => {
+
+        clearHover();
+        const element = document.elementFromPoint(e.clientX, e.clientY);
+        const slot = element?.closest('.slot');
+        if (!slot) return;
+        const slotIndex = Number(slot.id.split('-')[1]);
+        const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
+        setItemToSpawn(itemInSlot)
+
+    }
+
+    const handlePointerMove = (e) => {
+        const element = document.elementFromPoint(e.clientX, e.clientY);
+        const slot = element?.closest('.slot');
+        if (!slot) {
+            clearHover();
+            return;
+        }
+        const slotIndex = Number(slot.id.split('-')[1]);
+
+        handleHoverSlot(slotIndex)
+
     }
 
     const gridProps = {
@@ -31,8 +69,11 @@ const ItemPicker = ({ items, activeTab, setActiveTab, inventorySize, setItemToSp
         handleHoverSlot: handleHoverSlot,
         handleLeaveSlot: clearHover,
         handleLeaveGrid: clearHover,
-        handleClickSlot: handlePickItem,
-        canDrop: false
+        handlePointerDown: handlePointerDown,
+        handlePointerMove: handlePointerMove,
+        handlePointerUp: handlePointerUp,
+        canDrop: false,
+
     }
 
     const tabsProps = {
@@ -40,6 +81,8 @@ const ItemPicker = ({ items, activeTab, setActiveTab, inventorySize, setItemToSp
         setActiveTab,
         tabCount: tabCount
     }
+
+
 
     return (
         <div className='inventory item-picker'>

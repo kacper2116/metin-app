@@ -10,6 +10,8 @@
         padding: 0;
         box-shadow: none;
     }
+
+    touch-action: none;
 }
 
 .inventory {

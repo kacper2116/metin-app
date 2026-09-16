@@ -27,8 +27,8 @@ const Inventory = () => {
     const { handleHoverSlot, clearHover } = useSlotHover({ items, activeTab, inventorySize });
 
 
-    const { draggedItem, slotsPreview, handleClickSlot, handleUpdateSlotsPreview, clearSlotsPreview, itemToDrop, confirmDropItem, cancelDropItem } = useInventoryDrag({
-        items, setItems, activeTab, canPlaceItem, inventorySize, handleHoverSlot
+    const { draggedItem, slotsPreview, handlePointerDown, handleUpdateSlotsPreview, clearSlotsPreview, itemToDrop, confirmDropItem, cancelDropItem } = useInventoryDrag({
+        items, setItems, activeTab, canPlaceItem, inventorySize, handleHoverSlot, clearHover
     });
 
     const activeTabItems = items?.filter(item => item.tab === activeTab);
@@ -50,7 +50,7 @@ const Inventory = () => {
     const gridProps = {
         items: activeTabItems,
         inventorySize,
-        handleClickSlot,
+        handlePointerDown,
         slotOverlay,
         handleHoverSlot: handleUpdateSlotsPreview,
         handleLeaveSlot: clearHover,

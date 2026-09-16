@@ -9,9 +9,11 @@ export const MouseProvider = ({ children }) => {
         const updatePosition = (e) => {
             setMousePosition({ x: e.clientX, y: e.clientY });
         };
-        window.addEventListener("mousemove", updatePosition);
+        window.addEventListener("pointermove", updatePosition);
+        window.addEventListener("pointerdown", updatePosition);
         return () => {
-            window.removeEventListener("mousemove", updatePosition);
+            window.removeEventListener("pointermove", updatePosition);
+            window.removeEventListener("pointerdown", updatePosition);
         };
     }, []);
 

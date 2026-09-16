@@ -7,7 +7,7 @@ import InventoryContext from '../contexts/InventoryContext';
 import { playSound, dropSounds } from '../utils/audio'
 import WindowContext from '../contexts/WindowContext';
 
-const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHoverSlot }) => {
+const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHoverSlot, clearHover }) => {
 
     const [draggedItemId, setDraggedItemId] = useState(null);
     const [itemToDrop, setItemToDrop] = useState(false);
@@ -25,33 +25,9 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
     const { handleStartUpgrade, itemToUpgrade } = useContext(UpgradeContext);
     const { removeItem } = useContext(InventoryContext)
     const mousePosition = useContext(MouseContext);
-
-    const handleClickSlot = (e) => {
-
-        if (draggedItem) {
-            handleDropItem(e);
-            return;
-        }
-
-
-        const slotIndex = Number(e.currentTarget.id.split('-')[1]);
-        const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
-
-        if (itemInSlot) {
-            playSound('drag_item');
-            setDraggedItemId(itemInSlot.instanceId)
-            startPos.current = { x: e.clientX, y: e.clientY };
-            itemOriginSlots.current = getItemSlots(itemInSlot, inventorySize);
-
-            /*  let slots = getSelectedSlots(slotIndex, itemInSlot.item.size, inventorySize) */
-
-            const status = 'valid'
-
-
-            slotsPreview.current = ({ slots: getSelectedSlots(slotIndex, itemInSlot.item.size, inventorySize), status });
-        }
-
-    }
+    const touchStartPos = useRef({ x: 0, y: 0 });
+    const pressTimer = useRef(null);
+    const isPressed = useRef(null);
 
     const dropConfig = {
         "blessing scroll": {
@@ -77,15 +53,58 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
     }
 
+
+    const grabItem = (slotIndex, itemInSlot, e) => {
+        playSound('drag_item');
+        setDraggedItemId(itemInSlot.instanceId)
+        startPos.current = { x: e.clientX, y: e.clientY };
+        itemOriginSlots.current = getItemSlots(itemInSlot, inventorySize);
+        slotsPreview.current = ({ slots: getSelectedSlots(slotIndex, itemInSlot.item.size, inventorySize), status: 'valid' });
+    }
+
+    const handlePointerDown = (e) => {
+
+        const slotIndex = Number(e.currentTarget.id.split('-')[1]);
+        const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
+
+        if (e.pointerType === 'touch') {
+
+            touchStartPos.current = { x: e.clientX, y: e.clientY };
+
+            pressTimer.current = setTimeout(() => {
+                if (!itemInSlot) return;
+                isPressed.current = true;
+                grabItem(slotIndex, itemInSlot, e);
+                handleHoverSlot(slotIndex)
+            }, 300)
+
+
+            return;
+
+        }
+
+        if (draggedItem) {
+            handleDropItem(e);
+            return;
+        }
+
+        if (itemInSlot) {
+            grabItem(slotIndex, itemInSlot, e);
+        }
+    }
+
+
+
     const resetDrag = () => {
-        slotsPreview.current = ({ slots: [], stauts: 'valid' });
+        slotsPreview.current = ({ slots: [], status: 'valid' });
         setDraggedItemId(null);
         moveMode.current = null;
         itemOriginSlots.current = [];
         targetItem.current = null;
     }
 
-    const dropOnSlot = () => {
+    const dropOnSlot = (e) => {
+
 
         if (itemToUpgrade || itemToDrop) {
             resetDrag();
@@ -93,7 +112,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         }
 
         const slotIndex = slotsPreview.current.slots[0];
-        handleHoverSlot(slotIndex);
+        if (e.pointerType === 'mouse') handleHoverSlot(slotIndex);
         const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
         let canInteract = false;
 
@@ -106,8 +125,6 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         !canInteract && playSound(dropSounds[draggedItem.item.type] ?? 'drop_default');
 
         if (canPlaceItem(items, activeTab, slotIndex, draggedItem.item, inventorySize)) {
-
-
 
             setItems(prev =>
                 prev.map(item => item.tab === draggedItem.tab && item.slot === draggedItem.slot ? { ...item, tab: activeTab, slot: slotIndex } : item)
@@ -157,12 +174,16 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
     const handleDropItem = (e) => {
         if (!draggedItem) return;
 
-        const element = e.target;
+
+
+        const element = e.pointerType === 'touch'
+            ? document.elementFromPoint(e.clientX, e.clientY)
+            : e.target;
         if (element.closest('[data-drop-block]')) return;
 
         const dropTarget = element.closest('[drop-target]')?.getAttribute('drop-target');
 
-        if (dropTarget === 'inventory-slot') dropOnSlot();
+        if (dropTarget === 'inventory-slot') dropOnSlot(e);
         else if (dropTarget === 'blacksmith') dropOnBlacksmith();
         else if (dropTarget === 'ground') dropOnGrond();
     }
@@ -201,12 +222,13 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
     const handleUpdateSlotsPreview = (index) => {
 
+
         if (draggedItem) {
             updateSlotsPreview(index);
             return;
         }
-
         handleHoverSlot(index);
+
     }
 
     const clearSlotsPreview = () => {
@@ -214,10 +236,68 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
     }
 
 
+    const handleMouseMove = (e) => {
+        if (!draggedItem) return;
+        if (moveMode.current !== null) return;
+
+        const moveX = Math.abs(e.clientX - startPos.current.x)
+        const moveY = Math.abs(e.clientY - startPos.current.y)
+
+        if (moveX > 5 || moveY > 5) {
+            moveMode.current = "drag"
+        }
+    }
+
+    const handleTouchMove = (e) => {
+
+        if (!isPressed.current) {
+            const moveX = Math.abs(e.clientX - startPos.current.x);
+            const moveY = Math.abs(e.clientY - startPos.current.y);
+
+            if (moveX > 10 || moveY > 10) {
+                clearTimeout(pressTimer.current);
+                pressTimer.current = null;
+
+            }
+
+            return;
+        }
+
+
+        const element = document.elementFromPoint(e.clientX, e.clientY);
+        const slot = element?.closest('.slot');
+
+        if (!slot) {
+            clearSlotsPreview();
+            clearHover();
+            return;
+        }
+
+        const slotIndex = Number(slot.id.split('-')[1]);
+
+        handleUpdateSlotsPreview(slotIndex)
+    }
+
     useEffect(() => {
 
-        const handleMouseUp = (e) => {
+        const handlePointerUp = (e) => {
 
+            if (e.pointerType === 'touch') {
+                clearTimeout(pressTimer.current);
+                pressTimer.current = null;
+
+                if (!isPressed.current) return;
+
+                isPressed.current = false;
+
+                if (draggedItem) {
+                    handleDropItem(e);
+                    resetDrag();
+                    return;
+                }
+
+                return;
+            }
 
             if (!draggedItem) return;
             if (moveMode.current === 'click') {
@@ -234,29 +314,21 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
             }
         }
 
-        const handleMouseMove = (e) => {
-            if (!draggedItem) return;
-            if (moveMode.current !== null) return;
-
-            const moveX = Math.abs(e.clientX - startPos.current.x)
-            const moveY = Math.abs(e.clientY - startPos.current.y)
-
-            if (moveX > 5 || moveY > 5) {
-                moveMode.current = "drag"
-
-            }
+        const handlePointerMove = (e) => {
+            if (e.pointerType === 'mouse') handleMouseMove(e);
+            if (e.pointerType === 'touch') handleTouchMove(e);
         }
-        window.addEventListener('mousemove', handleMouseMove);
-        window.addEventListener('mouseup', handleMouseUp);
+        window.addEventListener('pointermove', handlePointerMove);
+        window.addEventListener('pointerup', handlePointerUp);
 
         return () => {
-            window.removeEventListener('mousemove', handleMouseMove);
-            window.removeEventListener('mouseup', handleMouseUp);
+            window.removeEventListener('pointermove', handlePointerMove);
+            window.removeEventListener('pointerup', handlePointerUp);
         }
 
     }, [draggedItem])
 
-    return { draggedItem, slotsPreview, handleClickSlot, handleUpdateSlotsPreview, clearSlotsPreview, itemToDrop, confirmDropItem, cancelDropItem }
+    return { draggedItem, slotsPreview, handlePointerDown, handleUpdateSlotsPreview, clearSlotsPreview, itemToDrop, confirmDropItem, cancelDropItem }
 }
 
 export default useInventoryDrag

@@ -2,7 +2,7 @@ import '../styles/InventoryGrid.css'
 
 const InventoryGrid = (props) => {
 
-    const { items, inventorySize, handleClickSlot, slotOverlay, handleHoverSlot, handleLeaveGrid, handleLeaveSlot } = props;
+    const { items, inventorySize, handlePointerDown, handlePointerUp, handlePointerMove, slotOverlay, handleHoverSlot, handleLeaveGrid, handleLeaveSlot, } = props;
     const canDrop = props.canDrop ?? true;
 
     return (
@@ -13,7 +13,13 @@ const InventoryGrid = (props) => {
 
                 return (
                     <div key={index} id={`slot-${index}`} className='slot'
-                        drop-target={canDrop ? "inventory-slot" : undefined} onMouseDown={(e) => handleClickSlot?.(e)} onMouseEnter={(e) => handleHoverSlot?.(index)} onMouseLeave={handleLeaveSlot}>
+                        drop-target={canDrop ? "inventory-slot" : undefined} onPointerDown={(e) => handlePointerDown?.(e)}
+                        onPointerMoveCapture={(e) => e.pointerType === 'mouse' ? handleHoverSlot?.(index) : handlePointerMove?.(e)} onMouseLeave={handleLeaveSlot}
+                        onPointerUp={(e) => e.pointerType === 'touch' && handlePointerUp?.(e)}
+
+
+
+                    >
                         {slotOverlay?.(index)}
                         {item &&
                             <div className={`item ${item && 'item-selected'}`}>

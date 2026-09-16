@@ -9,7 +9,7 @@ const useSlotHover = ({ items, activeTab, inventorySize }) => {
     const hoveredSlot = useRef(null);
 
     const handleHoverSlot = (index) => {
-
+        if (hoveredSlot.current === index) return;
         hoveredSlot.current = index;
         const item = findItemBySlot(items, activeTab, index, inventorySize)
         item ? showTooltip(item) : hideTooltip();
@@ -21,12 +21,12 @@ const useSlotHover = ({ items, activeTab, inventorySize }) => {
     }
 
     useEffect(() => {
-        if (hoveredSlot === null) return;
+
+        if (hoveredSlot.current === null) return;
 
         const item = findItemBySlot(items, activeTab, hoveredSlot.current, inventorySize);
 
         item ? showTooltip(item) : hideTooltip();
-
     }, [items, activeTab])
 
     return { handleHoverSlot, clearHover }
