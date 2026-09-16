@@ -21,11 +21,11 @@ const App = () => {
   }, []);
 
   return (
-    <div className='app-container' >
+    <div className='app-container' onContextMenu={(e) => e.preventDefault()} >
       <InventoryReset />
       <LocaleSwitch />
       <Blacksmith />
-      <div className='inventory-wrapper' >
+      <div className='inventory-wrapper'>
         <ItemSpawner />
         <Inventory />
         {itemToUpgrade && <UpgradeWindow itemInstance={itemToUpgrade} />}
