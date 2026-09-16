@@ -69,6 +69,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
         if (e.pointerType === 'touch') {
 
+            isPressed.current = false;
             touchStartPos.current = { x: e.clientX, y: e.clientY };
 
             pressTimer.current = setTimeout(() => {
@@ -251,10 +252,10 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
     const handleTouchMove = (e) => {
 
         if (!isPressed.current) {
-            const moveX = Math.abs(e.clientX - startPos.current.x);
-            const moveY = Math.abs(e.clientY - startPos.current.y);
+            const moveX = Math.abs(e.clientX - touchStartPos.current.x);
+            const moveY = Math.abs(e.clientY - touchStartPos.current.y);
 
-            if (moveX > 50 || moveY > 50) {
+            if (moveX > 10 || moveY > 10) {
                 clearTimeout(pressTimer.current);
                 pressTimer.current = null;
             }
@@ -265,7 +266,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
         const element = document.elementFromPoint(e.clientX, e.clientY);
         const slot = element?.closest('.slot');
-        console.log(slot)
+
 
         if (!slot) {
             clearSlotsPreview();
