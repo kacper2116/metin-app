@@ -5,6 +5,7 @@ import MouseContext from '../contexts/MouseContext';
 import UpgradeContext from '../contexts/UpgradeContext';
 import InventoryContext from '../contexts/InventoryContext';
 import { playSound, dropSounds } from '../utils/audio'
+import { arrEqual } from '../utils/math';
 import WindowContext from '../contexts/WindowContext';
 
 const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHoverSlot, clearHover }) => {
@@ -94,19 +95,15 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         }
     }
 
-
-
     const resetDrag = () => {
         slotsPreview.current = ({ slots: [], status: 'valid' });
         setDraggedItemId(null);
         moveMode.current = null;
         itemOriginSlots.current = [];
         targetItem.current = null;
-
     }
 
     const dropOnSlot = (e) => {
-
 
         if (itemToUpgrade || itemToDrop) {
             resetDrag();
@@ -133,13 +130,10 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
             );
         }
 
-
         resetDrag();
-
     }
 
     const dropOnBlacksmith = () => {
-
 
         handleStartUpgrade(draggedItem);
         resetDrag();
@@ -176,8 +170,6 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
     const handleDropItem = (e) => {
         if (!draggedItem) return;
 
-
-
         const element = e.pointerType === 'touch'
             ? document.elementFromPoint(e.clientX, e.clientY)
             : e.target;
@@ -203,7 +195,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
 
         let status = 'valid'
 
-        if (targetItem.current) {
+        if (targetItem.current && !arrEqual(slots, itemOriginSlots.current)) {
 
             const canInteract = dropConfig[draggedItem.item.name]?.canInteract(targetItem.current.item) ?? false
             status = canInteract ? 'interaction' : 'invalid';
@@ -211,15 +203,8 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
             dropConfig[draggedItem.item.name] ? slots = getItemSlots(targetItem.current, inventorySize) : '';
 
         }
-        else {
-
-            status = itemOriginSlots.current.every(slot => slots.includes(slot))
-                ? 'valid'
-                : (canPlaceItem(items, activeTab, Math.min(...slots), draggedItem.item, inventorySize) ? 'valid' : 'invalid');
-        }
 
         slotsPreview.current = ({ slots: [...slots], status });
-
     }
 
     const handleUpdateSlotsPreview = (index) => {

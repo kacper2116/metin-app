@@ -18,15 +18,6 @@ const ItemPicker = ({ items, activeTab, setActiveTab, inventorySize, setItemToSp
 
     const { hoveredItem, handleHoverSlot, clearHover } = useSlotHover({ items, activeTab, inventorySize });
 
-    const handlePickItem = (e) => {
-
-        const slotIndex = Number(e.currentTarget.id.split('-')[1]);
-        const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
-        setItemToSpawn(itemInSlot)
-        handleHoverSlot(slotIndex);
-
-    }
-
     const handlePointerDown = (e) => {
         const element = document.elementFromPoint(e.clientX, e.clientY);
         const slot = element?.closest('.slot');
@@ -34,7 +25,7 @@ const ItemPicker = ({ items, activeTab, setActiveTab, inventorySize, setItemToSp
         const slotIndex = Number(slot.id.split('-')[1]);
         const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
 
-        setItemToSpawn(itemInSlot)
+        itemInSlot && setItemToSpawn(itemInSlot)
         handleHoverSlot(slotIndex)
     }
 
@@ -46,7 +37,7 @@ const ItemPicker = ({ items, activeTab, setActiveTab, inventorySize, setItemToSp
         if (!slot) return;
         const slotIndex = Number(slot.id.split('-')[1]);
         const itemInSlot = findItemBySlot(items, activeTab, slotIndex, inventorySize);
-        setItemToSpawn(itemInSlot)
+        itemInSlot && setItemToSpawn(itemInSlot)
 
     }
 
