@@ -24,9 +24,9 @@
 }
 
 .item-thumbnail {
-    width: 40px;
+    width: var(--slot-size-s);
     background: url("../assets/slot.png");
-    background-size: 40px;
+    background-size: var(--slot-size-s);
     flex: 0 0 auto;
 }
 
@@ -42,14 +42,14 @@
     display: flex;
     gap: 4px;
     align-items: center;
-    height: 40px;
+    height: var(--slot-size-s);
 
 }
 
 .material-icon {
-    width: 40px;
+    width: var(--slot-size-s);
     background: url("../assets/slot.png");
-    background-size: 40px;
+    background-size: var(--slot-size-s);
 }
 
 .upgrade-chance {

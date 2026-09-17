@@ -1,15 +1,19 @@
 .item-spawner {
-    width: 256px;
+
     border-radius: 5px;
     margin-bottom: 10px;
     display: flex;
     gap: 5px;
     position: relative;
     color: #d3d3d3;
+    width: 100%;
+    max-width: calc(var(--slot-size) * 5 + 6px);
+
 }
 
 .select-item {
-    width: 100%;
+    flex: 5;
+    min-width: 0;
     display: flex;
     align-items: center;
     border: 1px solid rgb(99, 99, 99);
@@ -32,7 +36,7 @@
 }
 
 .spawn-button {
-    width: 30%;
+    flex: 1;
 }
 
 .modal {

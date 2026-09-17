@@ -4,6 +4,15 @@
     url('../src/assets/fonts/fs-tahoma-8px.woff') format("woff");
 }
 
+:root {
+  --slot-size: 40px;
+  --slot-size-s: 40px;
+
+  @media (min-height:820px) {
+    --slot-size: 50px;
+  }
+}
+
 *,
 *::before,
 *::after {

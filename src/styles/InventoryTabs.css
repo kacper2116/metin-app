@@ -8,7 +8,7 @@
 
 .tab {
     flex: 1;
-    flex-basis: 50px;
+    flex-basis: calc(var(--slot-size) * 1.5);
     line-height: 1.4;
     font-family: inherit;
     font-size: 1.2rem;

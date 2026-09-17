@@ -1,6 +1,6 @@
 .blacksmith {
 
-    width: clamp(250px, 35vh, 350px);
+    width: clamp(250px, 33vh, 350px);
     user-select: none;
     margin-top: 30px;
 }
