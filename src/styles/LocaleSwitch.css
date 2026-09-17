@@ -1,6 +1,6 @@
 .locale-switch {
     color: white;
-    position: absolute;
+    position: fixed;
     left: 5px;
     top: 5px;
     display: flex;

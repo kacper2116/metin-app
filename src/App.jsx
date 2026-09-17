@@ -21,7 +21,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className='app-container' onContextMenu={(e) => e.preventDefault()} >
+    <div className='app-container'  >
       <InventoryReset />
       <LocaleSwitch />
       <Blacksmith />

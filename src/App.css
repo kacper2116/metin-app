@@ -4,9 +4,9 @@
     position: relative;
     align-items: center;
     height: 100vh;
-    justify-content: center;
-    gap: 30px;
-    padding-top: 20px;
+    /*   justify-content: center; */
+    gap: 20px;
+    /* padding-top: 20px; */
     user-select: none;
 
     @media(min-width:768px) {

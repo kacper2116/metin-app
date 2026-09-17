@@ -1,7 +1,8 @@
 .blacksmith {
-    width: 300px;
-    user-select: none;
 
+    width: clamp(250px, 35vh, 350px);
+    user-select: none;
+    margin-top: 30px;
 }
 
 @media (min-width:768px) {
@@ -17,7 +18,7 @@
     display: flex;
     justify-self: center;
     position: relative;
-    top: -20px;
+    top: -18px;
     left: -5px;
     font-size: 1.2rem;
 }

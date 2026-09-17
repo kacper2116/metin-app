@@ -1,5 +1,5 @@
 .inventory-reset {
-    position: absolute;
+    position: fixed;
     left: 45px;
     top: 5px;
 }
