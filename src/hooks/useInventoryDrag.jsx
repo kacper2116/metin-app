@@ -102,6 +102,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
         moveMode.current = null;
         itemOriginSlots.current = [];
         targetItem.current = null;
+
     }
 
     const dropOnSlot = (e) => {
@@ -294,6 +295,7 @@ const useInventoryDrag = ({ items, setItems, activeTab, inventorySize, handleHov
                 if (draggedItem) {
                     handleDropItem(e);
                     resetDrag();
+                    clearHover();
                     return;
                 }
 
